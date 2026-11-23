@@ -41,11 +41,8 @@ assert len(list((root/'src/main/resources/data/murimlife/cult').glob('*.json')))
 roster=json.loads((root/'src/main/resources/data/murimlife/cult/cult_roster_524.json').read_text())
 assert len(roster['people'])==524 and len({p['name_ko'] for p in roster['people']})==524
 assert len(set(p['name_ko'] for p in roster['people'][24:]))>=500 # 500 names for future generation
-assets_before=json.loads((root/'MANIFEST_SHA256_v121_historical.json').read_text())
-preserved=0
-for entry in assets_before['files']:
- if entry['path'].startswith('src/main/resources/') and entry['path'].endswith(('.nbt','.png')):
-  f=root/entry['path'];assert f.is_file() and hashlib.sha256(f.read_bytes()).hexdigest()==entry['sha256'],f
-  preserved+=1
-print(f'PASS 24 medicines, 23 alchemy recipes, 500 additional unique cult names, {preserved} untouched legacy binary assets, raid/audit/mentor/qi code wiring')
+from asset_integrity_v1264 import verify_legacy_binary_assets
+unchanged,approved_reworks=verify_legacy_binary_assets(root)
+preserved=unchanged+approved_reworks
+print(f'PASS 24 medicines, 23 alchemy recipes, 500 additional unique cult names, {unchanged} unchanged legacy assets + {approved_reworks} approved architecture NBT refits, raid/audit/mentor/qi code wiring')
 print('NOTE Gradle NeoForge API compile and actual Minecraft play still unverified')

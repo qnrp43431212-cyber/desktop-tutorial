@@ -4,6 +4,7 @@ import com.mojang.brigadier.CommandDispatcher;
 import com.mojang.brigadier.arguments.IntegerArgumentType;
 import kr.murimlife.MurimProgressData;
 import kr.murimlife.npc.dialogue.NpcRoles;
+import kr.murimlife.npc.dialogue.MurimPanelServer;
 import net.minecraft.ChatFormatting;
 import net.minecraft.commands.CommandSourceStack;
 import net.minecraft.commands.Commands;
@@ -66,20 +67,24 @@ public final class MerchantService {
     }
     private static void render(ServerPlayer player,LivingEntity npc){
         var profile=MurimProgressData.get(player.server).player(player.getUUID(),player.getName().getString());
-        MoneyService.message(player,"=== "+npc.getDisplayName().getString()+"의 장터 === 보유 "+CurrencyRules.describe(MoneyService.balance(profile))+" / 2일마다 재입고");
+        String subtitle="보유 "+CurrencyRules.describe(MoneyService.balance(profile))+" · 이틀마다 재입고";
+        List<MurimPanelServer.Choice> options=new ArrayList<>();
         int index=0;
-        for(var s:catalog(npc)){
-            Item item=BuiltInRegistries.ITEM.get(ResourceLocation.parse(s.id()));
-            if(item==Items.AIR)continue;
-            player.sendSystemMessage(link("구매 "+(index+1)+" "+item.getDescription().getString()+" / "+CurrencyRules.describe(kr.murimlife.quest.ReputationService.buyingPrice(player,s.buy()))+" / 재고 "+stock(npc,index),
-                "/murim shop buy "+(index+1)));
+        for(var item:catalog(npc)){
+            Item registry=BuiltInRegistries.ITEM.get(ResourceLocation.parse(item.id()));
+            if(registry==Items.AIR){index++;continue;}
+            int which=index+1;
+            options.add(MurimPanelServer.option(
+                which+". "+registry.getDescription().getString()+" · "+CurrencyRules.describe(
+                kr.murimlife.quest.ReputationService.buyingPrice(player,item.buy()))+" · 재고 "+stock(npc,index),
+                "/murim shop buy "+which));
             index++;
         }
         ItemStack held=player.getMainHandItem();
-        int sellPrice=kr.murimlife.quest.ReputationService.sellingPrice(player,sellPrice(npc,held));
-        if(sellPrice>0)player.sendSystemMessage(link("손에 든 "+held.getHoverName().getString()+" 1개 판매 / "+CurrencyRules.describe(sellPrice),"/murim shop sell"));
-        else MoneyService.message(player,"이 상인은 손에 든 물품을 매입하지 않습니다. 무기·식품·약재 등 전문 품목만 취급합니다.");
-        player.sendSystemMessage(link("상품 다시 보기","/murim shop list"));
+        int price=kr.murimlife.quest.ReputationService.sellingPrice(player,sellPrice(npc,held));
+        if(price>0)options.add(MurimPanelServer.option("손에 든 "+held.getHoverName().getString()+" 판매 · "+CurrencyRules.describe(price),"/murim shop sell"));
+        options.add(MurimPanelServer.option("상품·재고 새로고침","/murim shop list"));
+        MurimPanelServer.show(player,"강호 상점 · "+npc.getDisplayName().getString(),subtitle,options);
     }
     private static LivingEntity valid(ServerPlayer p){
         Session session=OPEN.get(p.getUUID());if(session==null||p.serverLevel().getGameTime()>session.until())return null;
@@ -107,6 +112,7 @@ public final class MerchantService {
         npc.getPersistentData().putInt("MurimStock"+index,stock(npc,index)-1);
         if(!p.getInventory().add(goods))p.drop(goods,false); // Never delete a paid item on inventory overflow.
         MoneyService.message(p,"구매 완료: "+goods.getHoverName().getString());
+        render(p,npc);
     }
     private static void sell(ServerPlayer p){
         LivingEntity npc=valid(p);if(npc==null){MoneyService.message(p,"판매할 상인이 없습니다.");return;}
@@ -116,6 +122,7 @@ public final class MerchantService {
         if(!MoneyService.change(data,profile,price))return;
         String name=held.getHoverName().getString();held.shrink(1);
         MoneyService.message(p,name+" 1개 판매 완료: +"+CurrencyRules.describe(price));
+        render(p,npc);
     }
     public static void registerCommands(CommandDispatcher<CommandSourceStack> dispatcher){
         dispatcher.register(Commands.literal("murim").then(Commands.literal("shop")

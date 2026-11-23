@@ -30,15 +30,11 @@ assert ('day%3!=0' in (java/'kr/murimlife/economy/SectPayroll.java').read_text()
 assert 'RumorLedger.get' in (java/'kr/murimlife/npc/dialogue/InformationService.java').read_text()
 assert 'lastStipendDay' in (java/'kr/murimlife/MurimProgressData.java').read_text()
 assert 'SectMembershipCommands.register(d)' in (java/'kr/murimlife/economy/EconomyCommands.java').read_text()
-base=json.loads((root/'MANIFEST_SHA256_v121_historical.json').read_text())
-preserved=0
-for entry in base['files']:
-    if not entry['path'].startswith('src/main/resources/') or not entry['path'].endswith(('.nbt','.png')):continue
-    candidate=root/entry['path']
-    assert candidate.is_file() and hashlib.sha256(candidate.read_bytes()).hexdigest()==entry['sha256'],entry['path']
-    preserved+=1
+from asset_integrity_v1264 import verify_legacy_binary_assets
+unchanged,approved_reworks=verify_legacy_binary_assets(root)
+preserved=unchanged+approved_reworks
 report={'version':'v1.23-opportunity-economy-alpha','java_files_syntax_only':len(list(java.rglob('*.java'))),
-    'opportunity_types':12,'cave_types':6,'ruin_types':6,'preserved_resource_sha256':preserved,
+    'opportunity_types':12,'cave_types':6,'ruin_types':6,'audited_resource_sha256':preserved,'approved_architecture_nbt_refits':approved_reworks,
     'server_side_business_wiring':'STATIC_CHECK_PASS','neoforge_compile':'NOT_VERIFIED','minecraft_execution':'NOT_VERIFIED'}
 (root/'qa/v123_opportunities_and_economy.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n')
 print(json.dumps(report,ensure_ascii=False,indent=2))

@@ -52,6 +52,24 @@ public final class MurimNetwork {
         public static final StreamCodec<ByteBuf,TheftStatus> STREAM_CODEC=StreamCodec.composite(ByteBufCodecs.BOOL,TheftStatus::active,TheftStatus::new);
         @Override public Type<? extends CustomPacketPayload> type(){return TYPE;}
     }
+    public record DialogueView(String title,String description,String choices) implements CustomPacketPayload {
+        public static final Type<DialogueView> TYPE=new Type<>(ResourceLocation.fromNamespaceAndPath(MurimLife.MOD_ID,"dialogue_view"));
+        public static final StreamCodec<ByteBuf,DialogueView> STREAM_CODEC=StreamCodec.composite(
+            ByteBufCodecs.STRING_UTF8,DialogueView::title,ByteBufCodecs.STRING_UTF8,DialogueView::description,
+            ByteBufCodecs.STRING_UTF8,DialogueView::choices,DialogueView::new);
+        @Override public Type<? extends CustomPacketPayload> type(){return TYPE;}
+    }
+    public record DialogueNotice(String message) implements CustomPacketPayload {
+        public static final Type<DialogueNotice> TYPE=new Type<>(ResourceLocation.fromNamespaceAndPath(MurimLife.MOD_ID,"dialogue_notice"));
+        public static final StreamCodec<ByteBuf,DialogueNotice> STREAM_CODEC=StreamCodec.composite(
+            ByteBufCodecs.STRING_UTF8,DialogueNotice::message,DialogueNotice::new);
+        @Override public Type<? extends CustomPacketPayload> type(){return TYPE;}
+    }
+    public record DialogueDismiss() implements CustomPacketPayload {
+        public static final Type<DialogueDismiss> TYPE=new Type<>(ResourceLocation.fromNamespaceAndPath(MurimLife.MOD_ID,"dialogue_dismiss"));
+        public static final StreamCodec<ByteBuf,DialogueDismiss> STREAM_CODEC=StreamCodec.unit(new DialogueDismiss());
+        @Override public Type<? extends CustomPacketPayload> type(){return TYPE;}
+    }
     private static void sync(ServerPlayer player) {
         var p=MurimProgressData.get(player.server).player(player.getUUID(),player.getName().getString());
         String summary="경지 "+p.realmName()+" / 전투력 "+p.power()+" / 보유금 "+kr.murimlife.economy.CurrencyRules.describe(kr.murimlife.economy.MoneyService.balance(p))+" / 별호 "+p.displayedEpithet;
@@ -60,6 +78,12 @@ public final class MurimNetwork {
     }
     public static void register(RegisterPayloadHandlersEvent event) {
         var registrar=event.registrar("3");
+        registrar.playToClient(DialogueView.TYPE,DialogueView.STREAM_CODEC,(payload,context)->
+            context.enqueueWork(()->MurimHudOverlay.dialogue(payload.title(),payload.description(),payload.choices())));
+        registrar.playToClient(DialogueNotice.TYPE,DialogueNotice.STREAM_CODEC,(payload,context)->
+            context.enqueueWork(()->MurimHudOverlay.notice(payload.message())));
+        registrar.playToClient(DialogueDismiss.TYPE,DialogueDismiss.STREAM_CODEC,(payload,context)->
+            context.enqueueWork(MurimHudOverlay::closeDialogue));
         registrar.playToServer(TheftClick.TYPE,TheftClick.STREAM_CODEC,(payload,context)->{
             if(context.player() instanceof ServerPlayer p)context.enqueueWork(()->kr.murimlife.economy.TheftService.click(p));
         });

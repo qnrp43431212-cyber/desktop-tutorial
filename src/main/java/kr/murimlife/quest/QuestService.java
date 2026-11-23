@@ -8,6 +8,7 @@ import kr.murimlife.economy.GovernanceRules;
 import kr.murimlife.economy.MoneyService;
 import kr.murimlife.npc.MurimHumanoid;
 import kr.murimlife.npc.dialogue.NpcRoles;
+import kr.murimlife.npc.dialogue.MurimPanelServer;
 import kr.murimlife.opportunity.OpportunitySites;
 import kr.murimlife.worldgen.SiteLedger;
 import net.minecraft.ChatFormatting;
@@ -126,7 +127,10 @@ public final class QuestService extends SavedData {
         say(player,"임무 접수처: "+faction+" / 평판 "+p.reputation+" / 3일마다 목록 갱신 (미완료 임무는 3일 내 실패)");
         int max=unlocked(player,faction);
         SESSIONS.put(player.getUUID(),new Offer(npc,faction,-1,player.serverLevel().getGameTime()+1200,-1,List.of()));
-        for(int i=0;i<=max;i++)player.sendSystemMessage(click(QuestCatalog.GRADES[i]+" 등급 임무 보기", "/murim quest rank "+i));
+        List<MurimPanelServer.Choice> options=new ArrayList<>();
+        for(int i=0;i<=max;i++)options.add(MurimPanelServer.option(
+            QuestCatalog.GRADES[i]+" 등급 임무 보기", "/murim quest rank "+i));
+        MurimPanelServer.show(player,"무림 의뢰소","등급 선택 · 3일마다 갱신",options);
     }
     private static boolean sessionValid(ServerPlayer player,Offer s){
         if(s==null||player.serverLevel().getGameTime()>s.expires()||!eligible(player,s.faction()))return false;
@@ -144,10 +148,12 @@ public final class QuestService extends SavedData {
         var chosen=pool.stream().limit(5).map(QuestCatalog.Quest::id).toList();
         SESSIONS.put(p.getUUID(),new Offer(old.npc(),old.faction(),grade,p.serverLevel().getGameTime()+1200,cycle,chosen));
         say(p,QuestCatalog.GRADES[grade]+" 등급 / 표시 5개 / 갱신 주기 "+cycle);
+        List<MurimPanelServer.Choice> options=new ArrayList<>();
         int n=0;for(String id:chosen){var q=QuestCatalog.find(id);n++;
-            p.sendSystemMessage(click(n+". "+q.title()+" / "+description(q)+" / "+CurrencyRules.describe(q.rewardMun()),
+            options.add(MurimPanelServer.option(n+". "+q.title()+" / "+description(q)+" / "+CurrencyRules.describe(q.rewardMun()),
                 "/murim quest accept "+n));
         }
+        MurimPanelServer.show(p,"무림 의뢰소 · "+QuestCatalog.GRADES[grade],"표시 5개 · 3일마다 재등록",options);
     }
     private static String description(QuestCatalog.Quest q){return switch(q.objective()){
         case "TRAIN"->"수련 "+q.count()+"회";
@@ -168,6 +174,7 @@ public final class QuestService extends SavedData {
         var pr=MurimProgressData.get(p.server).player(p.getUUID(),p.getName().getString());
         data.active.put(p.getUUID(),new Assignment(q.id(),now,pr,p));data.setDirty();SESSIONS.remove(p.getUUID());
         say(p,"임무 수락: "+q.title()+" · "+description(q)+" / 3일 내 완수. /murim quest status");
+        MurimPanelServer.close(p);
     }
     public static void status(ServerPlayer p){
         var data=get(p.server);var a=data.active.get(p.getUUID());

@@ -19,17 +19,17 @@ public final class DisputeService {
     public static void open(ServerPlayer p,LivingEntity merchant){
         if(NpcRoles.role(merchant)!=NpcRoles.Role.MERCHANT ||p.distanceToSqr(merchant)>36)return;
         REQUESTS.put(p.getUUID(),new Request(merchant.getUUID(),p.serverLevel().getGameTime()+600));
-        p.sendSystemMessage(Component.literal("[강호 분쟁] 허위정보를 판 상인에게 어떻게 대응하겠습니까?"));
+        List<MurimPanelServer.Choice> options=new ArrayList<>();
         for(int i=1;i<=4;i++){
-            final int choice = i; // Capture a stable value for the component-style lambda.
             String title=switch(i){case 1->"환불과 사과 요구";case 2->"위협하여 두 배 배상 요구 (악업)";
                 case 3->"시장에 거짓 정보 고발";default->"이번만 용서";};
-            p.sendSystemMessage(Component.literal("["+i+". "+title+"]").withStyle(s->s.withColor(ChatFormatting.AQUA)
-                .withUnderlined(true).withClickEvent(new ClickEvent(ClickEvent.Action.RUN_COMMAND,"/murim dispute choose "+choice))));
+            options.add(MurimPanelServer.option(i+". "+title,"/murim dispute choose "+i));
         }
+        MurimPanelServer.show(p,"강호 분쟁 · 상인 추궁","허위정보를 판 상인에게 어떻게 대응하겠습니까?",options);
     }
     public static void choose(ServerPlayer p,int option){
         Request request=REQUESTS.remove(p.getUUID());
+        MurimPanelServer.close(p);
         if(request==null||p.serverLevel().getGameTime()>request.until())return;
         var entity=p.serverLevel().getEntity(request.merchant());
         if(!(entity instanceof LivingEntity target)||!target.isAlive()||p.distanceToSqr(target)>36)return;

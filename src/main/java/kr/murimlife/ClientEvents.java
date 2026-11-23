@@ -64,23 +64,31 @@ public final class ClientEvents {
         @SubscribeEvent public static void tick(ClientTickEvent.Post event) {
             Minecraft mc = Minecraft.getInstance();
             if(mc.player==null)theftActive=false;
-            while (MENU.consumeClick()) if (mc.screen == null && mc.player != null) mc.setScreen(new MurimScreen());
+            while (MENU.consumeClick()) if (mc.screen == null && mc.player != null) MurimHudOverlay.toggleProfile();
             while (TALK.consumeClick()) if (mc.screen == null && mc.player != null && !theftActive) {
                 PacketDistributor.sendToServer(new MurimNetwork.TalkRequest(aimedNpcId(mc)));
             }
             while (PARRY.consumeClick()) if (mc.screen == null && mc.player != null) PacketDistributor.sendToServer(new MurimNetwork.Parry());
-            boolean held = mc.player != null && mc.screen == null && WHEEL.isDown();
+            MurimHudOverlay.updateAlt(mc);
+            boolean held = mc.player != null && mc.screen == null && WHEEL.isDown() && !MurimHudOverlay.pointerReleased();
             if (wasOpen && !held && mc.player != null)
                 PacketDistributor.sendToServer(new MurimNetwork.SelectSlot(selected));
             wasOpen = held;
         }
         @SubscribeEvent public static void theftClick(InputEvent.MouseButton.Pre event){
+            if(event.getAction()==GLFW.GLFW_PRESS && MurimHudOverlay.pointerReleased()){
+                Minecraft mc=Minecraft.getInstance();
+                double mx=mc.mouseHandler.xpos()*mc.getWindow().getGuiScaledWidth()/mc.getWindow().getScreenWidth();
+                double my=mc.mouseHandler.ypos()*mc.getWindow().getGuiScaledHeight()/mc.getWindow().getScreenHeight();
+                if(MurimHudOverlay.handleMouseClick(mx,my,event.getButton())){event.setCanceled(true);return;}
+            }
             if(!theftActive||event.getButton()!=GLFW.GLFW_MOUSE_BUTTON_RIGHT||event.getAction()!=GLFW.GLFW_PRESS)return;
             if(Minecraft.getInstance().screen!=null)return;
             PacketDistributor.sendToServer(new MurimNetwork.TheftClick());
             event.setCanceled(true);
         }
         @SubscribeEvent public static void scroll(InputEvent.MouseScrollingEvent event) {
+            if(MurimHudOverlay.scroll(event.getScrollDeltaY())){event.setCanceled(true);return;}
             if (!wasOpen) return;
             if (event.getScrollDeltaY() != 0) {
                 selected = Math.floorMod(selected + (event.getScrollDeltaY() > 0 ? -1 : 1), 12);
@@ -88,6 +96,7 @@ public final class ClientEvents {
             }
         }
         @SubscribeEvent public static void hud(RenderGuiEvent.Post event) {
+            MurimHudOverlay.render(event.getGuiGraphics(),Minecraft.getInstance());
             if (theftActive){
                 Minecraft mc=Minecraft.getInstance();
                 int remaining=mc.level==null?0:(int)Math.max(0,(theftClientEnd-mc.level.getGameTime()+19)/20);

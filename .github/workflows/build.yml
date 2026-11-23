@@ -18,10 +18,12 @@ jobs:
           java-version: '21'
       - name: Gradle
         uses: gradle/actions/setup-gradle@v4
-      - name: Verify checkout is v1.26.3 with Java hotfix
+      - name: Verify checkout is v1.26.5 with no vanilla HUD buttons
         run: |
           echo "Git commit: $(git rev-parse --short HEAD)"
           python3 scripts/check_hotfix_v1263.py
+          python3 scripts/verify_hud_ui_v1265.py
+          python3 scripts/qa_v1264_architecture.py
       - name: Verify independent rules
         run: |
           bash scripts/test_rules_v16.sh

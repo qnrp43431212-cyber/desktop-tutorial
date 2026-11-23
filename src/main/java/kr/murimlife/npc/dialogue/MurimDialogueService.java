@@ -54,7 +54,7 @@ public final class MurimDialogueService {
     private MurimDialogueService(){}
 
     private static String label(MurimHumanoid npc){return npc.getCustomName()==null?"무림인":npc.getCustomName().getString();}
-    private static void tell(ServerPlayer p,String text){p.sendSystemMessage(Component.literal("[무림 대화] "+text));}
+    private static void tell(ServerPlayer p,String text){MurimPanelServer.notice(p,text);}
     private static Component clickable(String text,String command){
         return Component.literal("["+text+"]").withStyle(s->s.withColor(ChatFormatting.AQUA)
             .withUnderlined(true).withClickEvent(new ClickEvent(ClickEvent.Action.RUN_COMMAND,command)));
@@ -76,7 +76,7 @@ public final class MurimDialogueService {
         long now=player.serverLevel().getGameTime();
         if(now-LAST_TILDE.getOrDefault(player.getUUID(),-1000L)<10)return;
         LAST_TILDE.put(player.getUUID(),now);
-        if(SESSIONS.containsKey(player.getUUID())){tell(player,"대화 중입니다. 채팅창에서 선택하거나 종료하십시오.");return;}
+        if(SESSIONS.containsKey(player.getUUID())){tell(player,"대화가 열려 있습니다. Alt를 누른 채 선택지를 클릭하십시오.");return;}
         Offer pending=OFFERS.get(player.getUUID());
         if(entityId<0 && pending!=null){respond(player,pending.token,true);return;}
         Entity entity=player.serverLevel().getEntity(entityId);
@@ -121,21 +121,25 @@ public final class MurimDialogueService {
         showOptions(p,s);
     }
     private static void showOptions(ServerPlayer player,Session s){
+        List<MurimPanelServer.Choice> options=new ArrayList<>();
         for(int i=0;i<6;i++){
-            player.sendSystemMessage(clickable((i+1)+". "+DialogueRules.label(i,s.battle),
+            options.add(MurimPanelServer.option((i+1)+". "+DialogueRules.label(i,s.battle),
                 "/murim talk choose "+s.token+" "+(i+1)));
         }
         if(!s.battle){
             String[] topics={"기연 소문","지금·다음 문파 모집","무림대회 지정일","각 문파·세가·무림맹·사도련 본부 위치",
                 "상세 기연 정보","상점 열기","소매치기 시도","허위정보 추궁","무림 임무 문의","문파 NPC 영입 제안","문파 NPC 승급","문파 NPC 해임"};
-            for(int i=0;i<topics.length;i++)player.sendSystemMessage(clickable((i+7)+". "+topics[i],
+            for(int i=0;i<topics.length;i++)options.add(MurimPanelServer.option((i+7)+". "+topics[i],
                 "/murim talk choose "+s.token+" "+(i+7)));
-            if(!npc(s).getPersistentData().getString("MurimCultPersonId").isBlank()){
-                player.sendSystemMessage(clickable("19. 마교·혈교 입교 요청", "/murim talk choose "+s.token+" 19"));
-                player.sendSystemMessage(clickable("20. 대마두에게 제자로 받아달라 청하기", "/murim talk choose "+s.token+" 20"));
-                player.sendSystemMessage(clickable("21. 사부에게 사공 가르침 요청", "/murim talk choose "+s.token+" 21"));
+            MurimHumanoid target=npc(s);
+            if(target!=null&&!target.getPersistentData().getString("MurimCultPersonId").isBlank()){
+                options.add(MurimPanelServer.option("19. 마교·혈교 입교 요청", "/murim talk choose "+s.token+" 19"));
+                options.add(MurimPanelServer.option("20. 대마두 제자 요청", "/murim talk choose "+s.token+" 20"));
+                options.add(MurimPanelServer.option("21. 사공 수련 요청", "/murim talk choose "+s.token+" 21"));
             }
         }
+        String time=s.battle?"전투 중 협상 · 15초 안에 선택 · Alt + 마우스":"일상 대화 · Alt 누른 채 마우스 선택";
+        MurimPanelServer.show(player,"무림인 · "+(npc(s)==null?"미확인":label(npc(s))),time,options);
         if(s.battle){
             int seconds=(int)Math.max(0,(s.deadline-s.level.getGameTime()+19)/20);
             player.displayClientMessage(Component.literal("[전투 대화] "+seconds+"초 남음"),true);
@@ -153,17 +157,17 @@ public final class MurimDialogueService {
         }
         if(!s.battle && option>=6){
             if(option>=6 && option<=10)InformationService.ask(player,npc,switch(option){case 6->4;case 7->1;case 8->2;case 9->3;default->5;});
-            else if(option==11)MerchantService.open(player,npc);
+            else if(option==11){close(player,s,false,"상점을 열었습니다.");MerchantService.open(player,npc);return;}
             else if(option==12){close(player,s,false,"대화를 마치고 소매치기를 시도합니다.");TheftService.start(player,npc);return;}
-            else if(option==13)DisputeService.open(player,npc);
-            else if(option==14)kr.murimlife.quest.QuestService.openFromNpc(player,npc);
+            else if(option==13){close(player,s,false,"상인을 추궁합니다.");DisputeService.open(player,npc);return;}
+            else if(option==14){close(player,s,false,"의뢰소를 열었습니다.");kr.murimlife.quest.QuestService.openFromNpc(player,npc);return;}
             else if(option==15)kr.murimlife.economy.NpcSectRoster.get(player.server).recruit(player,npc);
             else if(option==16)kr.murimlife.economy.NpcSectRoster.get(player.server).promote(player,npc);
             else if(option==17)kr.murimlife.economy.NpcSectRoster.get(player.server).release(player,npc);
             else if(option==18)kr.murimlife.cult.CultMentorshipService.join(player,npc);
             else if(option==19)kr.murimlife.cult.CultMentorshipService.ask(player,npc);
             else if(option==20)kr.murimlife.cult.CultMentorshipService.lesson(player,npc);
-            if(SESSIONS.get(player.getUUID())==s)showOptions(player,s);return;
+            if(SESSIONS.get(player.getUUID())==s && option!=11 && option!=13 && option!=14)showOptions(player,s);return;
         }
         s.turns++;
         String response=DialogueLines.select(s.battle,option,RNG,s.said);
@@ -235,7 +239,7 @@ public final class MurimDialogueService {
         if(offer==null||offer.token!=token){tell(player,"요청이 만료되었거나 이미 처리되었습니다.");return;}
         OFFERS.remove(player.getUUID());
         MurimHumanoid npc=entity(offer.level,offer.npcId);
-        if(!accept){tell(player,"상대의 대화 요청을 거절했습니다.");return;}
+        if(!accept){MurimPanelServer.close(player);tell(player,"상대의 대화 요청을 거절했습니다.");return;}
         if(npc==null||!eligible(player,npc)||offer.level.getGameTime()>offer.deadline){
             tell(player,"대화 상대가 멀어지거나 요청이 만료되었습니다.");return;
         }
@@ -278,7 +282,7 @@ public final class MurimDialogueService {
             }
         }
         if(peaceful && s.battle && npc!=null && p!=null)NpcArenaService.finishByNegotiation(npc,p);
-        if(p!=null)tell(p,why);
+        if(p!=null){MurimPanelServer.close(p);tell(p,why);}
     }
     public static void onTick(ServerTickEvent.Post event){
         // Called on the server thread. No force-loading or artificial game-time pause.
@@ -326,8 +330,9 @@ public final class MurimDialogueService {
                 OFFERS.put(player.getUUID(),offer);
                 NPC_LAST_OFFER.put(npc.getUUID(),now);PLAYER_LAST_OFFER.put(player.getUUID(),now);
                 tell(player,label(npc)+(battle?"가 잠시 대화를 청합니다.":"이 말을 걸고 싶어 합니다."));
-                player.sendSystemMessage(clickable("대화 수락 (~키도 가능)","/murim talk reply "+offer.token+" 1"));
-                player.sendSystemMessage(clickable("거절","/murim talk reply "+offer.token+" 0"));
+                MurimPanelServer.show(player,label(npc),"상대가 대화를 신청했습니다.",List.of(
+                    MurimPanelServer.option("대화 수락","/murim talk reply "+offer.token+" 1"),
+                    MurimPanelServer.option("거절","/murim talk reply "+offer.token+" 0")));
                 break;
             }
         }
@@ -346,8 +351,9 @@ public final class MurimDialogueService {
                     world.getGameTime()+DialogueRules.OFFER_TICKS,++nextToken,battle);
             OFFERS.put(player.getUUID(),offer);
             tell(player,label(npc)+"가 먼저 대화를 청했습니다. (개발 시험)");
-            player.sendSystemMessage(clickable("수락 (~키도 가능)","/murim talk reply "+offer.token+" 1"));
-            player.sendSystemMessage(clickable("거절","/murim talk reply "+offer.token+" 0"));
+            MurimPanelServer.show(player,label(npc),"상대가 먼저 말을 걸었습니다.",List.of(
+                MurimPanelServer.option("수락","/murim talk reply "+offer.token+" 1"),
+                MurimPanelServer.option("거절","/murim talk reply "+offer.token+" 0")));
             return;
         }
         tell(player,"6블록 안에 대화할 수 있는 무림 NPC가 없습니다.");
