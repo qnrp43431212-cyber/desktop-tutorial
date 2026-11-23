@@ -1,0 +1,12 @@
+{
+  "version": "v1.22.1-audit-fix",
+  "checks": "PASS",
+  "java_sources": 83,
+  "preserved_historical_resources_sha256": 1647,
+  "structure_nbt": 635,
+  "unique_wuxia_skins": 966,
+  "unique_dialogue_lines": 324,
+  "duplicate_wiring_checks": "PASS",
+  "full_neoforge_build": "NOT_RUN",
+  "minecraft_runtime": "NOT_RUN"
+}

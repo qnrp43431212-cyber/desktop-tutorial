@@ -1,0 +1,83 @@
+{
+  "count": 7,
+  "worldgen": "NOT_ENABLED: manually place these structures with operator /place template; biome blending and settlements will require additional worldgen",
+  "structures": [
+    {
+      "id": "murimlife:jianghu_inn",
+      "size": [
+        15,
+        8,
+        17
+      ],
+      "blocks": 1043,
+      "palette_size": 8,
+      "placement_command": "/place template murimlife:jianghu_inn"
+    },
+    {
+      "id": "murimlife:meditation_hall",
+      "size": [
+        17,
+        9,
+        21
+      ],
+      "blocks": 1475,
+      "palette_size": 6,
+      "placement_command": "/place template murimlife:meditation_hall"
+    },
+    {
+      "id": "murimlife:martial_tournament_arena",
+      "size": [
+        29,
+        8,
+        29
+      ],
+      "blocks": 1556,
+      "palette_size": 6,
+      "placement_command": "/place template murimlife:martial_tournament_arena"
+    },
+    {
+      "id": "murimlife:murim_alliance_headquarters",
+      "size": [
+        29,
+        12,
+        27
+      ],
+      "blocks": 3353,
+      "palette_size": 7,
+      "placement_command": "/place template murimlife:murim_alliance_headquarters"
+    },
+    {
+      "id": "murimlife:heavenly_demon_palace",
+      "size": [
+        23,
+        11,
+        23
+      ],
+      "blocks": 2307,
+      "palette_size": 7,
+      "placement_command": "/place template murimlife:heavenly_demon_palace"
+    },
+    {
+      "id": "murimlife:blood_cult_sanctum",
+      "size": [
+        23,
+        11,
+        23
+      ],
+      "blocks": 2307,
+      "palette_size": 7,
+      "placement_command": "/place template murimlife:blood_cult_sanctum"
+    },
+    {
+      "id": "murimlife:mountain_sect_pavilion",
+      "size": [
+        11,
+        7,
+        11
+      ],
+      "blocks": 499,
+      "palette_size": 5,
+      "placement_command": "/place template murimlife:mountain_sect_pavilion"
+    }
+  ]
+}

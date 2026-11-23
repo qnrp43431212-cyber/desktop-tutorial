@@ -1,0 +1,89 @@
+{
+  "schema": 2,
+  "enabled": false,
+  "requires_main_mod": "murimlife",
+  "default_max_server_active": 160,
+  "default_max_site_active": 22,
+  "max_per_tick": 1,
+  "min_ticks_between_spawns": 100,
+  "simulation_distance_blocks": 96,
+  "render_distance_blocks": 128,
+  "persistent_roles": [
+    "sect_leader",
+    "clan_head",
+    "alliance_chief",
+    "cult_leader",
+    "hermit_master",
+    "bandit_boss"
+  ],
+  "spawn_only_after": "SiteLedger.Stage.COMPLETE",
+  "recheck": {
+    "solid_ground": true,
+    "avoid_liquids": true,
+    "avoid_fire_and_magma": true,
+    "required_clearance": [
+      1,
+      2,
+      1
+    ],
+    "avoid_players_owned_blocks": true,
+    "avoid_other_entities": true,
+    "pathfinder_reachability": true,
+    "avoid_combat_during_spawn": true,
+    "per_chunk_cap": 5,
+    "per_site_cap": 14
+  },
+  "no_duplicate_policy": "world + site_key + zone + role_instance_index -> stable UUID with persistent registry",
+  "unload_policy": "ALL named residents remain saved entities when chunk unloads; never despawn due to distance. No force-loading. Tournament crowd is event-scoped and cleaned on stop/restart.",
+  "ai_priority": [
+    "survival",
+    "target_threat",
+    "social_conflict",
+    "work",
+    "training",
+    "wander"
+  ],
+  "day_slots": {
+    "dawn": [
+      0,
+      3000
+    ],
+    "day": [
+      3000,
+      11000
+    ],
+    "dusk": [
+      11000,
+      14000
+    ],
+    "night": [
+      14000,
+      24000
+    ]
+  },
+  "feature_flags": {
+    "runtime_entity_registration": false,
+    "custom_humanoid_renderer": false,
+    "spawn_hook": true,
+    "dialogue_runtime": false,
+    "fight_ai": false,
+    "npc_scheduler_runtime": false,
+    "mob_lifecycle_persistence": true
+  },
+  "notes": [
+    "96 existing skins and profiles preserved",
+    "world generation safety gates to be connected only after real Minecraft tests",
+    "no custom third party mod needed for registry planning"
+  ],
+  "resident_persistence": "Vanilla Villager prototype: Minecraft entity saved in entity chunks; unload is not despawn. Identity also saved in per-world SavedData. Unloaded chunks do not tick.",
+  "tournament_crowd": {
+    "default_visible": 48,
+    "max_visible": 80,
+    "spectator_entity": "minecraft:villager PROTOTYPE",
+    "temporary": true,
+    "arena_complete_only": true,
+    "do_not_place_in_active_fight_ring": true,
+    "spawn_budget_per_tick": 2,
+    "session_cleanup": true
+  }
+}

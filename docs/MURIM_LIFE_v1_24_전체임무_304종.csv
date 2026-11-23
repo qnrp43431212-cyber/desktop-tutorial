@@ -1,0 +1,305 @@
+﻿임무 ID,세력,등급,임무명,목표 분류,납품 아이템 ID,필요 횟수/수량,보상 (문),평판 보상,선업 보상
+alliance_0_00,무림맹(정파),견습,견습·산촌 구휼미,DELIVER,minecraft:wheat,18,191,3,2
+alliance_0_01,무림맹(정파),견습,견습·고아원 식량 전달,DELIVER,minecraft:bread,9,152,4,2
+alliance_0_02,무림맹(정파),견습,견습·빈민가 급식 지원,DELIVER,minecraft:potato,18,239,5,2
+alliance_0_03,무림맹(정파),견습,견습·백성 겨울 연료 확보,DELIVER,minecraft:coal,13,228,3,2
+alliance_0_04,무림맹(정파),견습,견습·의원 약재 수집,DELIVER,minecraft:glow_berries,12,245,4,2
+alliance_0_05,무림맹(정파),견습,견습·부상자 붕대 재료,DELIVER,minecraft:string,11,262,5,0
+alliance_0_06,무림맹(정파),견습,견습·파손된 교량 철재,DELIVER,minecraft:iron_ingot,8,265,3,0
+alliance_0_07,무림맹(정파),견습,견습·호위대 방패 수리,DELIVER,minecraft:iron_ingot,10,135,4,0
+alliance_0_08,무림맹(정파),견습,견습·재해 복구 목재,DELIVER,minecraft:oak_log,16,201,5,0
+alliance_0_09,무림맹(정파),견습,견습·전염병 격리용 유리,DELIVER,minecraft:glass,10,183,3,0
+alliance_0_10,무림맹(정파),견습,견습·사문 서고 종이,DELIVER,minecraft:paper,16,249,4,0
+alliance_0_11,무림맹(정파),견습,견습·산사 석등 재건,DELIVER,minecraft:stone_bricks,15,266,5,0
+alliance_0_12,무림맹(정파),견습,견습·수로 복구 자재,DELIVER,minecraft:cobblestone,32,409,3,0
+alliance_0_13,무림맹(정파),견습,견습·실종 상단 지도 복원,DELIVER,minecraft:compass,2,223,4,0
+alliance_0_14,무림맹(정파),견습,견습·호송 부대 화살 제작,DELIVER,minecraft:arrow,22,219,5,0
+alliance_0_15,무림맹(정파),견습,견습·초심자 내공 단련,TRAIN,,6,233,3,0
+alliance_0_16,무림맹(정파),견습,견습·객잔 기초 호신술 교습,TRAIN,,8,305,4,0
+alliance_0_17,무림맹(정파),견습,견습·산문 수련장 정진,TRAIN,,10,377,5,0
+alliance_0_18,무림맹(정파),견습,견습·제자 검술 비무 기록,WIN,,1,185,3,0
+alliance_0_19,무림맹(정파),견습,견습·행상 호위 비무,WIN,,2,233,4,0
+alliance_0_20,무림맹(정파),견습,견습·보표 대련 실기,WIN,,3,281,5,0
+alliance_0_21,무림맹(정파),견습,견습·기연 도굴꾼 소탕,GUARD,,1,89,3,0
+alliance_0_22,무림맹(정파),견습,견습·폐검각 수호자 진압,GUARD,,2,137,4,0
+alliance_0_23,무림맹(정파),견습,견습·지하 석실 수호대 토벌,GUARD,,3,185,5,0
+alliance_0_24,무림맹(정파),견습,견습·잃어버린 검총 탐사,EXPLORE,,1,161,3,0
+alliance_0_25,무림맹(정파),견습,견습·석굴 기연 확인,EXPLORE,,1,185,4,0
+alliance_0_26,무림맹(정파),견습,견습·붕괴한 유적 조사,EXPLORE,,1,209,5,0
+alliance_0_27,무림맹(정파),견습,견습·안전한 여행로 빵 배급,DELIVER,minecraft:bread,12,293,3,2
+alliance_0_28,무림맹(정파),견습,견습·산민 의복 제작 지원,DELIVER,minecraft:leather,14,163,4,0
+alliance_0_29,무림맹(정파),견습,견습·장터 소방 장비 마련,DELIVER,minecraft:water_bucket,3,110,5,0
+alliance_1_00,무림맹(정파),하급,하급·산촌 구휼미,DELIVER,minecraft:wheat,23,606,6,3
+alliance_1_01,무림맹(정파),하급,하급·고아원 식량 전달,DELIVER,minecraft:bread,14,567,7,3
+alliance_1_02,무림맹(정파),하급,하급·빈민가 급식 지원,DELIVER,minecraft:potato,23,654,8,3
+alliance_1_03,무림맹(정파),하급,하급·백성 겨울 연료 확보,DELIVER,minecraft:coal,18,643,6,3
+alliance_1_04,무림맹(정파),하급,하급·의원 약재 수집,DELIVER,minecraft:glow_berries,17,660,7,3
+alliance_1_05,무림맹(정파),하급,하급·부상자 붕대 재료,DELIVER,minecraft:string,16,677,8,0
+alliance_1_06,무림맹(정파),하급,하급·파손된 교량 철재,DELIVER,minecraft:iron_ingot,13,680,6,0
+alliance_1_07,무림맹(정파),하급,하급·호위대 방패 수리,DELIVER,minecraft:iron_ingot,15,550,7,0
+alliance_1_08,무림맹(정파),하급,하급·재해 복구 목재,DELIVER,minecraft:oak_log,21,616,8,0
+alliance_1_09,무림맹(정파),하급,하급·전염병 격리용 유리,DELIVER,minecraft:glass,15,598,6,0
+alliance_1_10,무림맹(정파),하급,하급·사문 서고 종이,DELIVER,minecraft:paper,21,664,7,0
+alliance_1_11,무림맹(정파),하급,하급·산사 석등 재건,DELIVER,minecraft:stone_bricks,20,681,8,0
+alliance_1_12,무림맹(정파),하급,하급·수로 복구 자재,DELIVER,minecraft:cobblestone,37,824,6,0
+alliance_1_13,무림맹(정파),하급,하급·실종 상단 지도 복원,DELIVER,minecraft:compass,7,638,7,0
+alliance_1_14,무림맹(정파),하급,하급·호송 부대 화살 제작,DELIVER,minecraft:arrow,27,634,8,0
+alliance_1_15,무림맹(정파),하급,하급·초심자 내공 단련,TRAIN,,9,685,6,0
+alliance_1_16,무림맹(정파),하급,하급·객잔 기초 호신술 교습,TRAIN,,11,757,7,0
+alliance_1_17,무림맹(정파),하급,하급·산문 수련장 정진,TRAIN,,13,829,8,0
+alliance_1_18,무림맹(정파),하급,하급·제자 검술 비무 기록,WIN,,2,589,6,0
+alliance_1_19,무림맹(정파),하급,하급·행상 호위 비무,WIN,,3,637,7,0
+alliance_1_20,무림맹(정파),하급,하급·보표 대련 실기,WIN,,4,685,8,0
+alliance_1_21,무림맹(정파),하급,하급·기연 도굴꾼 소탕,GUARD,,2,493,6,0
+alliance_1_22,무림맹(정파),하급,하급·폐검각 수호자 진압,GUARD,,3,541,7,0
+alliance_1_23,무림맹(정파),하급,하급·지하 석실 수호대 토벌,GUARD,,4,589,8,0
+alliance_1_24,무림맹(정파),하급,하급·잃어버린 검총 탐사,EXPLORE,,1,541,6,0
+alliance_1_25,무림맹(정파),하급,하급·석굴 기연 확인,EXPLORE,,1,565,7,0
+alliance_1_26,무림맹(정파),하급,하급·붕괴한 유적 조사,EXPLORE,,1,589,8,0
+alliance_1_27,무림맹(정파),하급,하급·안전한 여행로 빵 배급,DELIVER,minecraft:bread,17,708,6,3
+alliance_1_28,무림맹(정파),하급,하급·산민 의복 제작 지원,DELIVER,minecraft:leather,19,578,7,0
+alliance_1_29,무림맹(정파),하급,하급·장터 소방 장비 마련,DELIVER,minecraft:water_bucket,8,525,8,0
+alliance_2_00,무림맹(정파),중급,중급·산촌 구휼미,DELIVER,minecraft:wheat,28,1021,9,4
+alliance_2_01,무림맹(정파),중급,중급·고아원 식량 전달,DELIVER,minecraft:bread,19,982,10,4
+alliance_2_02,무림맹(정파),중급,중급·빈민가 급식 지원,DELIVER,minecraft:potato,28,1069,11,4
+alliance_2_03,무림맹(정파),중급,중급·백성 겨울 연료 확보,DELIVER,minecraft:coal,23,1058,9,4
+alliance_2_04,무림맹(정파),중급,중급·의원 약재 수집,DELIVER,minecraft:glow_berries,22,1075,10,4
+alliance_2_05,무림맹(정파),중급,중급·부상자 붕대 재료,DELIVER,minecraft:string,21,1092,11,0
+alliance_2_06,무림맹(정파),중급,중급·파손된 교량 철재,DELIVER,minecraft:iron_ingot,18,1095,9,0
+alliance_2_07,무림맹(정파),중급,중급·호위대 방패 수리,DELIVER,minecraft:iron_ingot,20,965,10,0
+alliance_2_08,무림맹(정파),중급,중급·재해 복구 목재,DELIVER,minecraft:oak_log,26,1031,11,0
+alliance_2_09,무림맹(정파),중급,중급·전염병 격리용 유리,DELIVER,minecraft:glass,20,1013,9,0
+alliance_2_10,무림맹(정파),중급,중급·사문 서고 종이,DELIVER,minecraft:paper,26,1079,10,0
+alliance_2_11,무림맹(정파),중급,중급·산사 석등 재건,DELIVER,minecraft:stone_bricks,25,1096,11,0
+alliance_2_12,무림맹(정파),중급,중급·수로 복구 자재,DELIVER,minecraft:cobblestone,42,1239,9,0
+alliance_2_13,무림맹(정파),중급,중급·실종 상단 지도 복원,DELIVER,minecraft:compass,12,1053,10,0
+alliance_2_14,무림맹(정파),중급,중급·호송 부대 화살 제작,DELIVER,minecraft:arrow,32,1049,11,0
+alliance_2_15,무림맹(정파),중급,중급·초심자 내공 단련,TRAIN,,12,1137,9,0
+alliance_2_16,무림맹(정파),중급,중급·객잔 기초 호신술 교습,TRAIN,,14,1209,10,0
+alliance_2_17,무림맹(정파),중급,중급·산문 수련장 정진,TRAIN,,16,1281,11,0
+alliance_2_18,무림맹(정파),중급,중급·제자 검술 비무 기록,WIN,,3,993,9,0
+alliance_2_19,무림맹(정파),중급,중급·행상 호위 비무,WIN,,4,1041,10,0
+alliance_2_20,무림맹(정파),중급,중급·보표 대련 실기,WIN,,5,1089,11,0
+alliance_2_21,무림맹(정파),중급,중급·기연 도굴꾼 소탕,GUARD,,3,897,9,0
+alliance_2_22,무림맹(정파),중급,중급·폐검각 수호자 진압,GUARD,,4,945,10,0
+alliance_2_23,무림맹(정파),중급,중급·지하 석실 수호대 토벌,GUARD,,5,993,11,0
+alliance_2_24,무림맹(정파),중급,중급·잃어버린 검총 탐사,EXPLORE,,1,921,9,0
+alliance_2_25,무림맹(정파),중급,중급·석굴 기연 확인,EXPLORE,,1,945,10,0
+alliance_2_26,무림맹(정파),중급,중급·붕괴한 유적 조사,EXPLORE,,1,969,11,0
+alliance_2_27,무림맹(정파),중급,중급·안전한 여행로 빵 배급,DELIVER,minecraft:bread,22,1123,9,4
+alliance_2_28,무림맹(정파),중급,중급·산민 의복 제작 지원,DELIVER,minecraft:leather,24,993,10,0
+alliance_2_29,무림맹(정파),중급,중급·장터 소방 장비 마련,DELIVER,minecraft:water_bucket,13,940,11,0
+alliance_3_00,무림맹(정파),상급,상급·산촌 구휼미,DELIVER,minecraft:wheat,33,1436,12,5
+alliance_3_01,무림맹(정파),상급,상급·고아원 식량 전달,DELIVER,minecraft:bread,24,1397,13,5
+alliance_3_02,무림맹(정파),상급,상급·빈민가 급식 지원,DELIVER,minecraft:potato,33,1484,14,5
+alliance_3_03,무림맹(정파),상급,상급·백성 겨울 연료 확보,DELIVER,minecraft:coal,28,1473,12,5
+alliance_3_04,무림맹(정파),상급,상급·의원 약재 수집,DELIVER,minecraft:glow_berries,27,1490,13,5
+alliance_3_05,무림맹(정파),상급,상급·부상자 붕대 재료,DELIVER,minecraft:string,26,1507,14,0
+alliance_3_06,무림맹(정파),상급,상급·파손된 교량 철재,DELIVER,minecraft:iron_ingot,23,1510,12,0
+alliance_3_07,무림맹(정파),상급,상급·호위대 방패 수리,DELIVER,minecraft:iron_ingot,25,1380,13,0
+alliance_3_08,무림맹(정파),상급,상급·재해 복구 목재,DELIVER,minecraft:oak_log,31,1446,14,0
+alliance_3_09,무림맹(정파),상급,상급·전염병 격리용 유리,DELIVER,minecraft:glass,25,1428,12,0
+alliance_3_10,무림맹(정파),상급,상급·사문 서고 종이,DELIVER,minecraft:paper,31,1494,13,0
+alliance_3_11,무림맹(정파),상급,상급·산사 석등 재건,DELIVER,minecraft:stone_bricks,30,1511,14,0
+alliance_3_12,무림맹(정파),상급,상급·수로 복구 자재,DELIVER,minecraft:cobblestone,47,1654,12,0
+alliance_3_13,무림맹(정파),상급,상급·실종 상단 지도 복원,DELIVER,minecraft:compass,17,1468,13,0
+alliance_3_14,무림맹(정파),상급,상급·호송 부대 화살 제작,DELIVER,minecraft:arrow,37,1464,14,0
+alliance_3_15,무림맹(정파),상급,상급·초심자 내공 단련,TRAIN,,15,1589,12,0
+alliance_3_16,무림맹(정파),상급,상급·객잔 기초 호신술 교습,TRAIN,,17,1661,13,0
+alliance_3_17,무림맹(정파),상급,상급·산문 수련장 정진,TRAIN,,19,1733,14,0
+alliance_3_18,무림맹(정파),상급,상급·제자 검술 비무 기록,WIN,,4,1397,12,0
+alliance_3_19,무림맹(정파),상급,상급·행상 호위 비무,WIN,,5,1445,13,0
+alliance_3_20,무림맹(정파),상급,상급·보표 대련 실기,WIN,,6,1493,14,0
+alliance_3_21,무림맹(정파),상급,상급·기연 도굴꾼 소탕,GUARD,,4,1301,12,0
+alliance_3_22,무림맹(정파),상급,상급·폐검각 수호자 진압,GUARD,,5,1349,13,0
+alliance_3_23,무림맹(정파),상급,상급·지하 석실 수호대 토벌,GUARD,,6,1397,14,0
+alliance_3_24,무림맹(정파),상급,상급·잃어버린 검총 탐사,EXPLORE,,1,1301,12,0
+alliance_3_25,무림맹(정파),상급,상급·석굴 기연 확인,EXPLORE,,1,1325,13,0
+alliance_3_26,무림맹(정파),상급,상급·붕괴한 유적 조사,EXPLORE,,1,1349,14,0
+alliance_3_27,무림맹(정파),상급,상급·안전한 여행로 빵 배급,DELIVER,minecraft:bread,27,1538,12,5
+alliance_3_28,무림맹(정파),상급,상급·산민 의복 제작 지원,DELIVER,minecraft:leather,29,1408,13,0
+alliance_3_29,무림맹(정파),상급,상급·장터 소방 장비 마련,DELIVER,minecraft:water_bucket,18,1355,14,0
+alliance_4_00,무림맹(정파),최상급,최상급·산촌 구휼미,DELIVER,minecraft:wheat,38,1851,15,6
+alliance_4_01,무림맹(정파),최상급,최상급·고아원 식량 전달,DELIVER,minecraft:bread,29,1812,16,6
+alliance_4_02,무림맹(정파),최상급,최상급·빈민가 급식 지원,DELIVER,minecraft:potato,38,1899,17,6
+alliance_4_03,무림맹(정파),최상급,최상급·백성 겨울 연료 확보,DELIVER,minecraft:coal,33,1888,15,6
+alliance_4_04,무림맹(정파),최상급,최상급·의원 약재 수집,DELIVER,minecraft:glow_berries,32,1905,16,6
+alliance_4_05,무림맹(정파),최상급,최상급·부상자 붕대 재료,DELIVER,minecraft:string,31,1922,17,0
+alliance_4_06,무림맹(정파),최상급,최상급·파손된 교량 철재,DELIVER,minecraft:iron_ingot,28,1925,15,0
+alliance_4_07,무림맹(정파),최상급,최상급·호위대 방패 수리,DELIVER,minecraft:iron_ingot,30,1795,16,0
+alliance_4_08,무림맹(정파),최상급,최상급·재해 복구 목재,DELIVER,minecraft:oak_log,36,1861,17,0
+alliance_4_09,무림맹(정파),최상급,최상급·전염병 격리용 유리,DELIVER,minecraft:glass,30,1843,15,0
+alliance_4_10,무림맹(정파),최상급,최상급·사문 서고 종이,DELIVER,minecraft:paper,36,1909,16,0
+alliance_4_11,무림맹(정파),최상급,최상급·산사 석등 재건,DELIVER,minecraft:stone_bricks,35,1926,17,0
+alliance_4_12,무림맹(정파),최상급,최상급·수로 복구 자재,DELIVER,minecraft:cobblestone,52,2069,15,0
+alliance_4_13,무림맹(정파),최상급,최상급·실종 상단 지도 복원,DELIVER,minecraft:compass,22,1883,16,0
+alliance_4_14,무림맹(정파),최상급,최상급·호송 부대 화살 제작,DELIVER,minecraft:arrow,42,1879,17,0
+alliance_4_15,무림맹(정파),최상급,최상급·초심자 내공 단련,TRAIN,,18,2041,15,0
+alliance_4_16,무림맹(정파),최상급,최상급·객잔 기초 호신술 교습,TRAIN,,20,2113,16,0
+alliance_4_17,무림맹(정파),최상급,최상급·산문 수련장 정진,TRAIN,,22,2185,17,0
+alliance_4_18,무림맹(정파),최상급,최상급·제자 검술 비무 기록,WIN,,5,1801,15,0
+alliance_4_19,무림맹(정파),최상급,최상급·행상 호위 비무,WIN,,6,1849,16,0
+alliance_4_20,무림맹(정파),최상급,최상급·보표 대련 실기,WIN,,7,1897,17,0
+alliance_4_21,무림맹(정파),최상급,최상급·기연 도굴꾼 소탕,GUARD,,5,1705,15,0
+alliance_4_22,무림맹(정파),최상급,최상급·폐검각 수호자 진압,GUARD,,6,1753,16,0
+alliance_4_23,무림맹(정파),최상급,최상급·지하 석실 수호대 토벌,GUARD,,6,1777,17,0
+alliance_4_24,무림맹(정파),최상급,최상급·잃어버린 검총 탐사,EXPLORE,,1,1681,15,0
+alliance_4_25,무림맹(정파),최상급,최상급·석굴 기연 확인,EXPLORE,,1,1705,16,0
+alliance_4_26,무림맹(정파),최상급,최상급·붕괴한 유적 조사,EXPLORE,,1,1729,17,0
+alliance_4_27,무림맹(정파),최상급,최상급·안전한 여행로 빵 배급,DELIVER,minecraft:bread,32,1953,15,6
+alliance_4_28,무림맹(정파),최상급,최상급·산민 의복 제작 지원,DELIVER,minecraft:leather,34,1823,16,0
+alliance_4_29,무림맹(정파),최상급,최상급·장터 소방 장비 마련,DELIVER,minecraft:water_bucket,23,1770,17,0
+sado_0_00,사도련(사파),견습,견습·밀거래 식량 확보,DELIVER,minecraft:bread,12,174,3,0
+sado_0_01,사도련(사파),견습,견습·사파 비밀처 방화 재료,DELIVER,minecraft:coal,14,218,4,0
+sado_0_02,사도련(사파),견습,견습·암시장 쇳조각 확보,DELIVER,minecraft:iron_ingot,10,214,5,0
+sado_0_03,사도련(사파),견습,견습·독공 시약 확보,DELIVER,minecraft:spider_eye,10,242,3,0
+sado_0_04,사도련(사파),견습,견습·지하 거점 나무 운송,DELIVER,minecraft:dark_oak_log,14,303,4,0
+sado_0_05,사도련(사파),견습,견습·비밀 서신 위조 재료,DELIVER,minecraft:paper,18,363,5,0
+sado_0_06,사도련(사파),견습,견습·야시장 화물 조달,DELIVER,minecraft:leather,15,367,3,0
+sado_0_07,사도련(사파),견습,견습·은밀한 잠금장치 제조,DELIVER,minecraft:tripwire_hook,4,108,4,0
+sado_0_08,사도련(사파),견습,견습·위장 상단용 식량,DELIVER,minecraft:cooked_beef,12,202,5,0
+sado_0_09,사도련(사파),견습,견습·암기 제작용 부싯돌,DELIVER,minecraft:flint,13,238,3,0
+sado_0_10,사도련(사파),견습,견습·수하 무장용 화살,DELIVER,minecraft:arrow,28,389,4,0
+sado_0_11,사도련(사파),견습,견습·비밀 토굴 벽돌,DELIVER,minecraft:deepslate_bricks,24,384,5,0
+sado_0_12,사도련(사파),견습,견습·어둠 장막용 먹물,DELIVER,minecraft:ink_sac,8,281,3,0
+sado_0_13,사도련(사파),견습,견습·봉인 연구 재료,DELIVER,minecraft:lapis_lazuli,16,375,4,0
+sado_0_14,사도련(사파),견습,견습·문중 추격 방해용 거미줄,DELIVER,minecraft:string,20,239,5,0
+sado_0_15,사도련(사파),견습,견습·암흑 단련,TRAIN,,7,300,3,0
+sado_0_16,사도련(사파),견습,견습·야행 호흡 수련,TRAIN,,9,384,4,0
+sado_0_17,사도련(사파),견습,견습·혈맥 강화 수련,TRAIN,,12,497,5,0
+sado_0_18,사도련(사파),견습,견습·사도련 제자 대련,WIN,,1,216,3,0
+sado_0_19,사도련(사파),견습,견습·암시장 경비 비무,WIN,,2,272,4,0
+sado_0_20,사도련(사파),견습,견습·암살술 방어 시험,WIN,,3,328,5,0
+sado_0_21,사도련(사파),견습,견습·유적 경쟁자 제거,GUARD,,1,104,3,0
+sado_0_22,사도련(사파),견습,견습·매복단 수호자 제압,GUARD,,2,160,4,0
+sado_0_23,사도련(사파),견습,견습·봉마 석실 적 토벌,GUARD,,3,216,5,0
+sado_0_24,사도련(사파),견습,견습·은닉된 동굴 조사,EXPLORE,,1,188,3,0
+sado_0_25,사도련(사파),견습,견습·유적 비밀 통로 수색,EXPLORE,,1,216,4,0
+sado_0_26,사도련(사파),견습,견습·폐가의 은닉 보물 탐사,EXPLORE,,1,244,5,0
+sado_1_00,사도련(사파),하급,하급·밀거래 식량 확보,DELIVER,minecraft:bread,17,659,6,0
+sado_1_01,사도련(사파),하급,하급·사파 비밀처 방화 재료,DELIVER,minecraft:coal,19,704,7,0
+sado_1_02,사도련(사파),하급,하급·암시장 쇳조각 확보,DELIVER,minecraft:iron_ingot,15,699,8,0
+sado_1_03,사도련(사파),하급,하급·독공 시약 확보,DELIVER,minecraft:spider_eye,15,727,6,0
+sado_1_04,사도련(사파),하급,하급·지하 거점 나무 운송,DELIVER,minecraft:dark_oak_log,19,788,7,0
+sado_1_05,사도련(사파),하급,하급·비밀 서신 위조 재료,DELIVER,minecraft:paper,23,849,8,0
+sado_1_06,사도련(사파),하급,하급·야시장 화물 조달,DELIVER,minecraft:leather,20,852,6,0
+sado_1_07,사도련(사파),하급,하급·은밀한 잠금장치 제조,DELIVER,minecraft:tripwire_hook,9,594,7,0
+sado_1_08,사도련(사파),하급,하급·위장 상단용 식량,DELIVER,minecraft:cooked_beef,17,687,8,0
+sado_1_09,사도련(사파),하급,하급·암기 제작용 부싯돌,DELIVER,minecraft:flint,18,724,6,0
+sado_1_10,사도련(사파),하급,하급·수하 무장용 화살,DELIVER,minecraft:arrow,33,875,7,0
+sado_1_11,사도련(사파),하급,하급·비밀 토굴 벽돌,DELIVER,minecraft:deepslate_bricks,29,870,8,0
+sado_1_12,사도련(사파),하급,하급·어둠 장막용 먹물,DELIVER,minecraft:ink_sac,13,767,6,0
+sado_1_13,사도련(사파),하급,하급·봉인 연구 재료,DELIVER,minecraft:lapis_lazuli,21,861,7,0
+sado_1_14,사도련(사파),하급,하급·문중 추격 방해용 거미줄,DELIVER,minecraft:string,25,725,8,0
+sado_1_15,사도련(사파),하급,하급·암흑 단련,TRAIN,,10,829,6,0
+sado_1_16,사도련(사파),하급,하급·야행 호흡 수련,TRAIN,,12,913,7,0
+sado_1_17,사도련(사파),하급,하급·혈맥 강화 수련,TRAIN,,15,1026,8,0
+sado_1_18,사도련(사파),하급,하급·사도련 제자 대련,WIN,,2,689,6,0
+sado_1_19,사도련(사파),하급,하급·암시장 경비 비무,WIN,,3,745,7,0
+sado_1_20,사도련(사파),하급,하급·암살술 방어 시험,WIN,,4,801,8,0
+sado_1_21,사도련(사파),하급,하급·유적 경쟁자 제거,GUARD,,2,576,6,0
+sado_1_22,사도련(사파),하급,하급·매복단 수호자 제압,GUARD,,3,632,7,0
+sado_1_23,사도련(사파),하급,하급·봉마 석실 적 토벌,GUARD,,4,689,8,0
+sado_1_24,사도련(사파),하급,하급·은닉된 동굴 조사,EXPLORE,,1,632,6,0
+sado_1_25,사도련(사파),하급,하급·유적 비밀 통로 수색,EXPLORE,,1,661,7,0
+sado_1_26,사도련(사파),하급,하급·폐가의 은닉 보물 탐사,EXPLORE,,1,689,8,0
+sado_2_00,사도련(사파),중급,중급·밀거래 식량 확보,DELIVER,minecraft:bread,22,1145,9,0
+sado_2_01,사도련(사파),중급,중급·사파 비밀처 방화 재료,DELIVER,minecraft:coal,24,1189,10,0
+sado_2_02,사도련(사파),중급,중급·암시장 쇳조각 확보,DELIVER,minecraft:iron_ingot,20,1185,11,0
+sado_2_03,사도련(사파),중급,중급·독공 시약 확보,DELIVER,minecraft:spider_eye,20,1213,9,0
+sado_2_04,사도련(사파),중급,중급·지하 거점 나무 운송,DELIVER,minecraft:dark_oak_log,24,1274,10,0
+sado_2_05,사도련(사파),중급,중급·비밀 서신 위조 재료,DELIVER,minecraft:paper,28,1334,11,0
+sado_2_06,사도련(사파),중급,중급·야시장 화물 조달,DELIVER,minecraft:leather,25,1338,9,0
+sado_2_07,사도련(사파),중급,중급·은밀한 잠금장치 제조,DELIVER,minecraft:tripwire_hook,14,1079,10,0
+sado_2_08,사도련(사파),중급,중급·위장 상단용 식량,DELIVER,minecraft:cooked_beef,22,1173,11,0
+sado_2_09,사도련(사파),중급,중급·암기 제작용 부싯돌,DELIVER,minecraft:flint,23,1209,9,0
+sado_2_10,사도련(사파),중급,중급·수하 무장용 화살,DELIVER,minecraft:arrow,38,1360,10,0
+sado_2_11,사도련(사파),중급,중급·비밀 토굴 벽돌,DELIVER,minecraft:deepslate_bricks,34,1356,11,0
+sado_2_12,사도련(사파),중급,중급·어둠 장막용 먹물,DELIVER,minecraft:ink_sac,18,1253,9,0
+sado_2_13,사도련(사파),중급,중급·봉인 연구 재료,DELIVER,minecraft:lapis_lazuli,26,1346,10,0
+sado_2_14,사도련(사파),중급,중급·문중 추격 방해용 거미줄,DELIVER,minecraft:string,30,1210,11,0
+sado_2_15,사도련(사파),중급,중급·암흑 단련,TRAIN,,13,1358,9,0
+sado_2_16,사도련(사파),중급,중급·야행 호흡 수련,TRAIN,,15,1442,10,0
+sado_2_17,사도련(사파),중급,중급·혈맥 강화 수련,TRAIN,,18,1554,11,0
+sado_2_18,사도련(사파),중급,중급·사도련 제자 대련,WIN,,3,1161,9,0
+sado_2_19,사도련(사파),중급,중급·암시장 경비 비무,WIN,,4,1217,10,0
+sado_2_20,사도련(사파),중급,중급·암살술 방어 시험,WIN,,5,1274,11,0
+sado_2_21,사도련(사파),중급,중급·유적 경쟁자 제거,GUARD,,3,1049,9,0
+sado_2_22,사도련(사파),중급,중급·매복단 수호자 제압,GUARD,,4,1105,10,0
+sado_2_23,사도련(사파),중급,중급·봉마 석실 적 토벌,GUARD,,5,1161,11,0
+sado_2_24,사도련(사파),중급,중급·은닉된 동굴 조사,EXPLORE,,1,1077,9,0
+sado_2_25,사도련(사파),중급,중급·유적 비밀 통로 수색,EXPLORE,,1,1105,10,0
+sado_2_26,사도련(사파),중급,중급·폐가의 은닉 보물 탐사,EXPLORE,,1,1133,11,0
+sado_3_00,사도련(사파),상급,상급·밀거래 식량 확보,DELIVER,minecraft:bread,27,1630,12,0
+sado_3_01,사도련(사파),상급,상급·사파 비밀처 방화 재료,DELIVER,minecraft:coal,29,1675,13,0
+sado_3_02,사도련(사파),상급,상급·암시장 쇳조각 확보,DELIVER,minecraft:iron_ingot,25,1670,14,0
+sado_3_03,사도련(사파),상급,상급·독공 시약 확보,DELIVER,minecraft:spider_eye,25,1698,12,0
+sado_3_04,사도련(사파),상급,상급·지하 거점 나무 운송,DELIVER,minecraft:dark_oak_log,29,1759,13,0
+sado_3_05,사도련(사파),상급,상급·비밀 서신 위조 재료,DELIVER,minecraft:paper,33,1820,14,0
+sado_3_06,사도련(사파),상급,상급·야시장 화물 조달,DELIVER,minecraft:leather,30,1824,12,0
+sado_3_07,사도련(사파),상급,상급·은밀한 잠금장치 제조,DELIVER,minecraft:tripwire_hook,19,1565,13,0
+sado_3_08,사도련(사파),상급,상급·위장 상단용 식량,DELIVER,minecraft:cooked_beef,27,1659,14,0
+sado_3_09,사도련(사파),상급,상급·암기 제작용 부싯돌,DELIVER,minecraft:flint,28,1695,12,0
+sado_3_10,사도련(사파),상급,상급·수하 무장용 화살,DELIVER,minecraft:arrow,43,1846,13,0
+sado_3_11,사도련(사파),상급,상급·비밀 토굴 벽돌,DELIVER,minecraft:deepslate_bricks,39,1841,14,0
+sado_3_12,사도련(사파),상급,상급·어둠 장막용 먹물,DELIVER,minecraft:ink_sac,23,1738,12,0
+sado_3_13,사도련(사파),상급,상급·봉인 연구 재료,DELIVER,minecraft:lapis_lazuli,31,1832,13,0
+sado_3_14,사도련(사파),상급,상급·문중 추격 방해용 거미줄,DELIVER,minecraft:string,35,1696,14,0
+sado_3_15,사도련(사파),상급,상급·암흑 단련,TRAIN,,16,1887,12,0
+sado_3_16,사도련(사파),상급,상급·야행 호흡 수련,TRAIN,,18,1971,13,0
+sado_3_17,사도련(사파),상급,상급·혈맥 강화 수련,TRAIN,,21,2083,14,0
+sado_3_18,사도련(사파),상급,상급·사도련 제자 대련,WIN,,4,1634,12,0
+sado_3_19,사도련(사파),상급,상급·암시장 경비 비무,WIN,,5,1690,13,0
+sado_3_20,사도련(사파),상급,상급·암살술 방어 시험,WIN,,6,1746,14,0
+sado_3_21,사도련(사파),상급,상급·유적 경쟁자 제거,GUARD,,4,1522,12,0
+sado_3_22,사도련(사파),상급,상급·매복단 수호자 제압,GUARD,,5,1578,13,0
+sado_3_23,사도련(사파),상급,상급·봉마 석실 적 토벌,GUARD,,6,1634,14,0
+sado_3_24,사도련(사파),상급,상급·은닉된 동굴 조사,EXPLORE,,1,1522,12,0
+sado_3_25,사도련(사파),상급,상급·유적 비밀 통로 수색,EXPLORE,,1,1550,13,0
+sado_3_26,사도련(사파),상급,상급·폐가의 은닉 보물 탐사,EXPLORE,,1,1578,14,0
+sado_4_00,사도련(사파),최상급,최상급·밀거래 식량 확보,DELIVER,minecraft:bread,32,2116,15,0
+sado_4_01,사도련(사파),최상급,최상급·사파 비밀처 방화 재료,DELIVER,minecraft:coal,34,2160,16,0
+sado_4_02,사도련(사파),최상급,최상급·암시장 쇳조각 확보,DELIVER,minecraft:iron_ingot,30,2156,17,0
+sado_4_03,사도련(사파),최상급,최상급·독공 시약 확보,DELIVER,minecraft:spider_eye,30,2184,15,0
+sado_4_04,사도련(사파),최상급,최상급·지하 거점 나무 운송,DELIVER,minecraft:dark_oak_log,34,2245,16,0
+sado_4_05,사도련(사파),최상급,최상급·비밀 서신 위조 재료,DELIVER,minecraft:paper,38,2306,17,0
+sado_4_06,사도련(사파),최상급,최상급·야시장 화물 조달,DELIVER,minecraft:leather,35,2309,15,0
+sado_4_07,사도련(사파),최상급,최상급·은밀한 잠금장치 제조,DELIVER,minecraft:tripwire_hook,24,2051,16,0
+sado_4_08,사도련(사파),최상급,최상급·위장 상단용 식량,DELIVER,minecraft:cooked_beef,32,2144,17,0
+sado_4_09,사도련(사파),최상급,최상급·암기 제작용 부싯돌,DELIVER,minecraft:flint,33,2180,15,0
+sado_4_10,사도련(사파),최상급,최상급·수하 무장용 화살,DELIVER,minecraft:arrow,48,2331,16,0
+sado_4_11,사도련(사파),최상급,최상급·비밀 토굴 벽돌,DELIVER,minecraft:deepslate_bricks,44,2327,17,0
+sado_4_12,사도련(사파),최상급,최상급·어둠 장막용 먹물,DELIVER,minecraft:ink_sac,28,2224,15,0
+sado_4_13,사도련(사파),최상급,최상급·봉인 연구 재료,DELIVER,minecraft:lapis_lazuli,36,2317,16,0
+sado_4_14,사도련(사파),최상급,최상급·문중 추격 방해용 거미줄,DELIVER,minecraft:string,40,2182,17,0
+sado_4_15,사도련(사파),최상급,최상급·암흑 단련,TRAIN,,19,2416,15,0
+sado_4_16,사도련(사파),최상급,최상급·야행 호흡 수련,TRAIN,,21,2500,16,0
+sado_4_17,사도련(사파),최상급,최상급·혈맥 강화 수련,TRAIN,,24,2612,17,0
+sado_4_18,사도련(사파),최상급,최상급·사도련 제자 대련,WIN,,5,2107,15,0
+sado_4_19,사도련(사파),최상급,최상급·암시장 경비 비무,WIN,,6,2163,16,0
+sado_4_20,사도련(사파),최상급,최상급·암살술 방어 시험,WIN,,7,2219,17,0
+sado_4_21,사도련(사파),최상급,최상급·유적 경쟁자 제거,GUARD,,5,1994,15,0
+sado_4_22,사도련(사파),최상급,최상급·매복단 수호자 제압,GUARD,,6,2051,16,0
+sado_4_23,사도련(사파),최상급,최상급·봉마 석실 적 토벌,GUARD,,6,2079,17,0
+sado_4_24,사도련(사파),최상급,최상급·은닉된 동굴 조사,EXPLORE,,1,1966,15,0
+sado_4_25,사도련(사파),최상급,최상급·유적 비밀 통로 수색,EXPLORE,,1,1994,16,0
+sado_4_26,사도련(사파),최상급,최상급·폐가의 은닉 보물 탐사,EXPLORE,,1,2022,17,0
+civilian_0_00,일반 시민,견습,견습·가축 사료 구하기,DELIVER,minecraft:wheat,9,70,2,1
+civilian_0_01,일반 시민,견습,견습·주막 땔감 모으기,DELIVER,minecraft:oak_log,10,87,3,1
+civilian_0_02,일반 시민,견습,견습·산촌 빵 전달,DELIVER,minecraft:bread,5,81,4,1
+civilian_0_03,일반 시민,견습,견습·물레 실 모으기,DELIVER,minecraft:string,8,106,2,0
+civilian_0_04,일반 시민,견습,견습·광부 석재 모으기,DELIVER,minecraft:cobblestone,22,173,3,0
+civilian_0_05,일반 시민,견습,견습·지붕 기와 수리,DELIVER,minecraft:brick,12,147,4,0
+civilian_0_06,일반 시민,견습,견습·약초 묶음 수집,DELIVER,minecraft:glow_berries,8,145,2,0
+civilian_0_07,일반 시민,견습,견습·장터 방향 나침반,DELIVER,minecraft:compass,1,39,3,0
+civilian_0_08,일반 시민,견습,견습·청소년 호신술 시범,TRAIN,,5,114,4,0
+civilian_0_09,일반 시민,견습,견습·마을 방어 대련,WIN,,1,75,2,0
+civilian_0_10,일반 시민,견습,견습·소문난 동굴 답사,EXPLORE,,1,88,3,0
+civilian_1_00,일반 시민,하급,하급·가축 사료 구하기,DELIVER,minecraft:wheat,14,298,5,1
+civilian_1_01,일반 시민,하급,하급·주막 땔감 모으기,DELIVER,minecraft:oak_log,15,315,6,1
+civilian_1_02,일반 시민,하급,하급·산촌 빵 전달,DELIVER,minecraft:bread,10,309,7,1
+civilian_1_03,일반 시민,하급,하급·물레 실 모으기,DELIVER,minecraft:string,13,334,5,0
+civilian_1_04,일반 시민,하급,하급·광부 석재 모으기,DELIVER,minecraft:cobblestone,27,401,6,0
+civilian_1_05,일반 시민,하급,하급·지붕 기와 수리,DELIVER,minecraft:brick,17,376,7,0
+civilian_1_06,일반 시민,하급,하급·약초 묶음 수집,DELIVER,minecraft:glow_berries,13,374,5,0
+civilian_1_07,일반 시민,하급,하급·장터 방향 나침반,DELIVER,minecraft:compass,6,267,6,0

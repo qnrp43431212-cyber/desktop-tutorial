@@ -1,0 +1,27 @@
+{
+  "source_version": "0.1.20-residents-arena-alpha",
+  "one_mod_id": "murimlife",
+  "npc_catalog_total_roles": 87,
+  "civilian_professions": 30,
+  "curated_unique_leaders": 15,
+  "curated_unique_faction_members": 330,
+  "legacy_profiles": 96,
+  "additional_nonconflicting_name_bank": 1464,
+  "distinct_ko_names_total": 1905,
+  "arena_nbt_55x55_stair_seat_candidates": 444,
+  "arena_quadrant_counts": [
+    111,
+    111,
+    111,
+    111
+  ],
+  "default_live_crowd": 48,
+  "configurable_max_crowd": 80,
+  "java_files_parsed_syntax_only": 83,
+  "actual_entity_prototype": "minecraft:villager NBT-stored; actual NeoForge compile and Minecraft not tested",
+  "neo_full_build": "NOT TESTED",
+  "in_game_behavior": "NOT TESTED",
+  "distinct_civilian_occupational_AI": "DATA ONLY (roles planned, not distinct AI)",
+  "tournament": "COMMAND-TRIGGERED ALPHA (NOT official timed tournament)",
+  "assertions": "PASS"
+}

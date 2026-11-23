@@ -1,0 +1,262 @@
+id	name	sect	tier	kind	weapon	archetype	impact	damage	innerCost	cooldown	provenance
+art_82b9650deb4e	역근경	소림사	신공	passive		meditation	1.9	0	0	0	genre_compilation
+art_f55699abb699	세수경	소림사	절학	passive		meditation	1.68	0	0	0	genre_compilation
+art_d62ea682e43e	백보신권	소림사	절학	active	gauntlet	hand_strike	1.68	1.48	28	22	genre_compilation
+art_8bcb0a2dd894	나한권	소림사	정통무공	active	gauntlet	hand_strike	1.02	0.97	13	25	genre_compilation
+art_56f78bd422ce	대력금강장	소림사	상승무공	active	gauntlet	hand_strike	1.24	1.14	18	24	genre_compilation
+art_e62565e8abf1	금강불괴신공	소림사	상승무공	passive		meditation	1.24	0	0	0	genre_compilation
+art_5eec9ff6f2b2	용조수	소림사	상승무공	active	claw	hand_strike	1.24	1.14	18	24	genre_compilation
+art_10905004a4c1	사자후	소림사	상승무공	active	gauntlet	hand_strike	1.24	1.14	18	24	genre_compilation
+art_9814e3f0d663	연대구품	소림사	상승무공	active	unarmed	weapon_sweep	1.24	1.14	18	24	genre_compilation
+art_00eb8294ce15	달마검법	소림사	상승무공	active	jian	blade_combo	1.24	1.14	18	24	genre_compilation
+art_56fe87a396c4	나한진	소림사	상승무공	active	gauntlet	hand_strike	1.24	1.14	18	24	genre_compilation
+art_98a3e1cf47f5	태극권	무당파	상승무공	active	gauntlet	hand_strike	1.24	1.14	18	24	genre_compilation
+art_604fbc8fb58f	태극검	무당파	절학	active	jian	blade_combo	1.68	1.48	28	22	genre_compilation
+art_386ae53dc3c6	태극혜검	무당파	신공	active	jian	blade_combo	1.9	1.65	33	21	genre_compilation
+art_b128d02c4cfa	소청검법	무당파	상승무공	active	jian	blade_combo	1.24	1.14	18	24	genre_compilation
+art_7717146d6804	태청검법	무당파	상승무공	active	jian	blade_combo	1.24	1.14	18	24	genre_compilation
+art_cee3c72b527b	면장	무당파	상승무공	active	gauntlet	hand_strike	1.24	1.14	18	24	genre_compilation
+art_6af6a6f93c85	양의공	무당파	상승무공	passive		meditation	1.24	0	0	0	genre_compilation
+art_d6ccc30eb0ff	제운종	무당파	상승무공	active	unarmed	weapon_sweep	1.24	1.14	18	24	genre_compilation
+art_2757a2815126	십단금	무당파	상승무공	active	gauntlet	hand_strike	1.24	1.14	18	24	genre_compilation
+art_9732ed85e458	이십사수매화검법	화산파	절학	active	jian	blade_combo	1.68	1.48	28	22	genre_compilation
+art_201a5230e915	자하신공	화산파	절학	passive		meditation	1.68	0	0	0	genre_compilation
+art_30d7b0977d09	매화검법	화산파	상승무공	active	jian	blade_combo	1.24	1.14	18	24	genre_compilation
+art_446b25762dba	화산검법	화산파	정통무공	active	jian	blade_combo	1.02	0.97	13	25	genre_compilation
+art_bda437dc24b3	표설천운장	아미파	상승무공	active	gauntlet	hand_strike	1.24	1.14	18	24	genre_compilation
+art_7e380e3c9440	절수구식	아미파	상승무공	active	gauntlet	hand_strike	1.24	1.14	18	24	genre_compilation
+art_8586cbb2403e	청풍검법	청성파	정통무공	active	jian	blade_combo	1.02	0.97	13	25	genre_compilation
+art_dd5fd01ce510	송풍검법	청성파	정통무공	active	jian	blade_combo	1.02	0.97	13	25	genre_compilation
+art_42c192c33e7f	능풍검법	청성파	상승무공	active	jian	blade_combo	1.24	1.14	18	24	genre_compilation
+art_bed2e23ef8ef	대라검법	청성파	상승무공	active	jian	blade_combo	1.24	1.14	18	24	genre_compilation
+art_e0596e669711	상청검법	청성파	상승무공	active	jian	blade_combo	1.24	1.14	18	24	genre_compilation
+art_1fe50ab04ac1	칠십이파검	청성파	절학	active	jian	blade_combo	1.68	1.48	28	22	genre_compilation
+art_d56103acd492	청운적하검법	청성파	절학	active	jian	blade_combo	1.68	1.48	28	22	genre_compilation
+art_56a9de2ccc4d	대라산수	청성파	상승무공	active	gauntlet	hand_strike	1.24	1.14	18	24	genre_compilation
+art_2283c6ec4015	사전절광검	청성파	상승무공	active	jian	blade_combo	1.24	1.14	18	24	genre_compilation
+art_102d6bfc0a5a	운저비성	청성파	상승무공	active	throwing_knife	weapon_sweep	1.24	1.14	18	24	genre_compilation
+art_967e8848cd17	운룡대팔식	곤륜파	절학	active	unarmed	weapon_sweep	1.68	1.48	28	22	genre_compilation
+art_23b6f6795aa9	용봉대구식	곤륜파	상승무공	active	unarmed	weapon_sweep	1.24	1.14	18	24	genre_compilation
+art_dd0fd091f365	태허도룡검	곤륜파	상승무공	active	jian	blade_combo	1.24	1.14	18	24	genre_compilation
+art_036c5369ea99	태청검법	곤륜파	상승무공	active	jian	blade_combo	1.24	1.14	18	24	genre_compilation
+art_0268e86389d0	소청검법	곤륜파	상승무공	active	jian	blade_combo	1.24	1.14	18	24	genre_compilation
+art_2183e3572f0b	분광뇌풍검법	곤륜파	상승무공	active	jian	blade_combo	1.24	1.14	18	24	genre_compilation
+art_b97685c3b204	칠보유홍분심검법	곤륜파	상승무공	active	jian	blade_combo	1.24	1.14	18	24	genre_compilation
+art_eb8b5d784646	육양수	곤륜파	상승무공	active	gauntlet	hand_strike	1.24	1.14	18	24	genre_compilation
+art_fc8421858461	용호풍운조	곤륜파	상승무공	active	claw	hand_strike	1.24	1.14	18	24	genre_compilation
+art_e8efff32c5c2	종학금룡수	곤륜파	상승무공	active	gauntlet	hand_strike	1.24	1.14	18	24	genre_compilation
+art_f8b7bff89c4d	태청진기	곤륜파	상승무공	passive		meditation	1.24	0	0	0	genre_compilation
+art_785108b6fec6	미타금강강기	곤륜파	상승무공	active	gauntlet	hand_strike	1.24	1.14	18	24	genre_compilation
+art_a9652804416f	천기신보	곤륜파	상승무공	active	unarmed	weapon_sweep	1.24	1.14	18	24	genre_compilation
+art_1510225da911	복마검법	공동파	절학	active	jian	blade_combo	1.68	1.48	28	22	genre_compilation
+art_85482a0782fd	육합구소신공	공동파	상승무공	passive		meditation	1.24	0	0	0	genre_compilation
+art_eb12b6abfaa0	복마장법	공동파	상승무공	active	gauntlet	hand_strike	1.24	1.14	18	24	genre_compilation
+art_a2e01131a1e4	개천풍운조	공동파	상승무공	active	claw	hand_strike	1.24	1.14	18	24	genre_compilation
+art_e094c93c3192	음풍조	공동파	상승무공	active	claw	hand_strike	1.24	1.14	18	24	genre_compilation
+art_c3119ea0f586	사일검법	점창파	절학	active	jian	blade_combo	1.68	1.48	28	22	genre_compilation
+art_ba775283ae5f	사일검	점창파	상승무공	active	jian	blade_combo	1.24	1.14	18	24	genre_compilation
+art_1c0a8df00580	천하삼십육검	종남파	절학	active	jian	blade_combo	1.68	1.48	28	22	genre_compilation
+art_aa68417dddec	천성검	종남파	상승무공	active	jian	blade_combo	1.24	1.14	18	24	genre_compilation
+art_f00aad0209ad	구상검법	종남파	상승무공	active	jian	blade_combo	1.24	1.14	18	24	genre_compilation
+art_6297b17d9f7a	무극검	종남파	상승무공	active	jian	blade_combo	1.24	1.14	18	24	genre_compilation
+art_a21fccce4b43	천하검	종남파	상승무공	active	jian	blade_combo	1.24	1.14	18	24	genre_compilation
+art_12ee01980eed	유운검법	종남파	상승무공	active	jian	blade_combo	1.24	1.14	18	24	genre_compilation
+art_a631762ffea0	태을무형검	종남파	상승무공	active	jian	blade_combo	1.24	1.14	18	24	genre_compilation
+art_21204f2487e5	태을검	종남파	상승무공	active	jian	blade_combo	1.24	1.14	18	24	genre_compilation
+art_f2c56d7a95fa	은하비성	종남파	상승무공	active	throwing_knife	weapon_sweep	1.24	1.14	18	24	genre_compilation
+art_0866ec1f1459	타구봉법	개방	신공	active	staff	weapon_sweep	1.9	1.65	33	21	genre_compilation
+art_ffb6acdd7499	항룡십팔장	개방	신공	active	gauntlet	hand_strike	1.9	1.65	33	21	genre_compilation
+art_f2ef14691c96	취팔선과천	개방	상승무공	active	unarmed	weapon_sweep	1.24	1.14	18	24	genre_compilation
+art_135716b5fc23	취리건곤보	개방	상승무공	active	unarmed	weapon_sweep	1.24	1.14	18	24	genre_compilation
+art_fad65ce46a6d	창궁무애검	남궁세가	절학	active	jian	blade_combo	1.68	1.48	28	22	genre_compilation
+art_6a5fdab4f679	섬전십삼뢰	남궁세가	상승무공	active	jian	blade_combo	1.24	1.14	18	24	genre_compilation
+art_11f64e7142a7	제왕검형	남궁세가	신공	active	jian	blade_combo	1.9	1.65	33	21	genre_compilation
+art_b6c1aeb75b88	만천화우	사천당문	신공	active	throwing_knife	weapon_sweep	1.9	1.65	33	21	genre_compilation
+art_f688017762b1	폭우이화침	사천당문	절학	active	throwing_knife	weapon_sweep	1.68	1.48	28	22	genre_compilation
+art_1d76bb7ba54b	추뢰신법	사천당문	상승무공	active	unarmed	weapon_sweep	1.24	1.14	18	24	genre_compilation
+art_fe565afe9550	무형지독	사천당문	신공	active	gauntlet	hand_strike	1.9	1.65	33	21	genre_compilation
+art_68fb90f587cf	자모표	사천당문	상승무공	active	throwing_knife	weapon_sweep	1.24	1.14	18	24	genre_compilation
+art_eed18d3b3fa8	천뢰구	사천당문	상승무공	active	throwing_knife	weapon_sweep	1.24	1.14	18	24	genre_compilation
+art_4a5c98d5e24c	오호단문도	하북팽가	상승무공	active	dao	blade_combo	1.24	1.14	18	24	genre_compilation
+art_26bfdf94080e	혼원벽력도	하북팽가	절학	active	dao	blade_combo	1.68	1.48	28	22	genre_compilation
+art_26e6cc3a88c9	두전성이	모용세가	상승무공	active	gauntlet	hand_strike	1.24	1.14	18	24	genre_compilation
+art_a77cddc0ace0	서후천애심결	신녀문	정통무공	passive		meditation	1.02	0	0	0	fan_secondary
+art_051a8b2fc1cf	신녀검결	신녀문	정통무공	active	jian	blade_combo	1.02	0.97	13	25	fan_secondary
+art_f00c458ff244	신녀호수보	신녀문	정통무공	active	unarmed	weapon_sweep	1.02	0.97	13	25	fan_secondary
+art_31fd4fe0ae90	주양세심경	신녀문	신공	passive		meditation	1.9	0	0	0	fan_secondary
+art_f6805f295cec	염희호신검	신녀문	절학	active	jian	blade_combo	1.68	1.48	28	22	fan_secondary
+art_8d66ad3028df	자하검	화산파	신공	active	jian	blade_combo	1.9	1.65	33	21	fan_secondary
+art_fabfc05dde6e	세류표	화산파	상승무공	active	unarmed	weapon_sweep	1.24	1.14	18	24	fan_secondary
+art_9b258f575d42	칠성보	화산파	상승무공	active	unarmed	weapon_sweep	1.24	1.14	18	24	fan_secondary
+art_62742020d288	매화칠절검	화산파	절기	active	jian	blade_combo	1.46	1.31	23	23	fan_secondary
+art_383c7a6f0e05	십사수매화검법	화산파	절기	active	jian	blade_combo	1.46	1.31	23	23	fan_secondary
+art_d5693e15e86d	역근세수경	소림사	신공	passive		meditation	1.9	0	0	0	fan_secondary
+art_2759df3fa2f7	대반야금강불괴신공	소림사	신공	passive		meditation	1.9	0	0	0	fan_secondary
+art_12aff4ca0df0	나한신권	소림사	상승무공	active	gauntlet	hand_strike	1.24	1.14	18	24	fan_secondary
+art_23dda9d7e14a	백련신권	소림사	상승무공	active	gauntlet	hand_strike	1.24	1.14	18	24	fan_secondary
+art_3d88596843b9	여래신장	소림사	신공	active	gauntlet	hand_strike	1.9	1.65	33	21	fan_secondary
+art_bf3432c787e4	탄지신통	소림사	상승무공	active	gauntlet	hand_strike	1.24	1.14	18	24	fan_secondary
+art_629a275e873d	금강지	소림사	상승무공	active	gauntlet	hand_strike	1.24	1.14	18	24	fan_secondary
+art_8ba8f4c2410e	가사복마권	소림사	상승무공	active	gauntlet	hand_strike	1.24	1.14	18	24	fan_secondary
+art_a3cd8514cadb	나한십팔장	소림사	상승무공	active	gauntlet	hand_strike	1.24	1.14	18	24	fan_secondary
+art_d8b39c13fc5e	용상반야호심공	소림사	절학	passive		meditation	1.68	0	0	0	fan_secondary
+art_8303402e352e	무상각	소림사	상승무공	active	gauntlet	hand_strike	1.24	1.14	18	24	fan_secondary
+art_aca92412dbb8	항마연환선퇴	소림사	상승무공	active	gauntlet	hand_strike	1.24	1.14	18	24	fan_secondary
+art_a321396f5aad	철포삼	소림사	상승무공	active	gauntlet	hand_strike	1.24	1.14	18	24	fan_secondary
+art_1455762f7f8d	긴나라왕 곤법	소림사	상승무공	active	staff	weapon_sweep	1.24	1.14	18	24	fan_secondary
+art_6b62ee6d5ac5	아라한신권	소림사	상승무공	active	gauntlet	hand_strike	1.24	1.14	18	24	fan_secondary
+art_d95038551de5	소림용조수	소림사	절학	active	claw	hand_strike	1.68	1.48	28	22	fan_secondary
+art_3e5d583eb691	금강항마저	소림사	상승무공	active	staff	weapon_sweep	1.24	1.14	18	24	fan_secondary
+art_08abe224a5ee	빙백신장	북해빙궁	신공	active	gauntlet	hand_strike	1.9	1.65	33	21	fan_secondary
+art_e3a63b187afb	빙천수라마공	북해빙궁	절기	passive		meditation	1.46	0	0	0	fan_secondary
+art_4209955e4b77	한심공	북해빙궁	정통무공	passive		meditation	1.02	0	0	0	fan_secondary
+art_1880cde8c627	빙령신검	북해빙궁	상승무공	active	jian	blade_combo	1.24	1.14	18	24	fan_secondary
+art_b8fa3cf5180a	쇄빙수	북해빙궁	상승무공	active	gauntlet	hand_strike	1.24	1.14	18	24	fan_secondary
+art_2d81fe2e5881	옥녀한빙장	북해빙궁	상승무공	active	gauntlet	hand_strike	1.24	1.14	18	24	fan_secondary
+art_8bf97901d59b	옥녀현빙	북해빙궁	상승무공	active	gauntlet	hand_strike	1.24	1.14	18	24	fan_secondary
+art_bcb7e5580638	옥녀등설	북해빙궁	상승무공	active	gauntlet	hand_strike	1.24	1.14	18	24	fan_secondary
+art_7b12d204d6b2	천마심공	천마신교	전설급	passive		meditation	2.12	0	0	0	fan_secondary
+art_9220bc9ed8b1	천마지	천마신교	신공	active	gauntlet	hand_strike	1.9	1.65	33	21	fan_secondary
+art_f914767feda3	천마군림보	천마신교	신공	active	unarmed	weapon_sweep	1.9	1.65	33	21	fan_secondary
+art_f52e33a917ed	천마운기식	천마신교	상승무공	passive		meditation	1.24	0	0	0	fan_secondary
+art_d6fc462cd49f	천마기결	천마신교	상승무공	passive		meditation	1.24	0	0	0	fan_secondary
+art_d4e748ff494e	천마혼천기	천마신교	상승무공	passive		meditation	1.24	0	0	0	fan_secondary
+art_42fa17bfe446	천마십삼검	천마신교	상승무공	active	jian	blade_combo	1.24	1.14	18	24	fan_secondary
+art_64709c12066f	천마평정신검	천마신교	상승무공	active	jian	blade_combo	1.24	1.14	18	24	fan_secondary
+art_5724757241b2	천마아수라신검	천마신교	상승무공	active	jian	blade_combo	1.24	1.14	18	24	fan_secondary
+art_01780263c9a5	천마철질마도	천마신교	상승무공	active	dao	blade_combo	1.24	1.14	18	24	fan_secondary
+art_7356330e214e	천마절운도	천마신교	상승무공	active	dao	blade_combo	1.24	1.14	18	24	fan_secondary
+art_c7bd3243e067	천마아수라마도	천마신교	상승무공	active	dao	blade_combo	1.24	1.14	18	24	fan_secondary
+art_aba4fe3634a5	천마사린명창	천마신교	상승무공	active	spear	weapon_sweep	1.24	1.14	18	24	fan_secondary
+art_90dc8d7c92b0	천마육권	천마신교	상승무공	active	gauntlet	hand_strike	1.24	1.14	18	24	fan_secondary
+art_f1656adb7896	천마신권	천마신교	상승무공	active	gauntlet	hand_strike	1.24	1.14	18	24	fan_secondary
+art_4141640b40d7	천마천세장	천마신교	상승무공	active	gauntlet	hand_strike	1.24	1.14	18	24	fan_secondary
+art_e53fda2250af	천마절명수	천마신교	상승무공	active	gauntlet	hand_strike	1.24	1.14	18	24	fan_secondary
+art_4f4b3275660b	천마비행술	천마신교	상승무공	active	unarmed	weapon_sweep	1.24	1.14	18	24	fan_secondary
+art_e229b526202f	자전마공	천마신교	절학	passive		meditation	1.68	0	0	0	fan_secondary
+art_b95614e5518f	풍진보	천마신교	상승무공	active	unarmed	weapon_sweep	1.24	1.14	18	24	fan_secondary
+art_ea1a541cf365	흑영투잠	천마신교	상승무공	active	gauntlet	hand_strike	1.24	1.14	18	24	fan_secondary
+art_e85319b9e34d	천리비행	천마신교	상승무공	active	unarmed	weapon_sweep	1.24	1.14	18	24	fan_secondary
+art_fcaf03c78efc	건곤대나이	천마신교	신공	passive		meditation	1.9	0	0	0	fan_secondary
+art_a59d34712af3	태을신공	종남파	상승무공	passive		meditation	1.24	0	0	0	fan_secondary
+art_8e3b77d96847	은하천강신공	종남파	상승무공	passive		meditation	1.24	0	0	0	fan_secondary
+art_be087615a555	선천공	종남파	상승무공	passive		meditation	1.24	0	0	0	fan_secondary
+art_4ddbe0ea8b67	용형보	곤륜파	상승무공	active	unarmed	weapon_sweep	1.24	1.14	18	24	fan_secondary
+art_893f5befe076	태청무상검	곤륜파	상승무공	active	jian	blade_combo	1.24	1.14	18	24	fan_secondary
+art_5ffe8345750f	태청강기	곤륜파	상승무공	active	gauntlet	hand_strike	1.24	1.14	18	24	fan_secondary
+art_7fe9d256974c	추명도	곤륜파	상승무공	active	dao	blade_combo	1.24	1.14	18	24	fan_secondary
+art_a2b47a1a7819	종학금종수	곤륜파	상승무공	active	gauntlet	hand_strike	1.24	1.14	18	24	fan_secondary
+art_068684da3881	운학장	곤륜파	상승무공	active	gauntlet	hand_strike	1.24	1.14	18	24	fan_secondary
+art_05a680f748b3	낙안권	곤륜파	상승무공	active	gauntlet	hand_strike	1.24	1.14	18	24	fan_secondary
+art_6e3c83b886c1	운룡조	곤륜파	상승무공	active	claw	hand_strike	1.24	1.14	18	24	fan_secondary
+art_dffd991460f2	용무선회각	곤륜파	상승무공	active	gauntlet	hand_strike	1.24	1.14	18	24	fan_secondary
+art_3a98ad86d518	갈미구	곤륜파	상승무공	active	gauntlet	hand_strike	1.24	1.14	18	24	fan_secondary
+art_0de44a843308	상천무상대심결	곤륜파	상승무공	passive		meditation	1.24	0	0	0	fan_secondary
+art_664712813503	분광삼십육검	점창파	상승무공	active	jian	blade_combo	1.24	1.14	18	24	fan_secondary
+art_8a4f540e9343	유운신법	점창파	상승무공	active	unarmed	weapon_sweep	1.24	1.14	18	24	fan_secondary
+art_78fa0fdb1997	건공무양신공	모용세가	상승무공	passive		meditation	1.24	0	0	0	fan_secondary
+art_eb73dc5590d9	신풍귀조	공동파	상승무공	active	claw	hand_strike	1.24	1.14	18	24	fan_secondary
+art_e25aa558a572	경천대성마곤	녹림	절기	active	staff	weapon_sweep	1.46	1.31	23	23	fan_secondary
+art_a4c6d578d939	언가권	진주언가	상승무공	active	gauntlet	hand_strike	1.24	1.14	18	24	fan_secondary
+art_ab740a2f0ed0	생심결	진주언가	상승무공	passive		meditation	1.24	0	0	0	fan_secondary
+art_6bb4b9e31854	무영신수	무영신투 계승	상승무공	active	gauntlet	hand_strike	1.24	1.14	18	24	fan_secondary
+art_9225e702d3b3	유류연련	무영신투 계승	상승무공	active	gauntlet	hand_strike	1.24	1.14	18	24	fan_secondary
+art_99022f0dd8bc	격공순신	무영신투 계승	절학	active	unarmed	weapon_sweep	1.68	1.48	28	22	fan_secondary
+art_8d0368feb4d9	각성신공	무영신투 계승	절학	passive		meditation	1.68	0	0	0	fan_secondary
+art_a7df2c4b43cb	혈마왕신공	마왕도문	상승무공	passive		meditation	1.24	0	0	0	fan_secondary
+art_5b2ebf60a870	혈영뇌전도법	마왕도문	상승무공	active	dao	blade_combo	1.24	1.14	18	24	fan_secondary
+art_2cb9cc35fa34	백팔수라검	수라문	절학	active	jian	blade_combo	1.68	1.48	28	22	fan_secondary
+art_f397aff2b4e1	천해심공	황산파	상승무공	passive		meditation	1.24	0	0	0	fan_secondary
+art_84ac6909732c	탈명도	무이파	상승무공	active	dao	blade_combo	1.24	1.14	18	24	fan_secondary
+art_56f357fdb72f	태음옥녀신공	옥녀궁	상승무공	passive		meditation	1.24	0	0	0	fan_secondary
+art_1abaa0ebfa36	태극무극권	광동진가	절학	active	gauntlet	hand_strike	1.68	1.48	28	22	fan_secondary
+art_7e3d96f78656	월녀검법(진체)	강호·비급	상승무공	active	jian	blade_combo	1.24	1.14	18	24	fan_secondary
+art_5959e5f0c373	월녀심결(진체)	강호·비급	상승무공	passive		meditation	1.24	0	0	0	fan_secondary
+art_a01668a70a58	월녀산보(진체)	강호·비급	상승무공	active	unarmed	weapon_sweep	1.24	1.14	18	24	fan_secondary
+art_83f3cda82fdb	독고구검	강호·비급	전설급	active	jian	blade_combo	2.12	1.82	38	20	fan_secondary
+art_a56350f54d5c	북명신공	강호·비급	전설급	passive		meditation	2.12	0	0	0	fan_secondary
+art_93623d3b3f1f	능파미보	강호·비급	상승무공	active	unarmed	weapon_sweep	1.24	1.14	18	24	fan_secondary
+art_1e46ce3ab2cb	원공권	강호·비급	상승무공	active	gauntlet	hand_strike	1.24	1.14	18	24	fan_secondary
+art_91f3fcc9e107	당랑권	강호·비급	상승무공	active	gauntlet	hand_strike	1.24	1.14	18	24	fan_secondary
+art_f95f57690d19	원앙각	강호·비급	상승무공	active	gauntlet	hand_strike	1.24	1.14	18	24	fan_secondary
+art_43bf57eb038d	단권	강호·비급	상승무공	active	gauntlet	hand_strike	1.24	1.14	18	24	fan_secondary
+art_70600735cac4	유가권술	강호·비급	상승무공	active	gauntlet	hand_strike	1.24	1.14	18	24	fan_secondary
+art_07626dca1ad0	낭아권	강호·비급	상승무공	active	gauntlet	hand_strike	1.24	1.14	18	24	fan_secondary
+art_39604feb7a31	일저삼작	강호·비급	상승무공	active	throwing_knife	weapon_sweep	1.24	1.14	18	24	fan_secondary
+art_9b9891831f2c	육합권	강호·비급	상승무공	active	gauntlet	hand_strike	1.24	1.14	18	24	fan_secondary
+art_d1b8c5dc01de	이화검	강호·비급	상승무공	active	jian	blade_combo	1.24	1.14	18	24	fan_secondary
+art_49261ee317b1	단철검	강호·비급	상승무공	active	jian	blade_combo	1.24	1.14	18	24	fan_secondary
+art_d15f3d934a46	일화검	강호·비급	상승무공	active	jian	blade_combo	1.24	1.14	18	24	fan_secondary
+art_f2601ca16a5e	은살검	강호·비급	상승무공	active	jian	blade_combo	1.24	1.14	18	24	fan_secondary
+art_572a2ed9aceb	참우검	강호·비급	상승무공	active	jian	blade_combo	1.24	1.14	18	24	fan_secondary
+art_44fdea60942f	옥소검형	강호·비급	상승무공	active	jian	blade_combo	1.24	1.14	18	24	fan_secondary
+art_eeabd0da6882	장안검식	강호·비급	상승무공	active	jian	blade_combo	1.24	1.14	18	24	fan_secondary
+art_75bb8b7b31d9	구음진경	기존 자료	전설급	passive		meditation	2.12	0	0	0	research_list
+art_64f854ba03a9	구양신공	기존 자료	전설급	passive		meditation	2.12	0	0	0	research_list
+art_e2a346c7cde6	규화보전	기존 자료	전설급	passive		meditation	2.12	0	0	0	research_list
+art_285014b333a6	흡성대법	기존 자료	신공	passive		meditation	1.9	0	0	0	research_list
+art_d668253d377f	순양무극공	기존 자료	절학	passive		meditation	1.68	0	0	0	research_list
+art_f80bc3941434	소무상공	기존 자료	절학	passive		meditation	1.68	0	0	0	research_list
+art_23d3517db3db	팔황육합유아독존공	기존 자료	신공	passive		meditation	1.9	0	0	0	research_list
+art_bdbe58349588	용상반야공	기존 자료	신공	passive		meditation	1.9	0	0	0	research_list
+art_1b2b2c7eb7b1	천산육양장	기존 자료	절학	active	gauntlet	hand_strike	1.68	1.48	28	22	research_list
+art_9ebd1d5fabbe	암연소혼장	기존 자료	신공	active	gauntlet	hand_strike	1.9	1.65	33	21	research_list
+art_32d5194b71c4	천산절매수	기존 자료	절학	active	gauntlet	hand_strike	1.68	1.48	28	22	research_list
+art_22838e2f59d8	벽공장	기존 자료	상승무공	active	gauntlet	hand_strike	1.24	1.14	18	24	research_list
+art_8bb6ad6534d7	낙영신검장	기존 자료	상승무공	active	gauntlet	hand_strike	1.24	1.14	18	24	research_list
+art_4910718e05cd	철장공	기존 자료	상승무공	active	gauntlet	hand_strike	1.24	1.14	18	24	research_list
+art_462418018605	최심장	기존 자료	절기	active	gauntlet	hand_strike	1.46	1.31	23	23	research_list
+art_81f26e67d442	연화장	기존 자료	정통무공	active	gauntlet	hand_strike	1.02	0.97	13	25	research_list
+art_f9b8108f8a5d	벽파장법	기존 자료	정통무공	active	gauntlet	hand_strike	1.02	0.97	13	25	research_list
+art_38ecbf5c87fc	벽사검법	기존 자료	신공	active	jian	blade_combo	1.9	1.65	33	21	research_list
+art_2f94138011ac	금사검법	기존 자료	절학	active	jian	blade_combo	1.68	1.48	28	22	research_list
+art_4c02cc981d41	옥녀검법	기존 자료	상승무공	active	jian	blade_combo	1.24	1.14	18	24	research_list
+art_9a31209bba40	옥녀소심검	기존 자료	절학	active	jian	blade_combo	1.68	1.48	28	22	research_list
+art_f4456a63b860	전진검법	기존 자료	정통무공	active	jian	blade_combo	1.02	0.97	13	25	research_list
+art_00f6f3c86105	옥소검법	기존 자료	상승무공	active	jian	blade_combo	1.24	1.14	18	24	research_list
+art_99fa67c1f293	월녀검법	기존 자료	절학	active	jian	blade_combo	1.68	1.48	28	22	research_list
+art_3c779e79f883	유운검술	기존 자료	정통무공	active	jian	blade_combo	1.02	0.97	13	25	research_list
+art_a8abfb65cba7	영사장법	기존 자료	상승무공	active	staff	weapon_sweep	1.24	1.14	18	24	research_list
+art_e3b725f0f8b4	공명권	기존 자료	절학	active	gauntlet	hand_strike	1.68	1.48	28	22	research_list
+art_91345e9da7cd	칠상권	기존 자료	절학	active	gauntlet	hand_strike	1.68	1.48	28	22	research_list
+art_a129bd51fcf0	취권	기존 자료	정통무공	active	gauntlet	hand_strike	1.02	0.97	13	25	research_list
+art_a39fa0f53b1e	육맥신검	기존 자료	전설급	active	jian	blade_combo	2.12	1.82	38	20	research_list
+art_a68277e012ed	일양지	기존 자료	절학	active	gauntlet	hand_strike	1.68	1.48	28	22	research_list
+art_cc2b515842bf	구음백골조	기존 자료	절학	active	claw	hand_strike	1.68	1.48	28	22	research_list
+art_b768348d645f	염화지	기존 자료	상승무공	active	gauntlet	hand_strike	1.24	1.14	18	24	research_list
+art_e84ceb6cfdd3	금안공	기존 자료	상승무공	active	unarmed	weapon_sweep	1.24	1.14	18	24	research_list
+art_09f835872a81	수상표	기존 자료	상승무공	active	unarmed	weapon_sweep	1.24	1.14	18	24	research_list
+art_544b13604e4f	벽호유장공	기존 자료	정통무공	active	unarmed	weapon_sweep	1.02	0.97	13	25	research_list
+art_b8323697f497	천강북두진	기존 자료	절학	active	gauntlet	hand_strike	1.68	1.48	28	22	research_list
+art_a764f1ca6dcc	나한대진	기존 자료	상승무공	active	gauntlet	hand_strike	1.24	1.14	18	24	research_list
+art_5d7a175b1e90	생사부	기존 자료	신공	active	throwing_knife	weapon_sweep	1.9	1.65	33	21	research_list
+art_b4d2e2fa39a5	화공대법	기존 자료	절학	active	gauntlet	hand_strike	1.68	1.48	28	22	research_list
+art_992d15d2c577	오독신장	기존 자료	절학	active	gauntlet	hand_strike	1.68	1.48	28	22	research_list
+art_39ca5e1327f5	벽해조생곡	기존 자료	절학	active	claw	hand_strike	1.68	1.48	28	22	research_list
+art_31e67d336919	합마공	기존 자료	절학	passive		meditation	1.68	0	0	0	research_list
+art_0489b2c2165c	명옥공	기존 자료	신공	passive		meditation	1.9	0	0	0	research_list
+art_2ecd4b7fd6ce	가의신공	기존 자료	신공	passive		meditation	1.9	0	0	0	research_list
+art_c2d6c55bbf11	이화접옥	기존 자료	절학	active	gauntlet	hand_strike	1.68	1.48	28	22	research_list
+art_479dd98cb8f1	소이비도	기존 자료	전설급	active	throwing_knife	weapon_sweep	2.12	1.82	38	20	research_list
+art_6dd73ec19aa7	탈명십삼검	기존 자료	신공	active	jian	blade_combo	1.9	1.65	33	21	research_list
+art_48cbef840187	자하강기	기존 자료	신공	passive		meditation	1.9	0	0	0	research_list
+art_9013e6cba7c1	관일창법	기존 자료	상승무공	active	spear	weapon_sweep	1.24	1.14	18	24	research_list
+art_28a47582a8b2	환영팔괘보	기존 자료	절학	active	unarmed	weapon_sweep	1.68	1.48	28	22	research_list
+art_ff45ac53e6cd	수라살권	기존 자료	신공	active	gauntlet	hand_strike	1.9	1.65	33	21	research_list
+art_723402248102	천면수	기존 자료	절기	active	gauntlet	hand_strike	1.46	1.31	23	23	research_list
+art_413c4018915e	고루마공	기존 자료	절학	passive		meditation	1.68	0	0	0	research_list
+art_a23b00aff165	흡정마공	기존 자료	신공	passive		meditation	1.9	0	0	0	research_list
+art_400d9cceb97b	흑살마장	천마신교	절학	active	unarmed	martial_generic	1.7	1.3	20	22	secondary_fan_reference
+art_1278ccbc01a3	천마신공	천마신교	신공	passive		martial_generic	1.7	1.3	20	22	genre_convention
+art_9bd544af20db	천마신법	천마신교	절학	passive		martial_generic	1.7	1.3	20	22	genre_convention
+art_26753150af38	천마검법	천마신교	절학	active	sword	martial_generic	1.7	1.3	20	22	genre_convention
+art_d4bf5c06726d	천마강기	천마신교	신공	passive		martial_generic	1.7	1.3	20	22	genre_convention
+art_a64ce952dcfe	천마권법	천마신교	절학	active	unarmed	martial_generic	1.7	1.3	20	22	genre_convention
+art_9d5dc2b831e6	역천혈류대법	혈교	절학	passive		martial_generic	1.7	1.3	20	22	secondary_fan_reference
+art_4544a48f701c	혈영신공	혈교	신공	passive		martial_generic	1.7	1.3	20	22	genre_convention
+art_3282835987cd	흡혈공	혈교	절학	passive		martial_generic	1.7	1.3	20	22	genre_convention
+art_946cc83b042f	혈마수	혈교	절학	active	unarmed	martial_generic	1.7	1.3	20	22	genre_convention
+art_f18c6c31f028	혈마신공	혈교	신공	passive		martial_generic	1.7	1.3	20	22	genre_convention
+art_79d2c614dfdc	혈강시술	혈교	절학	passive		martial_generic	1.7	1.3	20	22	genre_convention
+art_28e664af6daa	혈무도법	혈교	상승무공	active	saber	martial_generic	1.7	1.3	20	22	original_game_design
+art_c101e8427fe8	적영보	혈교	상승무공	passive		martial_generic	1.7	1.3	20	22	original_game_design

@@ -1,0 +1,15 @@
+{
+  "name": "murimlife_arch:natural/hamlet_start",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "murimlife_arch:natural/hamlet_hub",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    }
+  ]
+}

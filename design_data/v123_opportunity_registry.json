@@ -1,0 +1,111 @@
+{
+  "version": "v1.23",
+  "generation_mode": "deterministic_player_proximity_assembled_on_loaded_chunks",
+  "default_enabled": true,
+  "cave_types": 6,
+  "ruin_types": 6,
+  "notes": [
+    "No new chunks are force-loaded",
+    "Pre-placement occupancy survey protects non-natural construction blocks",
+    "Natural stone/dirt placed by players is indistinguishable from natural blocks; backup recommended",
+    "Merchant information about undiscovered/not-generated structures is not a confirmed coordinate"
+  ],
+  "types": [
+    {
+      "id": "jade_marrow_grotto",
+      "display_name_ko": "옥수 동굴",
+      "group": "cave",
+      "trap": "거미줄 진법",
+      "planned_relic": "옥수의 결정, 비급 파편",
+      "guardian": "봉인 수호자"
+    },
+    {
+      "id": "forgotten_sword_tomb",
+      "display_name_ko": "망각된 검총",
+      "group": "cave",
+      "trap": "용암석 발판",
+      "planned_relic": "녹슨 명검, 강철",
+      "guardian": "봉인 수호자"
+    },
+    {
+      "id": "poison_herb_cavern",
+      "display_name_ko": "독초 암굴",
+      "group": "cave",
+      "trap": "독분, 독초 덤불",
+      "planned_relic": "약재, 금단",
+      "guardian": "봉인 수호자"
+    },
+    {
+      "id": "frozen_meditation_den",
+      "display_name_ko": "한빙 수련굴",
+      "group": "cave",
+      "trap": "얼음 감속진, 가루눈",
+      "planned_relic": "한빙 내공의 흔적",
+      "guardian": "봉인 수호자"
+    },
+    {
+      "id": "sealed_demon_chamber",
+      "display_name_ko": "봉마 석실",
+      "group": "cave",
+      "trap": "암흑 환영진, 용암석",
+      "planned_relic": "봉인된 유물",
+      "guardian": "봉인 수호자"
+    },
+    {
+      "id": "underground_miner_vault",
+      "display_name_ko": "암맥 비고",
+      "group": "cave",
+      "trap": "기관노, 자극성 발판",
+      "planned_relic": "광석, 재물",
+      "guardian": "봉인 수호자"
+    },
+    {
+      "id": "collapsed_shrine",
+      "display_name_ko": "무너진 산신묘",
+      "group": "ruin",
+      "trap": "용암석 발판",
+      "planned_relic": "금은 보물",
+      "guardian": "도굴꾼"
+    },
+    {
+      "id": "abandoned_sword_pavilion",
+      "display_name_ko": "폐검각",
+      "group": "ruin",
+      "trap": "암흑 환영진",
+      "planned_relic": "고검과 비급",
+      "guardian": "도굴꾼"
+    },
+    {
+      "id": "ruined_herbal_clinic",
+      "display_name_ko": "폐약방",
+      "group": "ruin",
+      "trap": "독초, 독분",
+      "planned_relic": "약재와 서적",
+      "guardian": "도굴꾼"
+    },
+    {
+      "id": "ancient_duel_arena",
+      "display_name_ko": "옛 비무장",
+      "group": "ruin",
+      "trap": "기관노, 매복",
+      "planned_relic": "비무 기록과 재물",
+      "guardian": "도굴꾼"
+    },
+    {
+      "id": "forsaken_watchpost",
+      "display_name_ko": "버려진 봉화대",
+      "group": "ruin",
+      "trap": "거미줄 함정",
+      "planned_relic": "보급품과 금은",
+      "guardian": "도굴꾼"
+    },
+    {
+      "id": "looted_caravan_inn",
+      "display_name_ko": "약탈된 객잔",
+      "group": "ruin",
+      "trap": "빙설 함정, 가루눈",
+      "planned_relic": "상단의 잔여 재화",
+      "guardian": "도굴꾼"
+    }
+  ]
+}

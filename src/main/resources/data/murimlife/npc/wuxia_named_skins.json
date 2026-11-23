@@ -1,0 +1,2775 @@
+{
+  "named_count": 346,
+  "entries": [
+    {
+      "key": "leader:shaolin",
+      "name_ko": "현진",
+      "faction": "shaolin",
+      "role": "abbot",
+      "skin": 0,
+      "texture": "murimlife:textures/entity/wuxia/skin_000.png"
+    },
+    {
+      "key": "leader:wudang",
+      "name_ko": "청허",
+      "faction": "wudang",
+      "role": "sect_leader",
+      "skin": 1,
+      "texture": "murimlife:textures/entity/wuxia/skin_001.png"
+    },
+    {
+      "key": "leader:huashan",
+      "name_ko": "매은",
+      "faction": "huashan",
+      "role": "sect_leader",
+      "skin": 2,
+      "texture": "murimlife:textures/entity/wuxia/skin_002.png"
+    },
+    {
+      "key": "leader:qingcheng",
+      "name_ko": "도윤",
+      "faction": "qingcheng",
+      "role": "sect_leader",
+      "skin": 3,
+      "texture": "murimlife:textures/entity/wuxia/skin_003.png"
+    },
+    {
+      "key": "leader:kunlun",
+      "name_ko": "서연풍",
+      "faction": "kunlun",
+      "role": "sect_leader",
+      "skin": 4,
+      "texture": "murimlife:textures/entity/wuxia/skin_004.png"
+    },
+    {
+      "key": "leader:emei",
+      "name_ko": "정소월",
+      "faction": "emei",
+      "role": "sect_leader",
+      "skin": 5,
+      "texture": "murimlife:textures/entity/wuxia/skin_005.png"
+    },
+    {
+      "key": "leader:zhongnan",
+      "name_ko": "유천목",
+      "faction": "zhongnan",
+      "role": "sect_leader",
+      "skin": 6,
+      "texture": "murimlife:textures/entity/wuxia/skin_006.png"
+    },
+    {
+      "key": "leader:kongtong",
+      "name_ko": "위장산",
+      "faction": "kongtong",
+      "role": "sect_leader",
+      "skin": 7,
+      "texture": "murimlife:textures/entity/wuxia/skin_007.png"
+    },
+    {
+      "key": "leader:diancang",
+      "name_ko": "백운소",
+      "faction": "diancang",
+      "role": "sect_leader",
+      "skin": 8,
+      "texture": "murimlife:textures/entity/wuxia/skin_008.png"
+    },
+    {
+      "key": "leader:gaibang",
+      "name_ko": "홍귀철",
+      "faction": "gaibang",
+      "role": "bangju",
+      "skin": 9,
+      "texture": "murimlife:textures/entity/wuxia/skin_009.png"
+    },
+    {
+      "key": "leader:namgung",
+      "name_ko": "남궁태현",
+      "faction": "namgung",
+      "role": "clan_head",
+      "skin": 10,
+      "texture": "murimlife:textures/entity/wuxia/skin_010.png"
+    },
+    {
+      "key": "leader:tangmun",
+      "name_ko": "당연휘",
+      "faction": "tangmun",
+      "role": "clan_head",
+      "skin": 11,
+      "texture": "murimlife:textures/entity/wuxia/skin_011.png"
+    },
+    {
+      "key": "leader:paengga",
+      "name_ko": "팽진호",
+      "faction": "paengga",
+      "role": "clan_head",
+      "skin": 12,
+      "texture": "murimlife:textures/entity/wuxia/skin_012.png"
+    },
+    {
+      "key": "leader:jegal",
+      "name_ko": "제갈명헌",
+      "faction": "jegal",
+      "role": "clan_head",
+      "skin": 13,
+      "texture": "murimlife:textures/entity/wuxia/skin_013.png"
+    },
+    {
+      "key": "leader:mourong",
+      "name_ko": "모용서린",
+      "faction": "mourong",
+      "role": "clan_head",
+      "skin": 14,
+      "texture": "murimlife:textures/entity/wuxia/skin_014.png"
+    },
+    {
+      "key": "sado:leader",
+      "name_ko": "독고천악",
+      "faction": "sado",
+      "role": "sado_leader",
+      "skin": 15,
+      "texture": "murimlife:textures/entity/wuxia/skin_015.png"
+    },
+    {
+      "key": "shaolin:member:01",
+      "name_ko": "심준걸",
+      "faction": "shaolin",
+      "role": "sect_elder",
+      "skin": 16,
+      "texture": "murimlife:textures/entity/wuxia/skin_016.png"
+    },
+    {
+      "key": "shaolin:member:02",
+      "name_ko": "박다현",
+      "faction": "shaolin",
+      "role": "sect_instructor",
+      "skin": 17,
+      "texture": "murimlife:textures/entity/wuxia/skin_017.png"
+    },
+    {
+      "key": "shaolin:member:03",
+      "name_ko": "서청풍",
+      "faction": "shaolin",
+      "role": "direct_disciple",
+      "skin": 18,
+      "texture": "murimlife:textures/entity/wuxia/skin_018.png"
+    },
+    {
+      "key": "shaolin:member:04",
+      "name_ko": "장한결",
+      "faction": "shaolin",
+      "role": "inner_disciple",
+      "skin": 19,
+      "texture": "murimlife:textures/entity/wuxia/skin_019.png"
+    },
+    {
+      "key": "shaolin:member:05",
+      "name_ko": "풍소매",
+      "faction": "shaolin",
+      "role": "inner_disciple",
+      "skin": 20,
+      "texture": "murimlife:textures/entity/wuxia/skin_020.png"
+    },
+    {
+      "key": "shaolin:member:06",
+      "name_ko": "이하린",
+      "faction": "shaolin",
+      "role": "outer_disciple",
+      "skin": 21,
+      "texture": "murimlife:textures/entity/wuxia/skin_021.png"
+    },
+    {
+      "key": "shaolin:member:07",
+      "name_ko": "엽정월",
+      "faction": "shaolin",
+      "role": "outer_disciple",
+      "skin": 22,
+      "texture": "murimlife:textures/entity/wuxia/skin_022.png"
+    },
+    {
+      "key": "shaolin:member:08",
+      "name_ko": "윤하윤",
+      "faction": "shaolin",
+      "role": "outer_disciple",
+      "skin": 23,
+      "texture": "murimlife:textures/entity/wuxia/skin_023.png"
+    },
+    {
+      "key": "shaolin:member:09",
+      "name_ko": "손설란",
+      "faction": "shaolin",
+      "role": "outer_disciple",
+      "skin": 24,
+      "texture": "murimlife:textures/entity/wuxia/skin_024.png"
+    },
+    {
+      "key": "shaolin:member:10",
+      "name_ko": "한하온",
+      "faction": "shaolin",
+      "role": "sect_gatekeeper",
+      "skin": 25,
+      "texture": "murimlife:textures/entity/wuxia/skin_025.png"
+    },
+    {
+      "key": "shaolin:member:11",
+      "name_ko": "한정월",
+      "faction": "shaolin",
+      "role": "sect_patrol",
+      "skin": 26,
+      "texture": "murimlife:textures/entity/wuxia/skin_026.png"
+    },
+    {
+      "key": "shaolin:member:12",
+      "name_ko": "황서하",
+      "faction": "shaolin",
+      "role": "sect_patrol",
+      "skin": 27,
+      "texture": "murimlife:textures/entity/wuxia/skin_027.png"
+    },
+    {
+      "key": "shaolin:member:13",
+      "name_ko": "고아금",
+      "faction": "shaolin",
+      "role": "library_keeper",
+      "skin": 28,
+      "texture": "murimlife:textures/entity/wuxia/skin_028.png"
+    },
+    {
+      "key": "shaolin:member:14",
+      "name_ko": "한태윤",
+      "faction": "shaolin",
+      "role": "sect_healer",
+      "skin": 29,
+      "texture": "murimlife:textures/entity/wuxia/skin_029.png"
+    },
+    {
+      "key": "shaolin:member:15",
+      "name_ko": "황원호",
+      "faction": "shaolin",
+      "role": "sect_alchemist",
+      "skin": 30,
+      "texture": "murimlife:textures/entity/wuxia/skin_030.png"
+    },
+    {
+      "key": "shaolin:member:16",
+      "name_ko": "정이안",
+      "faction": "shaolin",
+      "role": "recruitment_examiner",
+      "skin": 31,
+      "texture": "murimlife:textures/entity/wuxia/skin_031.png"
+    },
+    {
+      "key": "shaolin:member:17",
+      "name_ko": "양경호",
+      "faction": "shaolin",
+      "role": "sect_servant",
+      "skin": 32,
+      "texture": "murimlife:textures/entity/wuxia/skin_032.png"
+    },
+    {
+      "key": "shaolin:member:18",
+      "name_ko": "임라온",
+      "faction": "shaolin",
+      "role": "sect_servant",
+      "skin": 33,
+      "texture": "murimlife:textures/entity/wuxia/skin_033.png"
+    },
+    {
+      "key": "shaolin:member:19",
+      "name_ko": "심아운",
+      "faction": "shaolin",
+      "role": "sect_servant",
+      "skin": 34,
+      "texture": "murimlife:textures/entity/wuxia/skin_034.png"
+    },
+    {
+      "key": "shaolin:member:20",
+      "name_ko": "정태윤",
+      "faction": "shaolin",
+      "role": "outer_disciple",
+      "skin": 35,
+      "texture": "murimlife:textures/entity/wuxia/skin_035.png"
+    },
+    {
+      "key": "shaolin:member:21",
+      "name_ko": "두덕원",
+      "faction": "shaolin",
+      "role": "inner_disciple",
+      "skin": 36,
+      "texture": "murimlife:textures/entity/wuxia/skin_036.png"
+    },
+    {
+      "key": "shaolin:member:22",
+      "name_ko": "최유빈",
+      "faction": "shaolin",
+      "role": "sect_patrol",
+      "skin": 37,
+      "texture": "murimlife:textures/entity/wuxia/skin_037.png"
+    },
+    {
+      "key": "wudang:member:01",
+      "name_ko": "장운해",
+      "faction": "wudang",
+      "role": "sect_elder",
+      "skin": 38,
+      "texture": "murimlife:textures/entity/wuxia/skin_038.png"
+    },
+    {
+      "key": "wudang:member:02",
+      "name_ko": "최시온",
+      "faction": "wudang",
+      "role": "sect_instructor",
+      "skin": 39,
+      "texture": "murimlife:textures/entity/wuxia/skin_039.png"
+    },
+    {
+      "key": "wudang:member:03",
+      "name_ko": "곽청하",
+      "faction": "wudang",
+      "role": "direct_disciple",
+      "skin": 40,
+      "texture": "murimlife:textures/entity/wuxia/skin_040.png"
+    },
+    {
+      "key": "wudang:member:04",
+      "name_ko": "권예린",
+      "faction": "wudang",
+      "role": "inner_disciple",
+      "skin": 41,
+      "texture": "murimlife:textures/entity/wuxia/skin_041.png"
+    },
+    {
+      "key": "wudang:member:05",
+      "name_ko": "고춘효",
+      "faction": "wudang",
+      "role": "inner_disciple",
+      "skin": 42,
+      "texture": "murimlife:textures/entity/wuxia/skin_042.png"
+    },
+    {
+      "key": "wudang:member:06",
+      "name_ko": "윤다현",
+      "faction": "wudang",
+      "role": "outer_disciple",
+      "skin": 43,
+      "texture": "murimlife:textures/entity/wuxia/skin_043.png"
+    },
+    {
+      "key": "wudang:member:07",
+      "name_ko": "두경천",
+      "faction": "wudang",
+      "role": "outer_disciple",
+      "skin": 44,
+      "texture": "murimlife:textures/entity/wuxia/skin_044.png"
+    },
+    {
+      "key": "wudang:member:08",
+      "name_ko": "한윤서",
+      "faction": "wudang",
+      "role": "outer_disciple",
+      "skin": 45,
+      "texture": "murimlife:textures/entity/wuxia/skin_045.png"
+    },
+    {
+      "key": "wudang:member:09",
+      "name_ko": "고모청",
+      "faction": "wudang",
+      "role": "outer_disciple",
+      "skin": 46,
+      "texture": "murimlife:textures/entity/wuxia/skin_046.png"
+    },
+    {
+      "key": "wudang:member:10",
+      "name_ko": "황소이",
+      "faction": "wudang",
+      "role": "sect_gatekeeper",
+      "skin": 47,
+      "texture": "murimlife:textures/entity/wuxia/skin_047.png"
+    },
+    {
+      "key": "wudang:member:11",
+      "name_ko": "양아운",
+      "faction": "wudang",
+      "role": "sect_patrol",
+      "skin": 48,
+      "texture": "murimlife:textures/entity/wuxia/skin_048.png"
+    },
+    {
+      "key": "wudang:member:12",
+      "name_ko": "권이안",
+      "faction": "wudang",
+      "role": "sect_patrol",
+      "skin": 49,
+      "texture": "murimlife:textures/entity/wuxia/skin_049.png"
+    },
+    {
+      "key": "wudang:member:13",
+      "name_ko": "이유가",
+      "faction": "wudang",
+      "role": "library_keeper",
+      "skin": 50,
+      "texture": "murimlife:textures/entity/wuxia/skin_050.png"
+    },
+    {
+      "key": "wudang:member:14",
+      "name_ko": "조연우",
+      "faction": "wudang",
+      "role": "sect_healer",
+      "skin": 51,
+      "texture": "murimlife:textures/entity/wuxia/skin_051.png"
+    },
+    {
+      "key": "wudang:member:15",
+      "name_ko": "왕준희",
+      "faction": "wudang",
+      "role": "sect_alchemist",
+      "skin": 52,
+      "texture": "murimlife:textures/entity/wuxia/skin_052.png"
+    },
+    {
+      "key": "wudang:member:16",
+      "name_ko": "최예나",
+      "faction": "wudang",
+      "role": "recruitment_examiner",
+      "skin": 53,
+      "texture": "murimlife:textures/entity/wuxia/skin_053.png"
+    },
+    {
+      "key": "wudang:member:17",
+      "name_ko": "양옥청",
+      "faction": "wudang",
+      "role": "sect_servant",
+      "skin": 54,
+      "texture": "murimlife:textures/entity/wuxia/skin_054.png"
+    },
+    {
+      "key": "wudang:member:18",
+      "name_ko": "황서린",
+      "faction": "wudang",
+      "role": "sect_servant",
+      "skin": 55,
+      "texture": "murimlife:textures/entity/wuxia/skin_055.png"
+    },
+    {
+      "key": "wudang:member:19",
+      "name_ko": "고정의",
+      "faction": "wudang",
+      "role": "sect_servant",
+      "skin": 56,
+      "texture": "murimlife:textures/entity/wuxia/skin_056.png"
+    },
+    {
+      "key": "wudang:member:20",
+      "name_ko": "오재민",
+      "faction": "wudang",
+      "role": "outer_disciple",
+      "skin": 57,
+      "texture": "murimlife:textures/entity/wuxia/skin_057.png"
+    },
+    {
+      "key": "wudang:member:21",
+      "name_ko": "심성하",
+      "faction": "wudang",
+      "role": "inner_disciple",
+      "skin": 58,
+      "texture": "murimlife:textures/entity/wuxia/skin_058.png"
+    },
+    {
+      "key": "wudang:member:22",
+      "name_ko": "권유빈",
+      "faction": "wudang",
+      "role": "sect_patrol",
+      "skin": 59,
+      "texture": "murimlife:textures/entity/wuxia/skin_059.png"
+    },
+    {
+      "key": "huashan:member:01",
+      "name_ko": "주굉의",
+      "faction": "huashan",
+      "role": "sect_elder",
+      "skin": 60,
+      "texture": "murimlife:textures/entity/wuxia/skin_060.png"
+    },
+    {
+      "key": "huashan:member:02",
+      "name_ko": "신한결",
+      "faction": "huashan",
+      "role": "sect_instructor",
+      "skin": 61,
+      "texture": "murimlife:textures/entity/wuxia/skin_061.png"
+    },
+    {
+      "key": "huashan:member:03",
+      "name_ko": "고장풍",
+      "faction": "huashan",
+      "role": "direct_disciple",
+      "skin": 62,
+      "texture": "murimlife:textures/entity/wuxia/skin_062.png"
+    },
+    {
+      "key": "huashan:member:04",
+      "name_ko": "오지안",
+      "faction": "huashan",
+      "role": "inner_disciple",
+      "skin": 63,
+      "texture": "murimlife:textures/entity/wuxia/skin_063.png"
+    },
+    {
+      "key": "huashan:member:05",
+      "name_ko": "고신희",
+      "faction": "huashan",
+      "role": "inner_disciple",
+      "skin": 64,
+      "texture": "murimlife:textures/entity/wuxia/skin_064.png"
+    },
+    {
+      "key": "huashan:member:06",
+      "name_ko": "장다현",
+      "faction": "huashan",
+      "role": "outer_disciple",
+      "skin": 65,
+      "texture": "murimlife:textures/entity/wuxia/skin_065.png"
+    },
+    {
+      "key": "huashan:member:07",
+      "name_ko": "양수련",
+      "faction": "huashan",
+      "role": "outer_disciple",
+      "skin": 66,
+      "texture": "murimlife:textures/entity/wuxia/skin_066.png"
+    },
+    {
+      "key": "huashan:member:08",
+      "name_ko": "윤도윤",
+      "faction": "huashan",
+      "role": "outer_disciple",
+      "skin": 67,
+      "texture": "murimlife:textures/entity/wuxia/skin_067.png"
+    },
+    {
+      "key": "huashan:member:09",
+      "name_ko": "엽청풍",
+      "faction": "huashan",
+      "role": "outer_disciple",
+      "skin": 68,
+      "texture": "murimlife:textures/entity/wuxia/skin_068.png"
+    },
+    {
+      "key": "huashan:member:10",
+      "name_ko": "류아린",
+      "faction": "huashan",
+      "role": "sect_gatekeeper",
+      "skin": 69,
+      "texture": "murimlife:textures/entity/wuxia/skin_069.png"
+    },
+    {
+      "key": "huashan:member:11",
+      "name_ko": "오여연",
+      "faction": "huashan",
+      "role": "sect_patrol",
+      "skin": 70,
+      "texture": "murimlife:textures/entity/wuxia/skin_070.png"
+    },
+    {
+      "key": "huashan:member:12",
+      "name_ko": "강연우",
+      "faction": "huashan",
+      "role": "sect_patrol",
+      "skin": 71,
+      "texture": "murimlife:textures/entity/wuxia/skin_071.png"
+    },
+    {
+      "key": "huashan:member:13",
+      "name_ko": "고명소",
+      "faction": "huashan",
+      "role": "library_keeper",
+      "skin": 72,
+      "texture": "murimlife:textures/entity/wuxia/skin_072.png"
+    },
+    {
+      "key": "huashan:member:14",
+      "name_ko": "백세아",
+      "faction": "huashan",
+      "role": "sect_healer",
+      "skin": 73,
+      "texture": "murimlife:textures/entity/wuxia/skin_073.png"
+    },
+    {
+      "key": "huashan:member:15",
+      "name_ko": "엽수련",
+      "faction": "huashan",
+      "role": "sect_alchemist",
+      "skin": 74,
+      "texture": "murimlife:textures/entity/wuxia/skin_074.png"
+    },
+    {
+      "key": "huashan:member:16",
+      "name_ko": "강하온",
+      "faction": "huashan",
+      "role": "recruitment_examiner",
+      "skin": 75,
+      "texture": "murimlife:textures/entity/wuxia/skin_075.png"
+    },
+    {
+      "key": "huashan:member:17",
+      "name_ko": "곽완아",
+      "faction": "huashan",
+      "role": "sect_servant",
+      "skin": 76,
+      "texture": "murimlife:textures/entity/wuxia/skin_076.png"
+    },
+    {
+      "key": "huashan:member:18",
+      "name_ko": "류하린",
+      "faction": "huashan",
+      "role": "sect_servant",
+      "skin": 77,
+      "texture": "murimlife:textures/entity/wuxia/skin_077.png"
+    },
+    {
+      "key": "huashan:member:19",
+      "name_ko": "허완아",
+      "faction": "huashan",
+      "role": "sect_servant",
+      "skin": 78,
+      "texture": "murimlife:textures/entity/wuxia/skin_078.png"
+    },
+    {
+      "key": "huashan:member:20",
+      "name_ko": "권태오",
+      "faction": "huashan",
+      "role": "outer_disciple",
+      "skin": 79,
+      "texture": "murimlife:textures/entity/wuxia/skin_079.png"
+    },
+    {
+      "key": "huashan:member:21",
+      "name_ko": "진추상",
+      "faction": "huashan",
+      "role": "inner_disciple",
+      "skin": 80,
+      "texture": "murimlife:textures/entity/wuxia/skin_080.png"
+    },
+    {
+      "key": "huashan:member:22",
+      "name_ko": "임시온",
+      "faction": "huashan",
+      "role": "sect_patrol",
+      "skin": 81,
+      "texture": "murimlife:textures/entity/wuxia/skin_081.png"
+    },
+    {
+      "key": "qingcheng:member:01",
+      "name_ko": "진지란",
+      "faction": "qingcheng",
+      "role": "sect_elder",
+      "skin": 82,
+      "texture": "murimlife:textures/entity/wuxia/skin_082.png"
+    },
+    {
+      "key": "qingcheng:member:02",
+      "name_ko": "류다현",
+      "faction": "qingcheng",
+      "role": "sect_instructor",
+      "skin": 83,
+      "texture": "murimlife:textures/entity/wuxia/skin_083.png"
+    },
+    {
+      "key": "qingcheng:member:03",
+      "name_ko": "곽아운",
+      "faction": "qingcheng",
+      "role": "direct_disciple",
+      "skin": 84,
+      "texture": "murimlife:textures/entity/wuxia/skin_084.png"
+    },
+    {
+      "key": "qingcheng:member:04",
+      "name_ko": "이아린",
+      "faction": "qingcheng",
+      "role": "inner_disciple",
+      "skin": 85,
+      "texture": "murimlife:textures/entity/wuxia/skin_085.png"
+    },
+    {
+      "key": "qingcheng:member:05",
+      "name_ko": "황중문",
+      "faction": "qingcheng",
+      "role": "inner_disciple",
+      "skin": 86,
+      "texture": "murimlife:textures/entity/wuxia/skin_086.png"
+    },
+    {
+      "key": "qingcheng:member:06",
+      "name_ko": "오민서",
+      "faction": "qingcheng",
+      "role": "outer_disciple",
+      "skin": 87,
+      "texture": "murimlife:textures/entity/wuxia/skin_087.png"
+    },
+    {
+      "key": "qingcheng:member:07",
+      "name_ko": "진춘효",
+      "faction": "qingcheng",
+      "role": "outer_disciple",
+      "skin": 88,
+      "texture": "murimlife:textures/entity/wuxia/skin_088.png"
+    },
+    {
+      "key": "qingcheng:member:08",
+      "name_ko": "강시온",
+      "faction": "qingcheng",
+      "role": "outer_disciple",
+      "skin": 89,
+      "texture": "murimlife:textures/entity/wuxia/skin_089.png"
+    },
+    {
+      "key": "qingcheng:member:09",
+      "name_ko": "왕청풍",
+      "faction": "qingcheng",
+      "role": "outer_disciple",
+      "skin": 90,
+      "texture": "murimlife:textures/entity/wuxia/skin_090.png"
+    },
+    {
+      "key": "qingcheng:member:10",
+      "name_ko": "오서윤",
+      "faction": "qingcheng",
+      "role": "sect_gatekeeper",
+      "skin": 91,
+      "texture": "murimlife:textures/entity/wuxia/skin_091.png"
+    },
+    {
+      "key": "qingcheng:member:11",
+      "name_ko": "풍완아",
+      "faction": "qingcheng",
+      "role": "sect_patrol",
+      "skin": 92,
+      "texture": "murimlife:textures/entity/wuxia/skin_092.png"
+    },
+    {
+      "key": "qingcheng:member:12",
+      "name_ko": "윤한결",
+      "faction": "qingcheng",
+      "role": "sect_patrol",
+      "skin": 93,
+      "texture": "murimlife:textures/entity/wuxia/skin_093.png"
+    },
+    {
+      "key": "qingcheng:member:13",
+      "name_ko": "장옥주",
+      "faction": "qingcheng",
+      "role": "library_keeper",
+      "skin": 94,
+      "texture": "murimlife:textures/entity/wuxia/skin_094.png"
+    },
+    {
+      "key": "qingcheng:member:14",
+      "name_ko": "윤태오",
+      "faction": "qingcheng",
+      "role": "sect_healer",
+      "skin": 95,
+      "texture": "murimlife:textures/entity/wuxia/skin_095.png"
+    },
+    {
+      "key": "qingcheng:member:15",
+      "name_ko": "손기몽",
+      "faction": "qingcheng",
+      "role": "sect_alchemist",
+      "skin": 96,
+      "texture": "murimlife:textures/entity/wuxia/skin_096.png"
+    },
+    {
+      "key": "qingcheng:member:16",
+      "name_ko": "정가온",
+      "faction": "qingcheng",
+      "role": "recruitment_examiner",
+      "skin": 97,
+      "texture": "murimlife:textures/entity/wuxia/skin_097.png"
+    },
+    {
+      "key": "qingcheng:member:17",
+      "name_ko": "고월화",
+      "faction": "qingcheng",
+      "role": "sect_servant",
+      "skin": 98,
+      "texture": "murimlife:textures/entity/wuxia/skin_098.png"
+    },
+    {
+      "key": "qingcheng:member:18",
+      "name_ko": "정시온",
+      "faction": "qingcheng",
+      "role": "sect_servant",
+      "skin": 99,
+      "texture": "murimlife:textures/entity/wuxia/skin_099.png"
+    },
+    {
+      "key": "qingcheng:member:19",
+      "name_ko": "두정의",
+      "faction": "qingcheng",
+      "role": "sect_servant",
+      "skin": 100,
+      "texture": "murimlife:textures/entity/wuxia/skin_100.png"
+    },
+    {
+      "key": "qingcheng:member:20",
+      "name_ko": "최하린",
+      "faction": "qingcheng",
+      "role": "outer_disciple",
+      "skin": 101,
+      "texture": "murimlife:textures/entity/wuxia/skin_101.png"
+    },
+    {
+      "key": "qingcheng:member:21",
+      "name_ko": "두명소",
+      "faction": "qingcheng",
+      "role": "inner_disciple",
+      "skin": 102,
+      "texture": "murimlife:textures/entity/wuxia/skin_102.png"
+    },
+    {
+      "key": "qingcheng:member:22",
+      "name_ko": "한유빈",
+      "faction": "qingcheng",
+      "role": "sect_patrol",
+      "skin": 103,
+      "texture": "murimlife:textures/entity/wuxia/skin_103.png"
+    },
+    {
+      "key": "kunlun:member:01",
+      "name_ko": "조준걸",
+      "faction": "kunlun",
+      "role": "sect_elder",
+      "skin": 104,
+      "texture": "murimlife:textures/entity/wuxia/skin_104.png"
+    },
+    {
+      "key": "kunlun:member:02",
+      "name_ko": "오다온",
+      "faction": "kunlun",
+      "role": "sect_instructor",
+      "skin": 105,
+      "texture": "murimlife:textures/entity/wuxia/skin_105.png"
+    },
+    {
+      "key": "kunlun:member:03",
+      "name_ko": "엽아운",
+      "faction": "kunlun",
+      "role": "direct_disciple",
+      "skin": 106,
+      "texture": "murimlife:textures/entity/wuxia/skin_106.png"
+    },
+    {
+      "key": "kunlun:member:04",
+      "name_ko": "이태윤",
+      "faction": "kunlun",
+      "role": "inner_disciple",
+      "skin": 107,
+      "texture": "murimlife:textures/entity/wuxia/skin_107.png"
+    },
+    {
+      "key": "kunlun:member:05",
+      "name_ko": "고수련",
+      "faction": "kunlun",
+      "role": "inner_disciple",
+      "skin": 108,
+      "texture": "murimlife:textures/entity/wuxia/skin_108.png"
+    },
+    {
+      "key": "kunlun:member:06",
+      "name_ko": "백재민",
+      "faction": "kunlun",
+      "role": "outer_disciple",
+      "skin": 109,
+      "texture": "murimlife:textures/entity/wuxia/skin_109.png"
+    },
+    {
+      "key": "kunlun:member:07",
+      "name_ko": "장청하",
+      "faction": "kunlun",
+      "role": "outer_disciple",
+      "skin": 110,
+      "texture": "murimlife:textures/entity/wuxia/skin_110.png"
+    },
+    {
+      "key": "kunlun:member:08",
+      "name_ko": "서소민",
+      "faction": "kunlun",
+      "role": "outer_disciple",
+      "skin": 111,
+      "texture": "murimlife:textures/entity/wuxia/skin_111.png"
+    },
+    {
+      "key": "kunlun:member:09",
+      "name_ko": "엽성하",
+      "faction": "kunlun",
+      "role": "outer_disciple",
+      "skin": 112,
+      "texture": "murimlife:textures/entity/wuxia/skin_112.png"
+    },
+    {
+      "key": "kunlun:member:10",
+      "name_ko": "백이안",
+      "faction": "kunlun",
+      "role": "sect_gatekeeper",
+      "skin": 113,
+      "texture": "murimlife:textures/entity/wuxia/skin_113.png"
+    },
+    {
+      "key": "kunlun:member:11",
+      "name_ko": "두자녕",
+      "faction": "kunlun",
+      "role": "sect_patrol",
+      "skin": 114,
+      "texture": "murimlife:textures/entity/wuxia/skin_114.png"
+    },
+    {
+      "key": "kunlun:member:12",
+      "name_ko": "최주원",
+      "faction": "kunlun",
+      "role": "sect_patrol",
+      "skin": 115,
+      "texture": "murimlife:textures/entity/wuxia/skin_115.png"
+    },
+    {
+      "key": "kunlun:member:13",
+      "name_ko": "진명원",
+      "faction": "kunlun",
+      "role": "library_keeper",
+      "skin": 116,
+      "texture": "murimlife:textures/entity/wuxia/skin_116.png"
+    },
+    {
+      "key": "kunlun:member:14",
+      "name_ko": "오하온",
+      "faction": "kunlun",
+      "role": "sect_healer",
+      "skin": 117,
+      "texture": "murimlife:textures/entity/wuxia/skin_117.png"
+    },
+    {
+      "key": "kunlun:member:15",
+      "name_ko": "나치원",
+      "faction": "kunlun",
+      "role": "sect_alchemist",
+      "skin": 118,
+      "texture": "murimlife:textures/entity/wuxia/skin_118.png"
+    },
+    {
+      "key": "kunlun:member:16",
+      "name_ko": "윤아린",
+      "faction": "kunlun",
+      "role": "recruitment_examiner",
+      "skin": 119,
+      "texture": "murimlife:textures/entity/wuxia/skin_119.png"
+    },
+    {
+      "key": "kunlun:member:17",
+      "name_ko": "풍문박",
+      "faction": "kunlun",
+      "role": "sect_servant",
+      "skin": 120,
+      "texture": "murimlife:textures/entity/wuxia/skin_120.png"
+    },
+    {
+      "key": "kunlun:member:18",
+      "name_ko": "최윤서",
+      "faction": "kunlun",
+      "role": "sect_servant",
+      "skin": 121,
+      "texture": "murimlife:textures/entity/wuxia/skin_121.png"
+    },
+    {
+      "key": "kunlun:member:19",
+      "name_ko": "엽굉의",
+      "faction": "kunlun",
+      "role": "sect_servant",
+      "skin": 122,
+      "texture": "murimlife:textures/entity/wuxia/skin_122.png"
+    },
+    {
+      "key": "kunlun:member:20",
+      "name_ko": "장도현",
+      "faction": "kunlun",
+      "role": "outer_disciple",
+      "skin": 123,
+      "texture": "murimlife:textures/entity/wuxia/skin_123.png"
+    },
+    {
+      "key": "kunlun:member:21",
+      "name_ko": "진수련",
+      "faction": "kunlun",
+      "role": "inner_disciple",
+      "skin": 124,
+      "texture": "murimlife:textures/entity/wuxia/skin_124.png"
+    },
+    {
+      "key": "kunlun:member:22",
+      "name_ko": "서서우",
+      "faction": "kunlun",
+      "role": "sect_patrol",
+      "skin": 125,
+      "texture": "murimlife:textures/entity/wuxia/skin_125.png"
+    },
+    {
+      "key": "emei:member:01",
+      "name_ko": "황준걸",
+      "faction": "emei",
+      "role": "sect_elder",
+      "skin": 126,
+      "texture": "murimlife:textures/entity/wuxia/skin_126.png"
+    },
+    {
+      "key": "emei:member:02",
+      "name_ko": "장준서",
+      "faction": "emei",
+      "role": "sect_instructor",
+      "skin": 127,
+      "texture": "murimlife:textures/entity/wuxia/skin_127.png"
+    },
+    {
+      "key": "emei:member:03",
+      "name_ko": "양우미",
+      "faction": "emei",
+      "role": "direct_disciple",
+      "skin": 128,
+      "texture": "murimlife:textures/entity/wuxia/skin_128.png"
+    },
+    {
+      "key": "emei:member:04",
+      "name_ko": "오하린",
+      "faction": "emei",
+      "role": "inner_disciple",
+      "skin": 129,
+      "texture": "murimlife:textures/entity/wuxia/skin_129.png"
+    },
+    {
+      "key": "emei:member:05",
+      "name_ko": "오청하",
+      "faction": "emei",
+      "role": "inner_disciple",
+      "skin": 130,
+      "texture": "murimlife:textures/entity/wuxia/skin_130.png"
+    },
+    {
+      "key": "emei:member:06",
+      "name_ko": "한유하",
+      "faction": "emei",
+      "role": "outer_disciple",
+      "skin": 131,
+      "texture": "murimlife:textures/entity/wuxia/skin_131.png"
+    },
+    {
+      "key": "emei:member:07",
+      "name_ko": "서굉의",
+      "faction": "emei",
+      "role": "outer_disciple",
+      "skin": 132,
+      "texture": "murimlife:textures/entity/wuxia/skin_132.png"
+    },
+    {
+      "key": "emei:member:08",
+      "name_ko": "이지민",
+      "faction": "emei",
+      "role": "outer_disciple",
+      "skin": 133,
+      "texture": "murimlife:textures/entity/wuxia/skin_133.png"
+    },
+    {
+      "key": "emei:member:09",
+      "name_ko": "고자묵",
+      "faction": "emei",
+      "role": "outer_disciple",
+      "skin": 134,
+      "texture": "murimlife:textures/entity/wuxia/skin_134.png"
+    },
+    {
+      "key": "emei:member:10",
+      "name_ko": "오예나",
+      "faction": "emei",
+      "role": "sect_gatekeeper",
+      "skin": 135,
+      "texture": "murimlife:textures/entity/wuxia/skin_135.png"
+    },
+    {
+      "key": "emei:member:11",
+      "name_ko": "황수련",
+      "faction": "emei",
+      "role": "sect_patrol",
+      "skin": 136,
+      "texture": "murimlife:textures/entity/wuxia/skin_136.png"
+    },
+    {
+      "key": "emei:member:12",
+      "name_ko": "장다온",
+      "faction": "emei",
+      "role": "sect_patrol",
+      "skin": 137,
+      "texture": "murimlife:textures/entity/wuxia/skin_137.png"
+    },
+    {
+      "key": "emei:member:13",
+      "name_ko": "고승안",
+      "faction": "emei",
+      "role": "library_keeper",
+      "skin": 138,
+      "texture": "murimlife:textures/entity/wuxia/skin_138.png"
+    },
+    {
+      "key": "emei:member:14",
+      "name_ko": "백은서",
+      "faction": "emei",
+      "role": "sect_healer",
+      "skin": 139,
+      "texture": "murimlife:textures/entity/wuxia/skin_139.png"
+    },
+    {
+      "key": "emei:member:15",
+      "name_ko": "나옥주",
+      "faction": "emei",
+      "role": "sect_alchemist",
+      "skin": 140,
+      "texture": "murimlife:textures/entity/wuxia/skin_140.png"
+    },
+    {
+      "key": "emei:member:16",
+      "name_ko": "정준서",
+      "faction": "emei",
+      "role": "recruitment_examiner",
+      "skin": 141,
+      "texture": "murimlife:textures/entity/wuxia/skin_141.png"
+    },
+    {
+      "key": "emei:member:17",
+      "name_ko": "오승안",
+      "faction": "emei",
+      "role": "sect_servant",
+      "skin": 142,
+      "texture": "murimlife:textures/entity/wuxia/skin_142.png"
+    },
+    {
+      "key": "emei:member:18",
+      "name_ko": "한서윤",
+      "faction": "emei",
+      "role": "sect_servant",
+      "skin": 143,
+      "texture": "murimlife:textures/entity/wuxia/skin_143.png"
+    },
+    {
+      "key": "emei:member:19",
+      "name_ko": "진명소",
+      "faction": "emei",
+      "role": "sect_servant",
+      "skin": 144,
+      "texture": "murimlife:textures/entity/wuxia/skin_144.png"
+    },
+    {
+      "key": "emei:member:20",
+      "name_ko": "백다온",
+      "faction": "emei",
+      "role": "outer_disciple",
+      "skin": 145,
+      "texture": "murimlife:textures/entity/wuxia/skin_145.png"
+    },
+    {
+      "key": "emei:member:21",
+      "name_ko": "엽우미",
+      "faction": "emei",
+      "role": "inner_disciple",
+      "skin": 146,
+      "texture": "murimlife:textures/entity/wuxia/skin_146.png"
+    },
+    {
+      "key": "emei:member:22",
+      "name_ko": "조준서",
+      "faction": "emei",
+      "role": "sect_patrol",
+      "skin": 147,
+      "texture": "murimlife:textures/entity/wuxia/skin_147.png"
+    },
+    {
+      "key": "zhongnan:member:01",
+      "name_ko": "장서현",
+      "faction": "zhongnan",
+      "role": "sect_elder",
+      "skin": 148,
+      "texture": "murimlife:textures/entity/wuxia/skin_148.png"
+    },
+    {
+      "key": "zhongnan:member:02",
+      "name_ko": "신윤서",
+      "faction": "zhongnan",
+      "role": "sect_instructor",
+      "skin": 149,
+      "texture": "murimlife:textures/entity/wuxia/skin_149.png"
+    },
+    {
+      "key": "zhongnan:member:03",
+      "name_ko": "진준걸",
+      "faction": "zhongnan",
+      "role": "direct_disciple",
+      "skin": 150,
+      "texture": "murimlife:textures/entity/wuxia/skin_150.png"
+    },
+    {
+      "key": "zhongnan:member:04",
+      "name_ko": "임서린",
+      "faction": "zhongnan",
+      "role": "inner_disciple",
+      "skin": 151,
+      "texture": "murimlife:textures/entity/wuxia/skin_151.png"
+    },
+    {
+      "key": "zhongnan:member:05",
+      "name_ko": "오덕원",
+      "faction": "zhongnan",
+      "role": "inner_disciple",
+      "skin": 152,
+      "texture": "murimlife:textures/entity/wuxia/skin_152.png"
+    },
+    {
+      "key": "zhongnan:member:06",
+      "name_ko": "신채원",
+      "faction": "zhongnan",
+      "role": "outer_disciple",
+      "skin": 153,
+      "texture": "murimlife:textures/entity/wuxia/skin_153.png"
+    },
+    {
+      "key": "zhongnan:member:07",
+      "name_ko": "풍명소",
+      "faction": "zhongnan",
+      "role": "outer_disciple",
+      "skin": 154,
+      "texture": "murimlife:textures/entity/wuxia/skin_154.png"
+    },
+    {
+      "key": "zhongnan:member:08",
+      "name_ko": "오소이",
+      "faction": "zhongnan",
+      "role": "outer_disciple",
+      "skin": 155,
+      "texture": "murimlife:textures/entity/wuxia/skin_155.png"
+    },
+    {
+      "key": "zhongnan:member:09",
+      "name_ko": "한명소",
+      "faction": "zhongnan",
+      "role": "outer_disciple",
+      "skin": 156,
+      "texture": "murimlife:textures/entity/wuxia/skin_156.png"
+    },
+    {
+      "key": "zhongnan:member:10",
+      "name_ko": "류하온",
+      "faction": "zhongnan",
+      "role": "sect_gatekeeper",
+      "skin": 157,
+      "texture": "murimlife:textures/entity/wuxia/skin_157.png"
+    },
+    {
+      "key": "zhongnan:member:11",
+      "name_ko": "두굉의",
+      "faction": "zhongnan",
+      "role": "sect_patrol",
+      "skin": 158,
+      "texture": "murimlife:textures/entity/wuxia/skin_158.png"
+    },
+    {
+      "key": "zhongnan:member:12",
+      "name_ko": "오하늘",
+      "faction": "zhongnan",
+      "role": "sect_patrol",
+      "skin": 159,
+      "texture": "murimlife:textures/entity/wuxia/skin_159.png"
+    },
+    {
+      "key": "zhongnan:member:13",
+      "name_ko": "진백주",
+      "faction": "zhongnan",
+      "role": "library_keeper",
+      "skin": 160,
+      "texture": "murimlife:textures/entity/wuxia/skin_160.png"
+    },
+    {
+      "key": "zhongnan:member:14",
+      "name_ko": "백한결",
+      "faction": "zhongnan",
+      "role": "sect_healer",
+      "skin": 161,
+      "texture": "murimlife:textures/entity/wuxia/skin_161.png"
+    },
+    {
+      "key": "zhongnan:member:15",
+      "name_ko": "주지란",
+      "faction": "zhongnan",
+      "role": "sect_alchemist",
+      "skin": 162,
+      "texture": "murimlife:textures/entity/wuxia/skin_162.png"
+    },
+    {
+      "key": "zhongnan:member:16",
+      "name_ko": "조한결",
+      "faction": "zhongnan",
+      "role": "recruitment_examiner",
+      "skin": 163,
+      "texture": "murimlife:textures/entity/wuxia/skin_163.png"
+    },
+    {
+      "key": "zhongnan:member:17",
+      "name_ko": "이우미",
+      "faction": "zhongnan",
+      "role": "sect_servant",
+      "skin": 164,
+      "texture": "murimlife:textures/entity/wuxia/skin_164.png"
+    },
+    {
+      "key": "zhongnan:member:18",
+      "name_ko": "강도윤",
+      "faction": "zhongnan",
+      "role": "sect_servant",
+      "skin": 165,
+      "texture": "murimlife:textures/entity/wuxia/skin_165.png"
+    },
+    {
+      "key": "zhongnan:member:19",
+      "name_ko": "서자녕",
+      "faction": "zhongnan",
+      "role": "sect_servant",
+      "skin": 166,
+      "texture": "murimlife:textures/entity/wuxia/skin_166.png"
+    },
+    {
+      "key": "zhongnan:member:20",
+      "name_ko": "정하윤",
+      "faction": "zhongnan",
+      "role": "outer_disciple",
+      "skin": 167,
+      "texture": "murimlife:textures/entity/wuxia/skin_167.png"
+    },
+    {
+      "key": "zhongnan:member:21",
+      "name_ko": "오성하",
+      "faction": "zhongnan",
+      "role": "inner_disciple",
+      "skin": 168,
+      "texture": "murimlife:textures/entity/wuxia/skin_168.png"
+    },
+    {
+      "key": "zhongnan:member:22",
+      "name_ko": "류지안",
+      "faction": "zhongnan",
+      "role": "sect_patrol",
+      "skin": 169,
+      "texture": "murimlife:textures/entity/wuxia/skin_169.png"
+    },
+    {
+      "key": "kongtong:member:01",
+      "name_ko": "손완아",
+      "faction": "kongtong",
+      "role": "sect_elder",
+      "skin": 170,
+      "texture": "murimlife:textures/entity/wuxia/skin_170.png"
+    },
+    {
+      "key": "kongtong:member:02",
+      "name_ko": "류주원",
+      "faction": "kongtong",
+      "role": "sect_instructor",
+      "skin": 171,
+      "texture": "murimlife:textures/entity/wuxia/skin_171.png"
+    },
+    {
+      "key": "kongtong:member:03",
+      "name_ko": "심수련",
+      "faction": "kongtong",
+      "role": "direct_disciple",
+      "skin": 172,
+      "texture": "murimlife:textures/entity/wuxia/skin_172.png"
+    },
+    {
+      "key": "kongtong:member:04",
+      "name_ko": "김혜린",
+      "faction": "kongtong",
+      "role": "inner_disciple",
+      "skin": 173,
+      "texture": "murimlife:textures/entity/wuxia/skin_173.png"
+    },
+    {
+      "key": "kongtong:member:05",
+      "name_ko": "서모청",
+      "faction": "kongtong",
+      "role": "inner_disciple",
+      "skin": 174,
+      "texture": "murimlife:textures/entity/wuxia/skin_174.png"
+    },
+    {
+      "key": "kongtong:member:06",
+      "name_ko": "윤나린",
+      "faction": "kongtong",
+      "role": "outer_disciple",
+      "skin": 175,
+      "texture": "murimlife:textures/entity/wuxia/skin_175.png"
+    },
+    {
+      "key": "kongtong:member:07",
+      "name_ko": "서문헌",
+      "faction": "kongtong",
+      "role": "outer_disciple",
+      "skin": 176,
+      "texture": "murimlife:textures/entity/wuxia/skin_176.png"
+    },
+    {
+      "key": "kongtong:member:08",
+      "name_ko": "황주원",
+      "faction": "kongtong",
+      "role": "outer_disciple",
+      "skin": 177,
+      "texture": "murimlife:textures/entity/wuxia/skin_177.png"
+    },
+    {
+      "key": "kongtong:member:09",
+      "name_ko": "양설란",
+      "faction": "kongtong",
+      "role": "outer_disciple",
+      "skin": 178,
+      "texture": "murimlife:textures/entity/wuxia/skin_178.png"
+    },
+    {
+      "key": "kongtong:member:10",
+      "name_ko": "백예나",
+      "faction": "kongtong",
+      "role": "sect_gatekeeper",
+      "skin": 179,
+      "texture": "murimlife:textures/entity/wuxia/skin_179.png"
+    },
+    {
+      "key": "kongtong:member:11",
+      "name_ko": "장백주",
+      "faction": "kongtong",
+      "role": "sect_patrol",
+      "skin": 180,
+      "texture": "murimlife:textures/entity/wuxia/skin_180.png"
+    },
+    {
+      "key": "kongtong:member:12",
+      "name_ko": "서태윤",
+      "faction": "kongtong",
+      "role": "sect_patrol",
+      "skin": 181,
+      "texture": "murimlife:textures/entity/wuxia/skin_181.png"
+    },
+    {
+      "key": "kongtong:member:13",
+      "name_ko": "진완아",
+      "faction": "kongtong",
+      "role": "library_keeper",
+      "skin": 182,
+      "texture": "murimlife:textures/entity/wuxia/skin_182.png"
+    },
+    {
+      "key": "kongtong:member:14",
+      "name_ko": "윤이안",
+      "faction": "kongtong",
+      "role": "sect_healer",
+      "skin": 183,
+      "texture": "murimlife:textures/entity/wuxia/skin_183.png"
+    },
+    {
+      "key": "kongtong:member:15",
+      "name_ko": "조명원",
+      "faction": "kongtong",
+      "role": "sect_alchemist",
+      "skin": 184,
+      "texture": "murimlife:textures/entity/wuxia/skin_184.png"
+    },
+    {
+      "key": "kongtong:member:16",
+      "name_ko": "오한결",
+      "faction": "kongtong",
+      "role": "recruitment_examiner",
+      "skin": 185,
+      "texture": "murimlife:textures/entity/wuxia/skin_185.png"
+    },
+    {
+      "key": "kongtong:member:17",
+      "name_ko": "고문박",
+      "faction": "kongtong",
+      "role": "sect_servant",
+      "skin": 186,
+      "texture": "murimlife:textures/entity/wuxia/skin_186.png"
+    },
+    {
+      "key": "kongtong:member:18",
+      "name_ko": "박서우",
+      "faction": "kongtong",
+      "role": "sect_servant",
+      "skin": 187,
+      "texture": "murimlife:textures/entity/wuxia/skin_187.png"
+    },
+    {
+      "key": "kongtong:member:19",
+      "name_ko": "황추상",
+      "faction": "kongtong",
+      "role": "sect_servant",
+      "skin": 188,
+      "texture": "murimlife:textures/entity/wuxia/skin_188.png"
+    },
+    {
+      "key": "kongtong:member:20",
+      "name_ko": "권아린",
+      "faction": "kongtong",
+      "role": "outer_disciple",
+      "skin": 189,
+      "texture": "murimlife:textures/entity/wuxia/skin_189.png"
+    },
+    {
+      "key": "kongtong:member:21",
+      "name_ko": "양청하",
+      "faction": "kongtong",
+      "role": "inner_disciple",
+      "skin": 190,
+      "texture": "murimlife:textures/entity/wuxia/skin_190.png"
+    },
+    {
+      "key": "kongtong:member:22",
+      "name_ko": "강채원",
+      "faction": "kongtong",
+      "role": "sect_patrol",
+      "skin": 191,
+      "texture": "murimlife:textures/entity/wuxia/skin_191.png"
+    },
+    {
+      "key": "diancang:member:01",
+      "name_ko": "엽덕원",
+      "faction": "diancang",
+      "role": "sect_elder",
+      "skin": 192,
+      "texture": "murimlife:textures/entity/wuxia/skin_192.png"
+    },
+    {
+      "key": "diancang:member:02",
+      "name_ko": "임지호",
+      "faction": "diancang",
+      "role": "sect_instructor",
+      "skin": 193,
+      "texture": "murimlife:textures/entity/wuxia/skin_193.png"
+    },
+    {
+      "key": "diancang:member:03",
+      "name_ko": "진정의",
+      "faction": "diancang",
+      "role": "direct_disciple",
+      "skin": 194,
+      "texture": "murimlife:textures/entity/wuxia/skin_194.png"
+    },
+    {
+      "key": "diancang:member:04",
+      "name_ko": "윤준서",
+      "faction": "diancang",
+      "role": "inner_disciple",
+      "skin": 195,
+      "texture": "murimlife:textures/entity/wuxia/skin_195.png"
+    },
+    {
+      "key": "diancang:member:05",
+      "name_ko": "이옥청",
+      "faction": "diancang",
+      "role": "inner_disciple",
+      "skin": 196,
+      "texture": "murimlife:textures/entity/wuxia/skin_196.png"
+    },
+    {
+      "key": "diancang:member:06",
+      "name_ko": "권서하",
+      "faction": "diancang",
+      "role": "outer_disciple",
+      "skin": 197,
+      "texture": "murimlife:textures/entity/wuxia/skin_197.png"
+    },
+    {
+      "key": "diancang:member:07",
+      "name_ko": "황신희",
+      "faction": "diancang",
+      "role": "outer_disciple",
+      "skin": 198,
+      "texture": "murimlife:textures/entity/wuxia/skin_198.png"
+    },
+    {
+      "key": "diancang:member:08",
+      "name_ko": "서유정",
+      "faction": "diancang",
+      "role": "outer_disciple",
+      "skin": 199,
+      "texture": "murimlife:textures/entity/wuxia/skin_199.png"
+    },
+    {
+      "key": "diancang:member:09",
+      "name_ko": "고치원",
+      "faction": "diancang",
+      "role": "outer_disciple",
+      "skin": 200,
+      "texture": "murimlife:textures/entity/wuxia/skin_200.png"
+    },
+    {
+      "key": "diancang:member:10",
+      "name_ko": "류태윤",
+      "faction": "diancang",
+      "role": "sect_gatekeeper",
+      "skin": 201,
+      "texture": "murimlife:textures/entity/wuxia/skin_201.png"
+    },
+    {
+      "key": "diancang:member:11",
+      "name_ko": "두약계",
+      "faction": "diancang",
+      "role": "sect_patrol",
+      "skin": 202,
+      "texture": "murimlife:textures/entity/wuxia/skin_202.png"
+    },
+    {
+      "key": "diancang:member:12",
+      "name_ko": "강라온",
+      "faction": "diancang",
+      "role": "sect_patrol",
+      "skin": 203,
+      "texture": "murimlife:textures/entity/wuxia/skin_203.png"
+    },
+    {
+      "key": "diancang:member:13",
+      "name_ko": "임아금",
+      "faction": "diancang",
+      "role": "library_keeper",
+      "skin": 204,
+      "texture": "murimlife:textures/entity/wuxia/skin_204.png"
+    },
+    {
+      "key": "diancang:member:14",
+      "name_ko": "최세아",
+      "faction": "diancang",
+      "role": "sect_healer",
+      "skin": 205,
+      "texture": "murimlife:textures/entity/wuxia/skin_205.png"
+    },
+    {
+      "key": "diancang:member:15",
+      "name_ko": "서우미",
+      "faction": "diancang",
+      "role": "sect_alchemist",
+      "skin": 206,
+      "texture": "murimlife:textures/entity/wuxia/skin_206.png"
+    },
+    {
+      "key": "diancang:member:16",
+      "name_ko": "임유빈",
+      "faction": "diancang",
+      "role": "recruitment_examiner",
+      "skin": 207,
+      "texture": "murimlife:textures/entity/wuxia/skin_207.png"
+    },
+    {
+      "key": "diancang:member:17",
+      "name_ko": "장여연",
+      "faction": "diancang",
+      "role": "sect_servant",
+      "skin": 208,
+      "texture": "murimlife:textures/entity/wuxia/skin_208.png"
+    },
+    {
+      "key": "diancang:member:18",
+      "name_ko": "김다온",
+      "faction": "diancang",
+      "role": "sect_servant",
+      "skin": 209,
+      "texture": "murimlife:textures/entity/wuxia/skin_209.png"
+    },
+    {
+      "key": "diancang:member:19",
+      "name_ko": "왕우미",
+      "faction": "diancang",
+      "role": "sect_servant",
+      "skin": 210,
+      "texture": "murimlife:textures/entity/wuxia/skin_210.png"
+    },
+    {
+      "key": "diancang:member:20",
+      "name_ko": "박아린",
+      "faction": "diancang",
+      "role": "outer_disciple",
+      "skin": 211,
+      "texture": "murimlife:textures/entity/wuxia/skin_211.png"
+    },
+    {
+      "key": "diancang:member:21",
+      "name_ko": "왕문박",
+      "faction": "diancang",
+      "role": "inner_disciple",
+      "skin": 212,
+      "texture": "murimlife:textures/entity/wuxia/skin_212.png"
+    },
+    {
+      "key": "diancang:member:22",
+      "name_ko": "김하린",
+      "faction": "diancang",
+      "role": "sect_patrol",
+      "skin": 213,
+      "texture": "murimlife:textures/entity/wuxia/skin_213.png"
+    },
+    {
+      "key": "gaibang:member:01",
+      "name_ko": "장월화",
+      "faction": "gaibang",
+      "role": "sect_elder",
+      "skin": 214,
+      "texture": "murimlife:textures/entity/wuxia/skin_214.png"
+    },
+    {
+      "key": "gaibang:member:02",
+      "name_ko": "윤시온",
+      "faction": "gaibang",
+      "role": "sect_instructor",
+      "skin": 215,
+      "texture": "murimlife:textures/entity/wuxia/skin_215.png"
+    },
+    {
+      "key": "gaibang:member:03",
+      "name_ko": "황자녕",
+      "faction": "gaibang",
+      "role": "direct_disciple",
+      "skin": 216,
+      "texture": "murimlife:textures/entity/wuxia/skin_216.png"
+    },
+    {
+      "key": "gaibang:member:04",
+      "name_ko": "조지호",
+      "faction": "gaibang",
+      "role": "inner_disciple",
+      "skin": 217,
+      "texture": "murimlife:textures/entity/wuxia/skin_217.png"
+    },
+    {
+      "key": "gaibang:member:05",
+      "name_ko": "손자녕",
+      "faction": "gaibang",
+      "role": "inner_disciple",
+      "skin": 218,
+      "texture": "murimlife:textures/entity/wuxia/skin_218.png"
+    },
+    {
+      "key": "gaibang:member:06",
+      "name_ko": "윤서우",
+      "faction": "gaibang",
+      "role": "outer_disciple",
+      "skin": 219,
+      "texture": "murimlife:textures/entity/wuxia/skin_219.png"
+    },
+    {
+      "key": "gaibang:member:07",
+      "name_ko": "주우미",
+      "faction": "gaibang",
+      "role": "outer_disciple",
+      "skin": 220,
+      "texture": "murimlife:textures/entity/wuxia/skin_220.png"
+    },
+    {
+      "key": "gaibang:member:08",
+      "name_ko": "임도윤",
+      "faction": "gaibang",
+      "role": "outer_disciple",
+      "skin": 221,
+      "texture": "murimlife:textures/entity/wuxia/skin_221.png"
+    },
+    {
+      "key": "gaibang:member:09",
+      "name_ko": "조운주",
+      "faction": "gaibang",
+      "role": "outer_disciple",
+      "skin": 222,
+      "texture": "murimlife:textures/entity/wuxia/skin_222.png"
+    },
+    {
+      "key": "gaibang:member:10",
+      "name_ko": "한도윤",
+      "faction": "gaibang",
+      "role": "sect_gatekeeper",
+      "skin": 223,
+      "texture": "murimlife:textures/entity/wuxia/skin_223.png"
+    },
+    {
+      "key": "gaibang:member:11",
+      "name_ko": "고굉의",
+      "faction": "gaibang",
+      "role": "sect_patrol",
+      "skin": 224,
+      "texture": "murimlife:textures/entity/wuxia/skin_224.png"
+    },
+    {
+      "key": "gaibang:member:12",
+      "name_ko": "한소율",
+      "faction": "gaibang",
+      "role": "sect_patrol",
+      "skin": 225,
+      "texture": "murimlife:textures/entity/wuxia/skin_225.png"
+    },
+    {
+      "key": "gaibang:member:13",
+      "name_ko": "황경천",
+      "faction": "gaibang",
+      "role": "library_keeper",
+      "skin": 226,
+      "texture": "murimlife:textures/entity/wuxia/skin_226.png"
+    },
+    {
+      "key": "gaibang:member:14",
+      "name_ko": "강준서",
+      "faction": "gaibang",
+      "role": "sect_healer",
+      "skin": 227,
+      "texture": "murimlife:textures/entity/wuxia/skin_227.png"
+    },
+    {
+      "key": "gaibang:member:15",
+      "name_ko": "나준희",
+      "faction": "gaibang",
+      "role": "sect_alchemist",
+      "skin": 228,
+      "texture": "murimlife:textures/entity/wuxia/skin_228.png"
+    },
+    {
+      "key": "gaibang:member:16",
+      "name_ko": "정윤서",
+      "faction": "gaibang",
+      "role": "recruitment_examiner",
+      "skin": 229,
+      "texture": "murimlife:textures/entity/wuxia/skin_229.png"
+    },
+    {
+      "key": "gaibang:member:17",
+      "name_ko": "양유가",
+      "faction": "gaibang",
+      "role": "sect_servant",
+      "skin": 230,
+      "texture": "murimlife:textures/entity/wuxia/skin_230.png"
+    },
+    {
+      "key": "gaibang:member:18",
+      "name_ko": "오세아",
+      "faction": "gaibang",
+      "role": "sect_servant",
+      "skin": 231,
+      "texture": "murimlife:textures/entity/wuxia/skin_231.png"
+    },
+    {
+      "key": "gaibang:member:19",
+      "name_ko": "오경호",
+      "faction": "gaibang",
+      "role": "sect_servant",
+      "skin": 232,
+      "texture": "murimlife:textures/entity/wuxia/skin_232.png"
+    },
+    {
+      "key": "gaibang:member:20",
+      "name_ko": "임가온",
+      "faction": "gaibang",
+      "role": "outer_disciple",
+      "skin": 233,
+      "texture": "murimlife:textures/entity/wuxia/skin_233.png"
+    },
+    {
+      "key": "gaibang:member:21",
+      "name_ko": "손장풍",
+      "faction": "gaibang",
+      "role": "inner_disciple",
+      "skin": 234,
+      "texture": "murimlife:textures/entity/wuxia/skin_234.png"
+    },
+    {
+      "key": "gaibang:member:22",
+      "name_ko": "임지민",
+      "faction": "gaibang",
+      "role": "sect_patrol",
+      "skin": 235,
+      "texture": "murimlife:textures/entity/wuxia/skin_235.png"
+    },
+    {
+      "key": "namgung:member:01",
+      "name_ko": "황서현",
+      "faction": "namgung",
+      "role": "clan_heir",
+      "skin": 236,
+      "texture": "murimlife:textures/entity/wuxia/skin_236.png"
+    },
+    {
+      "key": "namgung:member:02",
+      "name_ko": "박준서",
+      "faction": "namgung",
+      "role": "clan_warrior",
+      "skin": 237,
+      "texture": "murimlife:textures/entity/wuxia/skin_237.png"
+    },
+    {
+      "key": "namgung:member:03",
+      "name_ko": "풍백주",
+      "faction": "namgung",
+      "role": "clan_warrior",
+      "skin": 238,
+      "texture": "murimlife:textures/entity/wuxia/skin_238.png"
+    },
+    {
+      "key": "namgung:member:04",
+      "name_ko": "신지안",
+      "faction": "namgung",
+      "role": "clan_warrior",
+      "skin": 239,
+      "texture": "murimlife:textures/entity/wuxia/skin_239.png"
+    },
+    {
+      "key": "namgung:member:05",
+      "name_ko": "주준희",
+      "faction": "namgung",
+      "role": "clan_warrior",
+      "skin": 240,
+      "texture": "murimlife:textures/entity/wuxia/skin_240.png"
+    },
+    {
+      "key": "namgung:member:06",
+      "name_ko": "백아린",
+      "faction": "namgung",
+      "role": "clan_bodyguard",
+      "skin": 241,
+      "texture": "murimlife:textures/entity/wuxia/skin_241.png"
+    },
+    {
+      "key": "namgung:member:07",
+      "name_ko": "주옥주",
+      "faction": "namgung",
+      "role": "clan_bodyguard",
+      "skin": 242,
+      "texture": "murimlife:textures/entity/wuxia/skin_242.png"
+    },
+    {
+      "key": "namgung:member:08",
+      "name_ko": "오은찬",
+      "faction": "namgung",
+      "role": "clan_steward",
+      "skin": 243,
+      "texture": "murimlife:textures/entity/wuxia/skin_243.png"
+    },
+    {
+      "key": "namgung:member:09",
+      "name_ko": "왕자녕",
+      "faction": "namgung",
+      "role": "clan_steward",
+      "skin": 244,
+      "texture": "murimlife:textures/entity/wuxia/skin_244.png"
+    },
+    {
+      "key": "namgung:member:10",
+      "name_ko": "장은찬",
+      "faction": "namgung",
+      "role": "clan_attendant",
+      "skin": 245,
+      "texture": "murimlife:textures/entity/wuxia/skin_245.png"
+    },
+    {
+      "key": "namgung:member:11",
+      "name_ko": "허청하",
+      "faction": "namgung",
+      "role": "clan_attendant",
+      "skin": 246,
+      "texture": "murimlife:textures/entity/wuxia/skin_246.png"
+    },
+    {
+      "key": "namgung:member:12",
+      "name_ko": "장유빈",
+      "faction": "namgung",
+      "role": "clan_attendant",
+      "skin": 247,
+      "texture": "murimlife:textures/entity/wuxia/skin_247.png"
+    },
+    {
+      "key": "namgung:member:13",
+      "name_ko": "진옥청",
+      "faction": "namgung",
+      "role": "clan_scholar",
+      "skin": 248,
+      "texture": "murimlife:textures/entity/wuxia/skin_248.png"
+    },
+    {
+      "key": "namgung:member:14",
+      "name_ko": "윤하늘",
+      "faction": "namgung",
+      "role": "clan_artisan",
+      "skin": 249,
+      "texture": "murimlife:textures/entity/wuxia/skin_249.png"
+    },
+    {
+      "key": "namgung:member:15",
+      "name_ko": "나승안",
+      "faction": "namgung",
+      "role": "clan_artisan",
+      "skin": 250,
+      "texture": "murimlife:textures/entity/wuxia/skin_250.png"
+    },
+    {
+      "key": "namgung:member:16",
+      "name_ko": "정민서",
+      "faction": "namgung",
+      "role": "clan_warrior",
+      "skin": 251,
+      "texture": "murimlife:textures/entity/wuxia/skin_251.png"
+    },
+    {
+      "key": "namgung:member:17",
+      "name_ko": "임자녕",
+      "faction": "namgung",
+      "role": "clan_warrior",
+      "skin": 252,
+      "texture": "murimlife:textures/entity/wuxia/skin_252.png"
+    },
+    {
+      "key": "namgung:member:18",
+      "name_ko": "윤유빈",
+      "faction": "namgung",
+      "role": "clan_attendant",
+      "skin": 253,
+      "texture": "murimlife:textures/entity/wuxia/skin_253.png"
+    },
+    {
+      "key": "namgung:member:19",
+      "name_ko": "양춘효",
+      "faction": "namgung",
+      "role": "clan_bodyguard",
+      "skin": 254,
+      "texture": "murimlife:textures/entity/wuxia/skin_254.png"
+    },
+    {
+      "key": "namgung:member:20",
+      "name_ko": "임하준",
+      "faction": "namgung",
+      "role": "clan_warrior",
+      "skin": 255,
+      "texture": "murimlife:textures/entity/wuxia/skin_255.png"
+    },
+    {
+      "key": "namgung:member:21",
+      "name_ko": "진서현",
+      "faction": "namgung",
+      "role": "clan_heir",
+      "skin": 256,
+      "texture": "murimlife:textures/entity/wuxia/skin_256.png"
+    },
+    {
+      "key": "namgung:member:22",
+      "name_ko": "백태오",
+      "faction": "namgung",
+      "role": "clan_attendant",
+      "skin": 257,
+      "texture": "murimlife:textures/entity/wuxia/skin_257.png"
+    },
+    {
+      "key": "tangmun:member:01",
+      "name_ko": "임경호",
+      "faction": "tangmun",
+      "role": "clan_heir",
+      "skin": 258,
+      "texture": "murimlife:textures/entity/wuxia/skin_258.png"
+    },
+    {
+      "key": "tangmun:member:02",
+      "name_ko": "신하온",
+      "faction": "tangmun",
+      "role": "clan_warrior",
+      "skin": 259,
+      "texture": "murimlife:textures/entity/wuxia/skin_259.png"
+    },
+    {
+      "key": "tangmun:member:03",
+      "name_ko": "양월화",
+      "faction": "tangmun",
+      "role": "clan_warrior",
+      "skin": 260,
+      "texture": "murimlife:textures/entity/wuxia/skin_260.png"
+    },
+    {
+      "key": "tangmun:member:04",
+      "name_ko": "황태윤",
+      "faction": "tangmun",
+      "role": "clan_warrior",
+      "skin": 261,
+      "texture": "murimlife:textures/entity/wuxia/skin_261.png"
+    },
+    {
+      "key": "tangmun:member:05",
+      "name_ko": "주아금",
+      "faction": "tangmun",
+      "role": "clan_warrior",
+      "skin": 262,
+      "texture": "murimlife:textures/entity/wuxia/skin_262.png"
+    },
+    {
+      "key": "tangmun:member:06",
+      "name_ko": "임지안",
+      "faction": "tangmun",
+      "role": "clan_bodyguard",
+      "skin": 263,
+      "texture": "murimlife:textures/entity/wuxia/skin_263.png"
+    },
+    {
+      "key": "tangmun:member:07",
+      "name_ko": "장옥청",
+      "faction": "tangmun",
+      "role": "clan_bodyguard",
+      "skin": 264,
+      "texture": "murimlife:textures/entity/wuxia/skin_264.png"
+    },
+    {
+      "key": "tangmun:member:08",
+      "name_ko": "강유정",
+      "faction": "tangmun",
+      "role": "clan_steward",
+      "skin": 265,
+      "texture": "murimlife:textures/entity/wuxia/skin_265.png"
+    },
+    {
+      "key": "tangmun:member:09",
+      "name_ko": "허아금",
+      "faction": "tangmun",
+      "role": "clan_steward",
+      "skin": 266,
+      "texture": "murimlife:textures/entity/wuxia/skin_266.png"
+    },
+    {
+      "key": "tangmun:member:10",
+      "name_ko": "강세아",
+      "faction": "tangmun",
+      "role": "clan_attendant",
+      "skin": 267,
+      "texture": "murimlife:textures/entity/wuxia/skin_267.png"
+    },
+    {
+      "key": "tangmun:member:11",
+      "name_ko": "손경천",
+      "faction": "tangmun",
+      "role": "clan_attendant",
+      "skin": 268,
+      "texture": "murimlife:textures/entity/wuxia/skin_268.png"
+    },
+    {
+      "key": "tangmun:member:12",
+      "name_ko": "류유정",
+      "faction": "tangmun",
+      "role": "clan_attendant",
+      "skin": 269,
+      "texture": "murimlife:textures/entity/wuxia/skin_269.png"
+    },
+    {
+      "key": "tangmun:member:13",
+      "name_ko": "장유가",
+      "faction": "tangmun",
+      "role": "clan_scholar",
+      "skin": 270,
+      "texture": "murimlife:textures/entity/wuxia/skin_270.png"
+    },
+    {
+      "key": "tangmun:member:14",
+      "name_ko": "이소민",
+      "faction": "tangmun",
+      "role": "clan_artisan",
+      "skin": 271,
+      "texture": "murimlife:textures/entity/wuxia/skin_271.png"
+    },
+    {
+      "key": "tangmun:member:15",
+      "name_ko": "조옥주",
+      "faction": "tangmun",
+      "role": "clan_artisan",
+      "skin": 272,
+      "texture": "murimlife:textures/entity/wuxia/skin_272.png"
+    },
+    {
+      "key": "tangmun:member:16",
+      "name_ko": "오연우",
+      "faction": "tangmun",
+      "role": "clan_warrior",
+      "skin": 273,
+      "texture": "murimlife:textures/entity/wuxia/skin_273.png"
+    },
+    {
+      "key": "tangmun:member:17",
+      "name_ko": "임문박",
+      "faction": "tangmun",
+      "role": "clan_warrior",
+      "skin": 274,
+      "texture": "murimlife:textures/entity/wuxia/skin_274.png"
+    },
+    {
+      "key": "tangmun:member:18",
+      "name_ko": "서시우",
+      "faction": "tangmun",
+      "role": "clan_attendant",
+      "skin": 275,
+      "texture": "murimlife:textures/entity/wuxia/skin_275.png"
+    },
+    {
+      "key": "tangmun:member:19",
+      "name_ko": "진자녕",
+      "faction": "tangmun",
+      "role": "clan_bodyguard",
+      "skin": 276,
+      "texture": "murimlife:textures/entity/wuxia/skin_276.png"
+    },
+    {
+      "key": "tangmun:member:20",
+      "name_ko": "강한결",
+      "faction": "tangmun",
+      "role": "clan_warrior",
+      "skin": 277,
+      "texture": "murimlife:textures/entity/wuxia/skin_277.png"
+    },
+    {
+      "key": "tangmun:member:21",
+      "name_ko": "양운해",
+      "faction": "tangmun",
+      "role": "clan_heir",
+      "skin": 278,
+      "texture": "murimlife:textures/entity/wuxia/skin_278.png"
+    },
+    {
+      "key": "tangmun:member:22",
+      "name_ko": "임아린",
+      "faction": "tangmun",
+      "role": "clan_attendant",
+      "skin": 279,
+      "texture": "murimlife:textures/entity/wuxia/skin_279.png"
+    },
+    {
+      "key": "paengga:member:01",
+      "name_ko": "심덕원",
+      "faction": "paengga",
+      "role": "clan_heir",
+      "skin": 280,
+      "texture": "murimlife:textures/entity/wuxia/skin_280.png"
+    },
+    {
+      "key": "paengga:member:02",
+      "name_ko": "장시온",
+      "faction": "paengga",
+      "role": "clan_warrior",
+      "skin": 281,
+      "texture": "murimlife:textures/entity/wuxia/skin_281.png"
+    },
+    {
+      "key": "paengga:member:03",
+      "name_ko": "곽여연",
+      "faction": "paengga",
+      "role": "clan_warrior",
+      "skin": 282,
+      "texture": "murimlife:textures/entity/wuxia/skin_282.png"
+    },
+    {
+      "key": "paengga:member:04",
+      "name_ko": "장하린",
+      "faction": "paengga",
+      "role": "clan_warrior",
+      "skin": 283,
+      "texture": "murimlife:textures/entity/wuxia/skin_283.png"
+    },
+    {
+      "key": "paengga:member:05",
+      "name_ko": "심신희",
+      "faction": "paengga",
+      "role": "clan_warrior",
+      "skin": 284,
+      "texture": "murimlife:textures/entity/wuxia/skin_284.png"
+    },
+    {
+      "key": "paengga:member:06",
+      "name_ko": "강서린",
+      "faction": "paengga",
+      "role": "clan_bodyguard",
+      "skin": 285,
+      "texture": "murimlife:textures/entity/wuxia/skin_285.png"
+    },
+    {
+      "key": "paengga:member:07",
+      "name_ko": "조백주",
+      "faction": "paengga",
+      "role": "clan_bodyguard",
+      "skin": 286,
+      "texture": "murimlife:textures/entity/wuxia/skin_286.png"
+    },
+    {
+      "key": "paengga:member:08",
+      "name_ko": "조시우",
+      "faction": "paengga",
+      "role": "clan_steward",
+      "skin": 287,
+      "texture": "murimlife:textures/entity/wuxia/skin_287.png"
+    },
+    {
+      "key": "paengga:member:09",
+      "name_ko": "곽자녕",
+      "faction": "paengga",
+      "role": "clan_steward",
+      "skin": 288,
+      "texture": "murimlife:textures/entity/wuxia/skin_288.png"
+    },
+    {
+      "key": "paengga:member:10",
+      "name_ko": "신지호",
+      "faction": "paengga",
+      "role": "clan_attendant",
+      "skin": 289,
+      "texture": "murimlife:textures/entity/wuxia/skin_289.png"
+    },
+    {
+      "key": "paengga:member:11",
+      "name_ko": "한정의",
+      "faction": "paengga",
+      "role": "clan_attendant",
+      "skin": 290,
+      "texture": "murimlife:textures/entity/wuxia/skin_290.png"
+    },
+    {
+      "key": "paengga:member:12",
+      "name_ko": "이나린",
+      "faction": "paengga",
+      "role": "clan_attendant",
+      "skin": 291,
+      "texture": "murimlife:textures/entity/wuxia/skin_291.png"
+    },
+    {
+      "key": "paengga:member:13",
+      "name_ko": "오자묵",
+      "faction": "paengga",
+      "role": "clan_scholar",
+      "skin": 292,
+      "texture": "murimlife:textures/entity/wuxia/skin_292.png"
+    },
+    {
+      "key": "paengga:member:14",
+      "name_ko": "백나린",
+      "faction": "paengga",
+      "role": "clan_artisan",
+      "skin": 293,
+      "texture": "murimlife:textures/entity/wuxia/skin_293.png"
+    },
+    {
+      "key": "paengga:member:15",
+      "name_ko": "풍모청",
+      "faction": "paengga",
+      "role": "clan_artisan",
+      "skin": 294,
+      "texture": "murimlife:textures/entity/wuxia/skin_294.png"
+    },
+    {
+      "key": "paengga:member:16",
+      "name_ko": "류시온",
+      "faction": "paengga",
+      "role": "clan_warrior",
+      "skin": 295,
+      "texture": "murimlife:textures/entity/wuxia/skin_295.png"
+    },
+    {
+      "key": "paengga:member:17",
+      "name_ko": "한성하",
+      "faction": "paengga",
+      "role": "clan_warrior",
+      "skin": 296,
+      "texture": "murimlife:textures/entity/wuxia/skin_296.png"
+    },
+    {
+      "key": "paengga:member:18",
+      "name_ko": "서다온",
+      "faction": "paengga",
+      "role": "clan_attendant",
+      "skin": 297,
+      "texture": "murimlife:textures/entity/wuxia/skin_297.png"
+    },
+    {
+      "key": "paengga:member:19",
+      "name_ko": "양청풍",
+      "faction": "paengga",
+      "role": "clan_bodyguard",
+      "skin": 298,
+      "texture": "murimlife:textures/entity/wuxia/skin_298.png"
+    },
+    {
+      "key": "paengga:member:20",
+      "name_ko": "한지민",
+      "faction": "paengga",
+      "role": "clan_warrior",
+      "skin": 299,
+      "texture": "murimlife:textures/entity/wuxia/skin_299.png"
+    },
+    {
+      "key": "paengga:member:21",
+      "name_ko": "이성하",
+      "faction": "paengga",
+      "role": "clan_heir",
+      "skin": 300,
+      "texture": "murimlife:textures/entity/wuxia/skin_300.png"
+    },
+    {
+      "key": "paengga:member:22",
+      "name_ko": "오소율",
+      "faction": "paengga",
+      "role": "clan_attendant",
+      "skin": 301,
+      "texture": "murimlife:textures/entity/wuxia/skin_301.png"
+    },
+    {
+      "key": "jegal:member:01",
+      "name_ko": "진굉의",
+      "faction": "jegal",
+      "role": "clan_heir",
+      "skin": 302,
+      "texture": "murimlife:textures/entity/wuxia/skin_302.png"
+    },
+    {
+      "key": "jegal:member:02",
+      "name_ko": "정라온",
+      "faction": "jegal",
+      "role": "clan_warrior",
+      "skin": 303,
+      "texture": "murimlife:textures/entity/wuxia/skin_303.png"
+    },
+    {
+      "key": "jegal:member:03",
+      "name_ko": "임유가",
+      "faction": "jegal",
+      "role": "clan_warrior",
+      "skin": 304,
+      "texture": "murimlife:textures/entity/wuxia/skin_304.png"
+    },
+    {
+      "key": "jegal:member:04",
+      "name_ko": "최은찬",
+      "faction": "jegal",
+      "role": "clan_warrior",
+      "skin": 305,
+      "texture": "murimlife:textures/entity/wuxia/skin_305.png"
+    },
+    {
+      "key": "jegal:member:05",
+      "name_ko": "서설란",
+      "faction": "jegal",
+      "role": "clan_warrior",
+      "skin": 306,
+      "texture": "murimlife:textures/entity/wuxia/skin_306.png"
+    },
+    {
+      "key": "jegal:member:06",
+      "name_ko": "백유빈",
+      "faction": "jegal",
+      "role": "clan_bodyguard",
+      "skin": 307,
+      "texture": "murimlife:textures/entity/wuxia/skin_307.png"
+    },
+    {
+      "key": "jegal:member:07",
+      "name_ko": "이장풍",
+      "faction": "jegal",
+      "role": "clan_bodyguard",
+      "skin": 308,
+      "texture": "murimlife:textures/entity/wuxia/skin_308.png"
+    },
+    {
+      "key": "jegal:member:08",
+      "name_ko": "이윤서",
+      "faction": "jegal",
+      "role": "clan_steward",
+      "skin": 309,
+      "texture": "murimlife:textures/entity/wuxia/skin_309.png"
+    },
+    {
+      "key": "jegal:member:09",
+      "name_ko": "양안화",
+      "faction": "jegal",
+      "role": "clan_steward",
+      "skin": 310,
+      "texture": "murimlife:textures/entity/wuxia/skin_310.png"
+    },
+    {
+      "key": "jegal:member:10",
+      "name_ko": "박은찬",
+      "faction": "jegal",
+      "role": "clan_attendant",
+      "skin": 311,
+      "texture": "murimlife:textures/entity/wuxia/skin_311.png"
+    },
+    {
+      "key": "jegal:member:11",
+      "name_ko": "왕문헌",
+      "faction": "jegal",
+      "role": "clan_attendant",
+      "skin": 312,
+      "texture": "murimlife:textures/entity/wuxia/skin_312.png"
+    },
+    {
+      "key": "jegal:member:12",
+      "name_ko": "류연우",
+      "faction": "jegal",
+      "role": "clan_attendant",
+      "skin": 313,
+      "texture": "murimlife:textures/entity/wuxia/skin_313.png"
+    },
+    {
+      "key": "jegal:member:13",
+      "name_ko": "풍자묵",
+      "faction": "jegal",
+      "role": "clan_scholar",
+      "skin": 314,
+      "texture": "murimlife:textures/entity/wuxia/skin_314.png"
+    },
+    {
+      "key": "jegal:member:14",
+      "name_ko": "윤주원",
+      "faction": "jegal",
+      "role": "clan_artisan",
+      "skin": 315,
+      "texture": "murimlife:textures/entity/wuxia/skin_315.png"
+    },
+    {
+      "key": "jegal:member:15",
+      "name_ko": "서유가",
+      "faction": "jegal",
+      "role": "clan_artisan",
+      "skin": 316,
+      "texture": "murimlife:textures/entity/wuxia/skin_316.png"
+    },
+    {
+      "key": "jegal:member:16",
+      "name_ko": "박지민",
+      "faction": "jegal",
+      "role": "clan_warrior",
+      "skin": 317,
+      "texture": "murimlife:textures/entity/wuxia/skin_317.png"
+    },
+    {
+      "key": "jegal:member:17",
+      "name_ko": "허옥주",
+      "faction": "jegal",
+      "role": "clan_warrior",
+      "skin": 318,
+      "texture": "murimlife:textures/entity/wuxia/skin_318.png"
+    },
+    {
+      "key": "jegal:member:18",
+      "name_ko": "신소민",
+      "faction": "jegal",
+      "role": "clan_attendant",
+      "skin": 319,
+      "texture": "murimlife:textures/entity/wuxia/skin_319.png"
+    },
+    {
+      "key": "jegal:member:19",
+      "name_ko": "고완아",
+      "faction": "jegal",
+      "role": "clan_bodyguard",
+      "skin": 320,
+      "texture": "murimlife:textures/entity/wuxia/skin_320.png"
+    },
+    {
+      "key": "jegal:member:20",
+      "name_ko": "장하온",
+      "faction": "jegal",
+      "role": "clan_warrior",
+      "skin": 321,
+      "texture": "murimlife:textures/entity/wuxia/skin_321.png"
+    },
+    {
+      "key": "jegal:member:21",
+      "name_ko": "진성하",
+      "faction": "jegal",
+      "role": "clan_heir",
+      "skin": 322,
+      "texture": "murimlife:textures/entity/wuxia/skin_322.png"
+    },
+    {
+      "key": "jegal:member:22",
+      "name_ko": "박서린",
+      "faction": "jegal",
+      "role": "clan_attendant",
+      "skin": 323,
+      "texture": "murimlife:textures/entity/wuxia/skin_323.png"
+    },
+    {
+      "key": "mourong:member:01",
+      "name_ko": "이춘효",
+      "faction": "mourong",
+      "role": "clan_heir",
+      "skin": 324,
+      "texture": "murimlife:textures/entity/wuxia/skin_324.png"
+    },
+    {
+      "key": "mourong:member:02",
+      "name_ko": "오채원",
+      "faction": "mourong",
+      "role": "clan_warrior",
+      "skin": 325,
+      "texture": "murimlife:textures/entity/wuxia/skin_325.png"
+    },
+    {
+      "key": "mourong:member:03",
+      "name_ko": "서백주",
+      "faction": "mourong",
+      "role": "clan_warrior",
+      "skin": 326,
+      "texture": "murimlife:textures/entity/wuxia/skin_326.png"
+    },
+    {
+      "key": "mourong:member:04",
+      "name_ko": "장가온",
+      "faction": "mourong",
+      "role": "clan_warrior",
+      "skin": 327,
+      "texture": "murimlife:textures/entity/wuxia/skin_327.png"
+    },
+    {
+      "key": "mourong:member:05",
+      "name_ko": "주성하",
+      "faction": "mourong",
+      "role": "clan_warrior",
+      "skin": 328,
+      "texture": "murimlife:textures/entity/wuxia/skin_328.png"
+    },
+    {
+      "key": "mourong:member:06",
+      "name_ko": "권은서",
+      "faction": "mourong",
+      "role": "clan_bodyguard",
+      "skin": 329,
+      "texture": "murimlife:textures/entity/wuxia/skin_329.png"
+    },
+    {
+      "key": "mourong:member:07",
+      "name_ko": "서원호",
+      "faction": "mourong",
+      "role": "clan_bodyguard",
+      "skin": 330,
+      "texture": "murimlife:textures/entity/wuxia/skin_330.png"
+    },
+    {
+      "key": "mourong:member:08",
+      "name_ko": "황도현",
+      "faction": "mourong",
+      "role": "clan_steward",
+      "skin": 331,
+      "texture": "murimlife:textures/entity/wuxia/skin_331.png"
+    },
+    {
+      "key": "mourong:member:09",
+      "name_ko": "풍지란",
+      "faction": "mourong",
+      "role": "clan_steward",
+      "skin": 332,
+      "texture": "murimlife:textures/entity/wuxia/skin_332.png"
+    },
+    {
+      "key": "mourong:member:10",
+      "name_ko": "박나린",
+      "faction": "mourong",
+      "role": "clan_attendant",
+      "skin": 333,
+      "texture": "murimlife:textures/entity/wuxia/skin_333.png"
+    },
+    {
+      "key": "mourong:member:11",
+      "name_ko": "손자묵",
+      "faction": "mourong",
+      "role": "clan_attendant",
+      "skin": 334,
+      "texture": "murimlife:textures/entity/wuxia/skin_334.png"
+    },
+    {
+      "key": "mourong:member:12",
+      "name_ko": "한하린",
+      "faction": "mourong",
+      "role": "clan_attendant",
+      "skin": 335,
+      "texture": "murimlife:textures/entity/wuxia/skin_335.png"
+    },
+    {
+      "key": "mourong:member:13",
+      "name_ko": "진청풍",
+      "faction": "mourong",
+      "role": "clan_scholar",
+      "skin": 336,
+      "texture": "murimlife:textures/entity/wuxia/skin_336.png"
+    },
+    {
+      "key": "mourong:member:14",
+      "name_ko": "오유정",
+      "faction": "mourong",
+      "role": "clan_artisan",
+      "skin": 337,
+      "texture": "murimlife:textures/entity/wuxia/skin_337.png"
+    },
+    {
+      "key": "mourong:member:15",
+      "name_ko": "임월화",
+      "faction": "mourong",
+      "role": "clan_artisan",
+      "skin": 338,
+      "texture": "murimlife:textures/entity/wuxia/skin_338.png"
+    },
+    {
+      "key": "mourong:member:16",
+      "name_ko": "신주원",
+      "faction": "mourong",
+      "role": "clan_warrior",
+      "skin": 339,
+      "texture": "murimlife:textures/entity/wuxia/skin_339.png"
+    },
+    {
+      "key": "mourong:member:17",
+      "name_ko": "장문헌",
+      "faction": "mourong",
+      "role": "clan_warrior",
+      "skin": 340,
+      "texture": "murimlife:textures/entity/wuxia/skin_340.png"
+    },
+    {
+      "key": "mourong:member:18",
+      "name_ko": "이은찬",
+      "faction": "mourong",
+      "role": "clan_attendant",
+      "skin": 341,
+      "texture": "murimlife:textures/entity/wuxia/skin_341.png"
+    },
+    {
+      "key": "mourong:member:19",
+      "name_ko": "왕청하",
+      "faction": "mourong",
+      "role": "clan_bodyguard",
+      "skin": 342,
+      "texture": "murimlife:textures/entity/wuxia/skin_342.png"
+    },
+    {
+      "key": "mourong:member:20",
+      "name_ko": "류윤서",
+      "faction": "mourong",
+      "role": "clan_warrior",
+      "skin": 343,
+      "texture": "murimlife:textures/entity/wuxia/skin_343.png"
+    },
+    {
+      "key": "mourong:member:21",
+      "name_ko": "진약계",
+      "faction": "mourong",
+      "role": "clan_heir",
+      "skin": 344,
+      "texture": "murimlife:textures/entity/wuxia/skin_344.png"
+    },
+    {
+      "key": "mourong:member:22",
+      "name_ko": "한소민",
+      "faction": "mourong",
+      "role": "clan_attendant",
+      "skin": 345,
+      "texture": "murimlife:textures/entity/wuxia/skin_345.png"
+    }
+  ],
+  "civilian_base": 346,
+  "civilian_count": 96
+}

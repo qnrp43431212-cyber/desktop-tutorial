@@ -1,0 +1,952 @@
+{
+  "meta": {
+    "version": "1.5",
+    "game": "Minecraft 1.21.1",
+    "loader": "NeoForge",
+    "rules_status": "concept_and_partial_prototype",
+    "probabilities_and_stat_equations": "not_finalized"
+  },
+  "cult_world": {
+    "valid_initial_states": [
+      "both_exist",
+      "only_blood_exists",
+      "only_demon_exists"
+    ],
+    "invalid_initial_states": [
+      "neither_exists"
+    ],
+    "immutable_roll_after_first_world_save": true,
+    "founding_only_if_absent": true,
+    "leader_paths": [
+      "found_new",
+      "kill_current_leader_and_claim"
+    ],
+    "founding": {
+      "demon_cult": {
+        "event": "마도귀환",
+        "relic": "천마계승령",
+        "steps": [
+          "객잔의 흑철령 소문",
+          "마도 폐연무장 탐색",
+          "봉인된 천마계승령 획득",
+          "내면세계의 전대 천마 환영 시련",
+          "M 메뉴 창설 버튼 해금"
+        ]
+      },
+      "blood_cult": {
+        "event": "혈해재림",
+        "relic": "혈교성유령",
+        "steps": [
+          "실종 사건 추적",
+          "옛 혈교 제단 발견",
+          "혈교성유령 획득",
+          "혈교 비전의 봉인 시련",
+          "M 메뉴 창설 버튼 해금"
+        ]
+      }
+    },
+    "joining": {
+      "demon_cult": [
+        "교도와 접촉",
+        "추천·평판 획득",
+        "무공·의지 시험",
+        "입교"
+      ],
+      "blood_cult": [
+        "비밀정보 획득",
+        "교단 접촉",
+        "신분·충성 심사",
+        "입교"
+      ]
+    },
+    "probabilities": "pending",
+    "initial_npc_location": "future_worldgen"
+  },
+  "cult_arts": [
+    {
+      "id": "cheoma_simgong",
+      "name": "천마심공",
+      "faction": "천마신교",
+      "discipline": "inner",
+      "kind": "passive",
+      "optimal_weapon": null,
+      "similar_weapons": [],
+      "tier_provisional": "신공",
+      "source_class": "secondary_fan_reference",
+      "source_work": "이 무림의 미친년은 나야",
+      "notes": ""
+    },
+    {
+      "id": "cheoma_gunlimbo",
+      "name": "천마군림보",
+      "faction": "천마신교",
+      "discipline": "footwork",
+      "kind": "active",
+      "optimal_weapon": null,
+      "similar_weapons": [],
+      "tier_provisional": "신공",
+      "source_class": "secondary_fan_reference",
+      "source_work": "이 무림의 미친년은 나야",
+      "notes": ""
+    },
+    {
+      "id": "cheoma_jip",
+      "name": "천마지",
+      "faction": "천마신교",
+      "discipline": "finger",
+      "kind": "active",
+      "optimal_weapon": "unarmed",
+      "similar_weapons": [
+        "claw"
+      ],
+      "tier_provisional": "신공",
+      "source_class": "secondary_fan_reference",
+      "source_work": "이 무림의 미친년은 나야",
+      "notes": ""
+    },
+    {
+      "id": "cheoma_13_sword",
+      "name": "천마십삼검",
+      "faction": "천마신교",
+      "discipline": "sword",
+      "kind": "active",
+      "optimal_weapon": "sword",
+      "similar_weapons": [
+        "saber"
+      ],
+      "tier_provisional": "절학",
+      "source_class": "secondary_fan_reference",
+      "source_work": "이 무림의 미친년은 나야",
+      "notes": ""
+    },
+    {
+      "id": "cheoma_6_fist",
+      "name": "천마육권",
+      "faction": "천마신교",
+      "discipline": "fist",
+      "kind": "active",
+      "optimal_weapon": "unarmed",
+      "similar_weapons": [
+        "claw"
+      ],
+      "tier_provisional": "절학",
+      "source_class": "secondary_fan_reference",
+      "source_work": "이 무림의 미친년은 나야",
+      "notes": ""
+    },
+    {
+      "id": "heuksal_palm",
+      "name": "흑살마장",
+      "faction": "천마신교",
+      "discipline": "palm",
+      "kind": "active",
+      "optimal_weapon": "unarmed",
+      "similar_weapons": [
+        "claw"
+      ],
+      "tier_provisional": "절학",
+      "source_class": "secondary_fan_reference",
+      "source_work": "이 무림의 미친년은 나야",
+      "notes": ""
+    },
+    {
+      "id": "jajeon_magong",
+      "name": "자전마공",
+      "faction": "천마신교",
+      "discipline": "inner",
+      "kind": "passive",
+      "optimal_weapon": null,
+      "similar_weapons": [],
+      "tier_provisional": "절학",
+      "source_class": "secondary_fan_reference",
+      "source_work": "이 무림의 미친년은 나야",
+      "notes": ""
+    },
+    {
+      "id": "cheolli_bihaeng",
+      "name": "천리비행",
+      "faction": "천마신교",
+      "discipline": "lightness",
+      "kind": "passive",
+      "optimal_weapon": null,
+      "similar_weapons": [],
+      "tier_provisional": "상승무공",
+      "source_class": "secondary_fan_reference",
+      "source_work": "이 무림의 미친년은 나야",
+      "notes": ""
+    },
+    {
+      "id": "cheoma_singwon",
+      "name": "천마신권",
+      "faction": "천마신교",
+      "discipline": "fist",
+      "kind": "active",
+      "optimal_weapon": "unarmed",
+      "similar_weapons": [
+        "claw"
+      ],
+      "tier_provisional": "절학",
+      "source_class": "secondary_fan_reference",
+      "source_work": "이 무림의 미친년은 나야",
+      "notes": ""
+    },
+    {
+      "id": "cheoma_cheonsaejang",
+      "name": "천마천세장",
+      "faction": "천마신교",
+      "discipline": "palm",
+      "kind": "active",
+      "optimal_weapon": "unarmed",
+      "similar_weapons": [
+        "claw"
+      ],
+      "tier_provisional": "절학",
+      "source_class": "secondary_fan_reference",
+      "source_work": "이 무림의 미친년은 나야",
+      "notes": ""
+    },
+    {
+      "id": "cheoma_iron_dao",
+      "name": "천마철질마도",
+      "faction": "천마신교",
+      "discipline": "saber",
+      "kind": "active",
+      "optimal_weapon": "saber",
+      "similar_weapons": [
+        "sword"
+      ],
+      "tier_provisional": "절학",
+      "source_class": "secondary_fan_reference",
+      "source_work": "이 무림의 미친년은 나야",
+      "notes": ""
+    },
+    {
+      "id": "cheoma_suro_dao",
+      "name": "천마아수라마도",
+      "faction": "천마신교",
+      "discipline": "saber",
+      "kind": "active",
+      "optimal_weapon": "heavy_saber",
+      "similar_weapons": [
+        "sword"
+      ],
+      "tier_provisional": "신공",
+      "source_class": "secondary_fan_reference",
+      "source_work": "이 무림의 미친년은 나야",
+      "notes": ""
+    },
+    {
+      "id": "cheoma_jeorundo",
+      "name": "천마절운도",
+      "faction": "천마신교",
+      "discipline": "saber",
+      "kind": "active",
+      "optimal_weapon": "saber",
+      "similar_weapons": [
+        "sword"
+      ],
+      "tier_provisional": "절학",
+      "source_class": "secondary_fan_reference",
+      "source_work": "이 무림의 미친년은 나야",
+      "notes": ""
+    },
+    {
+      "id": "heukyeong_tujam",
+      "name": "흑영투잠",
+      "faction": "천마신교",
+      "discipline": "stealth",
+      "kind": "passive",
+      "optimal_weapon": null,
+      "similar_weapons": [],
+      "tier_provisional": "상승무공",
+      "source_class": "secondary_fan_reference",
+      "source_work": "이 무림의 미친년은 나야",
+      "notes": ""
+    },
+    {
+      "id": "cheoma_singong_genre",
+      "name": "천마신공",
+      "faction": "천마신교",
+      "discipline": "inner",
+      "kind": "passive",
+      "optimal_weapon": null,
+      "similar_weapons": [],
+      "tier_provisional": "신공",
+      "source_class": "genre_convention",
+      "source_work": null,
+      "notes": ""
+    },
+    {
+      "id": "cheoma_sinbeop",
+      "name": "천마신법",
+      "faction": "천마신교",
+      "discipline": "footwork",
+      "kind": "passive",
+      "optimal_weapon": null,
+      "similar_weapons": [],
+      "tier_provisional": "절학",
+      "source_class": "genre_convention",
+      "source_work": null,
+      "notes": ""
+    },
+    {
+      "id": "cheoma_geombeop",
+      "name": "천마검법",
+      "faction": "천마신교",
+      "discipline": "sword",
+      "kind": "active",
+      "optimal_weapon": "sword",
+      "similar_weapons": [
+        "saber"
+      ],
+      "tier_provisional": "절학",
+      "source_class": "genre_convention",
+      "source_work": null,
+      "notes": ""
+    },
+    {
+      "id": "cheoma_magi",
+      "name": "천마강기",
+      "faction": "천마신교",
+      "discipline": "aura",
+      "kind": "passive",
+      "optimal_weapon": null,
+      "similar_weapons": [],
+      "tier_provisional": "신공",
+      "source_class": "genre_convention",
+      "source_work": null,
+      "notes": ""
+    },
+    {
+      "id": "cheoma_kenpo",
+      "name": "천마권법",
+      "faction": "천마신교",
+      "discipline": "fist",
+      "kind": "active",
+      "optimal_weapon": "unarmed",
+      "similar_weapons": [
+        "claw"
+      ],
+      "tier_provisional": "절학",
+      "source_class": "genre_convention",
+      "source_work": null,
+      "notes": ""
+    },
+    {
+      "id": "reverse_blood_flow",
+      "name": "역천혈류대법",
+      "faction": "혈교",
+      "discipline": "sealing",
+      "kind": "passive",
+      "optimal_weapon": null,
+      "similar_weapons": [],
+      "tier_provisional": "절학",
+      "source_class": "secondary_fan_reference",
+      "source_work": "이 무림의 미친년은 나야",
+      "notes": ""
+    },
+    {
+      "id": "blood_shade",
+      "name": "혈영신공",
+      "faction": "혈교",
+      "discipline": "footwork",
+      "kind": "passive",
+      "optimal_weapon": null,
+      "similar_weapons": [],
+      "tier_provisional": "신공",
+      "source_class": "genre_convention",
+      "source_work": null,
+      "notes": ""
+    },
+    {
+      "id": "blood_absorption",
+      "name": "흡혈공",
+      "faction": "혈교",
+      "discipline": "inner",
+      "kind": "passive",
+      "optimal_weapon": null,
+      "similar_weapons": [],
+      "tier_provisional": "절학",
+      "source_class": "genre_convention",
+      "source_work": null,
+      "notes": ""
+    },
+    {
+      "id": "blood_demon_hand",
+      "name": "혈마수",
+      "faction": "혈교",
+      "discipline": "palm",
+      "kind": "active",
+      "optimal_weapon": "unarmed",
+      "similar_weapons": [
+        "claw"
+      ],
+      "tier_provisional": "절학",
+      "source_class": "genre_convention",
+      "source_work": null,
+      "notes": ""
+    },
+    {
+      "id": "blood_demon_simgong",
+      "name": "혈마신공",
+      "faction": "혈교",
+      "discipline": "inner",
+      "kind": "passive",
+      "optimal_weapon": null,
+      "similar_weapons": [],
+      "tier_provisional": "신공",
+      "source_class": "genre_convention",
+      "source_work": null,
+      "notes": ""
+    },
+    {
+      "id": "blood_corpse_art",
+      "name": "혈강시술",
+      "faction": "혈교",
+      "discipline": "forbidden",
+      "kind": "passive",
+      "optimal_weapon": null,
+      "similar_weapons": [],
+      "tier_provisional": "절학",
+      "source_class": "genre_convention",
+      "source_work": null,
+      "notes": ""
+    },
+    {
+      "id": "blood_mist_dao",
+      "name": "혈무도법",
+      "faction": "혈교",
+      "discipline": "saber",
+      "kind": "active",
+      "optimal_weapon": "saber",
+      "similar_weapons": [
+        "sword"
+      ],
+      "tier_provisional": "상승무공",
+      "source_class": "original_game_design",
+      "source_work": null,
+      "notes": "게임 오리지널"
+    },
+    {
+      "id": "red_shade_step",
+      "name": "적영보",
+      "faction": "혈교",
+      "discipline": "footwork",
+      "kind": "passive",
+      "optimal_weapon": null,
+      "similar_weapons": [],
+      "tier_provisional": "상승무공",
+      "source_class": "original_game_design",
+      "source_work": null,
+      "notes": "게임 오리지널"
+    }
+  ],
+  "outfits": [
+    {
+      "id": "shaolin",
+      "name": "소림사 도복",
+      "category": "orthodox",
+      "sect": "소림사",
+      "primary": "#C68D42",
+      "accent": "#3C2B20",
+      "emblem": "佛"
+    },
+    {
+      "id": "wudang",
+      "name": "무당파 도복",
+      "category": "orthodox",
+      "sect": "무당파",
+      "primary": "#537993",
+      "accent": "#D5D7CA",
+      "emblem": "武"
+    },
+    {
+      "id": "huashan",
+      "name": "화산파 도복",
+      "category": "orthodox",
+      "sect": "화산파",
+      "primary": "#DED6E8",
+      "accent": "#A54D6E",
+      "emblem": "華"
+    },
+    {
+      "id": "emei",
+      "name": "아미파 도복",
+      "category": "orthodox",
+      "sect": "아미파",
+      "primary": "#C5D9E7",
+      "accent": "#537E9A",
+      "emblem": "峨"
+    },
+    {
+      "id": "qingcheng",
+      "name": "청성파 도복",
+      "category": "orthodox",
+      "sect": "청성파",
+      "primary": "#457B71",
+      "accent": "#D8D2A9",
+      "emblem": "青"
+    },
+    {
+      "id": "kunlun",
+      "name": "곤륜파 도복",
+      "category": "orthodox",
+      "sect": "곤륜파",
+      "primary": "#D5DEE7",
+      "accent": "#485C85",
+      "emblem": "崑"
+    },
+    {
+      "id": "kongtong",
+      "name": "공동파 도복",
+      "category": "orthodox",
+      "sect": "공동파",
+      "primary": "#987260",
+      "accent": "#D3B897",
+      "emblem": "崆"
+    },
+    {
+      "id": "diancang",
+      "name": "점창파 도복",
+      "category": "orthodox",
+      "sect": "점창파",
+      "primary": "#AFC7CD",
+      "accent": "#344F6B",
+      "emblem": "點"
+    },
+    {
+      "id": "zhongnan",
+      "name": "종남파 도복",
+      "category": "orthodox",
+      "sect": "종남파",
+      "primary": "#697A86",
+      "accent": "#DAE0CB",
+      "emblem": "終"
+    },
+    {
+      "id": "gaibang",
+      "name": "개방 도복",
+      "category": "orthodox",
+      "sect": "개방",
+      "primary": "#9C784C",
+      "accent": "#4B3B2A",
+      "emblem": "丐"
+    },
+    {
+      "id": "namgung",
+      "name": "남궁세가 도복",
+      "category": "orthodox",
+      "sect": "남궁세가",
+      "primary": "#E4DFCB",
+      "accent": "#6A91A5",
+      "emblem": "南"
+    },
+    {
+      "id": "tangmun",
+      "name": "사천당문 도복",
+      "category": "orthodox",
+      "sect": "사천당문",
+      "primary": "#303B48",
+      "accent": "#86B65B",
+      "emblem": "唐"
+    },
+    {
+      "id": "paengga",
+      "name": "하북팽가 도복",
+      "category": "orthodox",
+      "sect": "하북팽가",
+      "primary": "#803F36",
+      "accent": "#D3A05F",
+      "emblem": "彭"
+    },
+    {
+      "id": "jegal",
+      "name": "제갈세가 도복",
+      "category": "orthodox",
+      "sect": "제갈세가",
+      "primary": "#596A7C",
+      "accent": "#D6B465",
+      "emblem": "諸"
+    },
+    {
+      "id": "hwangsan",
+      "name": "황산파 도복",
+      "category": "orthodox",
+      "sect": "황산파",
+      "primary": "#8C8DA8",
+      "accent": "#D5CFB2",
+      "emblem": "黃"
+    },
+    {
+      "id": "sapa_01",
+      "name": "흑호객포",
+      "category": "unorthodox",
+      "primary": "#2E343C",
+      "accent": "#A34A42"
+    },
+    {
+      "id": "sapa_02",
+      "name": "독사도포",
+      "category": "unorthodox",
+      "primary": "#4E584A",
+      "accent": "#D1A957"
+    },
+    {
+      "id": "sapa_03",
+      "name": "암야사복",
+      "category": "unorthodox",
+      "primary": "#342F42",
+      "accent": "#7477A4"
+    },
+    {
+      "id": "sapa_04",
+      "name": "수적전포",
+      "category": "unorthodox",
+      "primary": "#365767",
+      "accent": "#D5B37A"
+    },
+    {
+      "id": "sapa_05",
+      "name": "산채호피포",
+      "category": "unorthodox",
+      "primary": "#7B5F43",
+      "accent": "#333629"
+    },
+    {
+      "id": "sapa_06",
+      "name": "철쇄무복",
+      "category": "unorthodox",
+      "primary": "#5F6367",
+      "accent": "#B98351"
+    },
+    {
+      "id": "sapa_07",
+      "name": "파사적포",
+      "category": "unorthodox",
+      "primary": "#703548",
+      "accent": "#C28C94"
+    },
+    {
+      "id": "sapa_08",
+      "name": "황사여객포",
+      "category": "unorthodox",
+      "primary": "#9B8762",
+      "accent": "#2F4038"
+    },
+    {
+      "id": "sapa_09",
+      "name": "자귀도복",
+      "category": "unorthodox",
+      "primary": "#594562",
+      "accent": "#9B899D"
+    },
+    {
+      "id": "sapa_10",
+      "name": "혈월야복",
+      "category": "unorthodox",
+      "primary": "#453D42",
+      "accent": "#D15757"
+    },
+    {
+      "id": "wander_01",
+      "name": "행각검객복",
+      "category": "wanderer",
+      "primary": "#83745C",
+      "accent": "#D1C8AD"
+    },
+    {
+      "id": "wander_02",
+      "name": "유랑도의복",
+      "category": "wanderer",
+      "primary": "#4A5D6B",
+      "accent": "#B49D73"
+    },
+    {
+      "id": "wander_03",
+      "name": "주막낭인복",
+      "category": "wanderer",
+      "primary": "#6C604B",
+      "accent": "#D1B69A"
+    },
+    {
+      "id": "wander_04",
+      "name": "백의협객복",
+      "category": "wanderer",
+      "primary": "#DDDAD2",
+      "accent": "#667D93"
+    },
+    {
+      "id": "wander_05",
+      "name": "약초유랑복",
+      "category": "wanderer",
+      "primary": "#577462",
+      "accent": "#D6C18F"
+    },
+    {
+      "id": "wander_06",
+      "name": "흑립도포",
+      "category": "wanderer",
+      "primary": "#383B42",
+      "accent": "#B6B0A0"
+    },
+    {
+      "id": "wander_07",
+      "name": "남풍의객복",
+      "category": "wanderer",
+      "primary": "#6A779A",
+      "accent": "#CDC9B9"
+    },
+    {
+      "id": "wander_08",
+      "name": "장도행각복",
+      "category": "wanderer",
+      "primary": "#8B594C",
+      "accent": "#D6AD82"
+    },
+    {
+      "id": "founder_01",
+      "name": "창설문파 운백복",
+      "category": "player_created",
+      "primary": "#E0DDD1",
+      "accent": "#325C72"
+    },
+    {
+      "id": "founder_02",
+      "name": "창설문파 적운복",
+      "category": "player_created",
+      "primary": "#592F37",
+      "accent": "#D8A567"
+    },
+    {
+      "id": "founder_03",
+      "name": "창설문파 청송복",
+      "category": "player_created",
+      "primary": "#3A5D55",
+      "accent": "#D8D3A6"
+    },
+    {
+      "id": "demon_cult",
+      "name": "천마신교 흑천교복",
+      "category": "special_cult",
+      "sect": "천마신교",
+      "primary": "#25242F",
+      "accent": "#936AAB"
+    },
+    {
+      "id": "blood_cult",
+      "name": "혈교 적혈교복",
+      "category": "special_cult",
+      "sect": "혈교",
+      "primary": "#5B1D26",
+      "accent": "#C84143"
+    }
+  ],
+  "weapons": [
+    {
+      "id": "jian",
+      "name": "양날검",
+      "family": "sword",
+      "similar_family": "saber"
+    },
+    {
+      "id": "dao",
+      "name": "도",
+      "family": "saber",
+      "similar_family": "sword"
+    },
+    {
+      "id": "great_jian",
+      "name": "중검",
+      "family": "heavy_sword",
+      "similar_family": "sword"
+    },
+    {
+      "id": "great_dao",
+      "name": "대도",
+      "family": "heavy_saber",
+      "similar_family": "saber"
+    },
+    {
+      "id": "dagger",
+      "name": "단검",
+      "family": "dagger",
+      "similar_family": "sword"
+    },
+    {
+      "id": "spear",
+      "name": "창",
+      "family": "spear",
+      "similar_family": "glaive"
+    },
+    {
+      "id": "staff",
+      "name": "봉",
+      "family": "staff",
+      "similar_family": "spear"
+    },
+    {
+      "id": "glaive",
+      "name": "언월도",
+      "family": "glaive",
+      "similar_family": "spear"
+    },
+    {
+      "id": "fan",
+      "name": "철선",
+      "family": "fan",
+      "similar_family": "dagger"
+    },
+    {
+      "id": "whip",
+      "name": "장편",
+      "family": "whip",
+      "similar_family": "chain"
+    },
+    {
+      "id": "chain",
+      "name": "연환삭",
+      "family": "chain",
+      "similar_family": "whip"
+    },
+    {
+      "id": "claw",
+      "name": "철조",
+      "family": "claw",
+      "similar_family": "unarmed"
+    },
+    {
+      "id": "gauntlet",
+      "name": "권갑",
+      "family": "unarmed",
+      "similar_family": "claw"
+    },
+    {
+      "id": "needles",
+      "name": "비침",
+      "family": "hidden",
+      "similar_family": "dagger"
+    },
+    {
+      "id": "throwing_knife",
+      "name": "비도",
+      "family": "hidden",
+      "similar_family": "dagger"
+    },
+    {
+      "id": "hammer",
+      "name": "철추",
+      "family": "hammer",
+      "similar_family": "heavy_saber"
+    }
+  ],
+  "disguises": [
+    {
+      "id": "mask",
+      "name": "가면",
+      "coverage": "face",
+      "armor": "iron_helmet",
+      "durability": true
+    },
+    {
+      "id": "full_hood",
+      "name": "전신 후드",
+      "coverage": "full_body_visual",
+      "equipment_slot": "head",
+      "armor": "iron_helmet",
+      "durability": true
+    },
+    {
+      "id": "veil",
+      "name": "면사",
+      "coverage": "face",
+      "armor": "iron_helmet",
+      "durability": true
+    }
+  ],
+  "armor_rules": {
+    "piece_types": [
+      "chestplate",
+      "leggings",
+      "boots"
+    ],
+    "regular_durability": false,
+    "regular_armor_reference": [
+      "iron_chestplate",
+      "iron_leggings",
+      "iron_boots"
+    ],
+    "disguise_durability": true,
+    "disguise_armor_reference": "iron_helmet",
+    "grant_on_join": true,
+    "player_created_select_count": 3,
+    "cult_outfits_distinct": true,
+    "actual_full_body_hood_renderer": "not_implemented"
+  },
+  "martial_weapon_rules": {
+    "optimal": "full_effect",
+    "similar": "reduced_effect_pending_formula",
+    "invalid": "not_usable",
+    "passive": "not_in_skill_wheel",
+    "type_specific_compatibility": true,
+    "server_authoritative": true
+  },
+  "menu": {
+    "key": "M",
+    "style": "dark_ink_bamboo_paper_bronze",
+    "sections": [
+      "information",
+      "martial_arts",
+      "stats",
+      "create_sect",
+      "team"
+    ],
+    "hud": [
+      "currency",
+      "realm",
+      "combat_power"
+    ],
+    "skill_page": [
+      "learned_arts",
+      "mastery",
+      "12_slots_active_only"
+    ],
+    "training_gain_toast": "right_screen_side"
+  },
+  "radial": {
+    "key": "R",
+    "slots": 12,
+    "while_held_player_movement": true,
+    "selection_method": "mouse_wheel_while_holding_R",
+    "release_to_activate": true,
+    "passive_disabled": true,
+    "actual_skill_execution": "pending"
+  },
+  "team": {
+    "supports_players": true,
+    "supports_npcs": "future",
+    "friendly_fire": false,
+    "server_enforced": true
+  },
+  "training": {
+    "level_up_allocate_stats": false,
+    "growth_sources": [
+      "repeated_appropriate_training",
+      "real_combat",
+      "practical_exercise"
+    ],
+    "toast": "right_top",
+    "numeric_formulas": "pending"
+  },
+  "existing_features_retained": [
+    "precise_29_stat_system_plus_good_evil_karma",
+    "8_realms_with_chobip_soseong_daeseong_chowol",
+    "inner_world_dimension_design",
+    "inn_martial_rumors",
+    "rare_fate_events",
+    "sect_exams",
+    "wandering_martial_arts",
+    "synchronized_npc_ai",
+    "clash_parry_feint_weakpoint",
+    "natural_wuxia_worldgen"
+  ]
+}

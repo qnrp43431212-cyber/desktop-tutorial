@@ -1,0 +1,27 @@
+{
+  "structures": [
+    {
+      "structure": "murimlife_arch:natural_hamlet",
+      "weight": 7
+    },
+    {
+      "structure": "murimlife_arch:natural_market",
+      "weight": 2
+    },
+    {
+      "structure": "murimlife_arch:natural_roadside_inn",
+      "weight": 3
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 16011621,
+    "spacing": 52,
+    "separation": 26,
+    "spread_type": "linear",
+    "exclusion_zone": {
+      "other_set": "minecraft:villages",
+      "chunk_count": 12
+    }
+  }
+}

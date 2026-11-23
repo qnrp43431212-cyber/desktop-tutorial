@@ -1,0 +1,2010 @@
+{
+  "version": 126,
+  "purpose": "future_NPC_names_only_not_500_active_successors",
+  "pool_per_cult": {
+    "마교": [
+      {
+        "id": "cult_024",
+        "name_ko": "담준염"
+      },
+      {
+        "id": "cult_026",
+        "name_ko": "공손연령"
+      },
+      {
+        "id": "cult_028",
+        "name_ko": "한현대"
+      },
+      {
+        "id": "cult_030",
+        "name_ko": "풍낙담"
+      },
+      {
+        "id": "cult_032",
+        "name_ko": "구양비륜"
+      },
+      {
+        "id": "cult_034",
+        "name_ko": "현연명"
+      },
+      {
+        "id": "cult_036",
+        "name_ko": "임석영"
+      },
+      {
+        "id": "cult_038",
+        "name_ko": "한비석"
+      },
+      {
+        "id": "cult_040",
+        "name_ko": "모초산"
+      },
+      {
+        "id": "cult_042",
+        "name_ko": "공손흠기"
+      },
+      {
+        "id": "cult_044",
+        "name_ko": "독고목혁"
+      },
+      {
+        "id": "cult_046",
+        "name_ko": "남궁진영"
+      },
+      {
+        "id": "cult_048",
+        "name_ko": "백관윤"
+      },
+      {
+        "id": "cult_050",
+        "name_ko": "선우단담"
+      },
+      {
+        "id": "cult_052",
+        "name_ko": "철비빈"
+      },
+      {
+        "id": "cult_054",
+        "name_ko": "모철묵"
+      },
+      {
+        "id": "cult_056",
+        "name_ko": "배무혼"
+      },
+      {
+        "id": "cult_058",
+        "name_ko": "모용현성"
+      },
+      {
+        "id": "cult_060",
+        "name_ko": "남궁경산"
+      },
+      {
+        "id": "cult_062",
+        "name_ko": "곡광낙"
+      },
+      {
+        "id": "cult_064",
+        "name_ko": "하후도지"
+      },
+      {
+        "id": "cult_066",
+        "name_ko": "조은율"
+      },
+      {
+        "id": "cult_068",
+        "name_ko": "도운석"
+      },
+      {
+        "id": "cult_070",
+        "name_ko": "사마광원"
+      },
+      {
+        "id": "cult_072",
+        "name_ko": "위천극"
+      },
+      {
+        "id": "cult_074",
+        "name_ko": "허서묵"
+      },
+      {
+        "id": "cult_076",
+        "name_ko": "강천대"
+      },
+      {
+        "id": "cult_078",
+        "name_ko": "손준륜"
+      },
+      {
+        "id": "cult_080",
+        "name_ko": "구초명"
+      },
+      {
+        "id": "cult_082",
+        "name_ko": "양소은"
+      },
+      {
+        "id": "cult_084",
+        "name_ko": "철목봉"
+      },
+      {
+        "id": "cult_086",
+        "name_ko": "제갈천혼"
+      },
+      {
+        "id": "cult_088",
+        "name_ko": "담운구"
+      },
+      {
+        "id": "cult_090",
+        "name_ko": "갈관봉"
+      },
+      {
+        "id": "cult_092",
+        "name_ko": "사풍진"
+      },
+      {
+        "id": "cult_094",
+        "name_ko": "백경승"
+      },
+      {
+        "id": "cult_096",
+        "name_ko": "주준승"
+      },
+      {
+        "id": "cult_098",
+        "name_ko": "현흠명"
+      },
+      {
+        "id": "cult_100",
+        "name_ko": "장은기"
+      },
+      {
+        "id": "cult_102",
+        "name_ko": "두설기"
+      },
+      {
+        "id": "cult_104",
+        "name_ko": "류초규"
+      },
+      {
+        "id": "cult_106",
+        "name_ko": "노규추"
+      },
+      {
+        "id": "cult_108",
+        "name_ko": "추온위"
+      },
+      {
+        "id": "cult_110",
+        "name_ko": "진연강"
+      },
+      {
+        "id": "cult_112",
+        "name_ko": "진응극"
+      },
+      {
+        "id": "cult_114",
+        "name_ko": "사설륜"
+      },
+      {
+        "id": "cult_116",
+        "name_ko": "사마소근"
+      },
+      {
+        "id": "cult_118",
+        "name_ko": "장흠영"
+      },
+      {
+        "id": "cult_120",
+        "name_ko": "철풍륜"
+      },
+      {
+        "id": "cult_122",
+        "name_ko": "위관준"
+      },
+      {
+        "id": "cult_124",
+        "name_ko": "모유묵"
+      },
+      {
+        "id": "cult_126",
+        "name_ko": "진관준"
+      },
+      {
+        "id": "cult_128",
+        "name_ko": "장도산"
+      },
+      {
+        "id": "cult_130",
+        "name_ko": "백낙성"
+      },
+      {
+        "id": "cult_132",
+        "name_ko": "황보운무"
+      },
+      {
+        "id": "cult_134",
+        "name_ko": "추은도"
+      },
+      {
+        "id": "cult_136",
+        "name_ko": "사마유명"
+      },
+      {
+        "id": "cult_138",
+        "name_ko": "진철명"
+      },
+      {
+        "id": "cult_140",
+        "name_ko": "양경위"
+      },
+      {
+        "id": "cult_142",
+        "name_ko": "진목강"
+      },
+      {
+        "id": "cult_144",
+        "name_ko": "모설운"
+      },
+      {
+        "id": "cult_146",
+        "name_ko": "임회근"
+      },
+      {
+        "id": "cult_148",
+        "name_ko": "사마천성"
+      },
+      {
+        "id": "cult_150",
+        "name_ko": "진단기"
+      },
+      {
+        "id": "cult_152",
+        "name_ko": "사마회욱"
+      },
+      {
+        "id": "cult_154",
+        "name_ko": "주소영"
+      },
+      {
+        "id": "cult_156",
+        "name_ko": "배운궁"
+      },
+      {
+        "id": "cult_158",
+        "name_ko": "풍석봉"
+      },
+      {
+        "id": "cult_160",
+        "name_ko": "황보유운"
+      },
+      {
+        "id": "cult_162",
+        "name_ko": "하후무산"
+      },
+      {
+        "id": "cult_164",
+        "name_ko": "단목서윤"
+      },
+      {
+        "id": "cult_166",
+        "name_ko": "금초궁"
+      },
+      {
+        "id": "cult_168",
+        "name_ko": "철현운"
+      },
+      {
+        "id": "cult_170",
+        "name_ko": "제갈진무"
+      },
+      {
+        "id": "cult_172",
+        "name_ko": "조목율"
+      },
+      {
+        "id": "cult_174",
+        "name_ko": "판심익"
+      },
+      {
+        "id": "cult_176",
+        "name_ko": "담풍추"
+      },
+      {
+        "id": "cult_178",
+        "name_ko": "판설구"
+      },
+      {
+        "id": "cult_180",
+        "name_ko": "판낙기"
+      },
+      {
+        "id": "cult_182",
+        "name_ko": "철초기"
+      },
+      {
+        "id": "cult_184",
+        "name_ko": "독고목욱"
+      },
+      {
+        "id": "cult_186",
+        "name_ko": "맹현근"
+      },
+      {
+        "id": "cult_188",
+        "name_ko": "강묵민"
+      },
+      {
+        "id": "cult_190",
+        "name_ko": "염설욱"
+      },
+      {
+        "id": "cult_192",
+        "name_ko": "육은야"
+      },
+      {
+        "id": "cult_194",
+        "name_ko": "공손준도"
+      },
+      {
+        "id": "cult_196",
+        "name_ko": "염낙현"
+      },
+      {
+        "id": "cult_198",
+        "name_ko": "황응극"
+      },
+      {
+        "id": "cult_200",
+        "name_ko": "황보회담"
+      },
+      {
+        "id": "cult_202",
+        "name_ko": "단목철혁"
+      },
+      {
+        "id": "cult_204",
+        "name_ko": "진준지"
+      },
+      {
+        "id": "cult_206",
+        "name_ko": "탁현욱"
+      },
+      {
+        "id": "cult_208",
+        "name_ko": "사공교율"
+      },
+      {
+        "id": "cult_210",
+        "name_ko": "갈도천"
+      },
+      {
+        "id": "cult_212",
+        "name_ko": "서문화석"
+      },
+      {
+        "id": "cult_214",
+        "name_ko": "동방교령"
+      },
+      {
+        "id": "cult_216",
+        "name_ko": "서문도궁"
+      },
+      {
+        "id": "cult_218",
+        "name_ko": "전회랑"
+      },
+      {
+        "id": "cult_220",
+        "name_ko": "제갈온빈"
+      },
+      {
+        "id": "cult_222",
+        "name_ko": "갈규낙"
+      },
+      {
+        "id": "cult_224",
+        "name_ko": "노규강"
+      },
+      {
+        "id": "cult_226",
+        "name_ko": "구양연무"
+      },
+      {
+        "id": "cult_228",
+        "name_ko": "구광준"
+      },
+      {
+        "id": "cult_230",
+        "name_ko": "사공심빈"
+      },
+      {
+        "id": "cult_232",
+        "name_ko": "육준궁"
+      },
+      {
+        "id": "cult_234",
+        "name_ko": "노심준"
+      },
+      {
+        "id": "cult_236",
+        "name_ko": "철무승"
+      },
+      {
+        "id": "cult_238",
+        "name_ko": "전소랑"
+      },
+      {
+        "id": "cult_240",
+        "name_ko": "독고화석"
+      },
+      {
+        "id": "cult_242",
+        "name_ko": "황설석"
+      },
+      {
+        "id": "cult_244",
+        "name_ko": "사마경천"
+      },
+      {
+        "id": "cult_246",
+        "name_ko": "추파야"
+      },
+      {
+        "id": "cult_248",
+        "name_ko": "모심담"
+      },
+      {
+        "id": "cult_250",
+        "name_ko": "진운강"
+      },
+      {
+        "id": "cult_252",
+        "name_ko": "염서호"
+      },
+      {
+        "id": "cult_254",
+        "name_ko": "사공온산"
+      },
+      {
+        "id": "cult_256",
+        "name_ko": "주풍랑"
+      },
+      {
+        "id": "cult_258",
+        "name_ko": "독고현민"
+      },
+      {
+        "id": "cult_260",
+        "name_ko": "동방소야"
+      },
+      {
+        "id": "cult_262",
+        "name_ko": "위심묵"
+      },
+      {
+        "id": "cult_264",
+        "name_ko": "노초근"
+      },
+      {
+        "id": "cult_266",
+        "name_ko": "두흠호"
+      },
+      {
+        "id": "cult_268",
+        "name_ko": "금온호"
+      },
+      {
+        "id": "cult_270",
+        "name_ko": "추설구"
+      },
+      {
+        "id": "cult_272",
+        "name_ko": "공손유낙"
+      },
+      {
+        "id": "cult_274",
+        "name_ko": "추청도"
+      },
+      {
+        "id": "cult_276",
+        "name_ko": "진천륜"
+      },
+      {
+        "id": "cult_278",
+        "name_ko": "곡준극"
+      },
+      {
+        "id": "cult_280",
+        "name_ko": "철소향"
+      },
+      {
+        "id": "cult_282",
+        "name_ko": "추낙령"
+      },
+      {
+        "id": "cult_284",
+        "name_ko": "곡비승"
+      },
+      {
+        "id": "cult_286",
+        "name_ko": "전규은"
+      },
+      {
+        "id": "cult_288",
+        "name_ko": "곡파대"
+      },
+      {
+        "id": "cult_290",
+        "name_ko": "허도원"
+      },
+      {
+        "id": "cult_292",
+        "name_ko": "주환욱"
+      },
+      {
+        "id": "cult_294",
+        "name_ko": "주환익"
+      },
+      {
+        "id": "cult_296",
+        "name_ko": "하목산"
+      },
+      {
+        "id": "cult_298",
+        "name_ko": "선우초원"
+      },
+      {
+        "id": "cult_300",
+        "name_ko": "선우관염"
+      },
+      {
+        "id": "cult_302",
+        "name_ko": "양초명"
+      },
+      {
+        "id": "cult_304",
+        "name_ko": "철철영"
+      },
+      {
+        "id": "cult_306",
+        "name_ko": "담묵향"
+      },
+      {
+        "id": "cult_308",
+        "name_ko": "독고관겸"
+      },
+      {
+        "id": "cult_310",
+        "name_ko": "임철윤"
+      },
+      {
+        "id": "cult_312",
+        "name_ko": "담교령"
+      },
+      {
+        "id": "cult_314",
+        "name_ko": "담비명"
+      },
+      {
+        "id": "cult_316",
+        "name_ko": "남궁무구"
+      },
+      {
+        "id": "cult_318",
+        "name_ko": "진환륜"
+      },
+      {
+        "id": "cult_320",
+        "name_ko": "위서무"
+      },
+      {
+        "id": "cult_322",
+        "name_ko": "황규강"
+      },
+      {
+        "id": "cult_324",
+        "name_ko": "독고규무"
+      },
+      {
+        "id": "cult_326",
+        "name_ko": "두회향"
+      },
+      {
+        "id": "cult_328",
+        "name_ko": "전온기"
+      },
+      {
+        "id": "cult_330",
+        "name_ko": "위청봉"
+      },
+      {
+        "id": "cult_332",
+        "name_ko": "임도욱"
+      },
+      {
+        "id": "cult_334",
+        "name_ko": "상관무봉"
+      },
+      {
+        "id": "cult_336",
+        "name_ko": "진비영"
+      },
+      {
+        "id": "cult_338",
+        "name_ko": "연규겸"
+      },
+      {
+        "id": "cult_340",
+        "name_ko": "독고광성"
+      },
+      {
+        "id": "cult_342",
+        "name_ko": "도파익"
+      },
+      {
+        "id": "cult_344",
+        "name_ko": "연서현"
+      },
+      {
+        "id": "cult_346",
+        "name_ko": "모소야"
+      },
+      {
+        "id": "cult_348",
+        "name_ko": "맹비대"
+      },
+      {
+        "id": "cult_350",
+        "name_ko": "임천령"
+      },
+      {
+        "id": "cult_352",
+        "name_ko": "손광진"
+      },
+      {
+        "id": "cult_354",
+        "name_ko": "모용현강"
+      },
+      {
+        "id": "cult_356",
+        "name_ko": "판환승"
+      },
+      {
+        "id": "cult_358",
+        "name_ko": "탁교묵"
+      },
+      {
+        "id": "cult_360",
+        "name_ko": "모용응향"
+      },
+      {
+        "id": "cult_362",
+        "name_ko": "임설승"
+      },
+      {
+        "id": "cult_364",
+        "name_ko": "추현향"
+      },
+      {
+        "id": "cult_366",
+        "name_ko": "탁규근"
+      },
+      {
+        "id": "cult_368",
+        "name_ko": "사공회령"
+      },
+      {
+        "id": "cult_370",
+        "name_ko": "곡적기"
+      },
+      {
+        "id": "cult_372",
+        "name_ko": "단목무염"
+      },
+      {
+        "id": "cult_374",
+        "name_ko": "설온규"
+      },
+      {
+        "id": "cult_376",
+        "name_ko": "추비기"
+      },
+      {
+        "id": "cult_378",
+        "name_ko": "서문비염"
+      },
+      {
+        "id": "cult_380",
+        "name_ko": "금광산"
+      },
+      {
+        "id": "cult_382",
+        "name_ko": "사마흠명"
+      },
+      {
+        "id": "cult_384",
+        "name_ko": "단목심천"
+      },
+      {
+        "id": "cult_386",
+        "name_ko": "독고서민"
+      },
+      {
+        "id": "cult_388",
+        "name_ko": "남궁무기"
+      },
+      {
+        "id": "cult_390",
+        "name_ko": "주진추"
+      },
+      {
+        "id": "cult_392",
+        "name_ko": "맹관대"
+      },
+      {
+        "id": "cult_394",
+        "name_ko": "황서구"
+      },
+      {
+        "id": "cult_396",
+        "name_ko": "금묵도"
+      },
+      {
+        "id": "cult_398",
+        "name_ko": "상관철원"
+      },
+      {
+        "id": "cult_400",
+        "name_ko": "판경묵"
+      },
+      {
+        "id": "cult_402",
+        "name_ko": "현풍기"
+      },
+      {
+        "id": "cult_404",
+        "name_ko": "담심지"
+      },
+      {
+        "id": "cult_406",
+        "name_ko": "위파익"
+      },
+      {
+        "id": "cult_408",
+        "name_ko": "현회산"
+      },
+      {
+        "id": "cult_410",
+        "name_ko": "전비휘"
+      },
+      {
+        "id": "cult_412",
+        "name_ko": "전단흠"
+      },
+      {
+        "id": "cult_414",
+        "name_ko": "남궁초석"
+      },
+      {
+        "id": "cult_416",
+        "name_ko": "맹단극"
+      },
+      {
+        "id": "cult_418",
+        "name_ko": "하후천도"
+      },
+      {
+        "id": "cult_420",
+        "name_ko": "손청정"
+      },
+      {
+        "id": "cult_422",
+        "name_ko": "주현휘"
+      },
+      {
+        "id": "cult_424",
+        "name_ko": "구온혼"
+      },
+      {
+        "id": "cult_426",
+        "name_ko": "조석성"
+      },
+      {
+        "id": "cult_428",
+        "name_ko": "배파준"
+      },
+      {
+        "id": "cult_430",
+        "name_ko": "위연정"
+      },
+      {
+        "id": "cult_432",
+        "name_ko": "허준욱"
+      },
+      {
+        "id": "cult_434",
+        "name_ko": "모용운무"
+      },
+      {
+        "id": "cult_436",
+        "name_ko": "서문온민"
+      },
+      {
+        "id": "cult_438",
+        "name_ko": "조준염"
+      },
+      {
+        "id": "cult_440",
+        "name_ko": "설무지"
+      },
+      {
+        "id": "cult_442",
+        "name_ko": "사풍구"
+      },
+      {
+        "id": "cult_444",
+        "name_ko": "하후은염"
+      },
+      {
+        "id": "cult_446",
+        "name_ko": "맹청염"
+      },
+      {
+        "id": "cult_448",
+        "name_ko": "하회추"
+      },
+      {
+        "id": "cult_450",
+        "name_ko": "강서봉"
+      },
+      {
+        "id": "cult_452",
+        "name_ko": "황관명"
+      },
+      {
+        "id": "cult_454",
+        "name_ko": "황환륜"
+      },
+      {
+        "id": "cult_456",
+        "name_ko": "판준염"
+      },
+      {
+        "id": "cult_458",
+        "name_ko": "사무랑"
+      },
+      {
+        "id": "cult_460",
+        "name_ko": "설묵근"
+      },
+      {
+        "id": "cult_462",
+        "name_ko": "독고단도"
+      },
+      {
+        "id": "cult_464",
+        "name_ko": "하후석낙"
+      },
+      {
+        "id": "cult_466",
+        "name_ko": "초은지"
+      },
+      {
+        "id": "cult_468",
+        "name_ko": "구흠원"
+      },
+      {
+        "id": "cult_470",
+        "name_ko": "주파명"
+      },
+      {
+        "id": "cult_472",
+        "name_ko": "탁현무"
+      },
+      {
+        "id": "cult_474",
+        "name_ko": "하후철석"
+      },
+      {
+        "id": "cult_476",
+        "name_ko": "곡심강"
+      },
+      {
+        "id": "cult_478",
+        "name_ko": "허경랑"
+      },
+      {
+        "id": "cult_480",
+        "name_ko": "동방연호"
+      },
+      {
+        "id": "cult_482",
+        "name_ko": "곡석민"
+      },
+      {
+        "id": "cult_484",
+        "name_ko": "주철혁"
+      },
+      {
+        "id": "cult_486",
+        "name_ko": "사공설규"
+      },
+      {
+        "id": "cult_488",
+        "name_ko": "도현빈"
+      },
+      {
+        "id": "cult_490",
+        "name_ko": "철도기"
+      },
+      {
+        "id": "cult_492",
+        "name_ko": "사광야"
+      },
+      {
+        "id": "cult_494",
+        "name_ko": "연심강"
+      },
+      {
+        "id": "cult_496",
+        "name_ko": "허소윤"
+      },
+      {
+        "id": "cult_498",
+        "name_ko": "탁응도"
+      },
+      {
+        "id": "cult_500",
+        "name_ko": "손진강"
+      },
+      {
+        "id": "cult_502",
+        "name_ko": "진준봉"
+      },
+      {
+        "id": "cult_504",
+        "name_ko": "백연극"
+      },
+      {
+        "id": "cult_506",
+        "name_ko": "하흠호"
+      },
+      {
+        "id": "cult_508",
+        "name_ko": "풍백근"
+      },
+      {
+        "id": "cult_510",
+        "name_ko": "배묵호"
+      },
+      {
+        "id": "cult_512",
+        "name_ko": "우문목승"
+      },
+      {
+        "id": "cult_514",
+        "name_ko": "선우설민"
+      },
+      {
+        "id": "cult_516",
+        "name_ko": "갈서현"
+      },
+      {
+        "id": "cult_518",
+        "name_ko": "조석윤"
+      },
+      {
+        "id": "cult_520",
+        "name_ko": "두환흠"
+      },
+      {
+        "id": "cult_522",
+        "name_ko": "동방도석"
+      }
+    ],
+    "혈교": [
+      {
+        "id": "cult_025",
+        "name_ko": "배준율"
+      },
+      {
+        "id": "cult_027",
+        "name_ko": "추백빈"
+      },
+      {
+        "id": "cult_029",
+        "name_ko": "동방흠진"
+      },
+      {
+        "id": "cult_031",
+        "name_ko": "탁천진"
+      },
+      {
+        "id": "cult_033",
+        "name_ko": "상관석염"
+      },
+      {
+        "id": "cult_035",
+        "name_ko": "서문경진"
+      },
+      {
+        "id": "cult_037",
+        "name_ko": "제갈석대"
+      },
+      {
+        "id": "cult_039",
+        "name_ko": "사비낙"
+      },
+      {
+        "id": "cult_041",
+        "name_ko": "곡흠무"
+      },
+      {
+        "id": "cult_043",
+        "name_ko": "추석봉"
+      },
+      {
+        "id": "cult_045",
+        "name_ko": "초운추"
+      },
+      {
+        "id": "cult_047",
+        "name_ko": "하연준"
+      },
+      {
+        "id": "cult_049",
+        "name_ko": "백응륜"
+      },
+      {
+        "id": "cult_051",
+        "name_ko": "황초빈"
+      },
+      {
+        "id": "cult_053",
+        "name_ko": "설도향"
+      },
+      {
+        "id": "cult_055",
+        "name_ko": "금파성"
+      },
+      {
+        "id": "cult_057",
+        "name_ko": "황보설율"
+      },
+      {
+        "id": "cult_059",
+        "name_ko": "전초천"
+      },
+      {
+        "id": "cult_061",
+        "name_ko": "위광구"
+      },
+      {
+        "id": "cult_063",
+        "name_ko": "배풍낙"
+      },
+      {
+        "id": "cult_065",
+        "name_ko": "사규도"
+      },
+      {
+        "id": "cult_067",
+        "name_ko": "주관명"
+      },
+      {
+        "id": "cult_069",
+        "name_ko": "서문현대"
+      },
+      {
+        "id": "cult_071",
+        "name_ko": "공손진낙"
+      },
+      {
+        "id": "cult_073",
+        "name_ko": "갈환지"
+      },
+      {
+        "id": "cult_075",
+        "name_ko": "사석봉"
+      },
+      {
+        "id": "cult_077",
+        "name_ko": "초단산"
+      },
+      {
+        "id": "cult_079",
+        "name_ko": "사마철정"
+      },
+      {
+        "id": "cult_081",
+        "name_ko": "우문도휘"
+      },
+      {
+        "id": "cult_083",
+        "name_ko": "진경영"
+      },
+      {
+        "id": "cult_085",
+        "name_ko": "손준민"
+      },
+      {
+        "id": "cult_087",
+        "name_ko": "구양유야"
+      },
+      {
+        "id": "cult_089",
+        "name_ko": "탁회석"
+      },
+      {
+        "id": "cult_091",
+        "name_ko": "임진영"
+      },
+      {
+        "id": "cult_093",
+        "name_ko": "사공초겸"
+      },
+      {
+        "id": "cult_095",
+        "name_ko": "손무현"
+      },
+      {
+        "id": "cult_097",
+        "name_ko": "두유윤"
+      },
+      {
+        "id": "cult_099",
+        "name_ko": "공손적대"
+      },
+      {
+        "id": "cult_101",
+        "name_ko": "동방낙령"
+      },
+      {
+        "id": "cult_103",
+        "name_ko": "맹청준"
+      },
+      {
+        "id": "cult_105",
+        "name_ko": "하후연추"
+      },
+      {
+        "id": "cult_107",
+        "name_ko": "동방경은"
+      },
+      {
+        "id": "cult_109",
+        "name_ko": "임단은"
+      },
+      {
+        "id": "cult_111",
+        "name_ko": "금도기"
+      },
+      {
+        "id": "cult_113",
+        "name_ko": "하낙흠"
+      },
+      {
+        "id": "cult_115",
+        "name_ko": "진경겸"
+      },
+      {
+        "id": "cult_117",
+        "name_ko": "선우규진"
+      },
+      {
+        "id": "cult_119",
+        "name_ko": "염백승"
+      },
+      {
+        "id": "cult_121",
+        "name_ko": "우문석야"
+      },
+      {
+        "id": "cult_123",
+        "name_ko": "갈묵진"
+      },
+      {
+        "id": "cult_125",
+        "name_ko": "조서승"
+      },
+      {
+        "id": "cult_127",
+        "name_ko": "모용온욱"
+      },
+      {
+        "id": "cult_129",
+        "name_ko": "두광구"
+      },
+      {
+        "id": "cult_131",
+        "name_ko": "사마연지"
+      },
+      {
+        "id": "cult_133",
+        "name_ko": "허묵준"
+      },
+      {
+        "id": "cult_135",
+        "name_ko": "판관구"
+      },
+      {
+        "id": "cult_137",
+        "name_ko": "황보적민"
+      },
+      {
+        "id": "cult_139",
+        "name_ko": "사마단기"
+      },
+      {
+        "id": "cult_141",
+        "name_ko": "하초대"
+      },
+      {
+        "id": "cult_143",
+        "name_ko": "조철욱"
+      },
+      {
+        "id": "cult_145",
+        "name_ko": "황보진빈"
+      },
+      {
+        "id": "cult_147",
+        "name_ko": "선우준석"
+      },
+      {
+        "id": "cult_149",
+        "name_ko": "연파궁"
+      },
+      {
+        "id": "cult_151",
+        "name_ko": "하단휘"
+      },
+      {
+        "id": "cult_153",
+        "name_ko": "모용묵야"
+      },
+      {
+        "id": "cult_155",
+        "name_ko": "제갈심겸"
+      },
+      {
+        "id": "cult_157",
+        "name_ko": "사공화도"
+      },
+      {
+        "id": "cult_159",
+        "name_ko": "담진휘"
+      },
+      {
+        "id": "cult_161",
+        "name_ko": "진백혼"
+      },
+      {
+        "id": "cult_163",
+        "name_ko": "연교야"
+      },
+      {
+        "id": "cult_165",
+        "name_ko": "류유휘"
+      },
+      {
+        "id": "cult_167",
+        "name_ko": "맹비석"
+      },
+      {
+        "id": "cult_169",
+        "name_ko": "전석령"
+      },
+      {
+        "id": "cult_171",
+        "name_ko": "동방흠지"
+      },
+      {
+        "id": "cult_173",
+        "name_ko": "초청석"
+      },
+      {
+        "id": "cult_175",
+        "name_ko": "전광륜"
+      },
+      {
+        "id": "cult_177",
+        "name_ko": "한낙산"
+      },
+      {
+        "id": "cult_179",
+        "name_ko": "주회익"
+      },
+      {
+        "id": "cult_181",
+        "name_ko": "하화염"
+      },
+      {
+        "id": "cult_183",
+        "name_ko": "담연영"
+      },
+      {
+        "id": "cult_185",
+        "name_ko": "황보초기"
+      },
+      {
+        "id": "cult_187",
+        "name_ko": "허초륜"
+      },
+      {
+        "id": "cult_189",
+        "name_ko": "공손백성"
+      },
+      {
+        "id": "cult_191",
+        "name_ko": "공손운근"
+      },
+      {
+        "id": "cult_193",
+        "name_ko": "사운현"
+      },
+      {
+        "id": "cult_195",
+        "name_ko": "사공무흠"
+      },
+      {
+        "id": "cult_197",
+        "name_ko": "주광령"
+      },
+      {
+        "id": "cult_199",
+        "name_ko": "조관운"
+      },
+      {
+        "id": "cult_201",
+        "name_ko": "두낙윤"
+      },
+      {
+        "id": "cult_203",
+        "name_ko": "철파혼"
+      },
+      {
+        "id": "cult_205",
+        "name_ko": "황철호"
+      },
+      {
+        "id": "cult_207",
+        "name_ko": "상관서지"
+      },
+      {
+        "id": "cult_209",
+        "name_ko": "갈낙도"
+      },
+      {
+        "id": "cult_211",
+        "name_ko": "담관현"
+      },
+      {
+        "id": "cult_213",
+        "name_ko": "곡무진"
+      },
+      {
+        "id": "cult_215",
+        "name_ko": "서문경극"
+      },
+      {
+        "id": "cult_217",
+        "name_ko": "진낙랑"
+      },
+      {
+        "id": "cult_219",
+        "name_ko": "구응준"
+      },
+      {
+        "id": "cult_221",
+        "name_ko": "탁유산"
+      },
+      {
+        "id": "cult_223",
+        "name_ko": "주온기"
+      },
+      {
+        "id": "cult_225",
+        "name_ko": "진연영"
+      },
+      {
+        "id": "cult_227",
+        "name_ko": "노진위"
+      },
+      {
+        "id": "cult_229",
+        "name_ko": "진진담"
+      },
+      {
+        "id": "cult_231",
+        "name_ko": "사설극"
+      },
+      {
+        "id": "cult_233",
+        "name_ko": "강서륜"
+      },
+      {
+        "id": "cult_235",
+        "name_ko": "임백염"
+      },
+      {
+        "id": "cult_237",
+        "name_ko": "류연원"
+      },
+      {
+        "id": "cult_239",
+        "name_ko": "곡묵구"
+      },
+      {
+        "id": "cult_241",
+        "name_ko": "탁응향"
+      },
+      {
+        "id": "cult_243",
+        "name_ko": "진백준"
+      },
+      {
+        "id": "cult_245",
+        "name_ko": "강응진"
+      },
+      {
+        "id": "cult_247",
+        "name_ko": "모용진묵"
+      },
+      {
+        "id": "cult_249",
+        "name_ko": "맹유빈"
+      },
+      {
+        "id": "cult_251",
+        "name_ko": "서문현휘"
+      },
+      {
+        "id": "cult_253",
+        "name_ko": "배흠산"
+      },
+      {
+        "id": "cult_255",
+        "name_ko": "노서빈"
+      },
+      {
+        "id": "cult_257",
+        "name_ko": "동방낙현"
+      },
+      {
+        "id": "cult_259",
+        "name_ko": "사심산"
+      },
+      {
+        "id": "cult_261",
+        "name_ko": "황석원"
+      },
+      {
+        "id": "cult_263",
+        "name_ko": "백교준"
+      },
+      {
+        "id": "cult_265",
+        "name_ko": "구양천대"
+      },
+      {
+        "id": "cult_267",
+        "name_ko": "모진무"
+      },
+      {
+        "id": "cult_269",
+        "name_ko": "연흠욱"
+      },
+      {
+        "id": "cult_271",
+        "name_ko": "하후규영"
+      },
+      {
+        "id": "cult_273",
+        "name_ko": "선우회운"
+      },
+      {
+        "id": "cult_275",
+        "name_ko": "장유준"
+      },
+      {
+        "id": "cult_277",
+        "name_ko": "선우청야"
+      },
+      {
+        "id": "cult_279",
+        "name_ko": "독고흠향"
+      },
+      {
+        "id": "cult_281",
+        "name_ko": "구양단혁"
+      },
+      {
+        "id": "cult_283",
+        "name_ko": "구환성"
+      },
+      {
+        "id": "cult_285",
+        "name_ko": "철석정"
+      },
+      {
+        "id": "cult_287",
+        "name_ko": "갈청구"
+      },
+      {
+        "id": "cult_289",
+        "name_ko": "임흠향"
+      },
+      {
+        "id": "cult_291",
+        "name_ko": "선우목욱"
+      },
+      {
+        "id": "cult_293",
+        "name_ko": "독고초추"
+      },
+      {
+        "id": "cult_295",
+        "name_ko": "추청정"
+      },
+      {
+        "id": "cult_297",
+        "name_ko": "남궁설기"
+      },
+      {
+        "id": "cult_299",
+        "name_ko": "판진정"
+      },
+      {
+        "id": "cult_301",
+        "name_ko": "황보흠욱"
+      },
+      {
+        "id": "cult_303",
+        "name_ko": "탁적혼"
+      },
+      {
+        "id": "cult_305",
+        "name_ko": "초온향"
+      },
+      {
+        "id": "cult_307",
+        "name_ko": "강설묵"
+      },
+      {
+        "id": "cult_309",
+        "name_ko": "사공파랑"
+      },
+      {
+        "id": "cult_311",
+        "name_ko": "양백구"
+      },
+      {
+        "id": "cult_313",
+        "name_ko": "황파륜"
+      },
+      {
+        "id": "cult_315",
+        "name_ko": "탁운향"
+      },
+      {
+        "id": "cult_317",
+        "name_ko": "남궁회혼"
+      },
+      {
+        "id": "cult_319",
+        "name_ko": "구적원"
+      },
+      {
+        "id": "cult_321",
+        "name_ko": "육목명"
+      },
+      {
+        "id": "cult_323",
+        "name_ko": "염풍봉"
+      },
+      {
+        "id": "cult_325",
+        "name_ko": "단목은염"
+      },
+      {
+        "id": "cult_327",
+        "name_ko": "판파향"
+      },
+      {
+        "id": "cult_329",
+        "name_ko": "구양현염"
+      },
+      {
+        "id": "cult_331",
+        "name_ko": "남궁청담"
+      },
+      {
+        "id": "cult_333",
+        "name_ko": "도낙야"
+      },
+      {
+        "id": "cult_335",
+        "name_ko": "모현성"
+      },
+      {
+        "id": "cult_337",
+        "name_ko": "황보백익"
+      },
+      {
+        "id": "cult_339",
+        "name_ko": "진파원"
+      },
+      {
+        "id": "cult_341",
+        "name_ko": "공손파낙"
+      },
+      {
+        "id": "cult_343",
+        "name_ko": "선우묵륜"
+      },
+      {
+        "id": "cult_345",
+        "name_ko": "탁청흠"
+      },
+      {
+        "id": "cult_347",
+        "name_ko": "한온묵"
+      },
+      {
+        "id": "cult_349",
+        "name_ko": "손목랑"
+      },
+      {
+        "id": "cult_351",
+        "name_ko": "단목규염"
+      },
+      {
+        "id": "cult_353",
+        "name_ko": "모용석정"
+      },
+      {
+        "id": "cult_355",
+        "name_ko": "금비봉"
+      },
+      {
+        "id": "cult_357",
+        "name_ko": "담파궁"
+      },
+      {
+        "id": "cult_359",
+        "name_ko": "조연근"
+      },
+      {
+        "id": "cult_361",
+        "name_ko": "사마관구"
+      },
+      {
+        "id": "cult_363",
+        "name_ko": "진환천"
+      },
+      {
+        "id": "cult_365",
+        "name_ko": "공손환석"
+      },
+      {
+        "id": "cult_367",
+        "name_ko": "위준대"
+      },
+      {
+        "id": "cult_369",
+        "name_ko": "진응영"
+      },
+      {
+        "id": "cult_371",
+        "name_ko": "주환강"
+      },
+      {
+        "id": "cult_373",
+        "name_ko": "동방천흠"
+      },
+      {
+        "id": "cult_375",
+        "name_ko": "철소위"
+      },
+      {
+        "id": "cult_377",
+        "name_ko": "서문규향"
+      },
+      {
+        "id": "cult_379",
+        "name_ko": "상관비지"
+      },
+      {
+        "id": "cult_381",
+        "name_ko": "양온산"
+      },
+      {
+        "id": "cult_383",
+        "name_ko": "노청무"
+      },
+      {
+        "id": "cult_385",
+        "name_ko": "주묵강"
+      },
+      {
+        "id": "cult_387",
+        "name_ko": "맹철겸"
+      },
+      {
+        "id": "cult_389",
+        "name_ko": "배은흠"
+      },
+      {
+        "id": "cult_391",
+        "name_ko": "임운욱"
+      },
+      {
+        "id": "cult_393",
+        "name_ko": "공손온추"
+      },
+      {
+        "id": "cult_395",
+        "name_ko": "구양목준"
+      },
+      {
+        "id": "cult_397",
+        "name_ko": "강풍민"
+      },
+      {
+        "id": "cult_399",
+        "name_ko": "류교묵"
+      },
+      {
+        "id": "cult_401",
+        "name_ko": "판환무"
+      },
+      {
+        "id": "cult_403",
+        "name_ko": "모용천겸"
+      },
+      {
+        "id": "cult_405",
+        "name_ko": "맹환윤"
+      },
+      {
+        "id": "cult_407",
+        "name_ko": "강관낙"
+      },
+      {
+        "id": "cult_409",
+        "name_ko": "허소진"
+      },
+      {
+        "id": "cult_411",
+        "name_ko": "염소봉"
+      },
+      {
+        "id": "cult_413",
+        "name_ko": "조묵빈"
+      },
+      {
+        "id": "cult_415",
+        "name_ko": "하후연현"
+      },
+      {
+        "id": "cult_417",
+        "name_ko": "황보회율"
+      },
+      {
+        "id": "cult_419",
+        "name_ko": "우문목겸"
+      },
+      {
+        "id": "cult_421",
+        "name_ko": "모청강"
+      },
+      {
+        "id": "cult_423",
+        "name_ko": "장묵명"
+      },
+      {
+        "id": "cult_425",
+        "name_ko": "판백위"
+      },
+      {
+        "id": "cult_427",
+        "name_ko": "위온휘"
+      },
+      {
+        "id": "cult_429",
+        "name_ko": "모용목호"
+      },
+      {
+        "id": "cult_431",
+        "name_ko": "진서랑"
+      },
+      {
+        "id": "cult_433",
+        "name_ko": "육환욱"
+      },
+      {
+        "id": "cult_435",
+        "name_ko": "조화야"
+      },
+      {
+        "id": "cult_437",
+        "name_ko": "백설천"
+      },
+      {
+        "id": "cult_439",
+        "name_ko": "판설성"
+      },
+      {
+        "id": "cult_441",
+        "name_ko": "설풍운"
+      },
+      {
+        "id": "cult_443",
+        "name_ko": "남궁풍은"
+      },
+      {
+        "id": "cult_445",
+        "name_ko": "연무추"
+      },
+      {
+        "id": "cult_447",
+        "name_ko": "하후석정"
+      },
+      {
+        "id": "cult_449",
+        "name_ko": "류목흠"
+      },
+      {
+        "id": "cult_451",
+        "name_ko": "모용관륜"
+      },
+      {
+        "id": "cult_453",
+        "name_ko": "하후흠혁"
+      },
+      {
+        "id": "cult_455",
+        "name_ko": "모용천극"
+      },
+      {
+        "id": "cult_457",
+        "name_ko": "강운향"
+      },
+      {
+        "id": "cult_459",
+        "name_ko": "단목운율"
+      },
+      {
+        "id": "cult_461",
+        "name_ko": "도초위"
+      },
+      {
+        "id": "cult_463",
+        "name_ko": "맹연도"
+      },
+      {
+        "id": "cult_465",
+        "name_ko": "임청구"
+      },
+      {
+        "id": "cult_467",
+        "name_ko": "금연담"
+      },
+      {
+        "id": "cult_469",
+        "name_ko": "사공흠진"
+      },
+      {
+        "id": "cult_471",
+        "name_ko": "연연담"
+      },
+      {
+        "id": "cult_473",
+        "name_ko": "사공연혼"
+      },
+      {
+        "id": "cult_475",
+        "name_ko": "단목현무"
+      },
+      {
+        "id": "cult_477",
+        "name_ko": "철광익"
+      },
+      {
+        "id": "cult_479",
+        "name_ko": "진운성"
+      },
+      {
+        "id": "cult_481",
+        "name_ko": "구양도명"
+      },
+      {
+        "id": "cult_483",
+        "name_ko": "풍온위"
+      },
+      {
+        "id": "cult_485",
+        "name_ko": "손소향"
+      },
+      {
+        "id": "cult_487",
+        "name_ko": "동방목진"
+      },
+      {
+        "id": "cult_489",
+        "name_ko": "설흠향"
+      },
+      {
+        "id": "cult_491",
+        "name_ko": "설도휘"
+      },
+      {
+        "id": "cult_493",
+        "name_ko": "금적은"
+      },
+      {
+        "id": "cult_495",
+        "name_ko": "두백천"
+      },
+      {
+        "id": "cult_497",
+        "name_ko": "위청륜"
+      },
+      {
+        "id": "cult_499",
+        "name_ko": "탁도강"
+      },
+      {
+        "id": "cult_501",
+        "name_ko": "사마비규"
+      },
+      {
+        "id": "cult_503",
+        "name_ko": "풍화성"
+      },
+      {
+        "id": "cult_505",
+        "name_ko": "양운야"
+      },
+      {
+        "id": "cult_507",
+        "name_ko": "탁응낙"
+      },
+      {
+        "id": "cult_509",
+        "name_ko": "배진기"
+      },
+      {
+        "id": "cult_511",
+        "name_ko": "공손운현"
+      },
+      {
+        "id": "cult_513",
+        "name_ko": "동방낙영"
+      },
+      {
+        "id": "cult_515",
+        "name_ko": "진소극"
+      },
+      {
+        "id": "cult_517",
+        "name_ko": "염온궁"
+      },
+      {
+        "id": "cult_519",
+        "name_ko": "남궁적강"
+      },
+      {
+        "id": "cult_521",
+        "name_ko": "선우흠묵"
+      },
+      {
+        "id": "cult_523",
+        "name_ko": "진흠원"
+      }
+    ]
+  }
+}

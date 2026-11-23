@@ -1,0 +1,1733 @@
+{
+  "rendering": "skins_generated_but_custom_humanoid_NPC_runtime_renderer_not_implemented",
+  "profiles": [
+    {
+      "npc_id": "npc_001",
+      "name": "서문청운",
+      "role": "상인",
+      "sect": "무소속",
+      "skin": "npc_skin_001.png",
+      "starting_realm": 0,
+      "preferred_weapon": "jian",
+      "temperament": "의협",
+      "growth_rate": 0.75,
+      "ai_modes": [
+        "daily_schedule",
+        "dialogue",
+        "threat_assessment",
+        "combat_or_flee",
+        "relationship_memory"
+      ]
+    },
+    {
+      "npc_id": "npc_002",
+      "name": "이소연",
+      "role": "표사",
+      "sect": "무소속",
+      "skin": "npc_skin_002.png",
+      "starting_realm": 1,
+      "preferred_weapon": "dao",
+      "temperament": "온화",
+      "growth_rate": 0.62,
+      "ai_modes": [
+        "daily_schedule",
+        "dialogue",
+        "threat_assessment",
+        "combat_or_flee",
+        "relationship_memory"
+      ]
+    },
+    {
+      "npc_id": "npc_003",
+      "name": "설화린",
+      "role": "낭인",
+      "sect": "화산파",
+      "skin": "npc_skin_003.png",
+      "starting_realm": 2,
+      "preferred_weapon": "spear",
+      "temperament": "호전",
+      "growth_rate": 0.61,
+      "ai_modes": [
+        "daily_schedule",
+        "dialogue",
+        "threat_assessment",
+        "combat_or_flee",
+        "relationship_memory"
+      ]
+    },
+    {
+      "npc_id": "npc_004",
+      "name": "진궁지안",
+      "role": "연무장 제자",
+      "sect": "무당파",
+      "skin": "npc_skin_004.png",
+      "starting_realm": 3,
+      "preferred_weapon": "staff",
+      "temperament": "의협",
+      "growth_rate": 0.75,
+      "ai_modes": [
+        "daily_schedule",
+        "dialogue",
+        "threat_assessment",
+        "combat_or_flee",
+        "relationship_memory"
+      ]
+    },
+    {
+      "npc_id": "npc_005",
+      "name": "당철산",
+      "role": "객잔 손님",
+      "sect": "소림사",
+      "skin": "npc_skin_005.png",
+      "starting_realm": 4,
+      "preferred_weapon": "gauntlet",
+      "temperament": "온화",
+      "growth_rate": 1.0,
+      "ai_modes": [
+        "daily_schedule",
+        "dialogue",
+        "threat_assessment",
+        "combat_or_flee",
+        "relationship_memory"
+      ]
+    },
+    {
+      "npc_id": "npc_006",
+      "name": "홍천유",
+      "role": "운표두",
+      "sect": "청성파",
+      "skin": "npc_skin_006.png",
+      "starting_realm": 0,
+      "preferred_weapon": "jian",
+      "temperament": "신중",
+      "growth_rate": 0.71,
+      "ai_modes": [
+        "daily_schedule",
+        "dialogue",
+        "threat_assessment",
+        "combat_or_flee",
+        "relationship_memory"
+      ]
+    },
+    {
+      "npc_id": "npc_007",
+      "name": "곽하선",
+      "role": "검객",
+      "sect": "남궁세가",
+      "skin": "npc_skin_007.png",
+      "starting_realm": 1,
+      "preferred_weapon": "dao",
+      "temperament": "온화",
+      "growth_rate": 1.36,
+      "ai_modes": [
+        "daily_schedule",
+        "dialogue",
+        "threat_assessment",
+        "combat_or_flee",
+        "relationship_memory"
+      ]
+    },
+    {
+      "npc_id": "npc_008",
+      "name": "황보유월",
+      "role": "권사",
+      "sect": "사천당문",
+      "skin": "npc_skin_008.png",
+      "starting_realm": 2,
+      "preferred_weapon": "spear",
+      "temperament": "방랑",
+      "growth_rate": 1.19,
+      "ai_modes": [
+        "daily_schedule",
+        "dialogue",
+        "threat_assessment",
+        "combat_or_flee",
+        "relationship_memory"
+      ]
+    },
+    {
+      "npc_id": "npc_009",
+      "name": "진백호",
+      "role": "문파 제자",
+      "sect": "천마신교",
+      "skin": "npc_skin_009.png",
+      "starting_realm": 3,
+      "preferred_weapon": "staff",
+      "temperament": "온화",
+      "growth_rate": 1.17,
+      "ai_modes": [
+        "daily_schedule",
+        "dialogue",
+        "threat_assessment",
+        "combat_or_flee",
+        "relationship_memory"
+      ]
+    },
+    {
+      "npc_id": "npc_010",
+      "name": "주청운",
+      "role": "약사",
+      "sect": "혈교",
+      "skin": "npc_skin_010.png",
+      "starting_realm": 4,
+      "preferred_weapon": "gauntlet",
+      "temperament": "방랑",
+      "growth_rate": 1.13,
+      "ai_modes": [
+        "daily_schedule",
+        "dialogue",
+        "threat_assessment",
+        "combat_or_flee",
+        "relationship_memory"
+      ]
+    },
+    {
+      "npc_id": "npc_011",
+      "name": "남궁무진",
+      "role": "경비",
+      "sect": "개방",
+      "skin": "npc_skin_011.png",
+      "starting_realm": 0,
+      "preferred_weapon": "jian",
+      "temperament": "방랑",
+      "growth_rate": 0.98,
+      "ai_modes": [
+        "daily_schedule",
+        "dialogue",
+        "threat_assessment",
+        "combat_or_flee",
+        "relationship_memory"
+      ]
+    },
+    {
+      "npc_id": "npc_012",
+      "name": "장은하",
+      "role": "문파 장로",
+      "sect": "무소속",
+      "skin": "npc_skin_012.png",
+      "starting_realm": 1,
+      "preferred_weapon": "dao",
+      "temperament": "의협",
+      "growth_rate": 1.26,
+      "ai_modes": [
+        "daily_schedule",
+        "dialogue",
+        "threat_assessment",
+        "combat_or_flee",
+        "relationship_memory"
+      ]
+    },
+    {
+      "npc_id": "npc_013",
+      "name": "하연화",
+      "role": "점소이",
+      "sect": "무소속",
+      "skin": "npc_skin_013.png",
+      "starting_realm": 2,
+      "preferred_weapon": "spear",
+      "temperament": "의협",
+      "growth_rate": 0.67,
+      "ai_modes": [
+        "daily_schedule",
+        "dialogue",
+        "threat_assessment",
+        "combat_or_flee",
+        "relationship_memory"
+      ]
+    },
+    {
+      "npc_id": "npc_014",
+      "name": "모용유진",
+      "role": "약초꾼",
+      "sect": "화산파",
+      "skin": "npc_skin_014.png",
+      "starting_realm": 3,
+      "preferred_weapon": "staff",
+      "temperament": "야심",
+      "growth_rate": 1.06,
+      "ai_modes": [
+        "daily_schedule",
+        "dialogue",
+        "threat_assessment",
+        "combat_or_flee",
+        "relationship_memory"
+      ]
+    },
+    {
+      "npc_id": "npc_015",
+      "name": "왕천유",
+      "role": "의원",
+      "sect": "무당파",
+      "skin": "npc_skin_015.png",
+      "starting_realm": 4,
+      "preferred_weapon": "gauntlet",
+      "temperament": "방랑",
+      "growth_rate": 0.87,
+      "ai_modes": [
+        "daily_schedule",
+        "dialogue",
+        "threat_assessment",
+        "combat_or_flee",
+        "relationship_memory"
+      ]
+    },
+    {
+      "npc_id": "npc_016",
+      "name": "소용진",
+      "role": "상인",
+      "sect": "소림사",
+      "skin": "npc_skin_016.png",
+      "starting_realm": 0,
+      "preferred_weapon": "jian",
+      "temperament": "호전",
+      "growth_rate": 0.56,
+      "ai_modes": [
+        "daily_schedule",
+        "dialogue",
+        "threat_assessment",
+        "combat_or_flee",
+        "relationship_memory"
+      ]
+    },
+    {
+      "npc_id": "npc_017",
+      "name": "단목미령",
+      "role": "표사",
+      "sect": "청성파",
+      "skin": "npc_skin_017.png",
+      "starting_realm": 1,
+      "preferred_weapon": "dao",
+      "temperament": "호전",
+      "growth_rate": 1.33,
+      "ai_modes": [
+        "daily_schedule",
+        "dialogue",
+        "threat_assessment",
+        "combat_or_flee",
+        "relationship_memory"
+      ]
+    },
+    {
+      "npc_id": "npc_018",
+      "name": "팽자운",
+      "role": "낭인",
+      "sect": "남궁세가",
+      "skin": "npc_skin_018.png",
+      "starting_realm": 2,
+      "preferred_weapon": "spear",
+      "temperament": "온화",
+      "growth_rate": 0.69,
+      "ai_modes": [
+        "daily_schedule",
+        "dialogue",
+        "threat_assessment",
+        "combat_or_flee",
+        "relationship_memory"
+      ]
+    },
+    {
+      "npc_id": "npc_019",
+      "name": "백지명",
+      "role": "연무장 제자",
+      "sect": "사천당문",
+      "skin": "npc_skin_019.png",
+      "starting_realm": 3,
+      "preferred_weapon": "staff",
+      "temperament": "방랑",
+      "growth_rate": 1.05,
+      "ai_modes": [
+        "daily_schedule",
+        "dialogue",
+        "threat_assessment",
+        "combat_or_flee",
+        "relationship_memory"
+      ]
+    },
+    {
+      "npc_id": "npc_020",
+      "name": "윤무진",
+      "role": "객잔 손님",
+      "sect": "천마신교",
+      "skin": "npc_skin_020.png",
+      "starting_realm": 4,
+      "preferred_weapon": "gauntlet",
+      "temperament": "야심",
+      "growth_rate": 0.74,
+      "ai_modes": [
+        "daily_schedule",
+        "dialogue",
+        "threat_assessment",
+        "combat_or_flee",
+        "relationship_memory"
+      ]
+    },
+    {
+      "npc_id": "npc_021",
+      "name": "제갈철산",
+      "role": "운표두",
+      "sect": "혈교",
+      "skin": "npc_skin_021.png",
+      "starting_realm": 0,
+      "preferred_weapon": "jian",
+      "temperament": "온화",
+      "growth_rate": 0.8,
+      "ai_modes": [
+        "daily_schedule",
+        "dialogue",
+        "threat_assessment",
+        "combat_or_flee",
+        "relationship_memory"
+      ]
+    },
+    {
+      "npc_id": "npc_022",
+      "name": "류성운",
+      "role": "검객",
+      "sect": "개방",
+      "skin": "npc_skin_022.png",
+      "starting_realm": 1,
+      "preferred_weapon": "dao",
+      "temperament": "온화",
+      "growth_rate": 1.0,
+      "ai_modes": [
+        "daily_schedule",
+        "dialogue",
+        "threat_assessment",
+        "combat_or_flee",
+        "relationship_memory"
+      ]
+    },
+    {
+      "npc_id": "npc_023",
+      "name": "연설영",
+      "role": "권사",
+      "sect": "무소속",
+      "skin": "npc_skin_023.png",
+      "starting_realm": 2,
+      "preferred_weapon": "spear",
+      "temperament": "신중",
+      "growth_rate": 0.63,
+      "ai_modes": [
+        "daily_schedule",
+        "dialogue",
+        "threat_assessment",
+        "combat_or_flee",
+        "relationship_memory"
+      ]
+    },
+    {
+      "npc_id": "npc_024",
+      "name": "서문경호",
+      "role": "문파 제자",
+      "sect": "무소속",
+      "skin": "npc_skin_024.png",
+      "starting_realm": 3,
+      "preferred_weapon": "staff",
+      "temperament": "야심",
+      "growth_rate": 1.49,
+      "ai_modes": [
+        "daily_schedule",
+        "dialogue",
+        "threat_assessment",
+        "combat_or_flee",
+        "relationship_memory"
+      ]
+    },
+    {
+      "npc_id": "npc_025",
+      "name": "이용진",
+      "role": "약사",
+      "sect": "화산파",
+      "skin": "npc_skin_025.png",
+      "starting_realm": 4,
+      "preferred_weapon": "gauntlet",
+      "temperament": "방랑",
+      "growth_rate": 0.69,
+      "ai_modes": [
+        "daily_schedule",
+        "dialogue",
+        "threat_assessment",
+        "combat_or_flee",
+        "relationship_memory"
+      ]
+    },
+    {
+      "npc_id": "npc_026",
+      "name": "설청운",
+      "role": "경비",
+      "sect": "무당파",
+      "skin": "npc_skin_026.png",
+      "starting_realm": 0,
+      "preferred_weapon": "jian",
+      "temperament": "온화",
+      "growth_rate": 0.9,
+      "ai_modes": [
+        "daily_schedule",
+        "dialogue",
+        "threat_assessment",
+        "combat_or_flee",
+        "relationship_memory"
+      ]
+    },
+    {
+      "npc_id": "npc_027",
+      "name": "진궁소연",
+      "role": "문파 장로",
+      "sect": "소림사",
+      "skin": "npc_skin_027.png",
+      "starting_realm": 1,
+      "preferred_weapon": "dao",
+      "temperament": "온화",
+      "growth_rate": 0.6,
+      "ai_modes": [
+        "daily_schedule",
+        "dialogue",
+        "threat_assessment",
+        "combat_or_flee",
+        "relationship_memory"
+      ]
+    },
+    {
+      "npc_id": "npc_028",
+      "name": "당화린",
+      "role": "점소이",
+      "sect": "청성파",
+      "skin": "npc_skin_028.png",
+      "starting_realm": 2,
+      "preferred_weapon": "spear",
+      "temperament": "의협",
+      "growth_rate": 1.38,
+      "ai_modes": [
+        "daily_schedule",
+        "dialogue",
+        "threat_assessment",
+        "combat_or_flee",
+        "relationship_memory"
+      ]
+    },
+    {
+      "npc_id": "npc_029",
+      "name": "홍지안",
+      "role": "약초꾼",
+      "sect": "남궁세가",
+      "skin": "npc_skin_029.png",
+      "starting_realm": 3,
+      "preferred_weapon": "staff",
+      "temperament": "의협",
+      "growth_rate": 1.16,
+      "ai_modes": [
+        "daily_schedule",
+        "dialogue",
+        "threat_assessment",
+        "combat_or_flee",
+        "relationship_memory"
+      ]
+    },
+    {
+      "npc_id": "npc_030",
+      "name": "곽철산",
+      "role": "의원",
+      "sect": "사천당문",
+      "skin": "npc_skin_030.png",
+      "starting_realm": 4,
+      "preferred_weapon": "gauntlet",
+      "temperament": "방랑",
+      "growth_rate": 1.24,
+      "ai_modes": [
+        "daily_schedule",
+        "dialogue",
+        "threat_assessment",
+        "combat_or_flee",
+        "relationship_memory"
+      ]
+    },
+    {
+      "npc_id": "npc_031",
+      "name": "황보천유",
+      "role": "상인",
+      "sect": "천마신교",
+      "skin": "npc_skin_031.png",
+      "starting_realm": 0,
+      "preferred_weapon": "jian",
+      "temperament": "야심",
+      "growth_rate": 0.52,
+      "ai_modes": [
+        "daily_schedule",
+        "dialogue",
+        "threat_assessment",
+        "combat_or_flee",
+        "relationship_memory"
+      ]
+    },
+    {
+      "npc_id": "npc_032",
+      "name": "진하선",
+      "role": "표사",
+      "sect": "혈교",
+      "skin": "npc_skin_032.png",
+      "starting_realm": 1,
+      "preferred_weapon": "dao",
+      "temperament": "호전",
+      "growth_rate": 1.14,
+      "ai_modes": [
+        "daily_schedule",
+        "dialogue",
+        "threat_assessment",
+        "combat_or_flee",
+        "relationship_memory"
+      ]
+    },
+    {
+      "npc_id": "npc_033",
+      "name": "주유월",
+      "role": "낭인",
+      "sect": "개방",
+      "skin": "npc_skin_033.png",
+      "starting_realm": 2,
+      "preferred_weapon": "spear",
+      "temperament": "호전",
+      "growth_rate": 0.61,
+      "ai_modes": [
+        "daily_schedule",
+        "dialogue",
+        "threat_assessment",
+        "combat_or_flee",
+        "relationship_memory"
+      ]
+    },
+    {
+      "npc_id": "npc_034",
+      "name": "남궁백호",
+      "role": "연무장 제자",
+      "sect": "무소속",
+      "skin": "npc_skin_034.png",
+      "starting_realm": 3,
+      "preferred_weapon": "staff",
+      "temperament": "온화",
+      "growth_rate": 1.23,
+      "ai_modes": [
+        "daily_schedule",
+        "dialogue",
+        "threat_assessment",
+        "combat_or_flee",
+        "relationship_memory"
+      ]
+    },
+    {
+      "npc_id": "npc_035",
+      "name": "장청운",
+      "role": "객잔 손님",
+      "sect": "무소속",
+      "skin": "npc_skin_035.png",
+      "starting_realm": 4,
+      "preferred_weapon": "gauntlet",
+      "temperament": "신중",
+      "growth_rate": 0.77,
+      "ai_modes": [
+        "daily_schedule",
+        "dialogue",
+        "threat_assessment",
+        "combat_or_flee",
+        "relationship_memory"
+      ]
+    },
+    {
+      "npc_id": "npc_036",
+      "name": "하무진",
+      "role": "운표두",
+      "sect": "화산파",
+      "skin": "npc_skin_036.png",
+      "starting_realm": 0,
+      "preferred_weapon": "jian",
+      "temperament": "의협",
+      "growth_rate": 1.21,
+      "ai_modes": [
+        "daily_schedule",
+        "dialogue",
+        "threat_assessment",
+        "combat_or_flee",
+        "relationship_memory"
+      ]
+    },
+    {
+      "npc_id": "npc_037",
+      "name": "모용은하",
+      "role": "검객",
+      "sect": "무당파",
+      "skin": "npc_skin_037.png",
+      "starting_realm": 1,
+      "preferred_weapon": "dao",
+      "temperament": "호전",
+      "growth_rate": 0.91,
+      "ai_modes": [
+        "daily_schedule",
+        "dialogue",
+        "threat_assessment",
+        "combat_or_flee",
+        "relationship_memory"
+      ]
+    },
+    {
+      "npc_id": "npc_038",
+      "name": "왕연화",
+      "role": "권사",
+      "sect": "소림사",
+      "skin": "npc_skin_038.png",
+      "starting_realm": 2,
+      "preferred_weapon": "spear",
+      "temperament": "방랑",
+      "growth_rate": 1.27,
+      "ai_modes": [
+        "daily_schedule",
+        "dialogue",
+        "threat_assessment",
+        "combat_or_flee",
+        "relationship_memory"
+      ]
+    },
+    {
+      "npc_id": "npc_039",
+      "name": "소유진",
+      "role": "문파 제자",
+      "sect": "청성파",
+      "skin": "npc_skin_039.png",
+      "starting_realm": 3,
+      "preferred_weapon": "staff",
+      "temperament": "신중",
+      "growth_rate": 0.53,
+      "ai_modes": [
+        "daily_schedule",
+        "dialogue",
+        "threat_assessment",
+        "combat_or_flee",
+        "relationship_memory"
+      ]
+    },
+    {
+      "npc_id": "npc_040",
+      "name": "단목천유",
+      "role": "약사",
+      "sect": "남궁세가",
+      "skin": "npc_skin_040.png",
+      "starting_realm": 4,
+      "preferred_weapon": "gauntlet",
+      "temperament": "호전",
+      "growth_rate": 0.66,
+      "ai_modes": [
+        "daily_schedule",
+        "dialogue",
+        "threat_assessment",
+        "combat_or_flee",
+        "relationship_memory"
+      ]
+    },
+    {
+      "npc_id": "npc_041",
+      "name": "팽용진",
+      "role": "경비",
+      "sect": "사천당문",
+      "skin": "npc_skin_041.png",
+      "starting_realm": 0,
+      "preferred_weapon": "jian",
+      "temperament": "신중",
+      "growth_rate": 0.52,
+      "ai_modes": [
+        "daily_schedule",
+        "dialogue",
+        "threat_assessment",
+        "combat_or_flee",
+        "relationship_memory"
+      ]
+    },
+    {
+      "npc_id": "npc_042",
+      "name": "백미령",
+      "role": "문파 장로",
+      "sect": "천마신교",
+      "skin": "npc_skin_042.png",
+      "starting_realm": 1,
+      "preferred_weapon": "dao",
+      "temperament": "방랑",
+      "growth_rate": 1.42,
+      "ai_modes": [
+        "daily_schedule",
+        "dialogue",
+        "threat_assessment",
+        "combat_or_flee",
+        "relationship_memory"
+      ]
+    },
+    {
+      "npc_id": "npc_043",
+      "name": "윤자운",
+      "role": "점소이",
+      "sect": "혈교",
+      "skin": "npc_skin_043.png",
+      "starting_realm": 2,
+      "preferred_weapon": "spear",
+      "temperament": "온화",
+      "growth_rate": 1.01,
+      "ai_modes": [
+        "daily_schedule",
+        "dialogue",
+        "threat_assessment",
+        "combat_or_flee",
+        "relationship_memory"
+      ]
+    },
+    {
+      "npc_id": "npc_044",
+      "name": "제갈지명",
+      "role": "약초꾼",
+      "sect": "개방",
+      "skin": "npc_skin_044.png",
+      "starting_realm": 3,
+      "preferred_weapon": "staff",
+      "temperament": "신중",
+      "growth_rate": 0.65,
+      "ai_modes": [
+        "daily_schedule",
+        "dialogue",
+        "threat_assessment",
+        "combat_or_flee",
+        "relationship_memory"
+      ]
+    },
+    {
+      "npc_id": "npc_045",
+      "name": "류무진",
+      "role": "의원",
+      "sect": "무소속",
+      "skin": "npc_skin_045.png",
+      "starting_realm": 4,
+      "preferred_weapon": "gauntlet",
+      "temperament": "의협",
+      "growth_rate": 0.92,
+      "ai_modes": [
+        "daily_schedule",
+        "dialogue",
+        "threat_assessment",
+        "combat_or_flee",
+        "relationship_memory"
+      ]
+    },
+    {
+      "npc_id": "npc_046",
+      "name": "연철산",
+      "role": "상인",
+      "sect": "무소속",
+      "skin": "npc_skin_046.png",
+      "starting_realm": 0,
+      "preferred_weapon": "jian",
+      "temperament": "온화",
+      "growth_rate": 1.39,
+      "ai_modes": [
+        "daily_schedule",
+        "dialogue",
+        "threat_assessment",
+        "combat_or_flee",
+        "relationship_memory"
+      ]
+    },
+    {
+      "npc_id": "npc_047",
+      "name": "서문성운",
+      "role": "표사",
+      "sect": "화산파",
+      "skin": "npc_skin_047.png",
+      "starting_realm": 1,
+      "preferred_weapon": "dao",
+      "temperament": "야심",
+      "growth_rate": 1.24,
+      "ai_modes": [
+        "daily_schedule",
+        "dialogue",
+        "threat_assessment",
+        "combat_or_flee",
+        "relationship_memory"
+      ]
+    },
+    {
+      "npc_id": "npc_048",
+      "name": "이설영",
+      "role": "낭인",
+      "sect": "무당파",
+      "skin": "npc_skin_048.png",
+      "starting_realm": 2,
+      "preferred_weapon": "spear",
+      "temperament": "호전",
+      "growth_rate": 0.57,
+      "ai_modes": [
+        "daily_schedule",
+        "dialogue",
+        "threat_assessment",
+        "combat_or_flee",
+        "relationship_memory"
+      ]
+    },
+    {
+      "npc_id": "npc_049",
+      "name": "설경호",
+      "role": "연무장 제자",
+      "sect": "소림사",
+      "skin": "npc_skin_049.png",
+      "starting_realm": 3,
+      "preferred_weapon": "staff",
+      "temperament": "신중",
+      "growth_rate": 0.53,
+      "ai_modes": [
+        "daily_schedule",
+        "dialogue",
+        "threat_assessment",
+        "combat_or_flee",
+        "relationship_memory"
+      ]
+    },
+    {
+      "npc_id": "npc_050",
+      "name": "진궁용진",
+      "role": "객잔 손님",
+      "sect": "청성파",
+      "skin": "npc_skin_050.png",
+      "starting_realm": 4,
+      "preferred_weapon": "gauntlet",
+      "temperament": "방랑",
+      "growth_rate": 1.48,
+      "ai_modes": [
+        "daily_schedule",
+        "dialogue",
+        "threat_assessment",
+        "combat_or_flee",
+        "relationship_memory"
+      ]
+    },
+    {
+      "npc_id": "npc_051",
+      "name": "당청운",
+      "role": "운표두",
+      "sect": "남궁세가",
+      "skin": "npc_skin_051.png",
+      "starting_realm": 0,
+      "preferred_weapon": "jian",
+      "temperament": "야심",
+      "growth_rate": 1.47,
+      "ai_modes": [
+        "daily_schedule",
+        "dialogue",
+        "threat_assessment",
+        "combat_or_flee",
+        "relationship_memory"
+      ]
+    },
+    {
+      "npc_id": "npc_052",
+      "name": "홍소연",
+      "role": "검객",
+      "sect": "사천당문",
+      "skin": "npc_skin_052.png",
+      "starting_realm": 1,
+      "preferred_weapon": "dao",
+      "temperament": "의협",
+      "growth_rate": 1.35,
+      "ai_modes": [
+        "daily_schedule",
+        "dialogue",
+        "threat_assessment",
+        "combat_or_flee",
+        "relationship_memory"
+      ]
+    },
+    {
+      "npc_id": "npc_053",
+      "name": "곽화린",
+      "role": "권사",
+      "sect": "천마신교",
+      "skin": "npc_skin_053.png",
+      "starting_realm": 2,
+      "preferred_weapon": "spear",
+      "temperament": "호전",
+      "growth_rate": 1.45,
+      "ai_modes": [
+        "daily_schedule",
+        "dialogue",
+        "threat_assessment",
+        "combat_or_flee",
+        "relationship_memory"
+      ]
+    },
+    {
+      "npc_id": "npc_054",
+      "name": "황보지안",
+      "role": "문파 제자",
+      "sect": "혈교",
+      "skin": "npc_skin_054.png",
+      "starting_realm": 3,
+      "preferred_weapon": "staff",
+      "temperament": "야심",
+      "growth_rate": 1.28,
+      "ai_modes": [
+        "daily_schedule",
+        "dialogue",
+        "threat_assessment",
+        "combat_or_flee",
+        "relationship_memory"
+      ]
+    },
+    {
+      "npc_id": "npc_055",
+      "name": "진철산",
+      "role": "약사",
+      "sect": "개방",
+      "skin": "npc_skin_055.png",
+      "starting_realm": 4,
+      "preferred_weapon": "gauntlet",
+      "temperament": "의협",
+      "growth_rate": 0.62,
+      "ai_modes": [
+        "daily_schedule",
+        "dialogue",
+        "threat_assessment",
+        "combat_or_flee",
+        "relationship_memory"
+      ]
+    },
+    {
+      "npc_id": "npc_056",
+      "name": "주천유",
+      "role": "경비",
+      "sect": "무소속",
+      "skin": "npc_skin_056.png",
+      "starting_realm": 0,
+      "preferred_weapon": "jian",
+      "temperament": "의협",
+      "growth_rate": 0.79,
+      "ai_modes": [
+        "daily_schedule",
+        "dialogue",
+        "threat_assessment",
+        "combat_or_flee",
+        "relationship_memory"
+      ]
+    },
+    {
+      "npc_id": "npc_057",
+      "name": "남궁하선",
+      "role": "문파 장로",
+      "sect": "무소속",
+      "skin": "npc_skin_057.png",
+      "starting_realm": 1,
+      "preferred_weapon": "dao",
+      "temperament": "호전",
+      "growth_rate": 1.17,
+      "ai_modes": [
+        "daily_schedule",
+        "dialogue",
+        "threat_assessment",
+        "combat_or_flee",
+        "relationship_memory"
+      ]
+    },
+    {
+      "npc_id": "npc_058",
+      "name": "장유월",
+      "role": "점소이",
+      "sect": "화산파",
+      "skin": "npc_skin_058.png",
+      "starting_realm": 2,
+      "preferred_weapon": "spear",
+      "temperament": "방랑",
+      "growth_rate": 1.22,
+      "ai_modes": [
+        "daily_schedule",
+        "dialogue",
+        "threat_assessment",
+        "combat_or_flee",
+        "relationship_memory"
+      ]
+    },
+    {
+      "npc_id": "npc_059",
+      "name": "하백호",
+      "role": "약초꾼",
+      "sect": "무당파",
+      "skin": "npc_skin_059.png",
+      "starting_realm": 3,
+      "preferred_weapon": "staff",
+      "temperament": "의협",
+      "growth_rate": 0.66,
+      "ai_modes": [
+        "daily_schedule",
+        "dialogue",
+        "threat_assessment",
+        "combat_or_flee",
+        "relationship_memory"
+      ]
+    },
+    {
+      "npc_id": "npc_060",
+      "name": "모용청운",
+      "role": "의원",
+      "sect": "소림사",
+      "skin": "npc_skin_060.png",
+      "starting_realm": 4,
+      "preferred_weapon": "gauntlet",
+      "temperament": "온화",
+      "growth_rate": 1.47,
+      "ai_modes": [
+        "daily_schedule",
+        "dialogue",
+        "threat_assessment",
+        "combat_or_flee",
+        "relationship_memory"
+      ]
+    },
+    {
+      "npc_id": "npc_061",
+      "name": "왕무진",
+      "role": "상인",
+      "sect": "청성파",
+      "skin": "npc_skin_061.png",
+      "starting_realm": 0,
+      "preferred_weapon": "jian",
+      "temperament": "호전",
+      "growth_rate": 0.7,
+      "ai_modes": [
+        "daily_schedule",
+        "dialogue",
+        "threat_assessment",
+        "combat_or_flee",
+        "relationship_memory"
+      ]
+    },
+    {
+      "npc_id": "npc_062",
+      "name": "소은하",
+      "role": "표사",
+      "sect": "남궁세가",
+      "skin": "npc_skin_062.png",
+      "starting_realm": 1,
+      "preferred_weapon": "dao",
+      "temperament": "야심",
+      "growth_rate": 0.63,
+      "ai_modes": [
+        "daily_schedule",
+        "dialogue",
+        "threat_assessment",
+        "combat_or_flee",
+        "relationship_memory"
+      ]
+    },
+    {
+      "npc_id": "npc_063",
+      "name": "단목연화",
+      "role": "낭인",
+      "sect": "사천당문",
+      "skin": "npc_skin_063.png",
+      "starting_realm": 2,
+      "preferred_weapon": "spear",
+      "temperament": "의협",
+      "growth_rate": 0.67,
+      "ai_modes": [
+        "daily_schedule",
+        "dialogue",
+        "threat_assessment",
+        "combat_or_flee",
+        "relationship_memory"
+      ]
+    },
+    {
+      "npc_id": "npc_064",
+      "name": "팽유진",
+      "role": "연무장 제자",
+      "sect": "천마신교",
+      "skin": "npc_skin_064.png",
+      "starting_realm": 3,
+      "preferred_weapon": "staff",
+      "temperament": "야심",
+      "growth_rate": 0.7,
+      "ai_modes": [
+        "daily_schedule",
+        "dialogue",
+        "threat_assessment",
+        "combat_or_flee",
+        "relationship_memory"
+      ]
+    },
+    {
+      "npc_id": "npc_065",
+      "name": "백천유",
+      "role": "객잔 손님",
+      "sect": "혈교",
+      "skin": "npc_skin_065.png",
+      "starting_realm": 4,
+      "preferred_weapon": "gauntlet",
+      "temperament": "신중",
+      "growth_rate": 1.42,
+      "ai_modes": [
+        "daily_schedule",
+        "dialogue",
+        "threat_assessment",
+        "combat_or_flee",
+        "relationship_memory"
+      ]
+    },
+    {
+      "npc_id": "npc_066",
+      "name": "윤용진",
+      "role": "운표두",
+      "sect": "개방",
+      "skin": "npc_skin_066.png",
+      "starting_realm": 0,
+      "preferred_weapon": "jian",
+      "temperament": "의협",
+      "growth_rate": 0.52,
+      "ai_modes": [
+        "daily_schedule",
+        "dialogue",
+        "threat_assessment",
+        "combat_or_flee",
+        "relationship_memory"
+      ]
+    },
+    {
+      "npc_id": "npc_067",
+      "name": "제갈미령",
+      "role": "검객",
+      "sect": "무소속",
+      "skin": "npc_skin_067.png",
+      "starting_realm": 1,
+      "preferred_weapon": "dao",
+      "temperament": "의협",
+      "growth_rate": 0.57,
+      "ai_modes": [
+        "daily_schedule",
+        "dialogue",
+        "threat_assessment",
+        "combat_or_flee",
+        "relationship_memory"
+      ]
+    },
+    {
+      "npc_id": "npc_068",
+      "name": "류자운",
+      "role": "권사",
+      "sect": "무소속",
+      "skin": "npc_skin_068.png",
+      "starting_realm": 2,
+      "preferred_weapon": "spear",
+      "temperament": "야심",
+      "growth_rate": 0.55,
+      "ai_modes": [
+        "daily_schedule",
+        "dialogue",
+        "threat_assessment",
+        "combat_or_flee",
+        "relationship_memory"
+      ]
+    },
+    {
+      "npc_id": "npc_069",
+      "name": "연지명",
+      "role": "문파 제자",
+      "sect": "화산파",
+      "skin": "npc_skin_069.png",
+      "starting_realm": 3,
+      "preferred_weapon": "staff",
+      "temperament": "방랑",
+      "growth_rate": 1.21,
+      "ai_modes": [
+        "daily_schedule",
+        "dialogue",
+        "threat_assessment",
+        "combat_or_flee",
+        "relationship_memory"
+      ]
+    },
+    {
+      "npc_id": "npc_070",
+      "name": "서문무진",
+      "role": "약사",
+      "sect": "무당파",
+      "skin": "npc_skin_070.png",
+      "starting_realm": 4,
+      "preferred_weapon": "gauntlet",
+      "temperament": "신중",
+      "growth_rate": 0.73,
+      "ai_modes": [
+        "daily_schedule",
+        "dialogue",
+        "threat_assessment",
+        "combat_or_flee",
+        "relationship_memory"
+      ]
+    },
+    {
+      "npc_id": "npc_071",
+      "name": "이철산",
+      "role": "경비",
+      "sect": "소림사",
+      "skin": "npc_skin_071.png",
+      "starting_realm": 0,
+      "preferred_weapon": "jian",
+      "temperament": "온화",
+      "growth_rate": 0.71,
+      "ai_modes": [
+        "daily_schedule",
+        "dialogue",
+        "threat_assessment",
+        "combat_or_flee",
+        "relationship_memory"
+      ]
+    },
+    {
+      "npc_id": "npc_072",
+      "name": "설성운",
+      "role": "문파 장로",
+      "sect": "청성파",
+      "skin": "npc_skin_072.png",
+      "starting_realm": 1,
+      "preferred_weapon": "dao",
+      "temperament": "방랑",
+      "growth_rate": 0.95,
+      "ai_modes": [
+        "daily_schedule",
+        "dialogue",
+        "threat_assessment",
+        "combat_or_flee",
+        "relationship_memory"
+      ]
+    },
+    {
+      "npc_id": "npc_073",
+      "name": "진궁설영",
+      "role": "점소이",
+      "sect": "남궁세가",
+      "skin": "npc_skin_073.png",
+      "starting_realm": 2,
+      "preferred_weapon": "spear",
+      "temperament": "신중",
+      "growth_rate": 0.69,
+      "ai_modes": [
+        "daily_schedule",
+        "dialogue",
+        "threat_assessment",
+        "combat_or_flee",
+        "relationship_memory"
+      ]
+    },
+    {
+      "npc_id": "npc_074",
+      "name": "당경호",
+      "role": "약초꾼",
+      "sect": "사천당문",
+      "skin": "npc_skin_074.png",
+      "starting_realm": 3,
+      "preferred_weapon": "staff",
+      "temperament": "호전",
+      "growth_rate": 1.2,
+      "ai_modes": [
+        "daily_schedule",
+        "dialogue",
+        "threat_assessment",
+        "combat_or_flee",
+        "relationship_memory"
+      ]
+    },
+    {
+      "npc_id": "npc_075",
+      "name": "홍용진",
+      "role": "의원",
+      "sect": "천마신교",
+      "skin": "npc_skin_075.png",
+      "starting_realm": 4,
+      "preferred_weapon": "gauntlet",
+      "temperament": "야심",
+      "growth_rate": 1.21,
+      "ai_modes": [
+        "daily_schedule",
+        "dialogue",
+        "threat_assessment",
+        "combat_or_flee",
+        "relationship_memory"
+      ]
+    },
+    {
+      "npc_id": "npc_076",
+      "name": "곽청운",
+      "role": "상인",
+      "sect": "혈교",
+      "skin": "npc_skin_076.png",
+      "starting_realm": 0,
+      "preferred_weapon": "jian",
+      "temperament": "신중",
+      "growth_rate": 1.06,
+      "ai_modes": [
+        "daily_schedule",
+        "dialogue",
+        "threat_assessment",
+        "combat_or_flee",
+        "relationship_memory"
+      ]
+    },
+    {
+      "npc_id": "npc_077",
+      "name": "황보소연",
+      "role": "표사",
+      "sect": "개방",
+      "skin": "npc_skin_077.png",
+      "starting_realm": 1,
+      "preferred_weapon": "dao",
+      "temperament": "신중",
+      "growth_rate": 0.77,
+      "ai_modes": [
+        "daily_schedule",
+        "dialogue",
+        "threat_assessment",
+        "combat_or_flee",
+        "relationship_memory"
+      ]
+    },
+    {
+      "npc_id": "npc_078",
+      "name": "진화린",
+      "role": "낭인",
+      "sect": "무소속",
+      "skin": "npc_skin_078.png",
+      "starting_realm": 2,
+      "preferred_weapon": "spear",
+      "temperament": "방랑",
+      "growth_rate": 0.86,
+      "ai_modes": [
+        "daily_schedule",
+        "dialogue",
+        "threat_assessment",
+        "combat_or_flee",
+        "relationship_memory"
+      ]
+    },
+    {
+      "npc_id": "npc_079",
+      "name": "주지안",
+      "role": "연무장 제자",
+      "sect": "무소속",
+      "skin": "npc_skin_079.png",
+      "starting_realm": 3,
+      "preferred_weapon": "staff",
+      "temperament": "의협",
+      "growth_rate": 1.35,
+      "ai_modes": [
+        "daily_schedule",
+        "dialogue",
+        "threat_assessment",
+        "combat_or_flee",
+        "relationship_memory"
+      ]
+    },
+    {
+      "npc_id": "npc_080",
+      "name": "남궁철산",
+      "role": "객잔 손님",
+      "sect": "화산파",
+      "skin": "npc_skin_080.png",
+      "starting_realm": 4,
+      "preferred_weapon": "gauntlet",
+      "temperament": "온화",
+      "growth_rate": 1.1,
+      "ai_modes": [
+        "daily_schedule",
+        "dialogue",
+        "threat_assessment",
+        "combat_or_flee",
+        "relationship_memory"
+      ]
+    },
+    {
+      "npc_id": "npc_081",
+      "name": "장천유",
+      "role": "운표두",
+      "sect": "무당파",
+      "skin": "npc_skin_081.png",
+      "starting_realm": 0,
+      "preferred_weapon": "jian",
+      "temperament": "방랑",
+      "growth_rate": 1.06,
+      "ai_modes": [
+        "daily_schedule",
+        "dialogue",
+        "threat_assessment",
+        "combat_or_flee",
+        "relationship_memory"
+      ]
+    },
+    {
+      "npc_id": "npc_082",
+      "name": "하하선",
+      "role": "검객",
+      "sect": "소림사",
+      "skin": "npc_skin_082.png",
+      "starting_realm": 1,
+      "preferred_weapon": "dao",
+      "temperament": "방랑",
+      "growth_rate": 0.57,
+      "ai_modes": [
+        "daily_schedule",
+        "dialogue",
+        "threat_assessment",
+        "combat_or_flee",
+        "relationship_memory"
+      ]
+    },
+    {
+      "npc_id": "npc_083",
+      "name": "모용유월",
+      "role": "권사",
+      "sect": "청성파",
+      "skin": "npc_skin_083.png",
+      "starting_realm": 2,
+      "preferred_weapon": "spear",
+      "temperament": "신중",
+      "growth_rate": 1.15,
+      "ai_modes": [
+        "daily_schedule",
+        "dialogue",
+        "threat_assessment",
+        "combat_or_flee",
+        "relationship_memory"
+      ]
+    },
+    {
+      "npc_id": "npc_084",
+      "name": "왕백호",
+      "role": "문파 제자",
+      "sect": "남궁세가",
+      "skin": "npc_skin_084.png",
+      "starting_realm": 3,
+      "preferred_weapon": "staff",
+      "temperament": "호전",
+      "growth_rate": 0.56,
+      "ai_modes": [
+        "daily_schedule",
+        "dialogue",
+        "threat_assessment",
+        "combat_or_flee",
+        "relationship_memory"
+      ]
+    },
+    {
+      "npc_id": "npc_085",
+      "name": "소청운",
+      "role": "약사",
+      "sect": "사천당문",
+      "skin": "npc_skin_085.png",
+      "starting_realm": 4,
+      "preferred_weapon": "gauntlet",
+      "temperament": "방랑",
+      "growth_rate": 1.06,
+      "ai_modes": [
+        "daily_schedule",
+        "dialogue",
+        "threat_assessment",
+        "combat_or_flee",
+        "relationship_memory"
+      ]
+    },
+    {
+      "npc_id": "npc_086",
+      "name": "단목무진",
+      "role": "경비",
+      "sect": "천마신교",
+      "skin": "npc_skin_086.png",
+      "starting_realm": 0,
+      "preferred_weapon": "jian",
+      "temperament": "방랑",
+      "growth_rate": 0.75,
+      "ai_modes": [
+        "daily_schedule",
+        "dialogue",
+        "threat_assessment",
+        "combat_or_flee",
+        "relationship_memory"
+      ]
+    },
+    {
+      "npc_id": "npc_087",
+      "name": "팽은하",
+      "role": "문파 장로",
+      "sect": "혈교",
+      "skin": "npc_skin_087.png",
+      "starting_realm": 1,
+      "preferred_weapon": "dao",
+      "temperament": "호전",
+      "growth_rate": 1.05,
+      "ai_modes": [
+        "daily_schedule",
+        "dialogue",
+        "threat_assessment",
+        "combat_or_flee",
+        "relationship_memory"
+      ]
+    },
+    {
+      "npc_id": "npc_088",
+      "name": "백연화",
+      "role": "점소이",
+      "sect": "개방",
+      "skin": "npc_skin_088.png",
+      "starting_realm": 2,
+      "preferred_weapon": "spear",
+      "temperament": "호전",
+      "growth_rate": 0.88,
+      "ai_modes": [
+        "daily_schedule",
+        "dialogue",
+        "threat_assessment",
+        "combat_or_flee",
+        "relationship_memory"
+      ]
+    },
+    {
+      "npc_id": "npc_089",
+      "name": "윤유진",
+      "role": "약초꾼",
+      "sect": "무소속",
+      "skin": "npc_skin_089.png",
+      "starting_realm": 3,
+      "preferred_weapon": "staff",
+      "temperament": "의협",
+      "growth_rate": 0.98,
+      "ai_modes": [
+        "daily_schedule",
+        "dialogue",
+        "threat_assessment",
+        "combat_or_flee",
+        "relationship_memory"
+      ]
+    },
+    {
+      "npc_id": "npc_090",
+      "name": "제갈천유",
+      "role": "의원",
+      "sect": "무소속",
+      "skin": "npc_skin_090.png",
+      "starting_realm": 4,
+      "preferred_weapon": "gauntlet",
+      "temperament": "의협",
+      "growth_rate": 1.19,
+      "ai_modes": [
+        "daily_schedule",
+        "dialogue",
+        "threat_assessment",
+        "combat_or_flee",
+        "relationship_memory"
+      ]
+    },
+    {
+      "npc_id": "npc_091",
+      "name": "류용진",
+      "role": "상인",
+      "sect": "화산파",
+      "skin": "npc_skin_091.png",
+      "starting_realm": 0,
+      "preferred_weapon": "jian",
+      "temperament": "온화",
+      "growth_rate": 1.37,
+      "ai_modes": [
+        "daily_schedule",
+        "dialogue",
+        "threat_assessment",
+        "combat_or_flee",
+        "relationship_memory"
+      ]
+    },
+    {
+      "npc_id": "npc_092",
+      "name": "연미령",
+      "role": "표사",
+      "sect": "무당파",
+      "skin": "npc_skin_092.png",
+      "starting_realm": 1,
+      "preferred_weapon": "dao",
+      "temperament": "온화",
+      "growth_rate": 0.91,
+      "ai_modes": [
+        "daily_schedule",
+        "dialogue",
+        "threat_assessment",
+        "combat_or_flee",
+        "relationship_memory"
+      ]
+    },
+    {
+      "npc_id": "npc_093",
+      "name": "서문자운",
+      "role": "낭인",
+      "sect": "소림사",
+      "skin": "npc_skin_093.png",
+      "starting_realm": 2,
+      "preferred_weapon": "spear",
+      "temperament": "방랑",
+      "growth_rate": 0.78,
+      "ai_modes": [
+        "daily_schedule",
+        "dialogue",
+        "threat_assessment",
+        "combat_or_flee",
+        "relationship_memory"
+      ]
+    },
+    {
+      "npc_id": "npc_094",
+      "name": "이지명",
+      "role": "연무장 제자",
+      "sect": "청성파",
+      "skin": "npc_skin_094.png",
+      "starting_realm": 3,
+      "preferred_weapon": "staff",
+      "temperament": "신중",
+      "growth_rate": 0.75,
+      "ai_modes": [
+        "daily_schedule",
+        "dialogue",
+        "threat_assessment",
+        "combat_or_flee",
+        "relationship_memory"
+      ]
+    },
+    {
+      "npc_id": "npc_095",
+      "name": "설무진",
+      "role": "객잔 손님",
+      "sect": "남궁세가",
+      "skin": "npc_skin_095.png",
+      "starting_realm": 4,
+      "preferred_weapon": "gauntlet",
+      "temperament": "방랑",
+      "growth_rate": 0.69,
+      "ai_modes": [
+        "daily_schedule",
+        "dialogue",
+        "threat_assessment",
+        "combat_or_flee",
+        "relationship_memory"
+      ]
+    },
+    {
+      "npc_id": "npc_096",
+      "name": "진궁철산",
+      "role": "운표두",
+      "sect": "사천당문",
+      "skin": "npc_skin_096.png",
+      "starting_realm": 0,
+      "preferred_weapon": "jian",
+      "temperament": "야심",
+      "growth_rate": 1.41,
+      "ai_modes": [
+        "daily_schedule",
+        "dialogue",
+        "threat_assessment",
+        "combat_or_flee",
+        "relationship_memory"
+      ]
+    }
+  ]
+}

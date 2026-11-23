@@ -1,0 +1,6217 @@
+{
+  "version": 1,
+  "source": "v1.16 build functions parsed as piece+paint manifests. Commands are NOT executed.",
+  "sites": [
+    {
+      "id": "ashen_moon",
+      "unique": false,
+      "category": "SECT",
+      "size": [
+        112,
+        112
+      ],
+      "maxRelief": 3,
+      "minimumGap": 64,
+      "pieces": [
+        {
+          "template": "murimlife_arch:compound_ashen_moon_gate",
+          "x": 44,
+          "y": 1,
+          "z": 6
+        },
+        {
+          "template": "murimlife_arch:compound_ashen_moon_archive",
+          "x": 8,
+          "y": 1,
+          "z": 4
+        },
+        {
+          "template": "murimlife_arch:compound_ashen_moon_dorm",
+          "x": 76,
+          "y": 1,
+          "z": 4
+        },
+        {
+          "template": "murimlife_arch:compound_ashen_moon_main",
+          "x": 8,
+          "y": 1,
+          "z": 44
+        },
+        {
+          "template": "murimlife_arch:compound_ashen_moon_yard",
+          "x": 64,
+          "y": 1,
+          "z": 60
+        },
+        {
+          "template": "murimlife_arch:compound_ashen_moon_tower",
+          "x": 12,
+          "y": 1,
+          "z": 93
+        }
+      ],
+      "paints": [
+        {
+          "a": [
+            0,
+            0,
+            0
+          ],
+          "b": [
+            111,
+            5,
+            0
+          ],
+          "block": "minecraft:polished_blackstone_bricks"
+        },
+        {
+          "a": [
+            0,
+            0,
+            111
+          ],
+          "b": [
+            111,
+            5,
+            111
+          ],
+          "block": "minecraft:polished_blackstone_bricks"
+        },
+        {
+          "a": [
+            0,
+            0,
+            0
+          ],
+          "b": [
+            0,
+            5,
+            111
+          ],
+          "block": "minecraft:polished_blackstone_bricks"
+        },
+        {
+          "a": [
+            111,
+            0,
+            0
+          ],
+          "b": [
+            111,
+            5,
+            111
+          ],
+          "block": "minecraft:polished_blackstone_bricks"
+        },
+        {
+          "a": [
+            51,
+            1,
+            0
+          ],
+          "b": [
+            61,
+            5,
+            0
+          ],
+          "block": "air"
+        },
+        {
+          "a": [
+            54,
+            0,
+            1
+          ],
+          "b": [
+            58,
+            0,
+            104
+          ],
+          "block": "gravel"
+        },
+        {
+          "a": [
+            10,
+            0,
+            60
+          ],
+          "b": [
+            101,
+            0,
+            62
+          ],
+          "block": "gravel"
+        }
+      ]
+    },
+    {
+      "id": "azure_stream",
+      "unique": false,
+      "category": "SECT",
+      "size": [
+        128,
+        128
+      ],
+      "maxRelief": 3,
+      "minimumGap": 64,
+      "pieces": [
+        {
+          "template": "murimlife_arch:compound_azure_stream_gate",
+          "x": 52,
+          "y": 1,
+          "z": 6
+        },
+        {
+          "template": "murimlife_arch:compound_azure_stream_dorm",
+          "x": 10,
+          "y": 1,
+          "z": 5
+        },
+        {
+          "template": "murimlife_arch:compound_azure_stream_archive",
+          "x": 91,
+          "y": 1,
+          "z": 5
+        },
+        {
+          "template": "murimlife_arch:compound_azure_stream_yard",
+          "x": 9,
+          "y": 1,
+          "z": 70
+        },
+        {
+          "template": "murimlife_arch:compound_azure_stream_main",
+          "x": 69,
+          "y": 1,
+          "z": 50
+        },
+        {
+          "template": "murimlife_arch:compound_azure_stream_tower",
+          "x": 5,
+          "y": 1,
+          "z": 110
+        }
+      ],
+      "paints": [
+        {
+          "a": [
+            0,
+            0,
+            0
+          ],
+          "b": [
+            127,
+            5,
+            0
+          ],
+          "block": "minecraft:stone_bricks"
+        },
+        {
+          "a": [
+            0,
+            0,
+            127
+          ],
+          "b": [
+            127,
+            5,
+            127
+          ],
+          "block": "minecraft:stone_bricks"
+        },
+        {
+          "a": [
+            0,
+            0,
+            0
+          ],
+          "b": [
+            0,
+            5,
+            127
+          ],
+          "block": "minecraft:stone_bricks"
+        },
+        {
+          "a": [
+            127,
+            0,
+            0
+          ],
+          "b": [
+            127,
+            5,
+            127
+          ],
+          "block": "minecraft:stone_bricks"
+        },
+        {
+          "a": [
+            59,
+            1,
+            0
+          ],
+          "b": [
+            69,
+            5,
+            0
+          ],
+          "block": "air"
+        },
+        {
+          "a": [
+            62,
+            0,
+            1
+          ],
+          "b": [
+            66,
+            0,
+            120
+          ],
+          "block": "gravel"
+        },
+        {
+          "a": [
+            10,
+            0,
+            69
+          ],
+          "b": [
+            117,
+            0,
+            71
+          ],
+          "block": "gravel"
+        }
+      ]
+    },
+    {
+      "id": "black_wind",
+      "unique": false,
+      "category": "SECT",
+      "size": [
+        112,
+        112
+      ],
+      "maxRelief": 3,
+      "minimumGap": 64,
+      "pieces": [
+        {
+          "template": "murimlife_arch:compound_black_wind_gate",
+          "x": 44,
+          "y": 1,
+          "z": 6
+        },
+        {
+          "template": "murimlife_arch:compound_black_wind_archive",
+          "x": 8,
+          "y": 1,
+          "z": 4
+        },
+        {
+          "template": "murimlife_arch:compound_black_wind_dorm",
+          "x": 76,
+          "y": 1,
+          "z": 4
+        },
+        {
+          "template": "murimlife_arch:compound_black_wind_main",
+          "x": 8,
+          "y": 1,
+          "z": 44
+        },
+        {
+          "template": "murimlife_arch:compound_black_wind_yard",
+          "x": 64,
+          "y": 1,
+          "z": 60
+        },
+        {
+          "template": "murimlife_arch:compound_black_wind_tower",
+          "x": 12,
+          "y": 1,
+          "z": 93
+        }
+      ],
+      "paints": [
+        {
+          "a": [
+            0,
+            0,
+            0
+          ],
+          "b": [
+            111,
+            5,
+            0
+          ],
+          "block": "minecraft:polished_blackstone_bricks"
+        },
+        {
+          "a": [
+            0,
+            0,
+            111
+          ],
+          "b": [
+            111,
+            5,
+            111
+          ],
+          "block": "minecraft:polished_blackstone_bricks"
+        },
+        {
+          "a": [
+            0,
+            0,
+            0
+          ],
+          "b": [
+            0,
+            5,
+            111
+          ],
+          "block": "minecraft:polished_blackstone_bricks"
+        },
+        {
+          "a": [
+            111,
+            0,
+            0
+          ],
+          "b": [
+            111,
+            5,
+            111
+          ],
+          "block": "minecraft:polished_blackstone_bricks"
+        },
+        {
+          "a": [
+            51,
+            1,
+            0
+          ],
+          "b": [
+            61,
+            5,
+            0
+          ],
+          "block": "air"
+        },
+        {
+          "a": [
+            54,
+            0,
+            1
+          ],
+          "b": [
+            58,
+            0,
+            104
+          ],
+          "block": "gravel"
+        },
+        {
+          "a": [
+            10,
+            0,
+            60
+          ],
+          "b": [
+            101,
+            0,
+            62
+          ],
+          "block": "gravel"
+        }
+      ]
+    },
+    {
+      "id": "bright_star",
+      "unique": false,
+      "category": "SECT",
+      "size": [
+        112,
+        112
+      ],
+      "maxRelief": 3,
+      "minimumGap": 64,
+      "pieces": [
+        {
+          "template": "murimlife_arch:compound_bright_star_gate",
+          "x": 44,
+          "y": 1,
+          "z": 6
+        },
+        {
+          "template": "murimlife_arch:compound_bright_star_archive",
+          "x": 8,
+          "y": 1,
+          "z": 4
+        },
+        {
+          "template": "murimlife_arch:compound_bright_star_dorm",
+          "x": 76,
+          "y": 1,
+          "z": 4
+        },
+        {
+          "template": "murimlife_arch:compound_bright_star_main",
+          "x": 8,
+          "y": 1,
+          "z": 44
+        },
+        {
+          "template": "murimlife_arch:compound_bright_star_yard",
+          "x": 64,
+          "y": 1,
+          "z": 60
+        },
+        {
+          "template": "murimlife_arch:compound_bright_star_tower",
+          "x": 12,
+          "y": 1,
+          "z": 93
+        }
+      ],
+      "paints": [
+        {
+          "a": [
+            0,
+            0,
+            0
+          ],
+          "b": [
+            111,
+            5,
+            0
+          ],
+          "block": "minecraft:stone_bricks"
+        },
+        {
+          "a": [
+            0,
+            0,
+            111
+          ],
+          "b": [
+            111,
+            5,
+            111
+          ],
+          "block": "minecraft:stone_bricks"
+        },
+        {
+          "a": [
+            0,
+            0,
+            0
+          ],
+          "b": [
+            0,
+            5,
+            111
+          ],
+          "block": "minecraft:stone_bricks"
+        },
+        {
+          "a": [
+            111,
+            0,
+            0
+          ],
+          "b": [
+            111,
+            5,
+            111
+          ],
+          "block": "minecraft:stone_bricks"
+        },
+        {
+          "a": [
+            51,
+            1,
+            0
+          ],
+          "b": [
+            61,
+            5,
+            0
+          ],
+          "block": "air"
+        },
+        {
+          "a": [
+            54,
+            0,
+            1
+          ],
+          "b": [
+            58,
+            0,
+            104
+          ],
+          "block": "gravel"
+        },
+        {
+          "a": [
+            10,
+            0,
+            60
+          ],
+          "b": [
+            101,
+            0,
+            62
+          ],
+          "block": "gravel"
+        }
+      ]
+    },
+    {
+      "id": "crimson_cloud",
+      "unique": false,
+      "category": "SECT",
+      "size": [
+        128,
+        128
+      ],
+      "maxRelief": 3,
+      "minimumGap": 64,
+      "pieces": [
+        {
+          "template": "murimlife_arch:compound_crimson_cloud_gate",
+          "x": 52,
+          "y": 1,
+          "z": 6
+        },
+        {
+          "template": "murimlife_arch:compound_crimson_cloud_archive",
+          "x": 9,
+          "y": 1,
+          "z": 5
+        },
+        {
+          "template": "murimlife_arch:compound_crimson_cloud_dorm",
+          "x": 87,
+          "y": 1,
+          "z": 5
+        },
+        {
+          "template": "murimlife_arch:compound_crimson_cloud_main",
+          "x": 9,
+          "y": 1,
+          "z": 50
+        },
+        {
+          "template": "murimlife_arch:compound_crimson_cloud_yard",
+          "x": 73,
+          "y": 1,
+          "z": 69
+        },
+        {
+          "template": "murimlife_arch:compound_crimson_cloud_tower",
+          "x": 5,
+          "y": 1,
+          "z": 106
+        }
+      ],
+      "paints": [
+        {
+          "a": [
+            0,
+            0,
+            0
+          ],
+          "b": [
+            127,
+            5,
+            0
+          ],
+          "block": "minecraft:polished_blackstone_bricks"
+        },
+        {
+          "a": [
+            0,
+            0,
+            127
+          ],
+          "b": [
+            127,
+            5,
+            127
+          ],
+          "block": "minecraft:polished_blackstone_bricks"
+        },
+        {
+          "a": [
+            0,
+            0,
+            0
+          ],
+          "b": [
+            0,
+            5,
+            127
+          ],
+          "block": "minecraft:polished_blackstone_bricks"
+        },
+        {
+          "a": [
+            127,
+            0,
+            0
+          ],
+          "b": [
+            127,
+            5,
+            127
+          ],
+          "block": "minecraft:polished_blackstone_bricks"
+        },
+        {
+          "a": [
+            59,
+            1,
+            0
+          ],
+          "b": [
+            69,
+            5,
+            0
+          ],
+          "block": "air"
+        },
+        {
+          "a": [
+            62,
+            0,
+            1
+          ],
+          "b": [
+            66,
+            0,
+            120
+          ],
+          "block": "gravel"
+        },
+        {
+          "a": [
+            10,
+            0,
+            69
+          ],
+          "b": [
+            117,
+            0,
+            71
+          ],
+          "block": "gravel"
+        }
+      ]
+    },
+    {
+      "id": "diancang",
+      "unique": true,
+      "category": "SECT",
+      "size": [
+        192,
+        192
+      ],
+      "maxRelief": 3,
+      "minimumGap": 128,
+      "pieces": [
+        {
+          "template": "murimlife_arch:compound_diancang_gate",
+          "x": 84,
+          "y": 1,
+          "z": 6
+        },
+        {
+          "template": "murimlife_arch:compound_diancang_tower",
+          "x": 5,
+          "y": 1,
+          "z": 5
+        },
+        {
+          "template": "murimlife_arch:compound_diancang_tower",
+          "x": 173,
+          "y": 1,
+          "z": 5
+        },
+        {
+          "template": "murimlife_arch:compound_diancang_tower",
+          "x": 5,
+          "y": 1,
+          "z": 173
+        },
+        {
+          "template": "murimlife_arch:compound_diancang_tower",
+          "x": 173,
+          "y": 1,
+          "z": 173
+        },
+        {
+          "template": "murimlife_arch:compound_diancang_main",
+          "x": 108,
+          "y": 1,
+          "z": 75
+        },
+        {
+          "template": "murimlife_arch:compound_diancang_yard",
+          "x": 42,
+          "y": 1,
+          "z": 115
+        },
+        {
+          "template": "murimlife_arch:compound_diancang_dorm",
+          "x": 17,
+          "y": 1,
+          "z": 52
+        },
+        {
+          "template": "murimlife_arch:compound_diancang_archive",
+          "x": 131,
+          "y": 1,
+          "z": 136
+        },
+        {
+          "template": "murimlife_arch:compound_diancang_meditation",
+          "x": 25,
+          "y": 1,
+          "z": 156
+        },
+        {
+          "template": "murimlife_arch:compound_diancang_garden",
+          "x": 138,
+          "y": 1,
+          "z": 40
+        },
+        {
+          "template": "murimlife_arch:compound_diancang_garden",
+          "x": 81,
+          "y": 1,
+          "z": 150
+        },
+        {
+          "template": "murimlife_arch:compound_diancang_signature",
+          "x": 80,
+          "y": 1,
+          "z": 85
+        }
+      ],
+      "paints": [
+        {
+          "a": [
+            0,
+            0,
+            0
+          ],
+          "b": [
+            191,
+            5,
+            0
+          ],
+          "block": "minecraft:stone_bricks"
+        },
+        {
+          "a": [
+            0,
+            0,
+            191
+          ],
+          "b": [
+            191,
+            5,
+            191
+          ],
+          "block": "minecraft:stone_bricks"
+        },
+        {
+          "a": [
+            0,
+            0,
+            0
+          ],
+          "b": [
+            0,
+            5,
+            191
+          ],
+          "block": "minecraft:stone_bricks"
+        },
+        {
+          "a": [
+            191,
+            0,
+            0
+          ],
+          "b": [
+            191,
+            5,
+            191
+          ],
+          "block": "minecraft:stone_bricks"
+        },
+        {
+          "a": [
+            91,
+            1,
+            0
+          ],
+          "b": [
+            101,
+            5,
+            0
+          ],
+          "block": "air"
+        },
+        {
+          "a": [
+            94,
+            0,
+            1
+          ],
+          "b": [
+            98,
+            0,
+            184
+          ],
+          "block": "gravel"
+        },
+        {
+          "a": [
+            10,
+            0,
+            104
+          ],
+          "b": [
+            181,
+            0,
+            106
+          ],
+          "block": "gravel"
+        }
+      ]
+    },
+    {
+      "id": "eight_rivers",
+      "unique": false,
+      "category": "SECT",
+      "size": [
+        144,
+        144
+      ],
+      "maxRelief": 3,
+      "minimumGap": 64,
+      "pieces": [
+        {
+          "template": "murimlife_arch:compound_eight_rivers_gate",
+          "x": 60,
+          "y": 1,
+          "z": 6
+        },
+        {
+          "template": "murimlife_arch:compound_eight_rivers_dorm",
+          "x": 12,
+          "y": 1,
+          "z": 6
+        },
+        {
+          "template": "murimlife_arch:compound_eight_rivers_archive",
+          "x": 102,
+          "y": 1,
+          "z": 6
+        },
+        {
+          "template": "murimlife_arch:compound_eight_rivers_yard",
+          "x": 10,
+          "y": 1,
+          "z": 79
+        },
+        {
+          "template": "murimlife_arch:compound_eight_rivers_main",
+          "x": 78,
+          "y": 1,
+          "z": 56
+        },
+        {
+          "template": "murimlife_arch:compound_eight_rivers_tower",
+          "x": 6,
+          "y": 1,
+          "z": 120
+        }
+      ],
+      "paints": [
+        {
+          "a": [
+            0,
+            0,
+            0
+          ],
+          "b": [
+            143,
+            5,
+            0
+          ],
+          "block": "minecraft:stone_bricks"
+        },
+        {
+          "a": [
+            0,
+            0,
+            143
+          ],
+          "b": [
+            143,
+            5,
+            143
+          ],
+          "block": "minecraft:stone_bricks"
+        },
+        {
+          "a": [
+            0,
+            0,
+            0
+          ],
+          "b": [
+            0,
+            5,
+            143
+          ],
+          "block": "minecraft:stone_bricks"
+        },
+        {
+          "a": [
+            143,
+            0,
+            0
+          ],
+          "b": [
+            143,
+            5,
+            143
+          ],
+          "block": "minecraft:stone_bricks"
+        },
+        {
+          "a": [
+            67,
+            1,
+            0
+          ],
+          "b": [
+            77,
+            5,
+            0
+          ],
+          "block": "air"
+        },
+        {
+          "a": [
+            70,
+            0,
+            1
+          ],
+          "b": [
+            74,
+            0,
+            136
+          ],
+          "block": "gravel"
+        },
+        {
+          "a": [
+            10,
+            0,
+            78
+          ],
+          "b": [
+            133,
+            0,
+            80
+          ],
+          "block": "gravel"
+        }
+      ]
+    },
+    {
+      "id": "emei",
+      "unique": true,
+      "category": "SECT",
+      "size": [
+        192,
+        192
+      ],
+      "maxRelief": 3,
+      "minimumGap": 128,
+      "pieces": [
+        {
+          "template": "murimlife_arch:compound_emei_gate",
+          "x": 84,
+          "y": 1,
+          "z": 6
+        },
+        {
+          "template": "murimlife_arch:compound_emei_tower",
+          "x": 5,
+          "y": 1,
+          "z": 5
+        },
+        {
+          "template": "murimlife_arch:compound_emei_tower",
+          "x": 173,
+          "y": 1,
+          "z": 5
+        },
+        {
+          "template": "murimlife_arch:compound_emei_tower",
+          "x": 5,
+          "y": 1,
+          "z": 173
+        },
+        {
+          "template": "murimlife_arch:compound_emei_tower",
+          "x": 173,
+          "y": 1,
+          "z": 173
+        },
+        {
+          "template": "murimlife_arch:compound_emei_main",
+          "x": 67,
+          "y": 1,
+          "z": 69
+        },
+        {
+          "template": "murimlife_arch:compound_emei_yard",
+          "x": 23,
+          "y": 1,
+          "z": 127
+        },
+        {
+          "template": "murimlife_arch:compound_emei_dorm",
+          "x": 144,
+          "y": 1,
+          "z": 52
+        },
+        {
+          "template": "murimlife_arch:compound_emei_archive",
+          "x": 134,
+          "y": 1,
+          "z": 125
+        },
+        {
+          "template": "murimlife_arch:compound_emei_meditation",
+          "x": 75,
+          "y": 1,
+          "z": 154
+        },
+        {
+          "template": "murimlife_arch:compound_emei_garden",
+          "x": 25,
+          "y": 1,
+          "z": 54
+        },
+        {
+          "template": "murimlife_arch:compound_emei_garden",
+          "x": 117,
+          "y": 1,
+          "z": 35
+        },
+        {
+          "template": "murimlife_arch:compound_emei_signature",
+          "x": 118,
+          "y": 1,
+          "z": 91
+        }
+      ],
+      "paints": [
+        {
+          "a": [
+            0,
+            0,
+            0
+          ],
+          "b": [
+            191,
+            5,
+            0
+          ],
+          "block": "minecraft:stone_bricks"
+        },
+        {
+          "a": [
+            0,
+            0,
+            191
+          ],
+          "b": [
+            191,
+            5,
+            191
+          ],
+          "block": "minecraft:stone_bricks"
+        },
+        {
+          "a": [
+            0,
+            0,
+            0
+          ],
+          "b": [
+            0,
+            5,
+            191
+          ],
+          "block": "minecraft:stone_bricks"
+        },
+        {
+          "a": [
+            191,
+            0,
+            0
+          ],
+          "b": [
+            191,
+            5,
+            191
+          ],
+          "block": "minecraft:stone_bricks"
+        },
+        {
+          "a": [
+            91,
+            1,
+            0
+          ],
+          "b": [
+            101,
+            5,
+            0
+          ],
+          "block": "air"
+        },
+        {
+          "a": [
+            94,
+            0,
+            1
+          ],
+          "b": [
+            98,
+            0,
+            184
+          ],
+          "block": "gravel"
+        },
+        {
+          "a": [
+            10,
+            0,
+            104
+          ],
+          "b": [
+            181,
+            0,
+            106
+          ],
+          "block": "gravel"
+        }
+      ]
+    },
+    {
+      "id": "gaibang",
+      "unique": true,
+      "category": "SECT",
+      "size": [
+        192,
+        192
+      ],
+      "maxRelief": 3,
+      "minimumGap": 128,
+      "pieces": [
+        {
+          "template": "murimlife_arch:compound_gaibang_gate",
+          "x": 84,
+          "y": 1,
+          "z": 6
+        },
+        {
+          "template": "murimlife_arch:compound_gaibang_tower",
+          "x": 5,
+          "y": 1,
+          "z": 5
+        },
+        {
+          "template": "murimlife_arch:compound_gaibang_tower",
+          "x": 173,
+          "y": 1,
+          "z": 5
+        },
+        {
+          "template": "murimlife_arch:compound_gaibang_tower",
+          "x": 5,
+          "y": 1,
+          "z": 173
+        },
+        {
+          "template": "murimlife_arch:compound_gaibang_tower",
+          "x": 173,
+          "y": 1,
+          "z": 173
+        },
+        {
+          "template": "murimlife_arch:compound_gaibang_main",
+          "x": 113,
+          "y": 1,
+          "z": 69
+        },
+        {
+          "template": "murimlife_arch:compound_gaibang_yard",
+          "x": 38,
+          "y": 1,
+          "z": 109
+        },
+        {
+          "template": "murimlife_arch:compound_gaibang_dorm",
+          "x": 31,
+          "y": 1,
+          "z": 154
+        },
+        {
+          "template": "murimlife_arch:compound_gaibang_archive",
+          "x": 132,
+          "y": 1,
+          "z": 138
+        },
+        {
+          "template": "murimlife_arch:compound_gaibang_meditation",
+          "x": 83,
+          "y": 1,
+          "z": 153
+        },
+        {
+          "template": "murimlife_arch:compound_gaibang_garden",
+          "x": 19,
+          "y": 1,
+          "z": 48
+        },
+        {
+          "template": "murimlife_arch:compound_gaibang_garden",
+          "x": 75,
+          "y": 1,
+          "z": 40
+        },
+        {
+          "template": "murimlife_arch:compound_gaibang_signature",
+          "x": 84,
+          "y": 1,
+          "z": 85
+        }
+      ],
+      "paints": [
+        {
+          "a": [
+            0,
+            0,
+            0
+          ],
+          "b": [
+            191,
+            5,
+            0
+          ],
+          "block": "minecraft:stone_bricks"
+        },
+        {
+          "a": [
+            0,
+            0,
+            191
+          ],
+          "b": [
+            191,
+            5,
+            191
+          ],
+          "block": "minecraft:stone_bricks"
+        },
+        {
+          "a": [
+            0,
+            0,
+            0
+          ],
+          "b": [
+            0,
+            5,
+            191
+          ],
+          "block": "minecraft:stone_bricks"
+        },
+        {
+          "a": [
+            191,
+            0,
+            0
+          ],
+          "b": [
+            191,
+            5,
+            191
+          ],
+          "block": "minecraft:stone_bricks"
+        },
+        {
+          "a": [
+            91,
+            1,
+            0
+          ],
+          "b": [
+            101,
+            5,
+            0
+          ],
+          "block": "air"
+        },
+        {
+          "a": [
+            94,
+            0,
+            1
+          ],
+          "b": [
+            98,
+            0,
+            184
+          ],
+          "block": "gravel"
+        },
+        {
+          "a": [
+            10,
+            0,
+            104
+          ],
+          "b": [
+            181,
+            0,
+            106
+          ],
+          "block": "gravel"
+        }
+      ]
+    },
+    {
+      "id": "ghost_valley",
+      "unique": false,
+      "category": "SECT",
+      "size": [
+        112,
+        112
+      ],
+      "maxRelief": 3,
+      "minimumGap": 64,
+      "pieces": [
+        {
+          "template": "murimlife_arch:compound_ghost_valley_gate",
+          "x": 44,
+          "y": 1,
+          "z": 6
+        },
+        {
+          "template": "murimlife_arch:compound_ghost_valley_archive",
+          "x": 8,
+          "y": 1,
+          "z": 4
+        },
+        {
+          "template": "murimlife_arch:compound_ghost_valley_dorm",
+          "x": 76,
+          "y": 1,
+          "z": 4
+        },
+        {
+          "template": "murimlife_arch:compound_ghost_valley_main",
+          "x": 8,
+          "y": 1,
+          "z": 44
+        },
+        {
+          "template": "murimlife_arch:compound_ghost_valley_yard",
+          "x": 64,
+          "y": 1,
+          "z": 60
+        },
+        {
+          "template": "murimlife_arch:compound_ghost_valley_tower",
+          "x": 12,
+          "y": 1,
+          "z": 93
+        }
+      ],
+      "paints": [
+        {
+          "a": [
+            0,
+            0,
+            0
+          ],
+          "b": [
+            111,
+            5,
+            0
+          ],
+          "block": "minecraft:polished_blackstone_bricks"
+        },
+        {
+          "a": [
+            0,
+            0,
+            111
+          ],
+          "b": [
+            111,
+            5,
+            111
+          ],
+          "block": "minecraft:polished_blackstone_bricks"
+        },
+        {
+          "a": [
+            0,
+            0,
+            0
+          ],
+          "b": [
+            0,
+            5,
+            111
+          ],
+          "block": "minecraft:polished_blackstone_bricks"
+        },
+        {
+          "a": [
+            111,
+            0,
+            0
+          ],
+          "b": [
+            111,
+            5,
+            111
+          ],
+          "block": "minecraft:polished_blackstone_bricks"
+        },
+        {
+          "a": [
+            51,
+            1,
+            0
+          ],
+          "b": [
+            61,
+            5,
+            0
+          ],
+          "block": "air"
+        },
+        {
+          "a": [
+            54,
+            0,
+            1
+          ],
+          "b": [
+            58,
+            0,
+            104
+          ],
+          "block": "gravel"
+        },
+        {
+          "a": [
+            10,
+            0,
+            60
+          ],
+          "b": [
+            101,
+            0,
+            62
+          ],
+          "block": "gravel"
+        }
+      ]
+    },
+    {
+      "id": "golden_bell",
+      "unique": false,
+      "category": "SECT",
+      "size": [
+        144,
+        144
+      ],
+      "maxRelief": 3,
+      "minimumGap": 64,
+      "pieces": [
+        {
+          "template": "murimlife_arch:compound_golden_bell_gate",
+          "x": 60,
+          "y": 1,
+          "z": 6
+        },
+        {
+          "template": "murimlife_arch:compound_golden_bell_dorm",
+          "x": 12,
+          "y": 1,
+          "z": 6
+        },
+        {
+          "template": "murimlife_arch:compound_golden_bell_archive",
+          "x": 102,
+          "y": 1,
+          "z": 6
+        },
+        {
+          "template": "murimlife_arch:compound_golden_bell_yard",
+          "x": 10,
+          "y": 1,
+          "z": 79
+        },
+        {
+          "template": "murimlife_arch:compound_golden_bell_main",
+          "x": 78,
+          "y": 1,
+          "z": 56
+        },
+        {
+          "template": "murimlife_arch:compound_golden_bell_tower",
+          "x": 6,
+          "y": 1,
+          "z": 120
+        }
+      ],
+      "paints": [
+        {
+          "a": [
+            0,
+            0,
+            0
+          ],
+          "b": [
+            143,
+            5,
+            0
+          ],
+          "block": "minecraft:stone_bricks"
+        },
+        {
+          "a": [
+            0,
+            0,
+            143
+          ],
+          "b": [
+            143,
+            5,
+            143
+          ],
+          "block": "minecraft:stone_bricks"
+        },
+        {
+          "a": [
+            0,
+            0,
+            0
+          ],
+          "b": [
+            0,
+            5,
+            143
+          ],
+          "block": "minecraft:stone_bricks"
+        },
+        {
+          "a": [
+            143,
+            0,
+            0
+          ],
+          "b": [
+            143,
+            5,
+            143
+          ],
+          "block": "minecraft:stone_bricks"
+        },
+        {
+          "a": [
+            67,
+            1,
+            0
+          ],
+          "b": [
+            77,
+            5,
+            0
+          ],
+          "block": "air"
+        },
+        {
+          "a": [
+            70,
+            0,
+            1
+          ],
+          "b": [
+            74,
+            0,
+            136
+          ],
+          "block": "gravel"
+        },
+        {
+          "a": [
+            10,
+            0,
+            78
+          ],
+          "b": [
+            133,
+            0,
+            80
+          ],
+          "block": "gravel"
+        }
+      ]
+    },
+    {
+      "id": "huashan",
+      "unique": true,
+      "category": "SECT",
+      "size": [
+        192,
+        192
+      ],
+      "maxRelief": 3,
+      "minimumGap": 128,
+      "pieces": [
+        {
+          "template": "murimlife_arch:compound_huashan_gate",
+          "x": 84,
+          "y": 1,
+          "z": 6
+        },
+        {
+          "template": "murimlife_arch:compound_huashan_tower",
+          "x": 5,
+          "y": 1,
+          "z": 5
+        },
+        {
+          "template": "murimlife_arch:compound_huashan_tower",
+          "x": 173,
+          "y": 1,
+          "z": 5
+        },
+        {
+          "template": "murimlife_arch:compound_huashan_tower",
+          "x": 5,
+          "y": 1,
+          "z": 173
+        },
+        {
+          "template": "murimlife_arch:compound_huashan_tower",
+          "x": 173,
+          "y": 1,
+          "z": 173
+        },
+        {
+          "template": "murimlife_arch:compound_huashan_main",
+          "x": 42,
+          "y": 1,
+          "z": 61
+        },
+        {
+          "template": "murimlife_arch:compound_huashan_yard",
+          "x": 119,
+          "y": 1,
+          "z": 108
+        },
+        {
+          "template": "murimlife_arch:compound_huashan_dorm",
+          "x": 15,
+          "y": 1,
+          "z": 131
+        },
+        {
+          "template": "murimlife_arch:compound_huashan_archive",
+          "x": 142,
+          "y": 1,
+          "z": 60
+        },
+        {
+          "template": "murimlife_arch:compound_huashan_meditation",
+          "x": 90,
+          "y": 1,
+          "z": 152
+        },
+        {
+          "template": "murimlife_arch:compound_huashan_garden",
+          "x": 15,
+          "y": 1,
+          "z": 38
+        },
+        {
+          "template": "murimlife_arch:compound_huashan_garden",
+          "x": 146,
+          "y": 1,
+          "z": 154
+        },
+        {
+          "template": "murimlife_arch:compound_huashan_signature",
+          "x": 92,
+          "y": 1,
+          "z": 79
+        }
+      ],
+      "paints": [
+        {
+          "a": [
+            0,
+            0,
+            0
+          ],
+          "b": [
+            191,
+            5,
+            0
+          ],
+          "block": "minecraft:stone_bricks"
+        },
+        {
+          "a": [
+            0,
+            0,
+            191
+          ],
+          "b": [
+            191,
+            5,
+            191
+          ],
+          "block": "minecraft:stone_bricks"
+        },
+        {
+          "a": [
+            0,
+            0,
+            0
+          ],
+          "b": [
+            0,
+            5,
+            191
+          ],
+          "block": "minecraft:stone_bricks"
+        },
+        {
+          "a": [
+            191,
+            0,
+            0
+          ],
+          "b": [
+            191,
+            5,
+            191
+          ],
+          "block": "minecraft:stone_bricks"
+        },
+        {
+          "a": [
+            91,
+            1,
+            0
+          ],
+          "b": [
+            101,
+            5,
+            0
+          ],
+          "block": "air"
+        },
+        {
+          "a": [
+            94,
+            0,
+            1
+          ],
+          "b": [
+            98,
+            0,
+            184
+          ],
+          "block": "gravel"
+        },
+        {
+          "a": [
+            10,
+            0,
+            104
+          ],
+          "b": [
+            181,
+            0,
+            106
+          ],
+          "block": "gravel"
+        }
+      ]
+    },
+    {
+      "id": "iron_blood",
+      "unique": false,
+      "category": "SECT",
+      "size": [
+        128,
+        128
+      ],
+      "maxRelief": 3,
+      "minimumGap": 64,
+      "pieces": [
+        {
+          "template": "murimlife_arch:compound_iron_blood_gate",
+          "x": 52,
+          "y": 1,
+          "z": 6
+        },
+        {
+          "template": "murimlife_arch:compound_iron_blood_archive",
+          "x": 9,
+          "y": 1,
+          "z": 5
+        },
+        {
+          "template": "murimlife_arch:compound_iron_blood_dorm",
+          "x": 88,
+          "y": 1,
+          "z": 5
+        },
+        {
+          "template": "murimlife_arch:compound_iron_blood_main",
+          "x": 10,
+          "y": 1,
+          "z": 51
+        },
+        {
+          "template": "murimlife_arch:compound_iron_blood_yard",
+          "x": 74,
+          "y": 1,
+          "z": 70
+        },
+        {
+          "template": "murimlife_arch:compound_iron_blood_tower",
+          "x": 5,
+          "y": 1,
+          "z": 106
+        }
+      ],
+      "paints": [
+        {
+          "a": [
+            0,
+            0,
+            0
+          ],
+          "b": [
+            127,
+            5,
+            0
+          ],
+          "block": "minecraft:polished_blackstone_bricks"
+        },
+        {
+          "a": [
+            0,
+            0,
+            127
+          ],
+          "b": [
+            127,
+            5,
+            127
+          ],
+          "block": "minecraft:polished_blackstone_bricks"
+        },
+        {
+          "a": [
+            0,
+            0,
+            0
+          ],
+          "b": [
+            0,
+            5,
+            127
+          ],
+          "block": "minecraft:polished_blackstone_bricks"
+        },
+        {
+          "a": [
+            127,
+            0,
+            0
+          ],
+          "b": [
+            127,
+            5,
+            127
+          ],
+          "block": "minecraft:polished_blackstone_bricks"
+        },
+        {
+          "a": [
+            59,
+            1,
+            0
+          ],
+          "b": [
+            69,
+            5,
+            0
+          ],
+          "block": "air"
+        },
+        {
+          "a": [
+            62,
+            0,
+            1
+          ],
+          "b": [
+            66,
+            0,
+            120
+          ],
+          "block": "gravel"
+        },
+        {
+          "a": [
+            10,
+            0,
+            69
+          ],
+          "b": [
+            117,
+            0,
+            71
+          ],
+          "block": "gravel"
+        }
+      ]
+    },
+    {
+      "id": "jade_flower",
+      "unique": false,
+      "category": "SECT",
+      "size": [
+        128,
+        128
+      ],
+      "maxRelief": 3,
+      "minimumGap": 64,
+      "pieces": [
+        {
+          "template": "murimlife_arch:compound_jade_flower_gate",
+          "x": 52,
+          "y": 1,
+          "z": 6
+        },
+        {
+          "template": "murimlife_arch:compound_jade_flower_archive",
+          "x": 9,
+          "y": 1,
+          "z": 5
+        },
+        {
+          "template": "murimlife_arch:compound_jade_flower_dorm",
+          "x": 87,
+          "y": 1,
+          "z": 5
+        },
+        {
+          "template": "murimlife_arch:compound_jade_flower_main",
+          "x": 9,
+          "y": 1,
+          "z": 50
+        },
+        {
+          "template": "murimlife_arch:compound_jade_flower_yard",
+          "x": 73,
+          "y": 1,
+          "z": 69
+        },
+        {
+          "template": "murimlife_arch:compound_jade_flower_tower",
+          "x": 5,
+          "y": 1,
+          "z": 106
+        }
+      ],
+      "paints": [
+        {
+          "a": [
+            0,
+            0,
+            0
+          ],
+          "b": [
+            127,
+            5,
+            0
+          ],
+          "block": "minecraft:stone_bricks"
+        },
+        {
+          "a": [
+            0,
+            0,
+            127
+          ],
+          "b": [
+            127,
+            5,
+            127
+          ],
+          "block": "minecraft:stone_bricks"
+        },
+        {
+          "a": [
+            0,
+            0,
+            0
+          ],
+          "b": [
+            0,
+            5,
+            127
+          ],
+          "block": "minecraft:stone_bricks"
+        },
+        {
+          "a": [
+            127,
+            0,
+            0
+          ],
+          "b": [
+            127,
+            5,
+            127
+          ],
+          "block": "minecraft:stone_bricks"
+        },
+        {
+          "a": [
+            59,
+            1,
+            0
+          ],
+          "b": [
+            69,
+            5,
+            0
+          ],
+          "block": "air"
+        },
+        {
+          "a": [
+            62,
+            0,
+            1
+          ],
+          "b": [
+            66,
+            0,
+            120
+          ],
+          "block": "gravel"
+        },
+        {
+          "a": [
+            10,
+            0,
+            69
+          ],
+          "b": [
+            117,
+            0,
+            71
+          ],
+          "block": "gravel"
+        }
+      ]
+    },
+    {
+      "id": "jegal",
+      "unique": true,
+      "category": "SECT",
+      "size": [
+        192,
+        192
+      ],
+      "maxRelief": 3,
+      "minimumGap": 128,
+      "pieces": [
+        {
+          "template": "murimlife_arch:compound_jegal_gate",
+          "x": 84,
+          "y": 1,
+          "z": 6
+        },
+        {
+          "template": "murimlife_arch:compound_jegal_tower",
+          "x": 5,
+          "y": 1,
+          "z": 5
+        },
+        {
+          "template": "murimlife_arch:compound_jegal_tower",
+          "x": 173,
+          "y": 1,
+          "z": 5
+        },
+        {
+          "template": "murimlife_arch:compound_jegal_tower",
+          "x": 5,
+          "y": 1,
+          "z": 173
+        },
+        {
+          "template": "murimlife_arch:compound_jegal_tower",
+          "x": 173,
+          "y": 1,
+          "z": 173
+        },
+        {
+          "template": "murimlife_arch:compound_jegal_main",
+          "x": 77,
+          "y": 1,
+          "z": 67
+        },
+        {
+          "template": "murimlife_arch:compound_jegal_yard",
+          "x": 77,
+          "y": 1,
+          "z": 127
+        },
+        {
+          "template": "murimlife_arch:compound_jegal_dorm",
+          "x": 140,
+          "y": 1,
+          "z": 113
+        },
+        {
+          "template": "murimlife_arch:compound_jegal_archive",
+          "x": 21,
+          "y": 1,
+          "z": 119
+        },
+        {
+          "template": "murimlife_arch:compound_jegal_meditation",
+          "x": 26,
+          "y": 1,
+          "z": 158
+        },
+        {
+          "template": "murimlife_arch:compound_jegal_garden",
+          "x": 23,
+          "y": 1,
+          "z": 50
+        },
+        {
+          "template": "murimlife_arch:compound_jegal_garden",
+          "x": 146,
+          "y": 1,
+          "z": 52
+        },
+        {
+          "template": "murimlife_arch:compound_jegal_signature",
+          "x": 48,
+          "y": 1,
+          "z": 85
+        }
+      ],
+      "paints": [
+        {
+          "a": [
+            0,
+            0,
+            0
+          ],
+          "b": [
+            191,
+            5,
+            0
+          ],
+          "block": "minecraft:stone_bricks"
+        },
+        {
+          "a": [
+            0,
+            0,
+            191
+          ],
+          "b": [
+            191,
+            5,
+            191
+          ],
+          "block": "minecraft:stone_bricks"
+        },
+        {
+          "a": [
+            0,
+            0,
+            0
+          ],
+          "b": [
+            0,
+            5,
+            191
+          ],
+          "block": "minecraft:stone_bricks"
+        },
+        {
+          "a": [
+            191,
+            0,
+            0
+          ],
+          "b": [
+            191,
+            5,
+            191
+          ],
+          "block": "minecraft:stone_bricks"
+        },
+        {
+          "a": [
+            91,
+            1,
+            0
+          ],
+          "b": [
+            101,
+            5,
+            0
+          ],
+          "block": "air"
+        },
+        {
+          "a": [
+            94,
+            0,
+            1
+          ],
+          "b": [
+            98,
+            0,
+            184
+          ],
+          "block": "gravel"
+        },
+        {
+          "a": [
+            10,
+            0,
+            104
+          ],
+          "b": [
+            181,
+            0,
+            106
+          ],
+          "block": "gravel"
+        }
+      ]
+    },
+    {
+      "id": "kongtong",
+      "unique": true,
+      "category": "SECT",
+      "size": [
+        192,
+        192
+      ],
+      "maxRelief": 3,
+      "minimumGap": 128,
+      "pieces": [
+        {
+          "template": "murimlife_arch:compound_kongtong_gate",
+          "x": 84,
+          "y": 1,
+          "z": 6
+        },
+        {
+          "template": "murimlife_arch:compound_kongtong_tower",
+          "x": 5,
+          "y": 1,
+          "z": 5
+        },
+        {
+          "template": "murimlife_arch:compound_kongtong_tower",
+          "x": 173,
+          "y": 1,
+          "z": 5
+        },
+        {
+          "template": "murimlife_arch:compound_kongtong_tower",
+          "x": 5,
+          "y": 1,
+          "z": 173
+        },
+        {
+          "template": "murimlife_arch:compound_kongtong_tower",
+          "x": 173,
+          "y": 1,
+          "z": 173
+        },
+        {
+          "template": "murimlife_arch:compound_kongtong_main",
+          "x": 50,
+          "y": 1,
+          "z": 60
+        },
+        {
+          "template": "murimlife_arch:compound_kongtong_yard",
+          "x": 123,
+          "y": 1,
+          "z": 106
+        },
+        {
+          "template": "murimlife_arch:compound_kongtong_dorm",
+          "x": 25,
+          "y": 1,
+          "z": 136
+        },
+        {
+          "template": "murimlife_arch:compound_kongtong_archive",
+          "x": 130,
+          "y": 1,
+          "z": 152
+        },
+        {
+          "template": "murimlife_arch:compound_kongtong_meditation",
+          "x": 92,
+          "y": 1,
+          "z": 156
+        },
+        {
+          "template": "murimlife_arch:compound_kongtong_garden",
+          "x": 134,
+          "y": 1,
+          "z": 48
+        },
+        {
+          "template": "murimlife_arch:compound_kongtong_garden",
+          "x": 25,
+          "y": 1,
+          "z": 42
+        },
+        {
+          "template": "murimlife_arch:compound_kongtong_signature",
+          "x": 100,
+          "y": 1,
+          "z": 77
+        }
+      ],
+      "paints": [
+        {
+          "a": [
+            0,
+            0,
+            0
+          ],
+          "b": [
+            191,
+            5,
+            0
+          ],
+          "block": "minecraft:stone_bricks"
+        },
+        {
+          "a": [
+            0,
+            0,
+            191
+          ],
+          "b": [
+            191,
+            5,
+            191
+          ],
+          "block": "minecraft:stone_bricks"
+        },
+        {
+          "a": [
+            0,
+            0,
+            0
+          ],
+          "b": [
+            0,
+            5,
+            191
+          ],
+          "block": "minecraft:stone_bricks"
+        },
+        {
+          "a": [
+            191,
+            0,
+            0
+          ],
+          "b": [
+            191,
+            5,
+            191
+          ],
+          "block": "minecraft:stone_bricks"
+        },
+        {
+          "a": [
+            91,
+            1,
+            0
+          ],
+          "b": [
+            101,
+            5,
+            0
+          ],
+          "block": "air"
+        },
+        {
+          "a": [
+            94,
+            0,
+            1
+          ],
+          "b": [
+            98,
+            0,
+            184
+          ],
+          "block": "gravel"
+        },
+        {
+          "a": [
+            10,
+            0,
+            104
+          ],
+          "b": [
+            181,
+            0,
+            106
+          ],
+          "block": "gravel"
+        }
+      ]
+    },
+    {
+      "id": "kunlun",
+      "unique": true,
+      "category": "SECT",
+      "size": [
+        224,
+        224
+      ],
+      "maxRelief": 3,
+      "minimumGap": 128,
+      "pieces": [
+        {
+          "template": "murimlife_arch:compound_kunlun_gate",
+          "x": 100,
+          "y": 1,
+          "z": 6
+        },
+        {
+          "template": "murimlife_arch:compound_kunlun_tower",
+          "x": 5,
+          "y": 1,
+          "z": 5
+        },
+        {
+          "template": "murimlife_arch:compound_kunlun_tower",
+          "x": 205,
+          "y": 1,
+          "z": 5
+        },
+        {
+          "template": "murimlife_arch:compound_kunlun_tower",
+          "x": 5,
+          "y": 1,
+          "z": 205
+        },
+        {
+          "template": "murimlife_arch:compound_kunlun_tower",
+          "x": 205,
+          "y": 1,
+          "z": 205
+        },
+        {
+          "template": "murimlife_arch:compound_kunlun_main",
+          "x": 125,
+          "y": 1,
+          "z": 87
+        },
+        {
+          "template": "murimlife_arch:compound_kunlun_yard",
+          "x": 49,
+          "y": 1,
+          "z": 134
+        },
+        {
+          "template": "murimlife_arch:compound_kunlun_dorm",
+          "x": 20,
+          "y": 1,
+          "z": 60
+        },
+        {
+          "template": "murimlife_arch:compound_kunlun_archive",
+          "x": 152,
+          "y": 1,
+          "z": 159
+        },
+        {
+          "template": "murimlife_arch:compound_kunlun_meditation",
+          "x": 29,
+          "y": 1,
+          "z": 181
+        },
+        {
+          "template": "murimlife_arch:compound_kunlun_garden",
+          "x": 161,
+          "y": 1,
+          "z": 47
+        },
+        {
+          "template": "murimlife_arch:compound_kunlun_garden",
+          "x": 94,
+          "y": 1,
+          "z": 175
+        },
+        {
+          "template": "murimlife_arch:compound_kunlun_signature",
+          "x": 96,
+          "y": 1,
+          "z": 101
+        }
+      ],
+      "paints": [
+        {
+          "a": [
+            0,
+            0,
+            0
+          ],
+          "b": [
+            223,
+            5,
+            0
+          ],
+          "block": "minecraft:stone_bricks"
+        },
+        {
+          "a": [
+            0,
+            0,
+            223
+          ],
+          "b": [
+            223,
+            5,
+            223
+          ],
+          "block": "minecraft:stone_bricks"
+        },
+        {
+          "a": [
+            0,
+            0,
+            0
+          ],
+          "b": [
+            0,
+            5,
+            223
+          ],
+          "block": "minecraft:stone_bricks"
+        },
+        {
+          "a": [
+            223,
+            0,
+            0
+          ],
+          "b": [
+            223,
+            5,
+            223
+          ],
+          "block": "minecraft:stone_bricks"
+        },
+        {
+          "a": [
+            107,
+            1,
+            0
+          ],
+          "b": [
+            117,
+            5,
+            0
+          ],
+          "block": "air"
+        },
+        {
+          "a": [
+            110,
+            0,
+            1
+          ],
+          "b": [
+            114,
+            0,
+            216
+          ],
+          "block": "gravel"
+        },
+        {
+          "a": [
+            10,
+            0,
+            121
+          ],
+          "b": [
+            213,
+            0,
+            123
+          ],
+          "block": "gravel"
+        }
+      ]
+    },
+    {
+      "id": "mourong",
+      "unique": true,
+      "category": "SECT",
+      "size": [
+        192,
+        192
+      ],
+      "maxRelief": 3,
+      "minimumGap": 128,
+      "pieces": [
+        {
+          "template": "murimlife_arch:compound_mourong_gate",
+          "x": 84,
+          "y": 1,
+          "z": 6
+        },
+        {
+          "template": "murimlife_arch:compound_mourong_tower",
+          "x": 5,
+          "y": 1,
+          "z": 5
+        },
+        {
+          "template": "murimlife_arch:compound_mourong_tower",
+          "x": 173,
+          "y": 1,
+          "z": 5
+        },
+        {
+          "template": "murimlife_arch:compound_mourong_tower",
+          "x": 5,
+          "y": 1,
+          "z": 173
+        },
+        {
+          "template": "murimlife_arch:compound_mourong_tower",
+          "x": 173,
+          "y": 1,
+          "z": 173
+        },
+        {
+          "template": "murimlife_arch:compound_mourong_main",
+          "x": 77,
+          "y": 1,
+          "z": 67
+        },
+        {
+          "template": "murimlife_arch:compound_mourong_yard",
+          "x": 77,
+          "y": 1,
+          "z": 127
+        },
+        {
+          "template": "murimlife_arch:compound_mourong_dorm",
+          "x": 140,
+          "y": 1,
+          "z": 113
+        },
+        {
+          "template": "murimlife_arch:compound_mourong_archive",
+          "x": 21,
+          "y": 1,
+          "z": 119
+        },
+        {
+          "template": "murimlife_arch:compound_mourong_meditation",
+          "x": 26,
+          "y": 1,
+          "z": 158
+        },
+        {
+          "template": "murimlife_arch:compound_mourong_garden",
+          "x": 23,
+          "y": 1,
+          "z": 50
+        },
+        {
+          "template": "murimlife_arch:compound_mourong_garden",
+          "x": 146,
+          "y": 1,
+          "z": 52
+        },
+        {
+          "template": "murimlife_arch:compound_mourong_signature",
+          "x": 48,
+          "y": 1,
+          "z": 85
+        }
+      ],
+      "paints": [
+        {
+          "a": [
+            0,
+            0,
+            0
+          ],
+          "b": [
+            191,
+            5,
+            0
+          ],
+          "block": "minecraft:stone_bricks"
+        },
+        {
+          "a": [
+            0,
+            0,
+            191
+          ],
+          "b": [
+            191,
+            5,
+            191
+          ],
+          "block": "minecraft:stone_bricks"
+        },
+        {
+          "a": [
+            0,
+            0,
+            0
+          ],
+          "b": [
+            0,
+            5,
+            191
+          ],
+          "block": "minecraft:stone_bricks"
+        },
+        {
+          "a": [
+            191,
+            0,
+            0
+          ],
+          "b": [
+            191,
+            5,
+            191
+          ],
+          "block": "minecraft:stone_bricks"
+        },
+        {
+          "a": [
+            91,
+            1,
+            0
+          ],
+          "b": [
+            101,
+            5,
+            0
+          ],
+          "block": "air"
+        },
+        {
+          "a": [
+            94,
+            0,
+            1
+          ],
+          "b": [
+            98,
+            0,
+            184
+          ],
+          "block": "gravel"
+        },
+        {
+          "a": [
+            10,
+            0,
+            104
+          ],
+          "b": [
+            181,
+            0,
+            106
+          ],
+          "block": "gravel"
+        }
+      ]
+    },
+    {
+      "id": "murim_alliance",
+      "unique": true,
+      "category": "ALLIANCE",
+      "size": [
+        96,
+        96
+      ],
+      "maxRelief": 2,
+      "minimumGap": 128,
+      "pieces": [
+        {
+          "template": "murimlife_arch:murim_alliance_headquarters",
+          "x": 0,
+          "y": 1,
+          "z": 0
+        }
+      ],
+      "paints": []
+    },
+    {
+      "id": "nameless_blade",
+      "unique": false,
+      "category": "SECT",
+      "size": [
+        112,
+        112
+      ],
+      "maxRelief": 3,
+      "minimumGap": 64,
+      "pieces": [
+        {
+          "template": "murimlife_arch:compound_nameless_blade_gate",
+          "x": 44,
+          "y": 1,
+          "z": 6
+        },
+        {
+          "template": "murimlife_arch:compound_nameless_blade_archive",
+          "x": 8,
+          "y": 1,
+          "z": 4
+        },
+        {
+          "template": "murimlife_arch:compound_nameless_blade_dorm",
+          "x": 76,
+          "y": 1,
+          "z": 4
+        },
+        {
+          "template": "murimlife_arch:compound_nameless_blade_main",
+          "x": 8,
+          "y": 1,
+          "z": 44
+        },
+        {
+          "template": "murimlife_arch:compound_nameless_blade_yard",
+          "x": 64,
+          "y": 1,
+          "z": 60
+        },
+        {
+          "template": "murimlife_arch:compound_nameless_blade_tower",
+          "x": 12,
+          "y": 1,
+          "z": 93
+        }
+      ],
+      "paints": [
+        {
+          "a": [
+            0,
+            0,
+            0
+          ],
+          "b": [
+            111,
+            5,
+            0
+          ],
+          "block": "minecraft:polished_blackstone_bricks"
+        },
+        {
+          "a": [
+            0,
+            0,
+            111
+          ],
+          "b": [
+            111,
+            5,
+            111
+          ],
+          "block": "minecraft:polished_blackstone_bricks"
+        },
+        {
+          "a": [
+            0,
+            0,
+            0
+          ],
+          "b": [
+            0,
+            5,
+            111
+          ],
+          "block": "minecraft:polished_blackstone_bricks"
+        },
+        {
+          "a": [
+            111,
+            0,
+            0
+          ],
+          "b": [
+            111,
+            5,
+            111
+          ],
+          "block": "minecraft:polished_blackstone_bricks"
+        },
+        {
+          "a": [
+            51,
+            1,
+            0
+          ],
+          "b": [
+            61,
+            5,
+            0
+          ],
+          "block": "air"
+        },
+        {
+          "a": [
+            54,
+            0,
+            1
+          ],
+          "b": [
+            58,
+            0,
+            104
+          ],
+          "block": "gravel"
+        },
+        {
+          "a": [
+            10,
+            0,
+            60
+          ],
+          "b": [
+            101,
+            0,
+            62
+          ],
+          "block": "gravel"
+        }
+      ]
+    },
+    {
+      "id": "namgung",
+      "unique": true,
+      "category": "SECT",
+      "size": [
+        224,
+        224
+      ],
+      "maxRelief": 3,
+      "minimumGap": 128,
+      "pieces": [
+        {
+          "template": "murimlife_arch:compound_namgung_gate",
+          "x": 100,
+          "y": 1,
+          "z": 6
+        },
+        {
+          "template": "murimlife_arch:compound_namgung_tower",
+          "x": 5,
+          "y": 1,
+          "z": 5
+        },
+        {
+          "template": "murimlife_arch:compound_namgung_tower",
+          "x": 205,
+          "y": 1,
+          "z": 5
+        },
+        {
+          "template": "murimlife_arch:compound_namgung_tower",
+          "x": 5,
+          "y": 1,
+          "z": 205
+        },
+        {
+          "template": "murimlife_arch:compound_namgung_tower",
+          "x": 205,
+          "y": 1,
+          "z": 205
+        },
+        {
+          "template": "murimlife_arch:compound_namgung_main",
+          "x": 90,
+          "y": 1,
+          "z": 78
+        },
+        {
+          "template": "murimlife_arch:compound_namgung_yard",
+          "x": 90,
+          "y": 1,
+          "z": 148
+        },
+        {
+          "template": "murimlife_arch:compound_namgung_dorm",
+          "x": 25,
+          "y": 1,
+          "z": 139
+        },
+        {
+          "template": "murimlife_arch:compound_namgung_archive",
+          "x": 164,
+          "y": 1,
+          "z": 132
+        },
+        {
+          "template": "murimlife_arch:compound_namgung_meditation",
+          "x": 29,
+          "y": 1,
+          "z": 181
+        },
+        {
+          "template": "murimlife_arch:compound_namgung_garden",
+          "x": 27,
+          "y": 1,
+          "z": 58
+        },
+        {
+          "template": "murimlife_arch:compound_namgung_garden",
+          "x": 170,
+          "y": 1,
+          "z": 60
+        },
+        {
+          "template": "murimlife_arch:compound_namgung_signature",
+          "x": 62,
+          "y": 1,
+          "z": 101
+        }
+      ],
+      "paints": [
+        {
+          "a": [
+            0,
+            0,
+            0
+          ],
+          "b": [
+            223,
+            5,
+            0
+          ],
+          "block": "minecraft:stone_bricks"
+        },
+        {
+          "a": [
+            0,
+            0,
+            223
+          ],
+          "b": [
+            223,
+            5,
+            223
+          ],
+          "block": "minecraft:stone_bricks"
+        },
+        {
+          "a": [
+            0,
+            0,
+            0
+          ],
+          "b": [
+            0,
+            5,
+            223
+          ],
+          "block": "minecraft:stone_bricks"
+        },
+        {
+          "a": [
+            223,
+            0,
+            0
+          ],
+          "b": [
+            223,
+            5,
+            223
+          ],
+          "block": "minecraft:stone_bricks"
+        },
+        {
+          "a": [
+            107,
+            1,
+            0
+          ],
+          "b": [
+            117,
+            5,
+            0
+          ],
+          "block": "air"
+        },
+        {
+          "a": [
+            110,
+            0,
+            1
+          ],
+          "b": [
+            114,
+            0,
+            216
+          ],
+          "block": "gravel"
+        },
+        {
+          "a": [
+            10,
+            0,
+            121
+          ],
+          "b": [
+            213,
+            0,
+            123
+          ],
+          "block": "gravel"
+        }
+      ]
+    },
+    {
+      "id": "night_river",
+      "unique": false,
+      "category": "SECT",
+      "size": [
+        128,
+        128
+      ],
+      "maxRelief": 3,
+      "minimumGap": 64,
+      "pieces": [
+        {
+          "template": "murimlife_arch:compound_night_river_gate",
+          "x": 52,
+          "y": 1,
+          "z": 6
+        },
+        {
+          "template": "murimlife_arch:compound_night_river_dorm",
+          "x": 10,
+          "y": 1,
+          "z": 5
+        },
+        {
+          "template": "murimlife_arch:compound_night_river_archive",
+          "x": 91,
+          "y": 1,
+          "z": 5
+        },
+        {
+          "template": "murimlife_arch:compound_night_river_yard",
+          "x": 9,
+          "y": 1,
+          "z": 70
+        },
+        {
+          "template": "murimlife_arch:compound_night_river_main",
+          "x": 69,
+          "y": 1,
+          "z": 50
+        },
+        {
+          "template": "murimlife_arch:compound_night_river_tower",
+          "x": 5,
+          "y": 1,
+          "z": 110
+        }
+      ],
+      "paints": [
+        {
+          "a": [
+            0,
+            0,
+            0
+          ],
+          "b": [
+            127,
+            5,
+            0
+          ],
+          "block": "minecraft:polished_blackstone_bricks"
+        },
+        {
+          "a": [
+            0,
+            0,
+            127
+          ],
+          "b": [
+            127,
+            5,
+            127
+          ],
+          "block": "minecraft:polished_blackstone_bricks"
+        },
+        {
+          "a": [
+            0,
+            0,
+            0
+          ],
+          "b": [
+            0,
+            5,
+            127
+          ],
+          "block": "minecraft:polished_blackstone_bricks"
+        },
+        {
+          "a": [
+            127,
+            0,
+            0
+          ],
+          "b": [
+            127,
+            5,
+            127
+          ],
+          "block": "minecraft:polished_blackstone_bricks"
+        },
+        {
+          "a": [
+            59,
+            1,
+            0
+          ],
+          "b": [
+            69,
+            5,
+            0
+          ],
+          "block": "air"
+        },
+        {
+          "a": [
+            62,
+            0,
+            1
+          ],
+          "b": [
+            66,
+            0,
+            120
+          ],
+          "block": "gravel"
+        },
+        {
+          "a": [
+            10,
+            0,
+            69
+          ],
+          "b": [
+            117,
+            0,
+            71
+          ],
+          "block": "gravel"
+        }
+      ]
+    },
+    {
+      "id": "paengga",
+      "unique": true,
+      "category": "SECT",
+      "size": [
+        208,
+        208
+      ],
+      "maxRelief": 3,
+      "minimumGap": 128,
+      "pieces": [
+        {
+          "template": "murimlife_arch:compound_paengga_gate",
+          "x": 92,
+          "y": 1,
+          "z": 6
+        },
+        {
+          "template": "murimlife_arch:compound_paengga_tower",
+          "x": 5,
+          "y": 1,
+          "z": 5
+        },
+        {
+          "template": "murimlife_arch:compound_paengga_tower",
+          "x": 189,
+          "y": 1,
+          "z": 5
+        },
+        {
+          "template": "murimlife_arch:compound_paengga_tower",
+          "x": 5,
+          "y": 1,
+          "z": 189
+        },
+        {
+          "template": "murimlife_arch:compound_paengga_tower",
+          "x": 189,
+          "y": 1,
+          "z": 189
+        },
+        {
+          "template": "murimlife_arch:compound_paengga_main",
+          "x": 54,
+          "y": 1,
+          "z": 64
+        },
+        {
+          "template": "murimlife_arch:compound_paengga_yard",
+          "x": 133,
+          "y": 1,
+          "z": 114
+        },
+        {
+          "template": "murimlife_arch:compound_paengga_dorm",
+          "x": 154,
+          "y": 1,
+          "z": 160
+        },
+        {
+          "template": "murimlife_arch:compound_paengga_archive",
+          "x": 27,
+          "y": 1,
+          "z": 148
+        },
+        {
+          "template": "murimlife_arch:compound_paengga_meditation",
+          "x": 100,
+          "y": 1,
+          "z": 168
+        },
+        {
+          "template": "murimlife_arch:compound_paengga_garden",
+          "x": 146,
+          "y": 1,
+          "z": 52
+        },
+        {
+          "template": "murimlife_arch:compound_paengga_garden",
+          "x": 27,
+          "y": 1,
+          "z": 46
+        },
+        {
+          "template": "murimlife_arch:compound_paengga_signature",
+          "x": 104,
+          "y": 1,
+          "z": 93
+        }
+      ],
+      "paints": [
+        {
+          "a": [
+            0,
+            0,
+            0
+          ],
+          "b": [
+            207,
+            5,
+            0
+          ],
+          "block": "minecraft:stone_bricks"
+        },
+        {
+          "a": [
+            0,
+            0,
+            207
+          ],
+          "b": [
+            207,
+            5,
+            207
+          ],
+          "block": "minecraft:stone_bricks"
+        },
+        {
+          "a": [
+            0,
+            0,
+            0
+          ],
+          "b": [
+            0,
+            5,
+            207
+          ],
+          "block": "minecraft:stone_bricks"
+        },
+        {
+          "a": [
+            207,
+            0,
+            0
+          ],
+          "b": [
+            207,
+            5,
+            207
+          ],
+          "block": "minecraft:stone_bricks"
+        },
+        {
+          "a": [
+            99,
+            1,
+            0
+          ],
+          "b": [
+            109,
+            5,
+            0
+          ],
+          "block": "air"
+        },
+        {
+          "a": [
+            102,
+            0,
+            1
+          ],
+          "b": [
+            106,
+            0,
+            200
+          ],
+          "block": "gravel"
+        },
+        {
+          "a": [
+            10,
+            0,
+            112
+          ],
+          "b": [
+            197,
+            0,
+            114
+          ],
+          "block": "gravel"
+        }
+      ]
+    },
+    {
+      "id": "pine_shadow",
+      "unique": false,
+      "category": "SECT",
+      "size": [
+        144,
+        144
+      ],
+      "maxRelief": 3,
+      "minimumGap": 64,
+      "pieces": [
+        {
+          "template": "murimlife_arch:compound_pine_shadow_gate",
+          "x": 60,
+          "y": 1,
+          "z": 6
+        },
+        {
+          "template": "murimlife_arch:compound_pine_shadow_dorm",
+          "x": 10,
+          "y": 1,
+          "z": 6
+        },
+        {
+          "template": "murimlife_arch:compound_pine_shadow_archive",
+          "x": 102,
+          "y": 1,
+          "z": 6
+        },
+        {
+          "template": "murimlife_arch:compound_pine_shadow_yard",
+          "x": 9,
+          "y": 1,
+          "z": 76
+        },
+        {
+          "template": "murimlife_arch:compound_pine_shadow_main",
+          "x": 81,
+          "y": 1,
+          "z": 56
+        },
+        {
+          "template": "murimlife_arch:compound_pine_shadow_tower",
+          "x": 6,
+          "y": 1,
+          "z": 120
+        }
+      ],
+      "paints": [
+        {
+          "a": [
+            0,
+            0,
+            0
+          ],
+          "b": [
+            143,
+            5,
+            0
+          ],
+          "block": "minecraft:stone_bricks"
+        },
+        {
+          "a": [
+            0,
+            0,
+            143
+          ],
+          "b": [
+            143,
+            5,
+            143
+          ],
+          "block": "minecraft:stone_bricks"
+        },
+        {
+          "a": [
+            0,
+            0,
+            0
+          ],
+          "b": [
+            0,
+            5,
+            143
+          ],
+          "block": "minecraft:stone_bricks"
+        },
+        {
+          "a": [
+            143,
+            0,
+            0
+          ],
+          "b": [
+            143,
+            5,
+            143
+          ],
+          "block": "minecraft:stone_bricks"
+        },
+        {
+          "a": [
+            67,
+            1,
+            0
+          ],
+          "b": [
+            77,
+            5,
+            0
+          ],
+          "block": "air"
+        },
+        {
+          "a": [
+            70,
+            0,
+            1
+          ],
+          "b": [
+            74,
+            0,
+            136
+          ],
+          "block": "gravel"
+        },
+        {
+          "a": [
+            10,
+            0,
+            78
+          ],
+          "b": [
+            133,
+            0,
+            80
+          ],
+          "block": "gravel"
+        }
+      ]
+    },
+    {
+      "id": "qingcheng",
+      "unique": true,
+      "category": "SECT",
+      "size": [
+        192,
+        192
+      ],
+      "maxRelief": 3,
+      "minimumGap": 128,
+      "pieces": [
+        {
+          "template": "murimlife_arch:compound_qingcheng_gate",
+          "x": 84,
+          "y": 1,
+          "z": 6
+        },
+        {
+          "template": "murimlife_arch:compound_qingcheng_tower",
+          "x": 5,
+          "y": 1,
+          "z": 5
+        },
+        {
+          "template": "murimlife_arch:compound_qingcheng_tower",
+          "x": 173,
+          "y": 1,
+          "z": 5
+        },
+        {
+          "template": "murimlife_arch:compound_qingcheng_tower",
+          "x": 5,
+          "y": 1,
+          "z": 173
+        },
+        {
+          "template": "murimlife_arch:compound_qingcheng_tower",
+          "x": 173,
+          "y": 1,
+          "z": 173
+        },
+        {
+          "template": "murimlife_arch:compound_qingcheng_main",
+          "x": 67,
+          "y": 1,
+          "z": 69
+        },
+        {
+          "template": "murimlife_arch:compound_qingcheng_yard",
+          "x": 23,
+          "y": 1,
+          "z": 127
+        },
+        {
+          "template": "murimlife_arch:compound_qingcheng_dorm",
+          "x": 144,
+          "y": 1,
+          "z": 52
+        },
+        {
+          "template": "murimlife_arch:compound_qingcheng_archive",
+          "x": 134,
+          "y": 1,
+          "z": 125
+        },
+        {
+          "template": "murimlife_arch:compound_qingcheng_meditation",
+          "x": 75,
+          "y": 1,
+          "z": 154
+        },
+        {
+          "template": "murimlife_arch:compound_qingcheng_garden",
+          "x": 25,
+          "y": 1,
+          "z": 54
+        },
+        {
+          "template": "murimlife_arch:compound_qingcheng_garden",
+          "x": 117,
+          "y": 1,
+          "z": 35
+        },
+        {
+          "template": "murimlife_arch:compound_qingcheng_signature",
+          "x": 118,
+          "y": 1,
+          "z": 91
+        }
+      ],
+      "paints": [
+        {
+          "a": [
+            0,
+            0,
+            0
+          ],
+          "b": [
+            191,
+            5,
+            0
+          ],
+          "block": "minecraft:stone_bricks"
+        },
+        {
+          "a": [
+            0,
+            0,
+            191
+          ],
+          "b": [
+            191,
+            5,
+            191
+          ],
+          "block": "minecraft:stone_bricks"
+        },
+        {
+          "a": [
+            0,
+            0,
+            0
+          ],
+          "b": [
+            0,
+            5,
+            191
+          ],
+          "block": "minecraft:stone_bricks"
+        },
+        {
+          "a": [
+            191,
+            0,
+            0
+          ],
+          "b": [
+            191,
+            5,
+            191
+          ],
+          "block": "minecraft:stone_bricks"
+        },
+        {
+          "a": [
+            91,
+            1,
+            0
+          ],
+          "b": [
+            101,
+            5,
+            0
+          ],
+          "block": "air"
+        },
+        {
+          "a": [
+            94,
+            0,
+            1
+          ],
+          "b": [
+            98,
+            0,
+            184
+          ],
+          "block": "gravel"
+        },
+        {
+          "a": [
+            10,
+            0,
+            104
+          ],
+          "b": [
+            181,
+            0,
+            106
+          ],
+          "block": "gravel"
+        }
+      ]
+    },
+    {
+      "id": "red_wolf",
+      "unique": false,
+      "category": "SECT",
+      "size": [
+        128,
+        128
+      ],
+      "maxRelief": 3,
+      "minimumGap": 64,
+      "pieces": [
+        {
+          "template": "murimlife_arch:compound_red_wolf_gate",
+          "x": 52,
+          "y": 1,
+          "z": 6
+        },
+        {
+          "template": "murimlife_arch:compound_red_wolf_dorm",
+          "x": 9,
+          "y": 1,
+          "z": 5
+        },
+        {
+          "template": "murimlife_arch:compound_red_wolf_archive",
+          "x": 91,
+          "y": 1,
+          "z": 5
+        },
+        {
+          "template": "murimlife_arch:compound_red_wolf_yard",
+          "x": 8,
+          "y": 1,
+          "z": 68
+        },
+        {
+          "template": "murimlife_arch:compound_red_wolf_main",
+          "x": 72,
+          "y": 1,
+          "z": 50
+        },
+        {
+          "template": "murimlife_arch:compound_red_wolf_tower",
+          "x": 5,
+          "y": 1,
+          "z": 107
+        }
+      ],
+      "paints": [
+        {
+          "a": [
+            0,
+            0,
+            0
+          ],
+          "b": [
+            127,
+            5,
+            0
+          ],
+          "block": "minecraft:polished_blackstone_bricks"
+        },
+        {
+          "a": [
+            0,
+            0,
+            127
+          ],
+          "b": [
+            127,
+            5,
+            127
+          ],
+          "block": "minecraft:polished_blackstone_bricks"
+        },
+        {
+          "a": [
+            0,
+            0,
+            0
+          ],
+          "b": [
+            0,
+            5,
+            127
+          ],
+          "block": "minecraft:polished_blackstone_bricks"
+        },
+        {
+          "a": [
+            127,
+            0,
+            0
+          ],
+          "b": [
+            127,
+            5,
+            127
+          ],
+          "block": "minecraft:polished_blackstone_bricks"
+        },
+        {
+          "a": [
+            59,
+            1,
+            0
+          ],
+          "b": [
+            69,
+            5,
+            0
+          ],
+          "block": "air"
+        },
+        {
+          "a": [
+            62,
+            0,
+            1
+          ],
+          "b": [
+            66,
+            0,
+            120
+          ],
+          "block": "gravel"
+        },
+        {
+          "a": [
+            10,
+            0,
+            69
+          ],
+          "b": [
+            117,
+            0,
+            71
+          ],
+          "block": "gravel"
+        }
+      ]
+    },
+    {
+      "id": "river_moon",
+      "unique": false,
+      "category": "SECT",
+      "size": [
+        128,
+        128
+      ],
+      "maxRelief": 3,
+      "minimumGap": 64,
+      "pieces": [
+        {
+          "template": "murimlife_arch:compound_river_moon_gate",
+          "x": 52,
+          "y": 1,
+          "z": 6
+        },
+        {
+          "template": "murimlife_arch:compound_river_moon_archive",
+          "x": 9,
+          "y": 1,
+          "z": 5
+        },
+        {
+          "template": "murimlife_arch:compound_river_moon_dorm",
+          "x": 87,
+          "y": 1,
+          "z": 5
+        },
+        {
+          "template": "murimlife_arch:compound_river_moon_main",
+          "x": 9,
+          "y": 1,
+          "z": 50
+        },
+        {
+          "template": "murimlife_arch:compound_river_moon_yard",
+          "x": 73,
+          "y": 1,
+          "z": 69
+        },
+        {
+          "template": "murimlife_arch:compound_river_moon_tower",
+          "x": 5,
+          "y": 1,
+          "z": 106
+        }
+      ],
+      "paints": [
+        {
+          "a": [
+            0,
+            0,
+            0
+          ],
+          "b": [
+            127,
+            5,
+            0
+          ],
+          "block": "minecraft:stone_bricks"
+        },
+        {
+          "a": [
+            0,
+            0,
+            127
+          ],
+          "b": [
+            127,
+            5,
+            127
+          ],
+          "block": "minecraft:stone_bricks"
+        },
+        {
+          "a": [
+            0,
+            0,
+            0
+          ],
+          "b": [
+            0,
+            5,
+            127
+          ],
+          "block": "minecraft:stone_bricks"
+        },
+        {
+          "a": [
+            127,
+            0,
+            0
+          ],
+          "b": [
+            127,
+            5,
+            127
+          ],
+          "block": "minecraft:stone_bricks"
+        },
+        {
+          "a": [
+            59,
+            1,
+            0
+          ],
+          "b": [
+            69,
+            5,
+            0
+          ],
+          "block": "air"
+        },
+        {
+          "a": [
+            62,
+            0,
+            1
+          ],
+          "b": [
+            66,
+            0,
+            120
+          ],
+          "block": "gravel"
+        },
+        {
+          "a": [
+            10,
+            0,
+            69
+          ],
+          "b": [
+            117,
+            0,
+            71
+          ],
+          "block": "gravel"
+        }
+      ]
+    },
+    {
+      "id": "serpent_fang",
+      "unique": false,
+      "category": "SECT",
+      "size": [
+        144,
+        144
+      ],
+      "maxRelief": 3,
+      "minimumGap": 64,
+      "pieces": [
+        {
+          "template": "murimlife_arch:compound_serpent_fang_gate",
+          "x": 60,
+          "y": 1,
+          "z": 6
+        },
+        {
+          "template": "murimlife_arch:compound_serpent_fang_archive",
+          "x": 10,
+          "y": 1,
+          "z": 6
+        },
+        {
+          "template": "murimlife_arch:compound_serpent_fang_dorm",
+          "x": 98,
+          "y": 1,
+          "z": 6
+        },
+        {
+          "template": "murimlife_arch:compound_serpent_fang_main",
+          "x": 10,
+          "y": 1,
+          "z": 56
+        },
+        {
+          "template": "murimlife_arch:compound_serpent_fang_yard",
+          "x": 82,
+          "y": 1,
+          "z": 78
+        },
+        {
+          "template": "murimlife_arch:compound_serpent_fang_tower",
+          "x": 6,
+          "y": 1,
+          "z": 120
+        }
+      ],
+      "paints": [
+        {
+          "a": [
+            0,
+            0,
+            0
+          ],
+          "b": [
+            143,
+            5,
+            0
+          ],
+          "block": "minecraft:polished_blackstone_bricks"
+        },
+        {
+          "a": [
+            0,
+            0,
+            143
+          ],
+          "b": [
+            143,
+            5,
+            143
+          ],
+          "block": "minecraft:polished_blackstone_bricks"
+        },
+        {
+          "a": [
+            0,
+            0,
+            0
+          ],
+          "b": [
+            0,
+            5,
+            143
+          ],
+          "block": "minecraft:polished_blackstone_bricks"
+        },
+        {
+          "a": [
+            143,
+            0,
+            0
+          ],
+          "b": [
+            143,
+            5,
+            143
+          ],
+          "block": "minecraft:polished_blackstone_bricks"
+        },
+        {
+          "a": [
+            67,
+            1,
+            0
+          ],
+          "b": [
+            77,
+            5,
+            0
+          ],
+          "block": "air"
+        },
+        {
+          "a": [
+            70,
+            0,
+            1
+          ],
+          "b": [
+            74,
+            0,
+            136
+          ],
+          "block": "gravel"
+        },
+        {
+          "a": [
+            10,
+            0,
+            78
+          ],
+          "b": [
+            133,
+            0,
+            80
+          ],
+          "block": "gravel"
+        }
+      ]
+    },
+    {
+      "id": "shaolin",
+      "unique": true,
+      "category": "SECT",
+      "size": [
+        192,
+        192
+      ],
+      "maxRelief": 3,
+      "minimumGap": 128,
+      "pieces": [
+        {
+          "template": "murimlife_arch:compound_shaolin_gate",
+          "x": 84,
+          "y": 1,
+          "z": 6
+        },
+        {
+          "template": "murimlife_arch:compound_shaolin_tower",
+          "x": 5,
+          "y": 1,
+          "z": 5
+        },
+        {
+          "template": "murimlife_arch:compound_shaolin_tower",
+          "x": 173,
+          "y": 1,
+          "z": 5
+        },
+        {
+          "template": "murimlife_arch:compound_shaolin_tower",
+          "x": 5,
+          "y": 1,
+          "z": 173
+        },
+        {
+          "template": "murimlife_arch:compound_shaolin_tower",
+          "x": 173,
+          "y": 1,
+          "z": 173
+        },
+        {
+          "template": "murimlife_arch:compound_shaolin_main",
+          "x": 79,
+          "y": 1,
+          "z": 63
+        },
+        {
+          "template": "murimlife_arch:compound_shaolin_yard",
+          "x": 84,
+          "y": 1,
+          "z": 123
+        },
+        {
+          "template": "murimlife_arch:compound_shaolin_dorm",
+          "x": 15,
+          "y": 1,
+          "z": 109
+        },
+        {
+          "template": "murimlife_arch:compound_shaolin_archive",
+          "x": 148,
+          "y": 1,
+          "z": 102
+        },
+        {
+          "template": "murimlife_arch:compound_shaolin_meditation",
+          "x": 27,
+          "y": 1,
+          "z": 154
+        },
+        {
+          "template": "murimlife_arch:compound_shaolin_garden",
+          "x": 17,
+          "y": 1,
+          "z": 50
+        },
+        {
+          "template": "murimlife_arch:compound_shaolin_garden",
+          "x": 152,
+          "y": 1,
+          "z": 54
+        },
+        {
+          "template": "murimlife_arch:compound_shaolin_signature",
+          "x": 50,
+          "y": 1,
+          "z": 81
+        }
+      ],
+      "paints": [
+        {
+          "a": [
+            0,
+            0,
+            0
+          ],
+          "b": [
+            191,
+            5,
+            0
+          ],
+          "block": "minecraft:stone_bricks"
+        },
+        {
+          "a": [
+            0,
+            0,
+            191
+          ],
+          "b": [
+            191,
+            5,
+            191
+          ],
+          "block": "minecraft:stone_bricks"
+        },
+        {
+          "a": [
+            0,
+            0,
+            0
+          ],
+          "b": [
+            0,
+            5,
+            191
+          ],
+          "block": "minecraft:stone_bricks"
+        },
+        {
+          "a": [
+            191,
+            0,
+            0
+          ],
+          "b": [
+            191,
+            5,
+            191
+          ],
+          "block": "minecraft:stone_bricks"
+        },
+        {
+          "a": [
+            91,
+            1,
+            0
+          ],
+          "b": [
+            101,
+            5,
+            0
+          ],
+          "block": "air"
+        },
+        {
+          "a": [
+            94,
+            0,
+            1
+          ],
+          "b": [
+            98,
+            0,
+            184
+          ],
+          "block": "gravel"
+        },
+        {
+          "a": [
+            10,
+            0,
+            104
+          ],
+          "b": [
+            181,
+            0,
+            106
+          ],
+          "block": "gravel"
+        }
+      ]
+    },
+    {
+      "id": "silver_cloud",
+      "unique": false,
+      "category": "SECT",
+      "size": [
+        128,
+        128
+      ],
+      "maxRelief": 3,
+      "minimumGap": 64,
+      "pieces": [
+        {
+          "template": "murimlife_arch:compound_silver_cloud_gate",
+          "x": 52,
+          "y": 1,
+          "z": 6
+        },
+        {
+          "template": "murimlife_arch:compound_silver_cloud_archive",
+          "x": 9,
+          "y": 1,
+          "z": 5
+        },
+        {
+          "template": "murimlife_arch:compound_silver_cloud_dorm",
+          "x": 88,
+          "y": 1,
+          "z": 5
+        },
+        {
+          "template": "murimlife_arch:compound_silver_cloud_main",
+          "x": 10,
+          "y": 1,
+          "z": 51
+        },
+        {
+          "template": "murimlife_arch:compound_silver_cloud_yard",
+          "x": 74,
+          "y": 1,
+          "z": 70
+        },
+        {
+          "template": "murimlife_arch:compound_silver_cloud_tower",
+          "x": 5,
+          "y": 1,
+          "z": 106
+        }
+      ],
+      "paints": [
+        {
+          "a": [
+            0,
+            0,
+            0
+          ],
+          "b": [
+            127,
+            5,
+            0
+          ],
+          "block": "minecraft:stone_bricks"
+        },
+        {
+          "a": [
+            0,
+            0,
+            127
+          ],
+          "b": [
+            127,
+            5,
+            127
+          ],
+          "block": "minecraft:stone_bricks"
+        },
+        {
+          "a": [
+            0,
+            0,
+            0
+          ],
+          "b": [
+            0,
+            5,
+            127
+          ],
+          "block": "minecraft:stone_bricks"
+        },
+        {
+          "a": [
+            127,
+            0,
+            0
+          ],
+          "b": [
+            127,
+            5,
+            127
+          ],
+          "block": "minecraft:stone_bricks"
+        },
+        {
+          "a": [
+            59,
+            1,
+            0
+          ],
+          "b": [
+            69,
+            5,
+            0
+          ],
+          "block": "air"
+        },
+        {
+          "a": [
+            62,
+            0,
+            1
+          ],
+          "b": [
+            66,
+            0,
+            120
+          ],
+          "block": "gravel"
+        },
+        {
+          "a": [
+            10,
+            0,
+            69
+          ],
+          "b": [
+            117,
+            0,
+            71
+          ],
+          "block": "gravel"
+        }
+      ]
+    },
+    {
+      "id": "sword_bamboo",
+      "unique": false,
+      "category": "SECT",
+      "size": [
+        112,
+        112
+      ],
+      "maxRelief": 3,
+      "minimumGap": 64,
+      "pieces": [
+        {
+          "template": "murimlife_arch:compound_sword_bamboo_gate",
+          "x": 44,
+          "y": 1,
+          "z": 6
+        },
+        {
+          "template": "murimlife_arch:compound_sword_bamboo_archive",
+          "x": 8,
+          "y": 1,
+          "z": 4
+        },
+        {
+          "template": "murimlife_arch:compound_sword_bamboo_dorm",
+          "x": 76,
+          "y": 1,
+          "z": 4
+        },
+        {
+          "template": "murimlife_arch:compound_sword_bamboo_main",
+          "x": 8,
+          "y": 1,
+          "z": 44
+        },
+        {
+          "template": "murimlife_arch:compound_sword_bamboo_yard",
+          "x": 64,
+          "y": 1,
+          "z": 60
+        },
+        {
+          "template": "murimlife_arch:compound_sword_bamboo_tower",
+          "x": 12,
+          "y": 1,
+          "z": 93
+        }
+      ],
+      "paints": [
+        {
+          "a": [
+            0,
+            0,
+            0
+          ],
+          "b": [
+            111,
+            5,
+            0
+          ],
+          "block": "minecraft:stone_bricks"
+        },
+        {
+          "a": [
+            0,
+            0,
+            111
+          ],
+          "b": [
+            111,
+            5,
+            111
+          ],
+          "block": "minecraft:stone_bricks"
+        },
+        {
+          "a": [
+            0,
+            0,
+            0
+          ],
+          "b": [
+            0,
+            5,
+            111
+          ],
+          "block": "minecraft:stone_bricks"
+        },
+        {
+          "a": [
+            111,
+            0,
+            0
+          ],
+          "b": [
+            111,
+            5,
+            111
+          ],
+          "block": "minecraft:stone_bricks"
+        },
+        {
+          "a": [
+            51,
+            1,
+            0
+          ],
+          "b": [
+            61,
+            5,
+            0
+          ],
+          "block": "air"
+        },
+        {
+          "a": [
+            54,
+            0,
+            1
+          ],
+          "b": [
+            58,
+            0,
+            104
+          ],
+          "block": "gravel"
+        },
+        {
+          "a": [
+            10,
+            0,
+            60
+          ],
+          "b": [
+            101,
+            0,
+            62
+          ],
+          "block": "gravel"
+        }
+      ]
+    },
+    {
+      "id": "tangmun",
+      "unique": true,
+      "category": "SECT",
+      "size": [
+        208,
+        208
+      ],
+      "maxRelief": 3,
+      "minimumGap": 128,
+      "pieces": [
+        {
+          "template": "murimlife_arch:compound_tangmun_gate",
+          "x": 92,
+          "y": 1,
+          "z": 6
+        },
+        {
+          "template": "murimlife_arch:compound_tangmun_tower",
+          "x": 5,
+          "y": 1,
+          "z": 5
+        },
+        {
+          "template": "murimlife_arch:compound_tangmun_tower",
+          "x": 189,
+          "y": 1,
+          "z": 5
+        },
+        {
+          "template": "murimlife_arch:compound_tangmun_tower",
+          "x": 5,
+          "y": 1,
+          "z": 189
+        },
+        {
+          "template": "murimlife_arch:compound_tangmun_tower",
+          "x": 189,
+          "y": 1,
+          "z": 189
+        },
+        {
+          "template": "murimlife_arch:compound_tangmun_main",
+          "x": 73,
+          "y": 1,
+          "z": 75
+        },
+        {
+          "template": "murimlife_arch:compound_tangmun_yard",
+          "x": 25,
+          "y": 1,
+          "z": 137
+        },
+        {
+          "template": "murimlife_arch:compound_tangmun_dorm",
+          "x": 156,
+          "y": 1,
+          "z": 56
+        },
+        {
+          "template": "murimlife_arch:compound_tangmun_archive",
+          "x": 146,
+          "y": 1,
+          "z": 135
+        },
+        {
+          "template": "murimlife_arch:compound_tangmun_meditation",
+          "x": 81,
+          "y": 1,
+          "z": 166
+        },
+        {
+          "template": "murimlife_arch:compound_tangmun_garden",
+          "x": 27,
+          "y": 1,
+          "z": 58
+        },
+        {
+          "template": "murimlife_arch:compound_tangmun_garden",
+          "x": 127,
+          "y": 1,
+          "z": 37
+        },
+        {
+          "template": "murimlife_arch:compound_tangmun_signature",
+          "x": 124,
+          "y": 1,
+          "z": 93
+        }
+      ],
+      "paints": [
+        {
+          "a": [
+            0,
+            0,
+            0
+          ],
+          "b": [
+            207,
+            5,
+            0
+          ],
+          "block": "minecraft:stone_bricks"
+        },
+        {
+          "a": [
+            0,
+            0,
+            207
+          ],
+          "b": [
+            207,
+            5,
+            207
+          ],
+          "block": "minecraft:stone_bricks"
+        },
+        {
+          "a": [
+            0,
+            0,
+            0
+          ],
+          "b": [
+            0,
+            5,
+            207
+          ],
+          "block": "minecraft:stone_bricks"
+        },
+        {
+          "a": [
+            207,
+            0,
+            0
+          ],
+          "b": [
+            207,
+            5,
+            207
+          ],
+          "block": "minecraft:stone_bricks"
+        },
+        {
+          "a": [
+            99,
+            1,
+            0
+          ],
+          "b": [
+            109,
+            5,
+            0
+          ],
+          "block": "air"
+        },
+        {
+          "a": [
+            102,
+            0,
+            1
+          ],
+          "b": [
+            106,
+            0,
+            200
+          ],
+          "block": "gravel"
+        },
+        {
+          "a": [
+            10,
+            0,
+            112
+          ],
+          "b": [
+            197,
+            0,
+            114
+          ],
+          "block": "gravel"
+        }
+      ]
+    },
+    {
+      "id": "thunder_fist",
+      "unique": false,
+      "category": "SECT",
+      "size": [
+        144,
+        144
+      ],
+      "maxRelief": 3,
+      "minimumGap": 64,
+      "pieces": [
+        {
+          "template": "murimlife_arch:compound_thunder_fist_gate",
+          "x": 60,
+          "y": 1,
+          "z": 6
+        },
+        {
+          "template": "murimlife_arch:compound_thunder_fist_archive",
+          "x": 10,
+          "y": 1,
+          "z": 6
+        },
+        {
+          "template": "murimlife_arch:compound_thunder_fist_dorm",
+          "x": 99,
+          "y": 1,
+          "z": 6
+        },
+        {
+          "template": "murimlife_arch:compound_thunder_fist_main",
+          "x": 12,
+          "y": 1,
+          "z": 58
+        },
+        {
+          "template": "murimlife_arch:compound_thunder_fist_yard",
+          "x": 84,
+          "y": 1,
+          "z": 79
+        },
+        {
+          "template": "murimlife_arch:compound_thunder_fist_tower",
+          "x": 6,
+          "y": 1,
+          "z": 120
+        }
+      ],
+      "paints": [
+        {
+          "a": [
+            0,
+            0,
+            0
+          ],
+          "b": [
+            143,
+            5,
+            0
+          ],
+          "block": "minecraft:polished_blackstone_bricks"
+        },
+        {
+          "a": [
+            0,
+            0,
+            143
+          ],
+          "b": [
+            143,
+            5,
+            143
+          ],
+          "block": "minecraft:polished_blackstone_bricks"
+        },
+        {
+          "a": [
+            0,
+            0,
+            0
+          ],
+          "b": [
+            0,
+            5,
+            143
+          ],
+          "block": "minecraft:polished_blackstone_bricks"
+        },
+        {
+          "a": [
+            143,
+            0,
+            0
+          ],
+          "b": [
+            143,
+            5,
+            143
+          ],
+          "block": "minecraft:polished_blackstone_bricks"
+        },
+        {
+          "a": [
+            67,
+            1,
+            0
+          ],
+          "b": [
+            77,
+            5,
+            0
+          ],
+          "block": "air"
+        },
+        {
+          "a": [
+            70,
+            0,
+            1
+          ],
+          "b": [
+            74,
+            0,
+            136
+          ],
+          "block": "gravel"
+        },
+        {
+          "a": [
+            10,
+            0,
+            78
+          ],
+          "b": [
+            133,
+            0,
+            80
+          ],
+          "block": "gravel"
+        }
+      ]
+    },
+    {
+      "id": "white_crane",
+      "unique": false,
+      "category": "SECT",
+      "size": [
+        112,
+        112
+      ],
+      "maxRelief": 3,
+      "minimumGap": 64,
+      "pieces": [
+        {
+          "template": "murimlife_arch:compound_white_crane_gate",
+          "x": 44,
+          "y": 1,
+          "z": 6
+        },
+        {
+          "template": "murimlife_arch:compound_white_crane_archive",
+          "x": 8,
+          "y": 1,
+          "z": 4
+        },
+        {
+          "template": "murimlife_arch:compound_white_crane_dorm",
+          "x": 76,
+          "y": 1,
+          "z": 4
+        },
+        {
+          "template": "murimlife_arch:compound_white_crane_main",
+          "x": 8,
+          "y": 1,
+          "z": 44
+        },
+        {
+          "template": "murimlife_arch:compound_white_crane_yard",
+          "x": 64,
+          "y": 1,
+          "z": 60
+        },
+        {
+          "template": "murimlife_arch:compound_white_crane_tower",
+          "x": 12,
+          "y": 1,
+          "z": 93
+        }
+      ],
+      "paints": [
+        {
+          "a": [
+            0,
+            0,
+            0
+          ],
+          "b": [
+            111,
+            5,
+            0
+          ],
+          "block": "minecraft:stone_bricks"
+        },
+        {
+          "a": [
+            0,
+            0,
+            111
+          ],
+          "b": [
+            111,
+            5,
+            111
+          ],
+          "block": "minecraft:stone_bricks"
+        },
+        {
+          "a": [
+            0,
+            0,
+            0
+          ],
+          "b": [
+            0,
+            5,
+            111
+          ],
+          "block": "minecraft:stone_bricks"
+        },
+        {
+          "a": [
+            111,
+            0,
+            0
+          ],
+          "b": [
+            111,
+            5,
+            111
+          ],
+          "block": "minecraft:stone_bricks"
+        },
+        {
+          "a": [
+            51,
+            1,
+            0
+          ],
+          "b": [
+            61,
+            5,
+            0
+          ],
+          "block": "air"
+        },
+        {
+          "a": [
+            54,
+            0,
+            1
+          ],
+          "b": [
+            58,
+            0,
+            104
+          ],
+          "block": "gravel"
+        },
+        {
+          "a": [
+            10,
+            0,
+            60
+          ],
+          "b": [
+            101,
+            0,
+            62
+          ],
+          "block": "gravel"
+        }
+      ]
+    },
+    {
+      "id": "wudang",
+      "unique": true,
+      "category": "SECT",
+      "size": [
+        208,
+        208
+      ],
+      "maxRelief": 3,
+      "minimumGap": 128,
+      "pieces": [
+        {
+          "template": "murimlife_arch:compound_wudang_gate",
+          "x": 92,
+          "y": 1,
+          "z": 6
+        },
+        {
+          "template": "murimlife_arch:compound_wudang_tower",
+          "x": 5,
+          "y": 1,
+          "z": 5
+        },
+        {
+          "template": "murimlife_arch:compound_wudang_tower",
+          "x": 189,
+          "y": 1,
+          "z": 5
+        },
+        {
+          "template": "murimlife_arch:compound_wudang_tower",
+          "x": 5,
+          "y": 1,
+          "z": 189
+        },
+        {
+          "template": "murimlife_arch:compound_wudang_tower",
+          "x": 189,
+          "y": 1,
+          "z": 189
+        },
+        {
+          "template": "murimlife_arch:compound_wudang_main",
+          "x": 116,
+          "y": 1,
+          "z": 81
+        },
+        {
+          "template": "murimlife_arch:compound_wudang_yard",
+          "x": 46,
+          "y": 1,
+          "z": 125
+        },
+        {
+          "template": "murimlife_arch:compound_wudang_dorm",
+          "x": 141,
+          "y": 1,
+          "z": 148
+        },
+        {
+          "template": "murimlife_arch:compound_wudang_archive",
+          "x": 19,
+          "y": 1,
+          "z": 56
+        },
+        {
+          "template": "murimlife_arch:compound_wudang_meditation",
+          "x": 27,
+          "y": 1,
+          "z": 168
+        },
+        {
+          "template": "murimlife_arch:compound_wudang_garden",
+          "x": 150,
+          "y": 1,
+          "z": 44
+        },
+        {
+          "template": "murimlife_arch:compound_wudang_garden",
+          "x": 87,
+          "y": 1,
+          "z": 162
+        },
+        {
+          "template": "murimlife_arch:compound_wudang_signature",
+          "x": 88,
+          "y": 1,
+          "z": 93
+        }
+      ],
+      "paints": [
+        {
+          "a": [
+            0,
+            0,
+            0
+          ],
+          "b": [
+            207,
+            5,
+            0
+          ],
+          "block": "minecraft:stone_bricks"
+        },
+        {
+          "a": [
+            0,
+            0,
+            207
+          ],
+          "b": [
+            207,
+            5,
+            207
+          ],
+          "block": "minecraft:stone_bricks"
+        },
+        {
+          "a": [
+            0,
+            0,
+            0
+          ],
+          "b": [
+            0,
+            5,
+            207
+          ],
+          "block": "minecraft:stone_bricks"
+        },
+        {
+          "a": [
+            207,
+            0,
+            0
+          ],
+          "b": [
+            207,
+            5,
+            207
+          ],
+          "block": "minecraft:stone_bricks"
+        },
+        {
+          "a": [
+            99,
+            1,
+            0
+          ],
+          "b": [
+            109,
+            5,
+            0
+          ],
+          "block": "air"
+        },
+        {
+          "a": [
+            102,
+            0,
+            1
+          ],
+          "b": [
+            106,
+            0,
+            200
+          ],
+          "block": "gravel"
+        },
+        {
+          "a": [
+            10,
+            0,
+            112
+          ],
+          "b": [
+            197,
+            0,
+            114
+          ],
+          "block": "gravel"
+        }
+      ]
+    },
+    {
+      "id": "zhongnan",
+      "unique": true,
+      "category": "SECT",
+      "size": [
+        208,
+        208
+      ],
+      "maxRelief": 3,
+      "minimumGap": 128,
+      "pieces": [
+        {
+          "template": "murimlife_arch:compound_zhongnan_gate",
+          "x": 92,
+          "y": 1,
+          "z": 6
+        },
+        {
+          "template": "murimlife_arch:compound_zhongnan_tower",
+          "x": 5,
+          "y": 1,
+          "z": 5
+        },
+        {
+          "template": "murimlife_arch:compound_zhongnan_tower",
+          "x": 189,
+          "y": 1,
+          "z": 5
+        },
+        {
+          "template": "murimlife_arch:compound_zhongnan_tower",
+          "x": 5,
+          "y": 1,
+          "z": 189
+        },
+        {
+          "template": "murimlife_arch:compound_zhongnan_tower",
+          "x": 189,
+          "y": 1,
+          "z": 189
+        },
+        {
+          "template": "murimlife_arch:compound_zhongnan_main",
+          "x": 73,
+          "y": 1,
+          "z": 75
+        },
+        {
+          "template": "murimlife_arch:compound_zhongnan_yard",
+          "x": 25,
+          "y": 1,
+          "z": 137
+        },
+        {
+          "template": "murimlife_arch:compound_zhongnan_dorm",
+          "x": 156,
+          "y": 1,
+          "z": 56
+        },
+        {
+          "template": "murimlife_arch:compound_zhongnan_archive",
+          "x": 146,
+          "y": 1,
+          "z": 135
+        },
+        {
+          "template": "murimlife_arch:compound_zhongnan_meditation",
+          "x": 81,
+          "y": 1,
+          "z": 166
+        },
+        {
+          "template": "murimlife_arch:compound_zhongnan_garden",
+          "x": 27,
+          "y": 1,
+          "z": 58
+        },
+        {
+          "template": "murimlife_arch:compound_zhongnan_garden",
+          "x": 127,
+          "y": 1,
+          "z": 37
+        },
+        {
+          "template": "murimlife_arch:compound_zhongnan_signature",
+          "x": 124,
+          "y": 1,
+          "z": 93
+        }
+      ],
+      "paints": [
+        {
+          "a": [
+            0,
+            0,
+            0
+          ],
+          "b": [
+            207,
+            5,
+            0
+          ],
+          "block": "minecraft:stone_bricks"
+        },
+        {
+          "a": [
+            0,
+            0,
+            207
+          ],
+          "b": [
+            207,
+            5,
+            207
+          ],
+          "block": "minecraft:stone_bricks"
+        },
+        {
+          "a": [
+            0,
+            0,
+            0
+          ],
+          "b": [
+            0,
+            5,
+            207
+          ],
+          "block": "minecraft:stone_bricks"
+        },
+        {
+          "a": [
+            207,
+            0,
+            0
+          ],
+          "b": [
+            207,
+            5,
+            207
+          ],
+          "block": "minecraft:stone_bricks"
+        },
+        {
+          "a": [
+            99,
+            1,
+            0
+          ],
+          "b": [
+            109,
+            5,
+            0
+          ],
+          "block": "air"
+        },
+        {
+          "a": [
+            102,
+            0,
+            1
+          ],
+          "b": [
+            106,
+            0,
+            200
+          ],
+          "block": "gravel"
+        },
+        {
+          "a": [
+            10,
+            0,
+            112
+          ],
+          "b": [
+            197,
+            0,
+            114
+          ],
+          "block": "gravel"
+        }
+      ]
+    },
+    {
+      "id": "city",
+      "unique": false,
+      "category": "CITY",
+      "size": [
+        512,
+        512
+      ],
+      "maxRelief": 2,
+      "minimumGap": 128,
+      "pieces": [
+        {
+          "template": "murimlife_city:city_prefecture",
+          "x": 186,
+          "y": 1,
+          "z": 182
+        },
+        {
+          "template": "murimlife_city:city_square",
+          "x": 303,
+          "y": 1,
+          "z": 203
+        },
+        {
+          "template": "murimlife_city:city_grand_inn",
+          "x": 319,
+          "y": 1,
+          "z": 285
+        },
+        {
+          "template": "murimlife_city:city_merchant_guild",
+          "x": 140,
+          "y": 1,
+          "z": 300
+        },
+        {
+          "template": "murimlife_city:city_residence_indigo",
+          "x": 46,
+          "y": 1,
+          "z": 58
+        },
+        {
+          "template": "murimlife_city:city_residence_jade",
+          "x": 98,
+          "y": 1,
+          "z": 35
+        },
+        {
+          "template": "murimlife_city:city_silk_shop",
+          "x": 173,
+          "y": 1,
+          "z": 47
+        },
+        {
+          "template": "murimlife_city:city_apothecary",
+          "x": 190,
+          "y": 1,
+          "z": 105
+        },
+        {
+          "template": "murimlife_city:city_guardhouse",
+          "x": 138,
+          "y": 1,
+          "z": 161
+        },
+        {
+          "template": "murimlife_city:city_tea_pavilion",
+          "x": 97,
+          "y": 1,
+          "z": 188
+        },
+        {
+          "template": "murimlife_city:city_residence_indigo",
+          "x": 42,
+          "y": 1,
+          "z": 140
+        },
+        {
+          "template": "murimlife_city:city_small_garden",
+          "x": 449,
+          "y": 1,
+          "z": 45
+        },
+        {
+          "template": "murimlife_city:city_residence_jade",
+          "x": 469,
+          "y": 1,
+          "z": 103
+        },
+        {
+          "template": "murimlife_city:city_silk_shop",
+          "x": 456,
+          "y": 1,
+          "z": 159
+        },
+        {
+          "template": "murimlife_city:city_merchant_guild",
+          "x": 381,
+          "y": 1,
+          "z": 186
+        },
+        {
+          "template": "murimlife_city:city_residence_indigo",
+          "x": 327,
+          "y": 1,
+          "z": 138
+        },
+        {
+          "template": "murimlife_city:city_residence_jade",
+          "x": 334,
+          "y": 1,
+          "z": 61
+        },
+        {
+          "template": "murimlife_city:city_tea_pavilion",
+          "x": 377,
+          "y": 1,
+          "z": 28
+        },
+        {
+          "template": "murimlife_city:city_residence_indigo",
+          "x": 165,
+          "y": 1,
+          "z": 443
+        },
+        {
+          "template": "murimlife_city:city_guardhouse",
+          "x": 99,
+          "y": 1,
+          "z": 467
+        },
+        {
+          "template": "murimlife_city:city_apothecary",
+          "x": 45,
+          "y": 1,
+          "z": 422
+        },
+        {
+          "template": "murimlife_city:city_residence_jade",
+          "x": 43,
+          "y": 1,
+          "z": 345
+        },
+        {
+          "template": "murimlife_city:city_small_garden",
+          "x": 95,
+          "y": 1,
+          "z": 312
+        },
+        {
+          "template": "murimlife_city:city_residence_indigo",
+          "x": 170,
+          "y": 1,
+          "z": 349
+        },
+        {
+          "template": "murimlife_city:city_residence_jade",
+          "x": 187,
+          "y": 1,
+          "z": 390
+        },
+        {
+          "template": "murimlife_city:city_silk_shop",
+          "x": 384,
+          "y": 1,
+          "z": 467
+        },
+        {
+          "template": "murimlife_city:city_residence_indigo",
+          "x": 330,
+          "y": 1,
+          "z": 429
+        },
+        {
+          "template": "murimlife_city:city_small_garden",
+          "x": 337,
+          "y": 1,
+          "z": 342
+        },
+        {
+          "template": "murimlife_city:city_residence_jade",
+          "x": 380,
+          "y": 1,
+          "z": 319
+        },
+        {
+          "template": "murimlife_city:city_guardhouse",
+          "x": 455,
+          "y": 1,
+          "z": 331
+        },
+        {
+          "template": "murimlife_city:city_residence_indigo",
+          "x": 471,
+          "y": 1,
+          "z": 389
+        },
+        {
+          "template": "murimlife_city:city_apothecary",
+          "x": 453,
+          "y": 1,
+          "z": 445
+        },
+        {
+          "template": "murimlife_city:city_residence_jade",
+          "x": 49,
+          "y": 1,
+          "z": 190
+        },
+        {
+          "template": "murimlife_city:city_merchant_guild",
+          "x": 185,
+          "y": 1,
+          "z": 269
+        },
+        {
+          "template": "murimlife_city:city_residence_jade",
+          "x": 206,
+          "y": 1,
+          "z": 314
+        },
+        {
+          "template": "murimlife_city:city_residence_indigo",
+          "x": 122,
+          "y": 1,
+          "z": 349
+        },
+        {
+          "template": "murimlife_city:city_tea_pavilion",
+          "x": 102,
+          "y": 1,
+          "z": 403
+        },
+        {
+          "template": "murimlife_city:city_residence_jade",
+          "x": 48,
+          "y": 1,
+          "z": 305
+        },
+        {
+          "template": "murimlife_city:city_residence_indigo",
+          "x": 83,
+          "y": 1,
+          "z": 143
+        },
+        {
+          "template": "murimlife_city:city_residence_jade",
+          "x": 469,
+          "y": 1,
+          "z": 272
+        },
+        {
+          "template": "murimlife_city:city_silk_shop",
+          "x": 424,
+          "y": 1,
+          "z": 290
+        },
+        {
+          "template": "murimlife_city:city_small_garden",
+          "x": 391,
+          "y": 1,
+          "z": 363
+        },
+        {
+          "template": "murimlife_city:city_residence_jade",
+          "x": 295,
+          "y": 1,
+          "z": 335
+        },
+        {
+          "template": "murimlife_city:city_residence_indigo",
+          "x": 342,
+          "y": 1,
+          "z": 200
+        },
+        {
+          "template": "murimlife_city:city_guardhouse",
+          "x": 387,
+          "y": 1,
+          "z": 132
+        },
+        {
+          "template": "murimlife_city:city_residence_jade",
+          "x": 453,
+          "y": 1,
+          "z": 196
+        }
+      ],
+      "paints": [
+        {
+          "a": [
+            245,
+            0,
+            0
+          ],
+          "b": [
+            264,
+            0,
+            511
+          ],
+          "block": "polished_andesite"
+        },
+        {
+          "a": [
+            0,
+            0,
+            244
+          ],
+          "b": [
+            511,
+            0,
+            260
+          ],
+          "block": "polished_andesite"
+        },
+        {
+          "a": [
+            0,
+            1,
+            0
+          ],
+          "b": [
+            511,
+            7,
+            0
+          ],
+          "block": "stone_bricks"
+        },
+        {
+          "a": [
+            0,
+            1,
+            511
+          ],
+          "b": [
+            511,
+            7,
+            511
+          ],
+          "block": "stone_bricks"
+        },
+        {
+          "a": [
+            0,
+            1,
+            0
+          ],
+          "b": [
+            0,
+            7,
+            511
+          ],
+          "block": "stone_bricks"
+        },
+        {
+          "a": [
+            511,
+            1,
+            0
+          ],
+          "b": [
+            511,
+            7,
+            511
+          ],
+          "block": "stone_bricks"
+        },
+        {
+          "a": [
+            245,
+            1,
+            0
+          ],
+          "b": [
+            264,
+            7,
+            0
+          ],
+          "block": "air"
+        },
+        {
+          "a": [
+            245,
+            1,
+            511
+          ],
+          "b": [
+            264,
+            7,
+            511
+          ],
+          "block": "air"
+        },
+        {
+          "a": [
+            0,
+            1,
+            245
+          ],
+          "b": [
+            0,
+            7,
+            264
+          ],
+          "block": "air"
+        },
+        {
+          "a": [
+            511,
+            1,
+            245
+          ],
+          "b": [
+            511,
+            7,
+            264
+          ],
+          "block": "air"
+        }
+      ]
+    },
+    {
+      "id": "village",
+      "unique": false,
+      "category": "VILLAGE",
+      "size": [
+        192,
+        192
+      ],
+      "maxRelief": 3,
+      "minimumGap": 64,
+      "pieces": [
+        {
+          "template": "murimlife_city:village_assembly_hall",
+          "x": 47,
+          "y": 1,
+          "z": 114
+        },
+        {
+          "template": "murimlife_city:village_well",
+          "x": 156,
+          "y": 1,
+          "z": 117
+        },
+        {
+          "template": "murimlife_city:village_guesthouse",
+          "x": 124,
+          "y": 1,
+          "z": 40
+        },
+        {
+          "template": "murimlife_city:village_cottage_oak",
+          "x": 23,
+          "y": 1,
+          "z": 21
+        },
+        {
+          "template": "murimlife_city:village_cottage_stone",
+          "x": 55,
+          "y": 1,
+          "z": 30
+        },
+        {
+          "template": "murimlife_city:village_herbalist",
+          "x": 19,
+          "y": 1,
+          "z": 55
+        },
+        {
+          "template": "murimlife_city:village_teahouse",
+          "x": 12,
+          "y": 1,
+          "z": 119
+        },
+        {
+          "template": "murimlife_city:village_smithy",
+          "x": 12,
+          "y": 1,
+          "z": 155
+        },
+        {
+          "template": "murimlife_city:village_granary",
+          "x": 45,
+          "y": 1,
+          "z": 157
+        },
+        {
+          "template": "murimlife_city:village_cottage_oak",
+          "x": 107,
+          "y": 1,
+          "z": 158
+        },
+        {
+          "template": "murimlife_city:village_cottage_stone",
+          "x": 107,
+          "y": 1,
+          "z": 11
+        },
+        {
+          "template": "murimlife_city:village_cottage_oak",
+          "x": 158,
+          "y": 1,
+          "z": 11
+        },
+        {
+          "template": "murimlife_city:village_herbalist",
+          "x": 149,
+          "y": 1,
+          "z": 148
+        },
+        {
+          "template": "murimlife_city:village_cottage_stone",
+          "x": 115,
+          "y": 1,
+          "z": 120
+        },
+        {
+          "template": "murimlife_city:village_teahouse",
+          "x": 59,
+          "y": 1,
+          "z": 59
+        }
+      ],
+      "paints": [
+        {
+          "a": [
+            94,
+            0,
+            0
+          ],
+          "b": [
+            98,
+            0,
+            55
+          ],
+          "block": "gravel"
+        },
+        {
+          "a": [
+            93,
+            0,
+            56
+          ],
+          "b": [
+            97,
+            0,
+            115
+          ],
+          "block": "gravel"
+        },
+        {
+          "a": [
+            96,
+            0,
+            116
+          ],
+          "b": [
+            100,
+            0,
+            191
+          ],
+          "block": "gravel"
+        },
+        {
+          "a": [
+            0,
+            0,
+            92
+          ],
+          "b": [
+            72,
+            0,
+            96
+          ],
+          "block": "gravel"
+        },
+        {
+          "a": [
+            118,
+            0,
+            93
+          ],
+          "b": [
+            191,
+            0,
+            97
+          ],
+          "block": "gravel"
+        }
+      ]
+    }
+  ]
+}

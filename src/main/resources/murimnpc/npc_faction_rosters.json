@@ -1,0 +1,790 @@
+{
+  "schema": 1,
+  "source": "v1.18.1 site catalog",
+  "sites": [
+    {
+      "site_id": "ashen_moon",
+      "label_ko": "ashen_moon",
+      "faction_category": "GENERIC_SECT",
+      "unique": false,
+      "candidate_roles": [
+        "sect_gatekeeper",
+        "sect_patrol",
+        "outer_disciple",
+        "inner_disciple",
+        "direct_disciple",
+        "sect_instructor",
+        "library_keeper",
+        "sect_elder",
+        "sect_servant",
+        "recruitment_examiner",
+        "sect_healer"
+      ],
+      "leader_role": "sect_leader",
+      "role_status": "provisional"
+    },
+    {
+      "site_id": "azure_stream",
+      "label_ko": "azure_stream",
+      "faction_category": "GENERIC_SECT",
+      "unique": false,
+      "candidate_roles": [
+        "sect_gatekeeper",
+        "sect_patrol",
+        "outer_disciple",
+        "inner_disciple",
+        "direct_disciple",
+        "sect_instructor",
+        "library_keeper",
+        "sect_elder",
+        "sect_servant",
+        "recruitment_examiner",
+        "sect_healer"
+      ],
+      "leader_role": "sect_leader",
+      "role_status": "provisional"
+    },
+    {
+      "site_id": "black_wind",
+      "label_ko": "black_wind",
+      "faction_category": "GENERIC_SECT",
+      "unique": false,
+      "candidate_roles": [
+        "sect_gatekeeper",
+        "sect_patrol",
+        "outer_disciple",
+        "inner_disciple",
+        "direct_disciple",
+        "sect_instructor",
+        "library_keeper",
+        "sect_elder",
+        "sect_servant",
+        "recruitment_examiner",
+        "sect_healer"
+      ],
+      "leader_role": "sect_leader",
+      "role_status": "provisional"
+    },
+    {
+      "site_id": "bright_star",
+      "label_ko": "bright_star",
+      "faction_category": "GENERIC_SECT",
+      "unique": false,
+      "candidate_roles": [
+        "sect_gatekeeper",
+        "sect_patrol",
+        "outer_disciple",
+        "inner_disciple",
+        "direct_disciple",
+        "sect_instructor",
+        "library_keeper",
+        "sect_elder",
+        "sect_servant",
+        "recruitment_examiner",
+        "sect_healer"
+      ],
+      "leader_role": "sect_leader",
+      "role_status": "provisional"
+    },
+    {
+      "site_id": "crimson_cloud",
+      "label_ko": "crimson_cloud",
+      "faction_category": "GENERIC_SECT",
+      "unique": false,
+      "candidate_roles": [
+        "sect_gatekeeper",
+        "sect_patrol",
+        "outer_disciple",
+        "inner_disciple",
+        "direct_disciple",
+        "sect_instructor",
+        "library_keeper",
+        "sect_elder",
+        "sect_servant",
+        "recruitment_examiner",
+        "sect_healer"
+      ],
+      "leader_role": "sect_leader",
+      "role_status": "provisional"
+    },
+    {
+      "site_id": "diancang",
+      "label_ko": "점창파",
+      "faction_category": "ORTHODOX",
+      "unique": true,
+      "candidate_roles": [
+        "sect_gatekeeper",
+        "sect_patrol",
+        "outer_disciple",
+        "inner_disciple",
+        "direct_disciple",
+        "sect_instructor",
+        "library_keeper",
+        "sect_elder",
+        "sect_servant",
+        "recruitment_examiner",
+        "sect_healer"
+      ],
+      "leader_role": "sect_leader",
+      "role_status": "curated"
+    },
+    {
+      "site_id": "eight_rivers",
+      "label_ko": "eight_rivers",
+      "faction_category": "GENERIC_SECT",
+      "unique": false,
+      "candidate_roles": [
+        "sect_gatekeeper",
+        "sect_patrol",
+        "outer_disciple",
+        "inner_disciple",
+        "direct_disciple",
+        "sect_instructor",
+        "library_keeper",
+        "sect_elder",
+        "sect_servant",
+        "recruitment_examiner",
+        "sect_healer"
+      ],
+      "leader_role": "sect_leader",
+      "role_status": "provisional"
+    },
+    {
+      "site_id": "emei",
+      "label_ko": "아미파",
+      "faction_category": "ORTHODOX",
+      "unique": true,
+      "candidate_roles": [
+        "sect_gatekeeper",
+        "sect_patrol",
+        "outer_disciple",
+        "inner_disciple",
+        "direct_disciple",
+        "sect_instructor",
+        "library_keeper",
+        "sect_elder",
+        "sect_servant",
+        "recruitment_examiner",
+        "sect_healer"
+      ],
+      "leader_role": "sect_leader",
+      "role_status": "curated"
+    },
+    {
+      "site_id": "gaibang",
+      "label_ko": "개방",
+      "faction_category": "ORTHODOX",
+      "unique": true,
+      "candidate_roles": [
+        "sect_gatekeeper",
+        "sect_patrol",
+        "outer_disciple",
+        "inner_disciple",
+        "direct_disciple",
+        "sect_instructor",
+        "library_keeper",
+        "sect_elder",
+        "sect_servant",
+        "recruitment_examiner",
+        "sect_healer"
+      ],
+      "leader_role": "sect_leader",
+      "role_status": "curated"
+    },
+    {
+      "site_id": "ghost_valley",
+      "label_ko": "ghost_valley",
+      "faction_category": "GENERIC_SECT",
+      "unique": false,
+      "candidate_roles": [
+        "sect_gatekeeper",
+        "sect_patrol",
+        "outer_disciple",
+        "inner_disciple",
+        "direct_disciple",
+        "sect_instructor",
+        "library_keeper",
+        "sect_elder",
+        "sect_servant",
+        "recruitment_examiner",
+        "sect_healer"
+      ],
+      "leader_role": "sect_leader",
+      "role_status": "provisional"
+    },
+    {
+      "site_id": "golden_bell",
+      "label_ko": "golden_bell",
+      "faction_category": "GENERIC_SECT",
+      "unique": false,
+      "candidate_roles": [
+        "sect_gatekeeper",
+        "sect_patrol",
+        "outer_disciple",
+        "inner_disciple",
+        "direct_disciple",
+        "sect_instructor",
+        "library_keeper",
+        "sect_elder",
+        "sect_servant",
+        "recruitment_examiner",
+        "sect_healer"
+      ],
+      "leader_role": "sect_leader",
+      "role_status": "provisional"
+    },
+    {
+      "site_id": "huashan",
+      "label_ko": "화산파",
+      "faction_category": "ORTHODOX",
+      "unique": true,
+      "candidate_roles": [
+        "sect_gatekeeper",
+        "sect_patrol",
+        "outer_disciple",
+        "inner_disciple",
+        "direct_disciple",
+        "sect_instructor",
+        "library_keeper",
+        "sect_elder",
+        "sect_servant",
+        "recruitment_examiner",
+        "sect_healer"
+      ],
+      "leader_role": "sect_leader",
+      "role_status": "curated"
+    },
+    {
+      "site_id": "iron_blood",
+      "label_ko": "iron_blood",
+      "faction_category": "GENERIC_SECT",
+      "unique": false,
+      "candidate_roles": [
+        "sect_gatekeeper",
+        "sect_patrol",
+        "outer_disciple",
+        "inner_disciple",
+        "direct_disciple",
+        "sect_instructor",
+        "library_keeper",
+        "sect_elder",
+        "sect_servant",
+        "recruitment_examiner",
+        "sect_healer"
+      ],
+      "leader_role": "sect_leader",
+      "role_status": "provisional"
+    },
+    {
+      "site_id": "jade_flower",
+      "label_ko": "jade_flower",
+      "faction_category": "GENERIC_SECT",
+      "unique": false,
+      "candidate_roles": [
+        "sect_gatekeeper",
+        "sect_patrol",
+        "outer_disciple",
+        "inner_disciple",
+        "direct_disciple",
+        "sect_instructor",
+        "library_keeper",
+        "sect_elder",
+        "sect_servant",
+        "recruitment_examiner",
+        "sect_healer"
+      ],
+      "leader_role": "sect_leader",
+      "role_status": "provisional"
+    },
+    {
+      "site_id": "jegal",
+      "label_ko": "제갈세가",
+      "faction_category": "CLAN",
+      "unique": true,
+      "candidate_roles": [
+        "clan_bodyguard",
+        "clan_warrior",
+        "clan_steward",
+        "clan_attendant",
+        "clan_scholar",
+        "clan_artisan",
+        "clan_heir",
+        "clan_head"
+      ],
+      "leader_role": "clan_head",
+      "role_status": "curated"
+    },
+    {
+      "site_id": "kongtong",
+      "label_ko": "공동파",
+      "faction_category": "ORTHODOX",
+      "unique": true,
+      "candidate_roles": [
+        "sect_gatekeeper",
+        "sect_patrol",
+        "outer_disciple",
+        "inner_disciple",
+        "direct_disciple",
+        "sect_instructor",
+        "library_keeper",
+        "sect_elder",
+        "sect_servant",
+        "recruitment_examiner",
+        "sect_healer"
+      ],
+      "leader_role": "sect_leader",
+      "role_status": "curated"
+    },
+    {
+      "site_id": "kunlun",
+      "label_ko": "곤륜파",
+      "faction_category": "ORTHODOX",
+      "unique": true,
+      "candidate_roles": [
+        "sect_gatekeeper",
+        "sect_patrol",
+        "outer_disciple",
+        "inner_disciple",
+        "direct_disciple",
+        "sect_instructor",
+        "library_keeper",
+        "sect_elder",
+        "sect_servant",
+        "recruitment_examiner",
+        "sect_healer"
+      ],
+      "leader_role": "sect_leader",
+      "role_status": "curated"
+    },
+    {
+      "site_id": "mourong",
+      "label_ko": "모용세가",
+      "faction_category": "CLAN",
+      "unique": true,
+      "candidate_roles": [
+        "clan_bodyguard",
+        "clan_warrior",
+        "clan_steward",
+        "clan_attendant",
+        "clan_scholar",
+        "clan_artisan",
+        "clan_heir",
+        "clan_head"
+      ],
+      "leader_role": "clan_head",
+      "role_status": "curated"
+    },
+    {
+      "site_id": "murim_alliance",
+      "label_ko": "무림맹",
+      "faction_category": "ALLIANCE",
+      "unique": true,
+      "candidate_roles": [
+        "alliance_officer",
+        "alliance_chief",
+        "city_guard",
+        "gate_guard",
+        "messenger",
+        "sect_instructor",
+        "sect_healer"
+      ],
+      "leader_role": "alliance_chief",
+      "role_status": "curated"
+    },
+    {
+      "site_id": "nameless_blade",
+      "label_ko": "nameless_blade",
+      "faction_category": "GENERIC_SECT",
+      "unique": false,
+      "candidate_roles": [
+        "sect_gatekeeper",
+        "sect_patrol",
+        "outer_disciple",
+        "inner_disciple",
+        "direct_disciple",
+        "sect_instructor",
+        "library_keeper",
+        "sect_elder",
+        "sect_servant",
+        "recruitment_examiner",
+        "sect_healer"
+      ],
+      "leader_role": "sect_leader",
+      "role_status": "provisional"
+    },
+    {
+      "site_id": "namgung",
+      "label_ko": "남궁세가",
+      "faction_category": "CLAN",
+      "unique": true,
+      "candidate_roles": [
+        "clan_bodyguard",
+        "clan_warrior",
+        "clan_steward",
+        "clan_attendant",
+        "clan_scholar",
+        "clan_artisan",
+        "clan_heir",
+        "clan_head"
+      ],
+      "leader_role": "clan_head",
+      "role_status": "curated"
+    },
+    {
+      "site_id": "night_river",
+      "label_ko": "night_river",
+      "faction_category": "GENERIC_SECT",
+      "unique": false,
+      "candidate_roles": [
+        "sect_gatekeeper",
+        "sect_patrol",
+        "outer_disciple",
+        "inner_disciple",
+        "direct_disciple",
+        "sect_instructor",
+        "library_keeper",
+        "sect_elder",
+        "sect_servant",
+        "recruitment_examiner",
+        "sect_healer"
+      ],
+      "leader_role": "sect_leader",
+      "role_status": "provisional"
+    },
+    {
+      "site_id": "paengga",
+      "label_ko": "하북팽가",
+      "faction_category": "CLAN",
+      "unique": true,
+      "candidate_roles": [
+        "clan_bodyguard",
+        "clan_warrior",
+        "clan_steward",
+        "clan_attendant",
+        "clan_scholar",
+        "clan_artisan",
+        "clan_heir",
+        "clan_head"
+      ],
+      "leader_role": "clan_head",
+      "role_status": "curated"
+    },
+    {
+      "site_id": "pine_shadow",
+      "label_ko": "pine_shadow",
+      "faction_category": "GENERIC_SECT",
+      "unique": false,
+      "candidate_roles": [
+        "sect_gatekeeper",
+        "sect_patrol",
+        "outer_disciple",
+        "inner_disciple",
+        "direct_disciple",
+        "sect_instructor",
+        "library_keeper",
+        "sect_elder",
+        "sect_servant",
+        "recruitment_examiner",
+        "sect_healer"
+      ],
+      "leader_role": "sect_leader",
+      "role_status": "provisional"
+    },
+    {
+      "site_id": "qingcheng",
+      "label_ko": "청성파",
+      "faction_category": "ORTHODOX",
+      "unique": true,
+      "candidate_roles": [
+        "sect_gatekeeper",
+        "sect_patrol",
+        "outer_disciple",
+        "inner_disciple",
+        "direct_disciple",
+        "sect_instructor",
+        "library_keeper",
+        "sect_elder",
+        "sect_servant",
+        "recruitment_examiner",
+        "sect_healer"
+      ],
+      "leader_role": "sect_leader",
+      "role_status": "curated"
+    },
+    {
+      "site_id": "red_wolf",
+      "label_ko": "red_wolf",
+      "faction_category": "GENERIC_SECT",
+      "unique": false,
+      "candidate_roles": [
+        "sect_gatekeeper",
+        "sect_patrol",
+        "outer_disciple",
+        "inner_disciple",
+        "direct_disciple",
+        "sect_instructor",
+        "library_keeper",
+        "sect_elder",
+        "sect_servant",
+        "recruitment_examiner",
+        "sect_healer"
+      ],
+      "leader_role": "sect_leader",
+      "role_status": "provisional"
+    },
+    {
+      "site_id": "river_moon",
+      "label_ko": "river_moon",
+      "faction_category": "GENERIC_SECT",
+      "unique": false,
+      "candidate_roles": [
+        "sect_gatekeeper",
+        "sect_patrol",
+        "outer_disciple",
+        "inner_disciple",
+        "direct_disciple",
+        "sect_instructor",
+        "library_keeper",
+        "sect_elder",
+        "sect_servant",
+        "recruitment_examiner",
+        "sect_healer"
+      ],
+      "leader_role": "sect_leader",
+      "role_status": "provisional"
+    },
+    {
+      "site_id": "serpent_fang",
+      "label_ko": "serpent_fang",
+      "faction_category": "GENERIC_SECT",
+      "unique": false,
+      "candidate_roles": [
+        "sect_gatekeeper",
+        "sect_patrol",
+        "outer_disciple",
+        "inner_disciple",
+        "direct_disciple",
+        "sect_instructor",
+        "library_keeper",
+        "sect_elder",
+        "sect_servant",
+        "recruitment_examiner",
+        "sect_healer"
+      ],
+      "leader_role": "sect_leader",
+      "role_status": "provisional"
+    },
+    {
+      "site_id": "shaolin",
+      "label_ko": "소림사",
+      "faction_category": "ORTHODOX",
+      "unique": true,
+      "candidate_roles": [
+        "sect_gatekeeper",
+        "sect_patrol",
+        "outer_disciple",
+        "inner_disciple",
+        "direct_disciple",
+        "sect_instructor",
+        "library_keeper",
+        "sect_elder",
+        "sect_servant",
+        "recruitment_examiner",
+        "sect_healer"
+      ],
+      "leader_role": "sect_leader",
+      "role_status": "curated"
+    },
+    {
+      "site_id": "silver_cloud",
+      "label_ko": "silver_cloud",
+      "faction_category": "GENERIC_SECT",
+      "unique": false,
+      "candidate_roles": [
+        "sect_gatekeeper",
+        "sect_patrol",
+        "outer_disciple",
+        "inner_disciple",
+        "direct_disciple",
+        "sect_instructor",
+        "library_keeper",
+        "sect_elder",
+        "sect_servant",
+        "recruitment_examiner",
+        "sect_healer"
+      ],
+      "leader_role": "sect_leader",
+      "role_status": "provisional"
+    },
+    {
+      "site_id": "sword_bamboo",
+      "label_ko": "sword_bamboo",
+      "faction_category": "GENERIC_SECT",
+      "unique": false,
+      "candidate_roles": [
+        "sect_gatekeeper",
+        "sect_patrol",
+        "outer_disciple",
+        "inner_disciple",
+        "direct_disciple",
+        "sect_instructor",
+        "library_keeper",
+        "sect_elder",
+        "sect_servant",
+        "recruitment_examiner",
+        "sect_healer"
+      ],
+      "leader_role": "sect_leader",
+      "role_status": "provisional"
+    },
+    {
+      "site_id": "tangmun",
+      "label_ko": "사천당문",
+      "faction_category": "CLAN",
+      "unique": true,
+      "candidate_roles": [
+        "clan_bodyguard",
+        "clan_warrior",
+        "clan_steward",
+        "clan_attendant",
+        "clan_scholar",
+        "clan_artisan",
+        "clan_heir",
+        "clan_head"
+      ],
+      "leader_role": "clan_head",
+      "role_status": "curated"
+    },
+    {
+      "site_id": "thunder_fist",
+      "label_ko": "thunder_fist",
+      "faction_category": "GENERIC_SECT",
+      "unique": false,
+      "candidate_roles": [
+        "sect_gatekeeper",
+        "sect_patrol",
+        "outer_disciple",
+        "inner_disciple",
+        "direct_disciple",
+        "sect_instructor",
+        "library_keeper",
+        "sect_elder",
+        "sect_servant",
+        "recruitment_examiner",
+        "sect_healer"
+      ],
+      "leader_role": "sect_leader",
+      "role_status": "provisional"
+    },
+    {
+      "site_id": "white_crane",
+      "label_ko": "white_crane",
+      "faction_category": "GENERIC_SECT",
+      "unique": false,
+      "candidate_roles": [
+        "sect_gatekeeper",
+        "sect_patrol",
+        "outer_disciple",
+        "inner_disciple",
+        "direct_disciple",
+        "sect_instructor",
+        "library_keeper",
+        "sect_elder",
+        "sect_servant",
+        "recruitment_examiner",
+        "sect_healer"
+      ],
+      "leader_role": "sect_leader",
+      "role_status": "provisional"
+    },
+    {
+      "site_id": "wudang",
+      "label_ko": "무당파",
+      "faction_category": "ORTHODOX",
+      "unique": true,
+      "candidate_roles": [
+        "sect_gatekeeper",
+        "sect_patrol",
+        "outer_disciple",
+        "inner_disciple",
+        "direct_disciple",
+        "sect_instructor",
+        "library_keeper",
+        "sect_elder",
+        "sect_servant",
+        "recruitment_examiner",
+        "sect_healer"
+      ],
+      "leader_role": "sect_leader",
+      "role_status": "curated"
+    },
+    {
+      "site_id": "zhongnan",
+      "label_ko": "종남파",
+      "faction_category": "ORTHODOX",
+      "unique": true,
+      "candidate_roles": [
+        "sect_gatekeeper",
+        "sect_patrol",
+        "outer_disciple",
+        "inner_disciple",
+        "direct_disciple",
+        "sect_instructor",
+        "library_keeper",
+        "sect_elder",
+        "sect_servant",
+        "recruitment_examiner",
+        "sect_healer"
+      ],
+      "leader_role": "sect_leader",
+      "role_status": "curated"
+    },
+    {
+      "site_id": "city",
+      "label_ko": "대도시",
+      "faction_category": "CITY",
+      "unique": false,
+      "candidate_roles": [
+        "householder",
+        "merchant",
+        "innkeeper",
+        "inn_waiter",
+        "city_guard",
+        "constable",
+        "magistrate",
+        "physician",
+        "blacksmith",
+        "peddler",
+        "tea_master",
+        "caravan_boss"
+      ],
+      "leader_role": null,
+      "role_status": "curated"
+    },
+    {
+      "site_id": "village",
+      "label_ko": "마을",
+      "faction_category": "VILLAGE",
+      "unique": false,
+      "candidate_roles": [
+        "farmer",
+        "householder",
+        "water_carrier",
+        "village_elder",
+        "blacksmith",
+        "herbal_gatherer",
+        "innkeeper",
+        "tea_master",
+        "hunter",
+        "woodcutter"
+      ],
+      "leader_role": null,
+      "role_status": "curated"
+    }
+  ],
+  "future_missing_sites": [
+    "sado_alliance",
+    "heavenly_demon_cult",
+    "blood_cult"
+  ]
+}

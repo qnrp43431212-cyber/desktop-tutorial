@@ -1,0 +1,17 @@
+{
+  "version": "v1.18.1-safety-alpha",
+  "mod_id": "murimlife",
+  "jar_built": false,
+  "single_mod_registration": true,
+  "all_legacy_structures_replaced_when_matching": 290,
+  "nbt_total": 635,
+  "worldgen_site_count": 38,
+  "piece_refs": 377,
+  "nbt_errors": 0,
+  "site_errors": 0,
+  "planningcore_tests": 15,
+  "java_sources_syntax_checked": 23,
+  "neoforge_build": "NOT_RUN: Gradle distribution unavailable, runtime network blocked",
+  "minecraft_runtime": "NOT_TESTED",
+  "large_site_default_enabled": false
+}

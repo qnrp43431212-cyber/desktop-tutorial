@@ -1,0 +1,247 @@
+{
+  "schema": 2,
+  "description_ko": "무림 주민은 직업 30종, 개별 주민은 UUID별 고유 인명/상주 엔티티 저장. 전투형 무림인 역할과 별도 분류.",
+  "count": 30,
+  "professions": [
+    {
+      "id": "farmer",
+      "name_ko": "농부",
+      "area": "house",
+      "day_work": "경작·수확",
+      "interaction": "대화·농산물거래",
+      "persistent": true
+    },
+    {
+      "id": "fisher",
+      "name_ko": "어부",
+      "area": "river",
+      "day_work": "어로·그물정비",
+      "interaction": "대화·생선거래",
+      "persistent": true
+    },
+    {
+      "id": "woodcutter",
+      "name_ko": "나무꾼",
+      "area": "forest",
+      "day_work": "장작수집·운반",
+      "interaction": "대화·소문",
+      "persistent": true
+    },
+    {
+      "id": "herbal_gatherer",
+      "name_ko": "약초꾼",
+      "area": "herbalist",
+      "day_work": "산지탐색·채집",
+      "interaction": "약초거래·기연단서",
+      "persistent": true
+    },
+    {
+      "id": "miner",
+      "name_ko": "광부",
+      "area": "outskirts",
+      "day_work": "채굴·운반",
+      "interaction": "광석거래",
+      "persistent": true
+    },
+    {
+      "id": "hunter",
+      "name_ko": "사냥꾼",
+      "area": "outskirts",
+      "day_work": "사냥·가죽정리",
+      "interaction": "사냥정보·거래",
+      "persistent": true
+    },
+    {
+      "id": "carpenter",
+      "name_ko": "목수",
+      "area": "workshop",
+      "day_work": "목공·건축수리",
+      "interaction": "자재거래·의뢰",
+      "persistent": true
+    },
+    {
+      "id": "potter",
+      "name_ko": "도공",
+      "area": "market",
+      "day_work": "도자기제작·판매",
+      "interaction": "거래",
+      "persistent": true
+    },
+    {
+      "id": "water_carrier",
+      "name_ko": "물지게꾼",
+      "area": "well",
+      "day_work": "우물·주택왕복",
+      "interaction": "대화",
+      "persistent": true
+    },
+    {
+      "id": "village_elder",
+      "name_ko": "촌장",
+      "area": "hall",
+      "day_work": "행정·휴식",
+      "interaction": "지역사정·의뢰",
+      "persistent": true
+    },
+    {
+      "id": "householder",
+      "name_ko": "주민",
+      "area": "house",
+      "day_work": "집안일·시장방문",
+      "interaction": "대화·소문",
+      "persistent": true
+    },
+    {
+      "id": "traveler",
+      "name_ko": "길손",
+      "area": "street",
+      "day_work": "이동·휴식",
+      "interaction": "소문·길안내",
+      "persistent": true
+    },
+    {
+      "id": "innkeeper",
+      "name_ko": "객잔주인",
+      "area": "inn",
+      "day_work": "객잔운영·정산",
+      "interaction": "숙박·정보",
+      "persistent": true
+    },
+    {
+      "id": "inn_waiter",
+      "name_ko": "점소이",
+      "area": "inn",
+      "day_work": "주문응대·배달",
+      "interaction": "음식·소문",
+      "persistent": true
+    },
+    {
+      "id": "inn_cook",
+      "name_ko": "객잔요리사",
+      "area": "inn",
+      "day_work": "조리·식재료관리",
+      "interaction": "음식구매",
+      "persistent": true
+    },
+    {
+      "id": "tea_master",
+      "name_ko": "찻집주인",
+      "area": "teahouse",
+      "day_work": "차준비·접객",
+      "interaction": "차·소문",
+      "persistent": true
+    },
+    {
+      "id": "merchant",
+      "name_ko": "상인",
+      "area": "shop",
+      "day_work": "판매·재고관리",
+      "interaction": "물품거래",
+      "persistent": true
+    },
+    {
+      "id": "peddler",
+      "name_ko": "행상",
+      "area": "street",
+      "day_work": "노점·이동",
+      "interaction": "거래·길정보",
+      "persistent": true
+    },
+    {
+      "id": "apothecary",
+      "name_ko": "약방주인",
+      "area": "apothecary",
+      "day_work": "조제·약재관리",
+      "interaction": "약재거래·해독",
+      "persistent": true
+    },
+    {
+      "id": "physician",
+      "name_ko": "의원",
+      "area": "clinic",
+      "day_work": "진료·약조제",
+      "interaction": "치료·진료의뢰",
+      "persistent": true
+    },
+    {
+      "id": "blacksmith",
+      "name_ko": "대장장이",
+      "area": "smithy",
+      "day_work": "제련·수리",
+      "interaction": "무기제작·수리",
+      "persistent": true
+    },
+    {
+      "id": "armorer",
+      "name_ko": "갑옷장인",
+      "area": "smithy",
+      "day_work": "방어구제작",
+      "interaction": "방어구거래",
+      "persistent": true
+    },
+    {
+      "id": "stablehand",
+      "name_ko": "마구간지기",
+      "area": "stable",
+      "day_work": "말돌봄·마구관리",
+      "interaction": "대여·정보",
+      "persistent": true
+    },
+    {
+      "id": "caravan_boss",
+      "name_ko": "상단주",
+      "area": "guild",
+      "day_work": "상행관리",
+      "interaction": "거래·호송의뢰",
+      "persistent": true
+    },
+    {
+      "id": "banker",
+      "name_ko": "전장관리인",
+      "area": "guild",
+      "day_work": "보관·환전",
+      "interaction": "예금·환전",
+      "persistent": true
+    },
+    {
+      "id": "warehouse_clerk",
+      "name_ko": "창고지기",
+      "area": "warehouse",
+      "day_work": "창고정리·경비협조",
+      "interaction": "보관·거래",
+      "persistent": true
+    },
+    {
+      "id": "tailor",
+      "name_ko": "재봉사",
+      "area": "market",
+      "day_work": "옷 제작·수선",
+      "interaction": "옷감 거래",
+      "persistent": true
+    },
+    {
+      "id": "papermaker",
+      "name_ko": "제지공",
+      "area": "workshop",
+      "day_work": "종이 제작",
+      "interaction": "문서용 종이 거래",
+      "persistent": true
+    },
+    {
+      "id": "calligrapher",
+      "name_ko": "필사공",
+      "area": "hall",
+      "day_work": "서책 필사",
+      "interaction": "필사·서책 의뢰",
+      "persistent": true
+    },
+    {
+      "id": "boatman",
+      "name_ko": "뱃사공",
+      "area": "river",
+      "day_work": "나룻배 운영",
+      "interaction": "도하·나룻길 안내",
+      "persistent": true
+    }
+  ]
+}

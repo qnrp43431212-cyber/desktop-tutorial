@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "murimlife:item/paengga_heir2_chestplate"
+  }
+}

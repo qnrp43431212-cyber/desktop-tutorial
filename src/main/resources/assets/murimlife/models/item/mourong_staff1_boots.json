@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "murimlife:item/mourong_staff1_boots"
+  }
+}

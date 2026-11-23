@@ -1,0 +1,1880 @@
+{
+  "project": "무협 모드 v1.3 확장 설계",
+  "target": "Minecraft 1.21.1 NeoForge",
+  "created": "2026-11-22",
+  "description": "출처 확인 무공 77, 선천 특성 11, 창작 기연 30, 관계 17, 기물·전설 10 — 설계 자료이지 모드 구현 파일은 아님.",
+  "game_settings": {
+    "scope": "문파 가입 여부와 관계없이 동일 강호 활동 가능",
+    "martial_registry_policy": "출처 확인된 명칭만 등록. 작품별 동명 무공은 버전 분리, 임의 창작 무공은 별도 창작 라벨; 모방된 원문/화면/디자인을 그대로 사용하지 않음",
+    "fate_rarity": "객잔에서 약 5회 정보 문의하더라도 기연 소문이 나올까 말까하도록 낮은 희소성. 5회 보장 규칙 금지. 숫자·확률 미확정.",
+    "rumor_decay": {
+      "start": "정보 획득 후 최소 마크 시간 2일 경과 시부터",
+      "outcomes": [
+        "실제 기연 유지",
+        "NPC가 선취",
+        "다른 플레이어가 선취",
+        "허위 정보 판명",
+        "해석이 틀린 소문",
+        "유효하지만 기연이 다른 장소로 이동"
+      ],
+      "competition": "NPC도 스케줄·경지·소문·거리로 판단해 기연 추적하며 상태 영속 저장",
+      "no_force": "2일이 지난 시점에 자동으로 모든 기연을 없애지 않음"
+    },
+    "structures": "희귀 구조물을 월드 전체에 무작위로 반복 난립시키지 않음. 지형·지역·월드 역사·희소성·월드당 유일 여부에 의해 제한적으로 배치; 도시·문파와 거리 고려.",
+    "innate_traits": "캐릭터 생성 단계에서만 선천 지정. 만독불침은 작품에 따라 후천 획득이 가능하나 이 모드에서는 선천 특성 버전. 신체 특성과 선업/악업은 별개. 정확한 확률/효과 미확정.",
+    "npc_affinity": "모든 사람형 NPC에 대화·정보·관계·성격·기억·호감. 성인 NPC는 상호 동의 기반 연애/결혼 선택 가능, 무림인은 동료/문파 가입 분기 추가. 높은 호감은 자동 약속 아님; NPC가 스스로 청원 가능.",
+    "multiplayer": "서버 영속 이벤트 상태·지역 소문·공유 기연 점유/획득 기록, NPC 기억·관계별 상태 동기화.",
+    "copyright": "작품에 등장한 무공의 명칭과 출처를 연구 목적으로 정리. 실제 대중 공개·배포 시 작품 고유 무공·설정·시각 요소의 라이선스와 권리 검토가 필요하며 허락이 없다면 독자적 변형이나 일반 장르 모티프로 교체.",
+    "unfixed": [
+      "특성 선정 확률",
+      "무공 피해량/상성/수련 난도 공식",
+      "기연 등장 확률",
+      "행상인 판매 가격",
+      "시간 경과별 실기연 잃는 확률",
+      "NPC 호감도 임계점",
+      "각 등급 정확한 희귀도",
+      "구조물 배치 간격"
+    ]
+  },
+  "tier_system": [
+    "기초무공",
+    "정통무공",
+    "상승무공",
+    "절기",
+    "절학",
+    "신공",
+    "전설급"
+  ],
+  "martial_arts": [
+    {
+      "id": "martial_001",
+      "name": "구음진경",
+      "verified_origin": "김용 《사조영웅전》 외",
+      "category": "심법·종합",
+      "proposed_game_tier": "전설급",
+      "gameplay_direction": "음의 심법과 다수 고급 무학을 아우르는 종합 비급",
+      "proposed_acquisition": "최고 희귀 기연",
+      "source_urls": [
+        "https://wuxiasociety.com/jin-yong-martial-arts/"
+      ],
+      "status": "실제 작품/무술 자료에서 명칭 확인; 효과·등급·획득은 모드 기획안"
+    },
+    {
+      "id": "martial_002",
+      "name": "구양신공",
+      "verified_origin": "김용 《의천도룡기》",
+      "category": "내공",
+      "proposed_game_tier": "전설급",
+      "gameplay_direction": "양의 내공 운용과 강한 지속 전투",
+      "proposed_acquisition": "최고 희귀 기연",
+      "source_urls": [
+        "https://wuxiasociety.com/jin-yong-martial-arts/"
+      ],
+      "status": "실제 작품/무술 자료에서 명칭 확인; 효과·등급·획득은 모드 기획안"
+    },
+    {
+      "id": "martial_003",
+      "name": "역근경",
+      "verified_origin": "김용 무협 세계 및 소림 전통 모티프",
+      "category": "내공",
+      "proposed_game_tier": "신공",
+      "gameplay_direction": "경맥과 내공의 정교한 단련",
+      "proposed_acquisition": "특수 전수·극희귀 기연",
+      "source_urls": [
+        "https://wuxiasociety.com/jin-yong-martial-arts/"
+      ],
+      "status": "실제 작품/무술 자료에서 명칭 확인; 효과·등급·획득은 모드 기획안"
+    },
+    {
+      "id": "martial_004",
+      "name": "세수경",
+      "verified_origin": "김용 무협 세계",
+      "category": "내공",
+      "proposed_game_tier": "신공",
+      "gameplay_direction": "내면 기운 정화와 정련",
+      "proposed_acquisition": "특수 전수·극희귀 기연",
+      "source_urls": [
+        "https://wuxiasociety.com/jin-yong-martial-arts/"
+      ],
+      "status": "실제 작품/무술 자료에서 명칭 확인; 효과·등급·획득은 모드 기획안"
+    },
+    {
+      "id": "martial_005",
+      "name": "북명신공",
+      "verified_origin": "김용 《천룡팔부》",
+      "category": "내공",
+      "proposed_game_tier": "전설급",
+      "gameplay_direction": "다른 이의 내력을 흡수하는 위험한 수련",
+      "proposed_acquisition": "극희귀 기연",
+      "source_urls": [
+        "https://wuxiasociety.com/jin-yong-martial-arts/"
+      ],
+      "status": "실제 작품/무술 자료에서 명칭 확인; 효과·등급·획득은 모드 기획안"
+    },
+    {
+      "id": "martial_006",
+      "name": "규화보전",
+      "verified_origin": "김용 《소오강호》",
+      "category": "금제·내공",
+      "proposed_game_tier": "전설급",
+      "gameplay_direction": "극속 전투를 가능케 하는 위험한 비급",
+      "proposed_acquisition": "금서 기연",
+      "source_urls": [
+        "https://wuxiasociety.com/jin-yong-martial-arts/"
+      ],
+      "status": "실제 작품/무술 자료에서 명칭 확인; 효과·등급·획득은 모드 기획안"
+    },
+    {
+      "id": "martial_007",
+      "name": "흡성대법",
+      "verified_origin": "김용 《소오강호》",
+      "category": "금제·내공",
+      "proposed_game_tier": "신공",
+      "gameplay_direction": "타인의 내력을 흡수하나 불안정성 동반",
+      "proposed_acquisition": "금서 기연",
+      "source_urls": [
+        "https://wuxiasociety.com/jin-yong-martial-arts/"
+      ],
+      "status": "실제 작품/무술 자료에서 명칭 확인; 효과·등급·획득은 모드 기획안"
+    },
+    {
+      "id": "martial_008",
+      "name": "선천공",
+      "verified_origin": "김용 《사조영웅전》",
+      "category": "내공",
+      "proposed_game_tier": "절학",
+      "gameplay_direction": "정순한 선천 내력 수련",
+      "proposed_acquisition": "은거고수·희귀 비급",
+      "source_urls": [
+        "https://wuxiasociety.com/jin-yong-martial-arts/"
+      ],
+      "status": "실제 작품/무술 자료에서 명칭 확인; 효과·등급·획득은 모드 기획안"
+    },
+    {
+      "id": "martial_009",
+      "name": "순양무극공",
+      "verified_origin": "김용 무협 세계",
+      "category": "내공",
+      "proposed_game_tier": "절학",
+      "gameplay_direction": "강한 양의 기운을 운용하는 심법",
+      "proposed_acquisition": "고급 비급·특수 전수",
+      "source_urls": [
+        "https://wuxiasociety.com/jin-yong-martial-arts/"
+      ],
+      "status": "실제 작품/무술 자료에서 명칭 확인; 효과·등급·획득은 모드 기획안"
+    },
+    {
+      "id": "martial_010",
+      "name": "자하신공",
+      "verified_origin": "김용 《소오강호》; 《화산귀환》에도 동명 무학",
+      "category": "내공",
+      "proposed_game_tier": "절학",
+      "gameplay_direction": "자색 기운과 순수 내공 운용; 작품별 설정 구분",
+      "proposed_acquisition": "문파 비전·기연",
+      "source_urls": [
+        "https://wuxiasociety.com/jin-yong-martial-arts/",
+        "https://namu.moe/w/화산귀환/설정"
+      ],
+      "status": "실제 작품/무술 자료에서 명칭 확인; 효과·등급·획득은 모드 기획안"
+    },
+    {
+      "id": "martial_011",
+      "name": "소무상공",
+      "verified_origin": "김용 《천룡팔부》",
+      "category": "내공",
+      "proposed_game_tier": "절학",
+      "gameplay_direction": "무상에 가까운 내공 운용과 다양한 기술 적용",
+      "proposed_acquisition": "특수 전수·기연",
+      "source_urls": [
+        "https://wuxiasociety.com/jin-yong-martial-arts/"
+      ],
+      "status": "실제 작품/무술 자료에서 명칭 확인; 효과·등급·획득은 모드 기획안"
+    },
+    {
+      "id": "martial_012",
+      "name": "팔황육합유아독존공",
+      "verified_origin": "김용 《천룡팔부》",
+      "category": "내공",
+      "proposed_game_tier": "신공",
+      "gameplay_direction": "특별한 주기를 지닌 고난도 내공법",
+      "proposed_acquisition": "극희귀 기연",
+      "source_urls": [
+        "https://wuxiasociety.com/jin-yong-martial-arts/"
+      ],
+      "status": "실제 작품/무술 자료에서 명칭 확인; 효과·등급·획득은 모드 기획안"
+    },
+    {
+      "id": "martial_013",
+      "name": "용상반야공",
+      "verified_origin": "김용 《신조협려》",
+      "category": "내공·외공",
+      "proposed_game_tier": "신공",
+      "gameplay_direction": "강력한 신체 힘과 내공을 결합",
+      "proposed_acquisition": "비전·기연",
+      "source_urls": [
+        "https://wuxiasociety.com/jin-yong-martial-arts/"
+      ],
+      "status": "실제 작품/무술 자료에서 명칭 확인; 효과·등급·획득은 모드 기획안"
+    },
+    {
+      "id": "martial_014",
+      "name": "항룡십팔장",
+      "verified_origin": "김용 《사조영웅전》《천룡팔부》",
+      "category": "장법",
+      "proposed_game_tier": "신공",
+      "gameplay_direction": "강맹한 내공 장법과 폭발적 장력",
+      "proposed_acquisition": "개방 비전·극희귀 기연",
+      "source_urls": [
+        "https://wuxiasociety.com/jin-yong-martial-arts/"
+      ],
+      "status": "실제 작품/무술 자료에서 명칭 확인; 효과·등급·획득은 모드 기획안"
+    },
+    {
+      "id": "martial_015",
+      "name": "천산육양장",
+      "verified_origin": "김용 《천룡팔부》",
+      "category": "장법",
+      "proposed_game_tier": "절학",
+      "gameplay_direction": "정교한 음양 장력 운용",
+      "proposed_acquisition": "고수 전수·기연",
+      "source_urls": [
+        "https://wuxiasociety.com/jin-yong-martial-arts/"
+      ],
+      "status": "실제 작품/무술 자료에서 명칭 확인; 효과·등급·획득은 모드 기획안"
+    },
+    {
+      "id": "martial_016",
+      "name": "건곤대나이",
+      "verified_origin": "김용 《의천도룡기》",
+      "category": "내공·기술",
+      "proposed_game_tier": "신공",
+      "gameplay_direction": "상대 힘과 자신의 기운을 전환하는 원리",
+      "proposed_acquisition": "광명교 비전·기연",
+      "source_urls": [
+        "https://wuxiasociety.com/jin-yong-martial-arts/"
+      ],
+      "status": "실제 작품/무술 자료에서 명칭 확인; 효과·등급·획득은 모드 기획안"
+    },
+    {
+      "id": "martial_017",
+      "name": "암연소혼장",
+      "verified_origin": "김용 《신조협려》",
+      "category": "장법",
+      "proposed_game_tier": "신공",
+      "gameplay_direction": "독특한 심경과 결부된 강력한 장법",
+      "proposed_acquisition": "전설 계보·기연",
+      "source_urls": [
+        "https://wuxiasociety.com/jin-yong-martial-arts/"
+      ],
+      "status": "실제 작품/무술 자료에서 명칭 확인; 효과·등급·획득은 모드 기획안"
+    },
+    {
+      "id": "martial_018",
+      "name": "천산절매수",
+      "verified_origin": "김용 《천룡팔부》",
+      "category": "수법",
+      "proposed_game_tier": "절학",
+      "gameplay_direction": "다양한 초식을 대응해 변형하는 수법",
+      "proposed_acquisition": "특수 전수·기연",
+      "source_urls": [
+        "https://wuxiasociety.com/jin-yong-martial-arts/"
+      ],
+      "status": "실제 작품/무술 자료에서 명칭 확인; 효과·등급·획득은 모드 기획안"
+    },
+    {
+      "id": "martial_019",
+      "name": "벽공장",
+      "verified_origin": "김용 《사조영웅전》",
+      "category": "장법",
+      "proposed_game_tier": "상승무공",
+      "gameplay_direction": "거리를 두고 장력을 투사",
+      "proposed_acquisition": "고급 비급",
+      "source_urls": [
+        "https://wuxiasociety.com/jin-yong-martial-arts/"
+      ],
+      "status": "실제 작품/무술 자료에서 명칭 확인; 효과·등급·획득은 모드 기획안"
+    },
+    {
+      "id": "martial_020",
+      "name": "낙영신검장",
+      "verified_origin": "김용 《사조영웅전》 변형 명칭",
+      "category": "장법",
+      "proposed_game_tier": "상승무공",
+      "gameplay_direction": "흩날리는 꽃잎 같은 변화무쌍한 장법",
+      "proposed_acquisition": "사문 전수·희귀 비급",
+      "source_urls": [
+        "https://wuxiasociety.com/jin-yong-martial-arts/"
+      ],
+      "status": "실제 작품/무술 자료에서 명칭 확인; 효과·등급·획득은 모드 기획안"
+    },
+    {
+      "id": "martial_021",
+      "name": "철장공",
+      "verified_origin": "김용 《사조영웅전》",
+      "category": "장법",
+      "proposed_game_tier": "상승무공",
+      "gameplay_direction": "단단한 손과 강한 장력을 활용",
+      "proposed_acquisition": "고수 전수·비급",
+      "source_urls": [
+        "https://wuxiasociety.com/jin-yong-martial-arts/"
+      ],
+      "status": "실제 작품/무술 자료에서 명칭 확인; 효과·등급·획득은 모드 기획안"
+    },
+    {
+      "id": "martial_022",
+      "name": "최심장",
+      "verified_origin": "김용 《사조영웅전》",
+      "category": "장법",
+      "proposed_game_tier": "절기",
+      "gameplay_direction": "내상을 중시하는 위험한 장력",
+      "proposed_acquisition": "비전·기연",
+      "source_urls": [
+        "https://wuxiasociety.com/jin-yong-martial-arts/"
+      ],
+      "status": "실제 작품/무술 자료에서 명칭 확인; 효과·등급·획득은 모드 기획안"
+    },
+    {
+      "id": "martial_023",
+      "name": "연화장",
+      "verified_origin": "김용 《사조영웅전》",
+      "category": "장법",
+      "proposed_game_tier": "정통무공",
+      "gameplay_direction": "기본 장법을 바탕으로 한 연속 타격",
+      "proposed_acquisition": "상인·무관·문파",
+      "source_urls": [
+        "https://wuxiasociety.com/jin-yong-martial-arts/"
+      ],
+      "status": "실제 작품/무술 자료에서 명칭 확인; 효과·등급·획득은 모드 기획안"
+    },
+    {
+      "id": "martial_024",
+      "name": "벽파장법",
+      "verified_origin": "김용 《사조영웅전》",
+      "category": "장법",
+      "proposed_game_tier": "정통무공",
+      "gameplay_direction": "잔물결같이 이어지는 기초 장법",
+      "proposed_acquisition": "상인·무관·문파",
+      "source_urls": [
+        "https://wuxiasociety.com/jin-yong-martial-arts/"
+      ],
+      "status": "실제 작품/무술 자료에서 명칭 확인; 효과·등급·획득은 모드 기획안"
+    },
+    {
+      "id": "martial_025",
+      "name": "독고구검",
+      "verified_origin": "김용 《소오강호》",
+      "category": "검법",
+      "proposed_game_tier": "전설급",
+      "gameplay_direction": "상대 기술의 허점을 찾아 파훼하는 극의",
+      "proposed_acquisition": "전설적 계보·극희귀 기연",
+      "source_urls": [
+        "https://wuxiasociety.com/jin-yong-martial-arts/"
+      ],
+      "status": "실제 작품/무술 자료에서 명칭 확인; 효과·등급·획득은 모드 기획안"
+    },
+    {
+      "id": "martial_026",
+      "name": "벽사검법",
+      "verified_origin": "김용 《소오강호》",
+      "category": "금제·검법",
+      "proposed_game_tier": "신공",
+      "gameplay_direction": "독특한 조건을 요구하는 극속 검술",
+      "proposed_acquisition": "금서 기연",
+      "source_urls": [
+        "https://wuxiasociety.com/jin-yong-martial-arts/"
+      ],
+      "status": "실제 작품/무술 자료에서 명칭 확인; 효과·등급·획득은 모드 기획안"
+    },
+    {
+      "id": "martial_027",
+      "name": "금사검법",
+      "verified_origin": "김용 《벽혈검》",
+      "category": "검법",
+      "proposed_game_tier": "절학",
+      "gameplay_direction": "독특한 검선을 사용하는 비전 검술",
+      "proposed_acquisition": "비전·기연",
+      "source_urls": [
+        "https://wuxiasociety.com/jin-yong-martial-arts/"
+      ],
+      "status": "실제 작품/무술 자료에서 명칭 확인; 효과·등급·획득은 모드 기획안"
+    },
+    {
+      "id": "martial_028",
+      "name": "옥녀검법",
+      "verified_origin": "김용 《신조협려》",
+      "category": "검법",
+      "proposed_game_tier": "상승무공",
+      "gameplay_direction": "고묘파의 정교한 검술",
+      "proposed_acquisition": "문파 전수·비급",
+      "source_urls": [
+        "https://wuxiasociety.com/jin-yong-martial-arts/"
+      ],
+      "status": "실제 작품/무술 자료에서 명칭 확인; 효과·등급·획득은 모드 기획안"
+    },
+    {
+      "id": "martial_029",
+      "name": "옥녀소심검",
+      "verified_origin": "김용 《신조협려》",
+      "category": "합격·검법",
+      "proposed_game_tier": "절학",
+      "gameplay_direction": "두 사람의 협동 운용이 핵심인 검술",
+      "proposed_acquisition": "인연·비전 전수",
+      "source_urls": [
+        "https://wuxiasociety.com/jin-yong-martial-arts/"
+      ],
+      "status": "실제 작품/무술 자료에서 명칭 확인; 효과·등급·획득은 모드 기획안"
+    },
+    {
+      "id": "martial_030",
+      "name": "태극검",
+      "verified_origin": "김용 《의천도룡기》 외; 실제 무술과 동명",
+      "category": "검법",
+      "proposed_game_tier": "절학",
+      "gameplay_direction": "부드럽게 받아내고 공격의 기세를 돌림",
+      "proposed_acquisition": "무당계 전수·기연",
+      "source_urls": [
+        "https://wuxiasociety.com/jin-yong-martial-arts/"
+      ],
+      "status": "실제 작품/무술 자료에서 명칭 확인; 효과·등급·획득은 모드 기획안"
+    },
+    {
+      "id": "martial_031",
+      "name": "전진검법",
+      "verified_origin": "김용 《사조영웅전》 외",
+      "category": "검법",
+      "proposed_game_tier": "정통무공",
+      "gameplay_direction": "전진교의 체계적 정통 검술",
+      "proposed_acquisition": "문파 전수·비급",
+      "source_urls": [
+        "https://wuxiasociety.com/jin-yong-martial-arts/"
+      ],
+      "status": "실제 작품/무술 자료에서 명칭 확인; 효과·등급·획득은 모드 기획안"
+    },
+    {
+      "id": "martial_032",
+      "name": "옥소검법",
+      "verified_origin": "김용 《사조영웅전》 외",
+      "category": "검법",
+      "proposed_game_tier": "상승무공",
+      "gameplay_direction": "피리 운용 원리의 변화무쌍한 검술",
+      "proposed_acquisition": "전수·비급",
+      "source_urls": [
+        "https://wuxiasociety.com/jin-yong-martial-arts/"
+      ],
+      "status": "실제 작품/무술 자료에서 명칭 확인; 효과·등급·획득은 모드 기획안"
+    },
+    {
+      "id": "martial_033",
+      "name": "월녀검법",
+      "verified_origin": "김용 《월녀검》",
+      "category": "검법",
+      "proposed_game_tier": "절학",
+      "gameplay_direction": "고전적이면서 뛰어난 검의 원리",
+      "proposed_acquisition": "희귀 전수·기연",
+      "source_urls": [
+        "https://wuxiasociety.com/jin-yong-martial-arts/"
+      ],
+      "status": "실제 작품/무술 자료에서 명칭 확인; 효과·등급·획득은 모드 기획안"
+    },
+    {
+      "id": "martial_034",
+      "name": "화산검법",
+      "verified_origin": "김용 《소오강호》",
+      "category": "검법",
+      "proposed_game_tier": "정통무공",
+      "gameplay_direction": "빠르고 화려한 화산파 검술",
+      "proposed_acquisition": "문파 전수·비급",
+      "source_urls": [
+        "https://wuxiasociety.com/jin-yong-martial-arts/"
+      ],
+      "status": "실제 작품/무술 자료에서 명칭 확인; 효과·등급·획득은 모드 기획안"
+    },
+    {
+      "id": "martial_035",
+      "name": "유운검술",
+      "verified_origin": "김용 무협 세계",
+      "category": "검법",
+      "proposed_game_tier": "정통무공",
+      "gameplay_direction": "구름처럼 부드럽게 잇는 검술",
+      "proposed_acquisition": "문파 전수·비급",
+      "source_urls": [
+        "https://wuxiasociety.com/jin-yong-martial-arts/"
+      ],
+      "status": "실제 작품/무술 자료에서 명칭 확인; 효과·등급·획득은 모드 기획안"
+    },
+    {
+      "id": "martial_036",
+      "name": "타구봉법",
+      "verified_origin": "김용 《사조영웅전》 외",
+      "category": "봉법",
+      "proposed_game_tier": "신공",
+      "gameplay_direction": "개방 방주 계승의 핵심 봉술",
+      "proposed_acquisition": "개방 비전·전설 계보",
+      "source_urls": [
+        "https://wuxiasociety.com/jin-yong-martial-arts/"
+      ],
+      "status": "실제 작품/무술 자료에서 명칭 확인; 효과·등급·획득은 모드 기획안"
+    },
+    {
+      "id": "martial_037",
+      "name": "복마장법",
+      "verified_origin": "김용 무협 세계",
+      "category": "봉법",
+      "proposed_game_tier": "상승무공",
+      "gameplay_direction": "무게와 방어를 활용하는 봉술",
+      "proposed_acquisition": "문파 전수·비급",
+      "source_urls": [
+        "https://wuxiasociety.com/jin-yong-martial-arts/"
+      ],
+      "status": "실제 작품/무술 자료에서 명칭 확인; 효과·등급·획득은 모드 기획안"
+    },
+    {
+      "id": "martial_038",
+      "name": "영사장법",
+      "verified_origin": "김용 《사조영웅전》",
+      "category": "봉법",
+      "proposed_game_tier": "상승무공",
+      "gameplay_direction": "뱀처럼 변칙적인 봉술",
+      "proposed_acquisition": "독문 전수·기연",
+      "source_urls": [
+        "https://wuxiasociety.com/jin-yong-martial-arts/"
+      ],
+      "status": "실제 작품/무술 자료에서 명칭 확인; 효과·등급·획득은 모드 기획안"
+    },
+    {
+      "id": "martial_039",
+      "name": "공명권",
+      "verified_origin": "김용 《사조영웅전》",
+      "category": "권법",
+      "proposed_game_tier": "절학",
+      "gameplay_direction": "부드러운 힘과 무의 움직임을 중시",
+      "proposed_acquisition": "고수 전수·기연",
+      "source_urls": [
+        "https://wuxiasociety.com/jin-yong-martial-arts/"
+      ],
+      "status": "실제 작품/무술 자료에서 명칭 확인; 효과·등급·획득은 모드 기획안"
+    },
+    {
+      "id": "martial_040",
+      "name": "태극권",
+      "verified_origin": "김용 《의천도룡기》 외; 실제 무술과 동명",
+      "category": "권법",
+      "proposed_game_tier": "상승무공",
+      "gameplay_direction": "흘리기·반격·음양의 이치",
+      "proposed_acquisition": "무관·문파 전수",
+      "source_urls": [
+        "https://wuxiasociety.com/jin-yong-martial-arts/"
+      ],
+      "status": "실제 작품/무술 자료에서 명칭 확인; 효과·등급·획득은 모드 기획안"
+    },
+    {
+      "id": "martial_041",
+      "name": "칠상권",
+      "verified_origin": "김용 《의천도룡기》",
+      "category": "권법",
+      "proposed_game_tier": "절학",
+      "gameplay_direction": "강력하나 내공 부족 시 신체 손상 위험",
+      "proposed_acquisition": "공동파 비전·기연",
+      "source_urls": [
+        "https://wuxiasociety.com/jin-yong-martial-arts/"
+      ],
+      "status": "실제 작품/무술 자료에서 명칭 확인; 효과·등급·획득은 모드 기획안"
+    },
+    {
+      "id": "martial_042",
+      "name": "나한권",
+      "verified_origin": "소림 전통 무술·김용 무협 작품",
+      "category": "권법",
+      "proposed_game_tier": "기초무공",
+      "gameplay_direction": "소림의 기초 권법",
+      "proposed_acquisition": "무관·문파",
+      "source_urls": [
+        "https://wuxiasociety.com/jin-yong-martial-arts/"
+      ],
+      "status": "실제 작품/무술 자료에서 명칭 확인; 효과·등급·획득은 모드 기획안"
+    },
+    {
+      "id": "martial_043",
+      "name": "취권",
+      "verified_origin": "실제 무술 범주·김용 무협 작품",
+      "category": "권법",
+      "proposed_game_tier": "정통무공",
+      "gameplay_direction": "취한 듯한 속임수와 변화",
+      "proposed_acquisition": "무관·행상인",
+      "source_urls": [
+        "https://wuxiasociety.com/jin-yong-martial-arts/"
+      ],
+      "status": "실제 작품/무술 자료에서 명칭 확인; 효과·등급·획득은 모드 기획안"
+    },
+    {
+      "id": "martial_044",
+      "name": "육맥신검",
+      "verified_origin": "김용 《천룡팔부》",
+      "category": "지법·검기",
+      "proposed_game_tier": "전설급",
+      "gameplay_direction": "손가락을 통해 펼치는 무형 검기",
+      "proposed_acquisition": "극희귀 계승·기연",
+      "source_urls": [
+        "https://wuxiasociety.com/jin-yong-martial-arts/"
+      ],
+      "status": "실제 작품/무술 자료에서 명칭 확인; 효과·등급·획득은 모드 기획안"
+    },
+    {
+      "id": "martial_045",
+      "name": "일양지",
+      "verified_origin": "김용 《사조영웅전》《천룡팔부》",
+      "category": "지법",
+      "proposed_game_tier": "절학",
+      "gameplay_direction": "정밀한 기혈 자극과 점혈",
+      "proposed_acquisition": "대리 단씨 계보·기연",
+      "source_urls": [
+        "https://wuxiasociety.com/jin-yong-martial-arts/"
+      ],
+      "status": "실제 작품/무술 자료에서 명칭 확인; 효과·등급·획득은 모드 기획안"
+    },
+    {
+      "id": "martial_046",
+      "name": "탄지신통",
+      "verified_origin": "김용 《사조영웅전》 외",
+      "category": "지법",
+      "proposed_game_tier": "절학",
+      "gameplay_direction": "손끝 힘으로 떨어진 표적을 공격",
+      "proposed_acquisition": "고수 전수·기연",
+      "source_urls": [
+        "https://wuxiasociety.com/jin-yong-martial-arts/"
+      ],
+      "status": "실제 작품/무술 자료에서 명칭 확인; 효과·등급·획득은 모드 기획안"
+    },
+    {
+      "id": "martial_047",
+      "name": "용조수",
+      "verified_origin": "김용 《의천도룡기》",
+      "category": "조법",
+      "proposed_game_tier": "상승무공",
+      "gameplay_direction": "붙잡기·제압·관절기를 구사",
+      "proposed_acquisition": "소림 비전·희귀 비급",
+      "source_urls": [
+        "https://wuxiasociety.com/jin-yong-martial-arts/"
+      ],
+      "status": "실제 작품/무술 자료에서 명칭 확인; 효과·등급·획득은 모드 기획안"
+    },
+    {
+      "id": "martial_048",
+      "name": "구음백골조",
+      "verified_origin": "김용 《사조영웅전》",
+      "category": "금제·조법",
+      "proposed_game_tier": "절학",
+      "gameplay_direction": "내상을 유발할 위험이 큰 조법",
+      "proposed_acquisition": "금서·기연",
+      "source_urls": [
+        "https://wuxiasociety.com/jin-yong-martial-arts/"
+      ],
+      "status": "실제 작품/무술 자료에서 명칭 확인; 효과·등급·획득은 모드 기획안"
+    },
+    {
+      "id": "martial_049",
+      "name": "염화지",
+      "verified_origin": "김용 《천룡팔부》 외",
+      "category": "지법",
+      "proposed_game_tier": "상승무공",
+      "gameplay_direction": "손가락을 이용하는 정밀 기술",
+      "proposed_acquisition": "소림 비급",
+      "source_urls": [
+        "https://wuxiasociety.com/jin-yong-martial-arts/"
+      ],
+      "status": "실제 작품/무술 자료에서 명칭 확인; 효과·등급·획득은 모드 기획안"
+    },
+    {
+      "id": "martial_050",
+      "name": "능파미보",
+      "verified_origin": "김용 《천룡팔부》",
+      "category": "경공",
+      "proposed_game_tier": "신공",
+      "gameplay_direction": "절묘한 방향 변화·회피·기동",
+      "proposed_acquisition": "극희귀 기연",
+      "source_urls": [
+        "https://wuxiasociety.com/jin-yong-martial-arts/"
+      ],
+      "status": "실제 작품/무술 자료에서 명칭 확인; 효과·등급·획득은 모드 기획안"
+    },
+    {
+      "id": "martial_051",
+      "name": "금안공",
+      "verified_origin": "김용 《사조영웅전》",
+      "category": "경공",
+      "proposed_game_tier": "상승무공",
+      "gameplay_direction": "험지 등반과 경신술",
+      "proposed_acquisition": "전진계 전수·비급",
+      "source_urls": [
+        "https://wuxiasociety.com/jin-yong-martial-arts/"
+      ],
+      "status": "실제 작품/무술 자료에서 명칭 확인; 효과·등급·획득은 모드 기획안"
+    },
+    {
+      "id": "martial_052",
+      "name": "수상표",
+      "verified_origin": "김용 무협 세계",
+      "category": "경공",
+      "proposed_game_tier": "상승무공",
+      "gameplay_direction": "물 위의 신속한 이동",
+      "proposed_acquisition": "희귀 전수·비급",
+      "source_urls": [
+        "https://wuxiasociety.com/jin-yong-martial-arts/"
+      ],
+      "status": "실제 작품/무술 자료에서 명칭 확인; 효과·등급·획득은 모드 기획안"
+    },
+    {
+      "id": "martial_053",
+      "name": "벽호유장공",
+      "verified_origin": "김용 무협 세계",
+      "category": "경공",
+      "proposed_game_tier": "정통무공",
+      "gameplay_direction": "수직 표면에 붙어 이동하는 기술",
+      "proposed_acquisition": "문파 비급·수련",
+      "source_urls": [
+        "https://wuxiasociety.com/jin-yong-martial-arts/"
+      ],
+      "status": "실제 작품/무술 자료에서 명칭 확인; 효과·등급·획득은 모드 기획안"
+    },
+    {
+      "id": "martial_054",
+      "name": "천강북두진",
+      "verified_origin": "김용 《사조영웅전》",
+      "category": "진법",
+      "proposed_game_tier": "절학",
+      "gameplay_direction": "협동 배치를 통한 공방 증폭",
+      "proposed_acquisition": "전진파 진법 전수",
+      "source_urls": [
+        "https://wuxiasociety.com/jin-yong-martial-arts/"
+      ],
+      "status": "실제 작품/무술 자료에서 명칭 확인; 효과·등급·획득은 모드 기획안"
+    },
+    {
+      "id": "martial_055",
+      "name": "나한대진",
+      "verified_origin": "김용 무협 세계",
+      "category": "진법",
+      "proposed_game_tier": "상승무공",
+      "gameplay_direction": "다수의 승려가 합을 맞춰 싸우는 진법",
+      "proposed_acquisition": "소림 전수",
+      "source_urls": [
+        "https://wuxiasociety.com/jin-yong-martial-arts/"
+      ],
+      "status": "실제 작품/무술 자료에서 명칭 확인; 효과·등급·획득은 모드 기획안"
+    },
+    {
+      "id": "martial_056",
+      "name": "생사부",
+      "verified_origin": "김용 《천룡팔부》",
+      "category": "금제·암기",
+      "proposed_game_tier": "신공",
+      "gameplay_direction": "특수 음양·냉기를 이용한 제압 수법",
+      "proposed_acquisition": "극희귀 기연",
+      "source_urls": [
+        "https://wuxiasociety.com/jin-yong-martial-arts/"
+      ],
+      "status": "실제 작품/무술 자료에서 명칭 확인; 효과·등급·획득은 모드 기획안"
+    },
+    {
+      "id": "martial_057",
+      "name": "화공대법",
+      "verified_origin": "김용 《천룡팔부》",
+      "category": "독공",
+      "proposed_game_tier": "절학",
+      "gameplay_direction": "상대의 내공을 약화시키는 위험한 수법",
+      "proposed_acquisition": "금서·기연",
+      "source_urls": [
+        "https://wuxiasociety.com/jin-yong-martial-arts/"
+      ],
+      "status": "실제 작품/무술 자료에서 명칭 확인; 효과·등급·획득은 모드 기획안"
+    },
+    {
+      "id": "martial_058",
+      "name": "오독신장",
+      "verified_origin": "김용 《신조협려》",
+      "category": "독공·장법",
+      "proposed_game_tier": "절학",
+      "gameplay_direction": "독을 활용한 장력 공격",
+      "proposed_acquisition": "독문 전수·기연",
+      "source_urls": [
+        "https://wuxiasociety.com/jin-yong-martial-arts/"
+      ],
+      "status": "실제 작품/무술 자료에서 명칭 확인; 효과·등급·획득은 모드 기획안"
+    },
+    {
+      "id": "martial_059",
+      "name": "두전성이",
+      "verified_origin": "김용 《천룡팔부》",
+      "category": "반격·기술",
+      "proposed_game_tier": "신공",
+      "gameplay_direction": "상대 공격을 방향 전환해 되돌리는 기술",
+      "proposed_acquisition": "모용세가 비전·희귀 기연",
+      "source_urls": [
+        "https://wuxiasociety.com/jin-yong-martial-arts/"
+      ],
+      "status": "실제 작품/무술 자료에서 명칭 확인; 효과·등급·획득은 모드 기획안"
+    },
+    {
+      "id": "martial_060",
+      "name": "벽해조생곡",
+      "verified_origin": "김용 《사조영웅전》",
+      "category": "음공",
+      "proposed_game_tier": "절학",
+      "gameplay_direction": "음률을 통해 상대 집중과 마음을 교란",
+      "proposed_acquisition": "도화도 비전·기연",
+      "source_urls": [
+        "https://wuxiasociety.com/jin-yong-martial-arts/"
+      ],
+      "status": "실제 작품/무술 자료에서 명칭 확인; 효과·등급·획득은 모드 기획안"
+    },
+    {
+      "id": "martial_061",
+      "name": "합마공",
+      "verified_origin": "김용 《사조영웅전》",
+      "category": "내공·장법",
+      "proposed_game_tier": "절학",
+      "gameplay_direction": "낮은 자세에서 충격을 모아 발출",
+      "proposed_acquisition": "백타산 비전·기연",
+      "source_urls": [
+        "https://wuxiasociety.com/jin-yong-martial-arts/"
+      ],
+      "status": "실제 작품/무술 자료에서 명칭 확인; 효과·등급·획득은 모드 기획안"
+    },
+    {
+      "id": "martial_062",
+      "name": "명옥공",
+      "verified_origin": "고룡 《절대쌍교》",
+      "category": "내공",
+      "proposed_game_tier": "신공",
+      "gameplay_direction": "옥처럼 맑고 깊은 내력 운용",
+      "proposed_acquisition": "극희귀 계승·기연",
+      "source_urls": [
+        "https://zh.wikipedia.org/wiki/古龍筆下武功列表"
+      ],
+      "status": "실제 작품/무술 자료에서 명칭 확인; 효과·등급·획득은 모드 기획안"
+    },
+    {
+      "id": "martial_063",
+      "name": "가의신공",
+      "verified_origin": "고룡 《절대쌍교》",
+      "category": "내공",
+      "proposed_game_tier": "신공",
+      "gameplay_direction": "강렬한 내력을 강하게 연단하는 비전",
+      "proposed_acquisition": "극희귀 계승·기연",
+      "source_urls": [
+        "https://zh.wikipedia.org/wiki/古龍筆下武功列表"
+      ],
+      "status": "실제 작품/무술 자료에서 명칭 확인; 효과·등급·획득은 모드 기획안"
+    },
+    {
+      "id": "martial_064",
+      "name": "이화접옥",
+      "verified_origin": "고룡 《절대쌍교》",
+      "category": "장법·반격",
+      "proposed_game_tier": "절학",
+      "gameplay_direction": "상대의 힘을 흘려 되돌리는 절기",
+      "proposed_acquisition": "이화궁 비전·기연",
+      "source_urls": [
+        "https://zh.wikipedia.org/wiki/古龍筆下武功列表",
+        "https://m.gulongbbs.com/book/jdsj/20047.html"
+      ],
+      "status": "실제 작품/무술 자료에서 명칭 확인; 효과·등급·획득은 모드 기획안"
+    },
+    {
+      "id": "martial_065",
+      "name": "소이비도",
+      "verified_origin": "고룡 《다정검객무정검》",
+      "category": "비도·암기",
+      "proposed_game_tier": "전설급",
+      "gameplay_direction": "정확한 타이밍에 던지는 결정적 비도",
+      "proposed_acquisition": "전설 계보·기연",
+      "source_urls": [
+        "https://zh.wikipedia.org/wiki/古龍筆下武功列表"
+      ],
+      "status": "실제 작품/무술 자료에서 명칭 확인; 효과·등급·획득은 모드 기획안"
+    },
+    {
+      "id": "martial_066",
+      "name": "탈명십삼검",
+      "verified_origin": "고룡 《삼소야적검》",
+      "category": "검법",
+      "proposed_game_tier": "신공",
+      "gameplay_direction": "진화하는 살상 검술",
+      "proposed_acquisition": "극희귀 계승·기연",
+      "source_urls": [
+        "https://zh.wikipedia.org/wiki/古龍筆下武功列表"
+      ],
+      "status": "실제 작품/무술 자료에서 명칭 확인; 효과·등급·획득은 모드 기획안"
+    },
+    {
+      "id": "martial_067",
+      "name": "이십사수매화검법",
+      "verified_origin": "《화산귀환》",
+      "category": "검법",
+      "proposed_game_tier": "절학",
+      "gameplay_direction": "매화의 움직임을 본뜬 화산 검법",
+      "proposed_acquisition": "화산 비전·희귀 기연",
+      "source_urls": [
+        "https://namu.moe/w/화산귀환/설정"
+      ],
+      "status": "실제 작품/무술 자료에서 명칭 확인; 효과·등급·획득은 모드 기획안"
+    },
+    {
+      "id": "martial_068",
+      "name": "자하강기",
+      "verified_origin": "《화산귀환》",
+      "category": "강기·내공",
+      "proposed_game_tier": "신공",
+      "gameplay_direction": "자색의 강기로 공격과 방어를 운용",
+      "proposed_acquisition": "화산 비전·기연",
+      "source_urls": [
+        "https://namu.moe/w/화산귀환/설정"
+      ],
+      "status": "실제 작품/무술 자료에서 명칭 확인; 효과·등급·획득은 모드 기획안"
+    },
+    {
+      "id": "martial_069",
+      "name": "오호단문도",
+      "verified_origin": "《화산귀환》; 동명 무공은 다수 무협물에도 등장",
+      "category": "도법",
+      "proposed_game_tier": "절기",
+      "gameplay_direction": "강맹한 대도 기술과 압박",
+      "proposed_acquisition": "팽가 전수·비급",
+      "source_urls": [
+        "https://d.namu.moe/w/화산귀환/무공"
+      ],
+      "status": "실제 작품/무술 자료에서 명칭 확인; 효과·등급·획득은 모드 기획안"
+    },
+    {
+      "id": "martial_070",
+      "name": "사일검법",
+      "verified_origin": "《화산귀환》",
+      "category": "검법",
+      "proposed_game_tier": "절기",
+      "gameplay_direction": "해를 꿰뚫는 듯한 쾌검",
+      "proposed_acquisition": "점창 비전·기연",
+      "source_urls": [
+        "https://d.namu.moe/w/화산귀환/무공"
+      ],
+      "status": "실제 작품/무술 자료에서 명칭 확인; 효과·등급·획득은 모드 기획안"
+    },
+    {
+      "id": "martial_071",
+      "name": "관일창법",
+      "verified_origin": "《화산귀환》",
+      "category": "창법",
+      "proposed_game_tier": "상승무공",
+      "gameplay_direction": "급소를 관통하는 창술",
+      "proposed_acquisition": "점창 전수·비급",
+      "source_urls": [
+        "https://d.namu.moe/w/화산귀환/무공"
+      ],
+      "status": "실제 작품/무술 자료에서 명칭 확인; 효과·등급·획득은 모드 기획안"
+    },
+    {
+      "id": "martial_072",
+      "name": "복마검법",
+      "verified_origin": "《화산귀환》",
+      "category": "검법",
+      "proposed_game_tier": "절기",
+      "gameplay_direction": "정교하고 기민한 공동파 검술",
+      "proposed_acquisition": "공동파 전수·기연",
+      "source_urls": [
+        "https://d.namu.moe/w/화산귀환/무공"
+      ],
+      "status": "실제 작품/무술 자료에서 명칭 확인; 효과·등급·획득은 모드 기획안"
+    },
+    {
+      "id": "martial_073",
+      "name": "환영팔괘보",
+      "verified_origin": "《화산귀환》",
+      "category": "보법",
+      "proposed_game_tier": "절학",
+      "gameplay_direction": "환영처럼 교묘한 방향 전환 보법",
+      "proposed_acquisition": "제갈세가 비전·기연",
+      "source_urls": [
+        "https://d.namu.moe/w/화산귀환/무공"
+      ],
+      "status": "실제 작품/무술 자료에서 명칭 확인; 효과·등급·획득은 모드 기획안"
+    },
+    {
+      "id": "martial_074",
+      "name": "수라살권",
+      "verified_origin": "《화산귀환》",
+      "category": "권법",
+      "proposed_game_tier": "신공",
+      "gameplay_direction": "연속 타격과 강한 기세를 사용하는 사파 권법",
+      "proposed_acquisition": "사파 비전·기연",
+      "source_urls": [
+        "https://d.namu.moe/w/화산귀환/무공"
+      ],
+      "status": "실제 작품/무술 자료에서 명칭 확인; 효과·등급·획득은 모드 기획안"
+    },
+    {
+      "id": "martial_075",
+      "name": "천면수",
+      "verified_origin": "《화산귀환》",
+      "category": "수법",
+      "proposed_game_tier": "절기",
+      "gameplay_direction": "다수의 장영을 펼치는 변칙 수법",
+      "proposed_acquisition": "하오문 비전·기연",
+      "source_urls": [
+        "https://d.namu.moe/w/화산귀환/무공"
+      ],
+      "status": "실제 작품/무술 자료에서 명칭 확인; 효과·등급·획득은 모드 기획안"
+    },
+    {
+      "id": "martial_076",
+      "name": "고루마공",
+      "verified_origin": "《화산귀환》",
+      "category": "금제·내공",
+      "proposed_game_tier": "절학",
+      "gameplay_direction": "특수 회복력을 부여하지만 마공 위험 수반",
+      "proposed_acquisition": "마교 비전·기연",
+      "source_urls": [
+        "https://d.namu.moe/w/화산귀환/무공"
+      ],
+      "status": "실제 작품/무술 자료에서 명칭 확인; 효과·등급·획득은 모드 기획안"
+    },
+    {
+      "id": "martial_077",
+      "name": "흡정마공",
+      "verified_origin": "《화산귀환》",
+      "category": "금제·내공",
+      "proposed_game_tier": "신공",
+      "gameplay_direction": "타인의 내력을 흡수하나 정신적 위험이 큼",
+      "proposed_acquisition": "마교 금서·기연",
+      "source_urls": [
+        "https://d.namu.moe/w/화산귀환/무공"
+      ],
+      "status": "실제 작품/무술 자료에서 명칭 확인; 효과·등급·획득은 모드 기획안"
+    }
+  ],
+  "innate_traits": [
+    {
+      "id": "innate_001",
+      "name": "천무지체",
+      "theme": "무학 전반에 빠른 이해와 적응",
+      "suggested_effect": "다양한 무공을 폭넓게 배우는 재능; 만능으로 무조건 보장하지 않음",
+      "evidence_class": "장르 관용",
+      "source_urls": [
+        "https://namu.moe/w/지체(무협물)"
+      ],
+      "acquired_at": "캐릭터 최초 생성시 선천 지정",
+      "numbers": "미정"
+    },
+    {
+      "id": "innate_002",
+      "name": "공령지체",
+      "theme": "외부 기운과의 감응이 탁월",
+      "suggested_effect": "환경에 따른 내력 순환 이점; 단전 유지 방식 특수",
+      "evidence_class": "장르 관용",
+      "source_urls": [
+        "https://namu.moe/w/지체(무협물)"
+      ],
+      "acquired_at": "캐릭터 최초 생성시 선천 지정",
+      "numbers": "미정"
+    },
+    {
+      "id": "innate_003",
+      "name": "태양지체",
+      "theme": "양기·열기 계열 친화",
+      "suggested_effect": "양기 계열 적합·음기 계열 수련 부담",
+      "evidence_class": "장르 관용",
+      "source_urls": [
+        "https://namu.moe/w/지체(무협물)"
+      ],
+      "acquired_at": "캐릭터 최초 생성시 선천 지정",
+      "numbers": "미정"
+    },
+    {
+      "id": "innate_004",
+      "name": "태음지체",
+      "theme": "음기·한기 계열 친화",
+      "suggested_effect": "음기 계열 적합·양기 계열 수련 부담",
+      "evidence_class": "장르 관용",
+      "source_urls": [
+        "https://namu.moe/w/지체(무협물)"
+      ],
+      "acquired_at": "캐릭터 최초 생성시 선천 지정",
+      "numbers": "미정"
+    },
+    {
+      "id": "innate_005",
+      "name": "음양지체",
+      "theme": "상반된 기운의 조화를 다루는 재능",
+      "suggested_effect": "음양 균형에 강점·균형 붕괴 시 불이익",
+      "evidence_class": "장르 관용",
+      "source_urls": [
+        "https://namu.moe/w/지체(무협물)"
+      ],
+      "acquired_at": "캐릭터 최초 생성시 선천 지정",
+      "numbers": "미정"
+    },
+    {
+      "id": "innate_006",
+      "name": "독지체",
+      "theme": "독을 약재처럼 변환하는 특성",
+      "suggested_effect": "독공 친화·일반 치료재와 상호작용 변화",
+      "evidence_class": "장르 관용",
+      "source_urls": [
+        "https://namu.moe/w/지체(무협물)"
+      ],
+      "acquired_at": "캐릭터 최초 생성시 선천 지정",
+      "numbers": "미정"
+    },
+    {
+      "id": "innate_007",
+      "name": "만독불침",
+      "theme": "극도로 높은 독 저항",
+      "suggested_effect": "독 공격 대다수 무효화 가능, 일부 특수 독/기전 예외",
+      "evidence_class": "장르 공통 개념(선천 배치=모드 변형)",
+      "source_urls": [
+        "https://namu.moe/w/만독불침",
+        "https://namu.moe/w/지체(무협물)"
+      ],
+      "acquired_at": "캐릭터 최초 생성시 선천 지정",
+      "numbers": "미정"
+    },
+    {
+      "id": "innate_008",
+      "name": "구음절맥",
+      "theme": "선천적인 음기 과다와 경맥 장애",
+      "suggested_effect": "수련 난도/내상 위험; 치료 또는 조화 기연으로 개화",
+      "evidence_class": "장르 관용",
+      "source_urls": [
+        "https://namu.moe/w/지체(무협물)",
+        "https://seore.org/raw/문서:무협소설/용어"
+      ],
+      "acquired_at": "캐릭터 최초 생성시 선천 지정",
+      "numbers": "미정"
+    },
+    {
+      "id": "innate_009",
+      "name": "구양절맥",
+      "theme": "선천적인 양기 과다와 경맥 장애",
+      "suggested_effect": "수련 난도/내상 위험; 치료 또는 조화 기연으로 개화",
+      "evidence_class": "장르 관용(작품별 상이)",
+      "source_urls": [
+        "https://seore.org/raw/문서:무협소설/용어"
+      ],
+      "acquired_at": "캐릭터 최초 생성시 선천 지정",
+      "numbers": "미정"
+    },
+    {
+      "id": "innate_010",
+      "name": "천살성",
+      "theme": "천살을 타고난 운명·살기의 기질",
+      "suggested_effect": "위압·살기 친화, 사회적 편견·내면 갈등; 악업 자동상승 없음",
+      "evidence_class": "특정 한국 무협 작품 확인",
+      "source_urls": [
+        "https://series.naver.com/novel/detail.series?productNo=11701831"
+      ],
+      "acquired_at": "캐릭터 최초 생성시 선천 지정",
+      "numbers": "미정"
+    },
+    {
+      "id": "innate_011",
+      "name": "검골(만검지체)",
+      "theme": "검법에 유난히 뛰어난 재능",
+      "suggested_effect": "검술 이해와 자세 감지에 장점; 무조건 전승 아님",
+      "evidence_class": "장르 관용(표기 변형)",
+      "source_urls": [
+        "https://seore.org/raw/문서:무협소설/용어"
+      ],
+      "acquired_at": "캐릭터 최초 생성시 선천 지정",
+      "numbers": "미정"
+    }
+  ],
+  "fate_events": [
+    {
+      "id": "fate_001",
+      "name": "바위에 남은 아홉 검흔",
+      "type": "창작 게임용 기연 사건 (원작 줄거리 아님)",
+      "linked_martial_name": "독고구검",
+      "location_theme": "절벽 계곡의 낡은 검각",
+      "rumor_hint": "노인이 검을 부딪히는 소리가 해마다 한 번 들린다고 한다",
+      "trial": "검흔 순서를 읽고 허초를 구별해야 유산이 드러남",
+      "time_rules": {
+        "clue_time_to_stale": "정보 획득 최소 마크 2일 후부터 소실/타인 획득/허위 확인 가능",
+        "not_guaranteed": "진본 발견 또는 타인이 획득, 허위, 단서 변경 등 결과 다양"
+      },
+      "rarity": "희귀 / 지역·세계 상태 기반"
+    },
+    {
+      "id": "fate_002",
+      "name": "눈보라 속 은거인의 서고",
+      "type": "창작 게임용 기연 사건 (원작 줄거리 아님)",
+      "linked_martial_name": "구양신공",
+      "location_theme": "설산 입구의 숨겨진 서고",
+      "rumor_hint": "눈 내리는 밤에는 서고 창가에 촛불이 켜진다",
+      "trial": "길을 잃은 행인 구조 또는 책의 순서를 바로잡기",
+      "time_rules": {
+        "clue_time_to_stale": "정보 획득 최소 마크 2일 후부터 소실/타인 획득/허위 확인 가능",
+        "not_guaranteed": "진본 발견 또는 타인이 획득, 허위, 단서 변경 등 결과 다양"
+      },
+      "rarity": "희귀 / 지역·세계 상태 기반"
+    },
+    {
+      "id": "fate_003",
+      "name": "흑백의 무너진 비각",
+      "type": "창작 게임용 기연 사건 (원작 줄거리 아님)",
+      "linked_martial_name": "구음진경",
+      "location_theme": "옛 수로 아래 비각",
+      "rumor_hint": "물속 석판에 뒤집힌 글씨가 있다",
+      "trial": "수위가 바뀌는 시각에 비각의 금석문 해석",
+      "time_rules": {
+        "clue_time_to_stale": "정보 획득 최소 마크 2일 후부터 소실/타인 획득/허위 확인 가능",
+        "not_guaranteed": "진본 발견 또는 타인이 획득, 허위, 단서 변경 등 결과 다양"
+      },
+      "rarity": "희귀 / 지역·세계 상태 기반"
+    },
+    {
+      "id": "fate_004",
+      "name": "버려진 협곡 비무장",
+      "type": "창작 게임용 기연 사건 (원작 줄거리 아님)",
+      "linked_martial_name": "항룡십팔장",
+      "location_theme": "험준한 협곡 비무대",
+      "rumor_hint": "오랫동안 사람 소리 없던 곳에 폭음이 들린다",
+      "trial": "무리한 정면 대결 대신 힘과 절제의 시험",
+      "time_rules": {
+        "clue_time_to_stale": "정보 획득 최소 마크 2일 후부터 소실/타인 획득/허위 확인 가능",
+        "not_guaranteed": "진본 발견 또는 타인이 획득, 허위, 단서 변경 등 결과 다양"
+      },
+      "rarity": "희귀 / 지역·세계 상태 기반"
+    },
+    {
+      "id": "fate_005",
+      "name": "공중에 바람이 멈춘 곳",
+      "type": "창작 게임용 기연 사건 (원작 줄거리 아님)",
+      "linked_martial_name": "능파미보",
+      "location_theme": "협곡 위 비밀 나무다리",
+      "rumor_hint": "어떤 방랑객은 절벽에서 발자국을 발견했다고 한다",
+      "trial": "보법과 균형으로 이동 시험",
+      "time_rules": {
+        "clue_time_to_stale": "정보 획득 최소 마크 2일 후부터 소실/타인 획득/허위 확인 가능",
+        "not_guaranteed": "진본 발견 또는 타인이 획득, 허위, 단서 변경 등 결과 다양"
+      },
+      "rarity": "희귀 / 지역·세계 상태 기반"
+    },
+    {
+      "id": "fate_006",
+      "name": "진기를 삼키는 석실",
+      "type": "창작 게임용 기연 사건 (원작 줄거리 아님)",
+      "linked_martial_name": "북명신공",
+      "location_theme": "심산 폐동굴의 두 개 문",
+      "rumor_hint": "숨소리가 없는 석실에 푸른 물결이 비친다",
+      "trial": "내력 손실 위험을 감수하고 진실 추적",
+      "time_rules": {
+        "clue_time_to_stale": "정보 획득 최소 마크 2일 후부터 소실/타인 획득/허위 확인 가능",
+        "not_guaranteed": "진본 발견 또는 타인이 획득, 허위, 단서 변경 등 결과 다양"
+      },
+      "rarity": "희귀 / 지역·세계 상태 기반"
+    },
+    {
+      "id": "fate_007",
+      "name": "육각형 글씨의 돌방",
+      "type": "창작 게임용 기연 사건 (원작 줄거리 아님)",
+      "linked_martial_name": "육맥신검",
+      "location_theme": "고성 아래 밀실",
+      "rumor_hint": "육각 벽면에서 바람이 손끝으로 흐른다",
+      "trial": "정교한 기감 조절로 비문 검증",
+      "time_rules": {
+        "clue_time_to_stale": "정보 획득 최소 마크 2일 후부터 소실/타인 획득/허위 확인 가능",
+        "not_guaranteed": "진본 발견 또는 타인이 획득, 허위, 단서 변경 등 결과 다양"
+      },
+      "rarity": "희귀 / 지역·세계 상태 기반"
+    },
+    {
+      "id": "fate_008",
+      "name": "오래된 두 자루 검의 전설",
+      "type": "창작 게임용 기연 사건 (원작 줄거리 아님)",
+      "linked_martial_name": "옥녀소심검",
+      "location_theme": "부서진 고묘의 안뜰",
+      "rumor_hint": "같은 문양이 새겨진 칼 두 자루가 다른 곳에 있다",
+      "trial": "신뢰하는 동료와 협동 문제 해결",
+      "time_rules": {
+        "clue_time_to_stale": "정보 획득 최소 마크 2일 후부터 소실/타인 획득/허위 확인 가능",
+        "not_guaranteed": "진본 발견 또는 타인이 획득, 허위, 단서 변경 등 결과 다양"
+      },
+      "rarity": "희귀 / 지역·세계 상태 기반"
+    },
+    {
+      "id": "fate_009",
+      "name": "산중 복숭아향",
+      "type": "창작 게임용 기연 사건 (원작 줄거리 아님)",
+      "linked_martial_name": "벽해조생곡",
+      "location_theme": "도원 숨겨진 정자",
+      "rumor_hint": "거문고 소리를 들은 상인은 날을 잊었다고 한다",
+      "trial": "음률 흔적과 주민의 기억 대조",
+      "time_rules": {
+        "clue_time_to_stale": "정보 획득 최소 마크 2일 후부터 소실/타인 획득/허위 확인 가능",
+        "not_guaranteed": "진본 발견 또는 타인이 획득, 허위, 단서 변경 등 결과 다양"
+      },
+      "rarity": "희귀 / 지역·세계 상태 기반"
+    },
+    {
+      "id": "fate_010",
+      "name": "무너진 분타의 봉",
+      "type": "창작 게임용 기연 사건 (원작 줄거리 아님)",
+      "linked_martial_name": "타구봉법",
+      "location_theme": "폐허가 된 개방 분타",
+      "rumor_hint": "쓰러진 집 기둥에 방주만 아는 매듭이 있다",
+      "trial": "방랑 걸인의 부탁과 신뢰 쌓기",
+      "time_rules": {
+        "clue_time_to_stale": "정보 획득 최소 마크 2일 후부터 소실/타인 획득/허위 확인 가능",
+        "not_guaranteed": "진본 발견 또는 타인이 획득, 허위, 단서 변경 등 결과 다양"
+      },
+      "rarity": "희귀 / 지역·세계 상태 기반"
+    },
+    {
+      "id": "fate_011",
+      "name": "자줏빛 구름의 흔적",
+      "type": "창작 게임용 기연 사건 (원작 줄거리 아님)",
+      "linked_martial_name": "자하신공",
+      "location_theme": "옛 산문 뒤 마른 우물",
+      "rumor_hint": "한밤중 우물에 자줏빛 서광이 비친다",
+      "trial": "스승의 유언을 가진 후예 찾아가기",
+      "time_rules": {
+        "clue_time_to_stale": "정보 획득 최소 마크 2일 후부터 소실/타인 획득/허위 확인 가능",
+        "not_guaranteed": "진본 발견 또는 타인이 획득, 허위, 단서 변경 등 결과 다양"
+      },
+      "rarity": "희귀 / 지역·세계 상태 기반"
+    },
+    {
+      "id": "fate_012",
+      "name": "붉은 호랑이의 칼자국",
+      "type": "창작 게임용 기연 사건 (원작 줄거리 아님)",
+      "linked_martial_name": "오호단문도",
+      "location_theme": "황폐한 산채 훈련장",
+      "rumor_hint": "문짝에 호랑이 발톱 같은 다섯 검흔이 남았다",
+      "trial": "도술 실험과 두령의 행적 조사",
+      "time_rules": {
+        "clue_time_to_stale": "정보 획득 최소 마크 2일 후부터 소실/타인 획득/허위 확인 가능",
+        "not_guaranteed": "진본 발견 또는 타인이 획득, 허위, 단서 변경 등 결과 다양"
+      },
+      "rarity": "희귀 / 지역·세계 상태 기반"
+    },
+    {
+      "id": "fate_013",
+      "name": "부서진 부채 속 지도",
+      "type": "창작 게임용 기연 사건 (원작 줄거리 아님)",
+      "linked_martial_name": "환영팔괘보",
+      "location_theme": "소도시 골동품 가게와 폐정자",
+      "rumor_hint": "상인이 발자국 방향을 바꾸는 부채를 판다",
+      "trial": "방위 감각과 진법 퍼즐",
+      "time_rules": {
+        "clue_time_to_stale": "정보 획득 최소 마크 2일 후부터 소실/타인 획득/허위 확인 가능",
+        "not_guaranteed": "진본 발견 또는 타인이 획득, 허위, 단서 변경 등 결과 다양"
+      },
+      "rarity": "희귀 / 지역·세계 상태 기반"
+    },
+    {
+      "id": "fate_014",
+      "name": "구름 아래 매화 터",
+      "type": "창작 게임용 기연 사건 (원작 줄거리 아님)",
+      "linked_martial_name": "이십사수매화검법",
+      "location_theme": "고산 암벽 아래 폐연무장",
+      "rumor_hint": "겨울인데도 돌에 매화 문양이 새겨져 있다",
+      "trial": "초식을 직접 관찰해 잊힌 사형의 기록 확인",
+      "time_rules": {
+        "clue_time_to_stale": "정보 획득 최소 마크 2일 후부터 소실/타인 획득/허위 확인 가능",
+        "not_guaranteed": "진본 발견 또는 타인이 획득, 허위, 단서 변경 등 결과 다양"
+      },
+      "rarity": "희귀 / 지역·세계 상태 기반"
+    },
+    {
+      "id": "fate_015",
+      "name": "한겨울 은빛 바늘",
+      "type": "창작 게임용 기연 사건 (원작 줄거리 아님)",
+      "linked_martial_name": "생사부",
+      "location_theme": "북방 호숫가 빈 사당",
+      "rumor_hint": "밤마다 손끝에 차가운 바늘 흔적이 생긴다",
+      "trial": "저주 피해자 구출 후 비급의 실체 해독",
+      "time_rules": {
+        "clue_time_to_stale": "정보 획득 최소 마크 2일 후부터 소실/타인 획득/허위 확인 가능",
+        "not_guaranteed": "진본 발견 또는 타인이 획득, 허위, 단서 변경 등 결과 다양"
+      },
+      "rarity": "희귀 / 지역·세계 상태 기반"
+    },
+    {
+      "id": "fate_016",
+      "name": "칠흑의 금서 거래",
+      "type": "창작 게임용 기연 사건 (원작 줄거리 아님)",
+      "linked_martial_name": "규화보전",
+      "location_theme": "한밤중 암시장과 은밀한 비밀 창고",
+      "rumor_hint": "떠돌이 상인이 찢어진 장을 비싼 값에 부른다",
+      "trial": "가짜 비급과 진본을 구분; 위험한 조건 검토",
+      "time_rules": {
+        "clue_time_to_stale": "정보 획득 최소 마크 2일 후부터 소실/타인 획득/허위 확인 가능",
+        "not_guaranteed": "진본 발견 또는 타인이 획득, 허위, 단서 변경 등 결과 다양"
+      },
+      "rarity": "희귀 / 지역·세계 상태 기반"
+    },
+    {
+      "id": "fate_017",
+      "name": "버려진 승방의 목간",
+      "type": "창작 게임용 기연 사건 (원작 줄거리 아님)",
+      "linked_martial_name": "역근경",
+      "location_theme": "폐사찰과 깊은 약초 숲",
+      "rumor_hint": "폐사찰 벽돌 사이에서 송경 소리가 난다",
+      "trial": "승려의 생존 여부 조사와 재건 도움",
+      "time_rules": {
+        "clue_time_to_stale": "정보 획득 최소 마크 2일 후부터 소실/타인 획득/허위 확인 가능",
+        "not_guaranteed": "진본 발견 또는 타인이 획득, 허위, 단서 변경 등 결과 다양"
+      },
+      "rarity": "희귀 / 지역·세계 상태 기반"
+    },
+    {
+      "id": "fate_018",
+      "name": "물에 비친 반격법",
+      "type": "창작 게임용 기연 사건 (원작 줄거리 아님)",
+      "linked_martial_name": "두전성이",
+      "location_theme": "호수 연안 세가 옛 정자",
+      "rumor_hint": "자신의 기세가 자꾸 되돌아오는 곳이다",
+      "trial": "힘으로 밀지 않고 움직임을 되돌리는 시험",
+      "time_rules": {
+        "clue_time_to_stale": "정보 획득 최소 마크 2일 후부터 소실/타인 획득/허위 확인 가능",
+        "not_guaranteed": "진본 발견 또는 타인이 획득, 허위, 단서 변경 등 결과 다양"
+      },
+      "rarity": "희귀 / 지역·세계 상태 기반"
+    },
+    {
+      "id": "fate_019",
+      "name": "예전 고수의 깃털",
+      "type": "창작 게임용 기연 사건 (원작 줄거리 아님)",
+      "linked_martial_name": "명옥공",
+      "location_theme": "은거 구릉의 신전 잔터",
+      "rumor_hint": "비 갠 다음날에도 마른 백옥 조각이 남는다",
+      "trial": "분란 없는 해결과 내력 응축 시험",
+      "time_rules": {
+        "clue_time_to_stale": "정보 획득 최소 마크 2일 후부터 소실/타인 획득/허위 확인 가능",
+        "not_guaranteed": "진본 발견 또는 타인이 획득, 허위, 단서 변경 등 결과 다양"
+      },
+      "rarity": "희귀 / 지역·세계 상태 기반"
+    },
+    {
+      "id": "fate_020",
+      "name": "한 번의 작은 비도",
+      "type": "창작 게임용 기연 사건 (원작 줄거리 아님)",
+      "linked_martial_name": "소이비도",
+      "location_theme": "항구 창고와 오래된 비도 연습장",
+      "rumor_hint": "전설적인 비도 소리만 들리고 검은 보이지 않는다",
+      "trial": "불필요한 발사를 참는 인내와 정확한 투척",
+      "time_rules": {
+        "clue_time_to_stale": "정보 획득 최소 마크 2일 후부터 소실/타인 획득/허위 확인 가능",
+        "not_guaranteed": "진본 발견 또는 타인이 획득, 허위, 단서 변경 등 결과 다양"
+      },
+      "rarity": "희귀 / 지역·세계 상태 기반"
+    },
+    {
+      "id": "fate_021",
+      "name": "현철중검의 오래된 전승",
+      "type": "기물/영약 관련 창작 기연 사건",
+      "linked_artifact_name": "현철중검",
+      "location_theme": "침수된 옛 검각",
+      "rumor_hint": "벼락에도 깨지지 않았다는 검의 전설",
+      "trial": "여러 목격담과 오래된 기록을 대조하고 희귀 장소의 진위를 확인",
+      "time_rules": {
+        "clue_time_to_stale": "정보 획득 최소 마크 2일 후부터 다른 NPC/플레이어 획득·실체 오류·매물 소멸 가능",
+        "not_guaranteed": "정보 습득만으로 진본 획득을 보장하지 않음"
+      },
+      "rarity": "희귀 / 지역·월드 스토리 기반"
+    },
+    {
+      "id": "fate_022",
+      "name": "군자검의 오래된 전승",
+      "type": "기물/영약 관련 창작 기연 사건",
+      "linked_artifact_name": "군자검",
+      "location_theme": "폐허 고묘의 석실",
+      "rumor_hint": "두 자루가 다시 만나면 숨겨진 합격 검술의 흔적이 드러난다",
+      "trial": "여러 목격담과 오래된 기록을 대조하고 희귀 장소의 진위를 확인",
+      "time_rules": {
+        "clue_time_to_stale": "정보 획득 최소 마크 2일 후부터 다른 NPC/플레이어 획득·실체 오류·매물 소멸 가능",
+        "not_guaranteed": "정보 습득만으로 진본 획득을 보장하지 않음"
+      },
+      "rarity": "희귀 / 지역·월드 스토리 기반"
+    },
+    {
+      "id": "fate_023",
+      "name": "숙녀검의 오래된 전승",
+      "type": "기물/영약 관련 창작 기연 사건",
+      "linked_artifact_name": "숙녀검",
+      "location_theme": "산자락 낡은 장원",
+      "rumor_hint": "달빛 속 두 검의 그림자가 하나의 검무를 그린다고 한다",
+      "trial": "여러 목격담과 오래된 기록을 대조하고 희귀 장소의 진위를 확인",
+      "time_rules": {
+        "clue_time_to_stale": "정보 획득 최소 마크 2일 후부터 다른 NPC/플레이어 획득·실체 오류·매물 소멸 가능",
+        "not_guaranteed": "정보 습득만으로 진본 획득을 보장하지 않음"
+      },
+      "rarity": "희귀 / 지역·월드 스토리 기반"
+    },
+    {
+      "id": "fate_024",
+      "name": "의천검의 오래된 전승",
+      "type": "기물/영약 관련 창작 기연 사건",
+      "linked_artifact_name": "의천검",
+      "location_theme": "옛 요새 아래 봉인된 무기고",
+      "rumor_hint": "검 안에 나라의 운명을 바꿀 전언이 있다는 소문",
+      "trial": "여러 목격담과 오래된 기록을 대조하고 희귀 장소의 진위를 확인",
+      "time_rules": {
+        "clue_time_to_stale": "정보 획득 최소 마크 2일 후부터 다른 NPC/플레이어 획득·실체 오류·매물 소멸 가능",
+        "not_guaranteed": "정보 습득만으로 진본 획득을 보장하지 않음"
+      },
+      "rarity": "희귀 / 지역·월드 스토리 기반"
+    },
+    {
+      "id": "fate_025",
+      "name": "도룡도의 오래된 전승",
+      "type": "기물/영약 관련 창작 기연 사건",
+      "linked_artifact_name": "도룡도",
+      "location_theme": "강하구 침몰 선박",
+      "rumor_hint": "칼을 두고 세력이 피를 흘렸다는 이야기가 전해진다",
+      "trial": "여러 목격담과 오래된 기록을 대조하고 희귀 장소의 진위를 확인",
+      "time_rules": {
+        "clue_time_to_stale": "정보 획득 최소 마크 2일 후부터 다른 NPC/플레이어 획득·실체 오류·매물 소멸 가능",
+        "not_guaranteed": "정보 습득만으로 진본 획득을 보장하지 않음"
+      },
+      "rarity": "희귀 / 지역·월드 스토리 기반"
+    },
+    {
+      "id": "fate_026",
+      "name": "금사검의 오래된 전승",
+      "type": "기물/영약 관련 창작 기연 사건",
+      "linked_artifact_name": "금사검",
+      "location_theme": "독초 무성한 광산",
+      "rumor_hint": "뱀의 이빨처럼 휜 검이 독 안개 너머 사라졌다",
+      "trial": "여러 목격담과 오래된 기록을 대조하고 희귀 장소의 진위를 확인",
+      "time_rules": {
+        "clue_time_to_stale": "정보 획득 최소 마크 2일 후부터 다른 NPC/플레이어 획득·실체 오류·매물 소멸 가능",
+        "not_guaranteed": "정보 습득만으로 진본 획득을 보장하지 않음"
+      },
+      "rarity": "희귀 / 지역·월드 스토리 기반"
+    },
+    {
+      "id": "fate_027",
+      "name": "공작령의 오래된 전승",
+      "type": "기물/영약 관련 창작 기연 사건",
+      "linked_artifact_name": "공작령",
+      "location_theme": "고성 아래 사라진 공방",
+      "rumor_hint": "공작이 날개를 펼 때처럼 빛났다는 이야기는 사실일까",
+      "trial": "여러 목격담과 오래된 기록을 대조하고 희귀 장소의 진위를 확인",
+      "time_rules": {
+        "clue_time_to_stale": "정보 획득 최소 마크 2일 후부터 다른 NPC/플레이어 획득·실체 오류·매물 소멸 가능",
+        "not_guaranteed": "정보 습득만으로 진본 획득을 보장하지 않음"
+      },
+      "rarity": "희귀 / 지역·월드 스토리 기반"
+    },
+    {
+      "id": "fate_028",
+      "name": "무목유서의 오래된 전승",
+      "type": "기물/영약 관련 창작 기연 사건",
+      "linked_artifact_name": "무목유서",
+      "location_theme": "옛 관군의 지하 문서고",
+      "rumor_hint": "전투에서 단 한 번도 물러서지 않은 장수의 문서라는 소문",
+      "trial": "여러 목격담과 오래된 기록을 대조하고 희귀 장소의 진위를 확인",
+      "time_rules": {
+        "clue_time_to_stale": "정보 획득 최소 마크 2일 후부터 다른 NPC/플레이어 획득·실체 오류·매물 소멸 가능",
+        "not_guaranteed": "정보 습득만으로 진본 획득을 보장하지 않음"
+      },
+      "rarity": "희귀 / 지역·월드 스토리 기반"
+    },
+    {
+      "id": "fate_029",
+      "name": "흑옥단속고의 오래된 전승",
+      "type": "기물/영약 관련 창작 기연 사건",
+      "linked_artifact_name": "흑옥단속고",
+      "location_theme": "한의원의 숨겨진 보관실",
+      "rumor_hint": "검객이 부러진 뼈를 되찾게 해 준 비약이 있었다고 한다",
+      "trial": "여러 목격담과 오래된 기록을 대조하고 희귀 장소의 진위를 확인",
+      "time_rules": {
+        "clue_time_to_stale": "정보 획득 최소 마크 2일 후부터 다른 NPC/플레이어 획득·실체 오류·매물 소멸 가능",
+        "not_guaranteed": "정보 습득만으로 진본 획득을 보장하지 않음"
+      },
+      "rarity": "희귀 / 지역·월드 스토리 기반"
+    },
+    {
+      "id": "fate_030",
+      "name": "천잠사의 오래된 전승",
+      "type": "기물/영약 관련 창작 기연 사건",
+      "linked_artifact_name": "천잠사",
+      "location_theme": "구릉 잠실의 폐건물",
+      "rumor_hint": "칼날도 쉽게 끊지 못하는 신비한 실의 소문",
+      "trial": "여러 목격담과 오래된 기록을 대조하고 희귀 장소의 진위를 확인",
+      "time_rules": {
+        "clue_time_to_stale": "정보 획득 최소 마크 2일 후부터 다른 NPC/플레이어 획득·실체 오류·매물 소멸 가능",
+        "not_guaranteed": "정보 습득만으로 진본 획득을 보장하지 않음"
+      },
+      "rarity": "희귀 / 지역·월드 스토리 기반"
+    }
+  ],
+  "relationship_events": [
+    {
+      "id": "rel_001",
+      "name": "길 위의 작은 인사",
+      "trigger": "낯선 일반인에게 먼저 인사",
+      "result": "친근감·성격별 반응",
+      "original_game_design": true
+    },
+    {
+      "id": "rel_002",
+      "name": "손님이 남긴 물건",
+      "trigger": "객잔에 잃어버린 물건 돌려주기",
+      "result": "신뢰 상승·정보 제공",
+      "original_game_design": true
+    },
+    {
+      "id": "rel_003",
+      "name": "해질녘 서책",
+      "trigger": "관심사가 겹치는 NPC와 책 이야기",
+      "result": "지적 호감·추가 대화",
+      "original_game_design": true
+    },
+    {
+      "id": "rel_004",
+      "name": "행상의 작은 선물",
+      "trigger": "NPC 취향을 알아내 선물 전달",
+      "result": "취향 일치 시 호감 상승",
+      "original_game_design": true
+    },
+    {
+      "id": "rel_005",
+      "name": "소문을 함께 조사",
+      "trigger": "거짓 소문을 파헤치는 동행",
+      "result": "신뢰 상승 또는 가치관 충돌",
+      "original_game_design": true
+    },
+    {
+      "id": "rel_006",
+      "name": "다친 동료의 치료",
+      "trigger": "같이 다닌 NPC가 다쳤을 때 치료",
+      "result": "신뢰와 우정 강화",
+      "original_game_design": true
+    },
+    {
+      "id": "rel_007",
+      "name": "약속한 날의 방문",
+      "trigger": "만남을 약속하고 정해진 시점에 방문",
+      "result": "약속 이행 평가",
+      "original_game_design": true
+    },
+    {
+      "id": "rel_008",
+      "name": "시장 구경",
+      "trigger": "성인 NPC와 함께 시장 구경",
+      "result": "연애·친구 대화 분기",
+      "original_game_design": true
+    },
+    {
+      "id": "rel_009",
+      "name": "이야기 나누는 밤",
+      "trigger": "성인 NPC와 함께 가족/미래/가치관 이야기",
+      "result": "상호 동의에 따른 관계 심화",
+      "original_game_design": true
+    },
+    {
+      "id": "rel_010",
+      "name": "마음의 고백",
+      "trigger": "성인 NPC와 충분한 신뢰가 형성됨",
+      "result": "고백·수락·거절 가능",
+      "original_game_design": true
+    },
+    {
+      "id": "rel_011",
+      "name": "혼담과 갈등",
+      "trigger": "성인 NPC끼리 교제 후 혼인 의사 확인",
+      "result": "가족·문파 관계·자율적 동의 반영",
+      "original_game_design": true
+    },
+    {
+      "id": "rel_012",
+      "name": "혼례 준비",
+      "trigger": "상호 동의한 성인 연인",
+      "result": "혼례 장소·친구·물품 준비",
+      "original_game_design": true
+    },
+    {
+      "id": "rel_013",
+      "name": "함께하는 일상",
+      "trigger": "혼인 후 공동 거주·산책·집안일",
+      "result": "계속되는 독립적 생활 AI",
+      "original_game_design": true
+    },
+    {
+      "id": "rel_014",
+      "name": "방랑 무인의 권유",
+      "trigger": "친한 무림인과 여행·임무 함께 수행",
+      "result": "동료 제안 및 수락·거절",
+      "original_game_design": true
+    },
+    {
+      "id": "rel_015",
+      "name": "사문의 길을 묻다",
+      "trigger": "플레이어 문파 위명+호감+성격 충족",
+      "result": "NPC가 먼저 입문 문의",
+      "original_game_design": true
+    },
+    {
+      "id": "rel_016",
+      "name": "서로 다른 신념",
+      "trigger": "정파 제자와 사파 친분 등 충돌",
+      "result": "설득·경계·거리 두기",
+      "original_game_design": true
+    },
+    {
+      "id": "rel_017",
+      "name": "약속의 배신",
+      "trigger": "플레이어가 동료를 반복적으로 배신",
+      "result": "신뢰 하락·이탈·복수 또는 화해",
+      "original_game_design": true
+    }
+  ],
+  "research_sources": {
+    "jin": "https://wuxiasociety.com/jin-yong-martial-arts/",
+    "jinguide": "https://jinyong0.com/martial-arts/complete-guide-jin-yong-martial-arts/",
+    "gulong": "https://zh.wikipedia.org/wiki/古龍筆下武功列表",
+    "gulong2": "https://m.gulongbbs.com/book/jdsj/20047.html",
+    "return": "https://d.namu.moe/w/화산귀환/무공",
+    "return_lore": "https://namu.moe/w/화산귀환/설정",
+    "traits": "https://namu.moe/w/지체(무협물)",
+    "tian": "https://series.naver.com/novel/detail.series?productNo=11701831",
+    "man": "https://namu.moe/w/만독불침",
+    "terms": "https://seore.org/raw/문서:무협소설/용어",
+    "return_official": "https://series.naver.com/novel/detail.series?productNo=4130558",
+    "legendary_objects": "https://seore.org/raw/문서:무협소설/용어",
+    "gulong_seven_weapons": "https://book.douban.com/subject/1089523/",
+    "golden_snake_sword": "https://bkso.baidu.com/item/金蛇剑/501017"
+  },
+  "artifacts_and_legendary_objects": [
+    {
+      "id": "artifact_001",
+      "name": "현철중검",
+      "verified_origin": "《신조협려》",
+      "type": "중검",
+      "game_design_effect": "무게로 상대의 기교를 누르는 현철 소재 전설 검",
+      "legend_rumor": "벼락에도 깨지지 않았다는 검의 전설",
+      "location_theme": "침수된 옛 검각",
+      "source_urls": [
+        "https://seore.org/raw/문서:무협소설/용어"
+      ],
+      "caveat": "원작 기물 이름·출처를 근거로 하되 사건 자체는 새 창작이며 실제 아이템 구현·배포 권리는 별도 검토"
+    },
+    {
+      "id": "artifact_002",
+      "name": "군자검",
+      "verified_origin": "《신조협려》",
+      "type": "검",
+      "game_design_effect": "숙녀검과 한 쌍을 이루는 전설 검",
+      "legend_rumor": "두 자루가 다시 만나면 숨겨진 합격 검술의 흔적이 드러난다",
+      "location_theme": "폐허 고묘의 석실",
+      "source_urls": [
+        "https://seore.org/raw/문서:무협소설/용어"
+      ],
+      "caveat": "원작 기물 이름·출처를 근거로 하되 사건 자체는 새 창작이며 실제 아이템 구현·배포 권리는 별도 검토"
+    },
+    {
+      "id": "artifact_003",
+      "name": "숙녀검",
+      "verified_origin": "《신조협려》",
+      "type": "검",
+      "game_design_effect": "군자검과 한 쌍을 이루는 전설 검",
+      "legend_rumor": "달빛 속 두 검의 그림자가 하나의 검무를 그린다고 한다",
+      "location_theme": "산자락 낡은 장원",
+      "source_urls": [
+        "https://seore.org/raw/문서:무협소설/용어"
+      ],
+      "caveat": "원작 기물 이름·출처를 근거로 하되 사건 자체는 새 창작이며 실제 아이템 구현·배포 권리는 별도 검토"
+    },
+    {
+      "id": "artifact_004",
+      "name": "의천검",
+      "verified_origin": "《의천도룡기》",
+      "type": "보검",
+      "game_design_effect": "강대한 명성에 얽힌 전설 검",
+      "legend_rumor": "검 안에 나라의 운명을 바꿀 전언이 있다는 소문",
+      "location_theme": "옛 요새 아래 봉인된 무기고",
+      "source_urls": [
+        "https://seore.org/raw/문서:무협소설/용어"
+      ],
+      "caveat": "원작 기물 이름·출처를 근거로 하되 사건 자체는 새 창작이며 실제 아이템 구현·배포 권리는 별도 검토"
+    },
+    {
+      "id": "artifact_005",
+      "name": "도룡도",
+      "verified_origin": "《의천도룡기》",
+      "type": "보도",
+      "game_design_effect": "무림과 권력의 다툼을 불러온 유명 보도",
+      "legend_rumor": "칼을 두고 세력이 피를 흘렸다는 이야기가 전해진다",
+      "location_theme": "강하구 침몰 선박",
+      "source_urls": [
+        "https://seore.org/raw/문서:무협소설/용어"
+      ],
+      "caveat": "원작 기물 이름·출처를 근거로 하되 사건 자체는 새 창작이며 실제 아이템 구현·배포 권리는 별도 검토"
+    },
+    {
+      "id": "artifact_006",
+      "name": "금사검",
+      "verified_origin": "《벽혈검》",
+      "type": "특수검",
+      "game_design_effect": "독특한 외형으로 다른 무기를 걸어 막는 특수검",
+      "legend_rumor": "뱀의 이빨처럼 휜 검이 독 안개 너머 사라졌다",
+      "location_theme": "독초 무성한 광산",
+      "source_urls": [
+        "https://bkso.baidu.com/item/金蛇剑/501017"
+      ],
+      "caveat": "원작 기물 이름·출처를 근거로 하되 사건 자체는 새 창작이며 실제 아이템 구현·배포 권리는 별도 검토"
+    },
+    {
+      "id": "artifact_007",
+      "name": "공작령",
+      "verified_origin": "고룡 《칠종무기·공작령》",
+      "type": "암기",
+      "game_design_effect": "전설로 전해지는 극히 위험한 암기 장치",
+      "legend_rumor": "공작이 날개를 펼 때처럼 빛났다는 이야기는 사실일까",
+      "location_theme": "고성 아래 사라진 공방",
+      "source_urls": [
+        "https://book.douban.com/subject/1089523/"
+      ],
+      "caveat": "원작 기물 이름·출처를 근거로 하되 사건 자체는 새 창작이며 실제 아이템 구현·배포 권리는 별도 검토"
+    },
+    {
+      "id": "artifact_008",
+      "name": "무목유서",
+      "verified_origin": "《사조영웅전》 외",
+      "type": "병서",
+      "game_design_effect": "무공 비급이 아닌 병법·전략 유산",
+      "legend_rumor": "전투에서 단 한 번도 물러서지 않은 장수의 문서라는 소문",
+      "location_theme": "옛 관군의 지하 문서고",
+      "source_urls": [
+        "https://seore.org/raw/문서:무협소설/용어"
+      ],
+      "caveat": "원작 기물 이름·출처를 근거로 하되 사건 자체는 새 창작이며 실제 아이템 구현·배포 권리는 별도 검토"
+    },
+    {
+      "id": "artifact_009",
+      "name": "흑옥단속고",
+      "verified_origin": "《의천도룡기》",
+      "type": "영약·치료",
+      "game_design_effect": "특정 심각한 부상 치료에 사용하는 비약",
+      "legend_rumor": "검객이 부러진 뼈를 되찾게 해 준 비약이 있었다고 한다",
+      "location_theme": "한의원의 숨겨진 보관실",
+      "source_urls": [
+        "https://seore.org/raw/문서:무협소설/용어"
+      ],
+      "caveat": "원작 기물 이름·출처를 근거로 하되 사건 자체는 새 창작이며 실제 아이템 구현·배포 권리는 별도 검토"
+    },
+    {
+      "id": "artifact_010",
+      "name": "천잠사",
+      "verified_origin": "무협 장르 관용 소재",
+      "type": "희귀 재료",
+      "game_design_effect": "특수 섬유를 이용한 옷·보호구 재료",
+      "legend_rumor": "칼날도 쉽게 끊지 못하는 신비한 실의 소문",
+      "location_theme": "구릉 잠실의 폐건물",
+      "source_urls": [
+        "https://seore.org/raw/문서:무협소설/용어"
+      ],
+      "caveat": "원작 기물 이름·출처를 근거로 하되 사건 자체는 새 창작이며 실제 아이템 구현·배포 권리는 별도 검토"
+    }
+  ]
+}

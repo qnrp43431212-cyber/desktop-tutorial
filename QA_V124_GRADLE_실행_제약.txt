@@ -1,0 +1,4 @@
+NeoForge Gradle 전체 빌드 검증을 시도했으나 gradle-9.2.1-bin.zip을 services.gradle.org에서 다운로드하지 못했습니다.
+오류: java.net.UnknownHostException: services.gradle.org
+이 환경에서 전체 컴파일 및 실제 게임 실행은 미검증입니다.
+실패 이유는 Maven/Gradle API 오류가 아니라 DNS/네트워크 접근 제한입니다.

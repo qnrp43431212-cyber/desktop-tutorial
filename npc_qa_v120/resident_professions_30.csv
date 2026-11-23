@@ -1,0 +1,31 @@
+﻿id,name_ko,area,day_work,interaction,persistent
+farmer,농부,house,경작·수확,대화·농산물거래,True
+fisher,어부,river,어로·그물정비,대화·생선거래,True
+woodcutter,나무꾼,forest,장작수집·운반,대화·소문,True
+herbal_gatherer,약초꾼,herbalist,산지탐색·채집,약초거래·기연단서,True
+miner,광부,outskirts,채굴·운반,광석거래,True
+hunter,사냥꾼,outskirts,사냥·가죽정리,사냥정보·거래,True
+carpenter,목수,workshop,목공·건축수리,자재거래·의뢰,True
+potter,도공,market,도자기제작·판매,거래,True
+water_carrier,물지게꾼,well,우물·주택왕복,대화,True
+village_elder,촌장,hall,행정·휴식,지역사정·의뢰,True
+householder,주민,house,집안일·시장방문,대화·소문,True
+traveler,길손,street,이동·휴식,소문·길안내,True
+innkeeper,객잔주인,inn,객잔운영·정산,숙박·정보,True
+inn_waiter,점소이,inn,주문응대·배달,음식·소문,True
+inn_cook,객잔요리사,inn,조리·식재료관리,음식구매,True
+tea_master,찻집주인,teahouse,차준비·접객,차·소문,True
+merchant,상인,shop,판매·재고관리,물품거래,True
+peddler,행상,street,노점·이동,거래·길정보,True
+apothecary,약방주인,apothecary,조제·약재관리,약재거래·해독,True
+physician,의원,clinic,진료·약조제,치료·진료의뢰,True
+blacksmith,대장장이,smithy,제련·수리,무기제작·수리,True
+armorer,갑옷장인,smithy,방어구제작,방어구거래,True
+stablehand,마구간지기,stable,말돌봄·마구관리,대여·정보,True
+caravan_boss,상단주,guild,상행관리,거래·호송의뢰,True
+banker,전장관리인,guild,보관·환전,예금·환전,True
+warehouse_clerk,창고지기,warehouse,창고정리·경비협조,보관·거래,True
+tailor,재봉사,market,옷 제작·수선,옷감 거래,True
+papermaker,제지공,workshop,종이 제작,문서용 종이 거래,True
+calligrapher,필사공,hall,서책 필사,필사·서책 의뢰,True
+boatman,뱃사공,river,나룻배 운영,도하·나룻길 안내,True

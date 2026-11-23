@@ -1,0 +1,760 @@
+{
+  "meta": {
+    "title": "무협 모드 구조화 기초 데이터",
+    "language": "ko-KR",
+    "target": "Minecraft 1.21.1 NeoForge",
+    "created_on": "2026-11-22",
+    "status": "research_and_original_proposal",
+    "warning": "아래 능력·기술·세력 관계는 장르 연구 기반 설계 제안이며, 통일된 무협 정본이나 구현 완료 모드를 뜻하지 않는다."
+  },
+  "factions": [
+    {
+      "id": "shaolin",
+      "name": "소림",
+      "category": "정파",
+      "typical_style": "권법·봉술·강체",
+      "structure_theme": "석조 계단·사찰·연무장",
+      "canon_status": "genre_convention_or_proposal"
+    },
+    {
+      "id": "wudang",
+      "name": "무당",
+      "category": "정파",
+      "typical_style": "유연한 검법·반격·내공",
+      "structure_theme": "산악 도관·태극 수련장",
+      "canon_status": "genre_convention_or_proposal"
+    },
+    {
+      "id": "huashan",
+      "name": "화산",
+      "category": "정파",
+      "typical_style": "빠른 검술·연격",
+      "structure_theme": "절벽 산문·매화 숲",
+      "canon_status": "genre_convention_or_proposal"
+    },
+    {
+      "id": "emei",
+      "name": "아미",
+      "category": "정파",
+      "typical_style": "정밀 검술·장법",
+      "structure_theme": "산중 전각·운해",
+      "canon_status": "genre_convention_or_proposal"
+    },
+    {
+      "id": "qingcheng",
+      "name": "청성",
+      "category": "정파",
+      "typical_style": "보법·교란·검술",
+      "structure_theme": "도관·대나무 숲",
+      "canon_status": "genre_convention_or_proposal"
+    },
+    {
+      "id": "kunlun",
+      "name": "곤륜",
+      "category": "정파",
+      "typical_style": "고산 검술·경공",
+      "structure_theme": "고산 설원·고원 길",
+      "canon_status": "genre_convention_or_proposal"
+    },
+    {
+      "id": "kongtong",
+      "name": "공동",
+      "category": "정파",
+      "typical_style": "권·장·견제",
+      "structure_theme": "기암절벽 수련지",
+      "canon_status": "genre_convention_or_proposal"
+    },
+    {
+      "id": "zhongnan",
+      "name": "종남",
+      "category": "정파",
+      "typical_style": "검법·방어",
+      "structure_theme": "산중 은거지",
+      "canon_status": "genre_convention_or_proposal"
+    },
+    {
+      "id": "diancang",
+      "name": "점창",
+      "category": "정파",
+      "typical_style": "유연한 찌르기·신법",
+      "structure_theme": "서남부 고산 산문",
+      "canon_status": "genre_convention_or_proposal"
+    },
+    {
+      "id": "hainan",
+      "name": "해남",
+      "category": "정파",
+      "typical_style": "빠른 검격·해상 적응",
+      "structure_theme": "열대 섬 산문",
+      "canon_status": "genre_convention_or_proposal"
+    },
+    {
+      "id": "beggars",
+      "name": "개방",
+      "category": "정파/중립",
+      "typical_style": "봉술·정보·군중전",
+      "structure_theme": "전국 분타·도시 뒷골목",
+      "canon_status": "genre_convention_or_proposal"
+    },
+    {
+      "id": "namgung",
+      "name": "남궁세가",
+      "category": "세가",
+      "typical_style": "정통 검술·비무",
+      "structure_theme": "세가 저택·연무장",
+      "canon_status": "genre_convention_or_proposal"
+    },
+    {
+      "id": "tang",
+      "name": "사천당문",
+      "category": "세가",
+      "typical_style": "독·암기·기관",
+      "structure_theme": "약초밭·비밀 기관실",
+      "canon_status": "genre_convention_or_proposal"
+    },
+    {
+      "id": "paeng",
+      "name": "하북팽가",
+      "category": "세가",
+      "typical_style": "대도·강타·돌진",
+      "structure_theme": "장원·철공방",
+      "canon_status": "genre_convention_or_proposal"
+    },
+    {
+      "id": "jegal",
+      "name": "제갈세가",
+      "category": "세가",
+      "typical_style": "진법·정보·지략",
+      "structure_theme": "서고·진법 훈련장",
+      "canon_status": "genre_convention_or_proposal"
+    },
+    {
+      "id": "moryong",
+      "name": "모용세가",
+      "category": "세가",
+      "typical_style": "다양한 병장기·전술",
+      "structure_theme": "명문가 장원",
+      "canon_status": "genre_convention_or_proposal"
+    },
+    {
+      "id": "hwangbo",
+      "name": "황보세가",
+      "category": "세가",
+      "typical_style": "외공·강체",
+      "structure_theme": "무술 연마장",
+      "canon_status": "genre_convention_or_proposal"
+    },
+    {
+      "id": "greenwood",
+      "name": "녹림연합",
+      "category": "사파",
+      "typical_style": "기습·궁술·도법",
+      "structure_theme": "산채·숲 요새",
+      "canon_status": "genre_convention_or_proposal"
+    },
+    {
+      "id": "river_bandits",
+      "name": "장강수로채",
+      "category": "사파",
+      "typical_style": "수상전·창·도",
+      "structure_theme": "선착장·수상채",
+      "canon_status": "genre_convention_or_proposal"
+    },
+    {
+      "id": "haomoon",
+      "name": "하오문",
+      "category": "사파/중립",
+      "typical_style": "첩보·잠입",
+      "structure_theme": "주점·비밀 정보망",
+      "canon_status": "genre_convention_or_proposal"
+    },
+    {
+      "id": "assassins",
+      "name": "살수조직",
+      "category": "사파/중립",
+      "typical_style": "은신·단검·투척",
+      "structure_theme": "비밀 암실·은신처",
+      "canon_status": "genre_convention_or_proposal"
+    },
+    {
+      "id": "demonic_cult",
+      "name": "천마신교(가상)",
+      "category": "마도",
+      "typical_style": "마공·기세·강력한 심법",
+      "structure_theme": "절벽성채·성문",
+      "canon_status": "genre_convention_or_proposal"
+    },
+    {
+      "id": "blood_cult",
+      "name": "혈교(가상)",
+      "category": "적대 세력",
+      "typical_style": "금기 의식·마공",
+      "structure_theme": "허구의 의식 유적",
+      "canon_status": "genre_convention_or_proposal"
+    },
+    {
+      "id": "murim_alliance",
+      "name": "무림맹",
+      "category": "연합",
+      "typical_style": "합동 진법·무림 정치",
+      "structure_theme": "연합 본부·회의실",
+      "canon_status": "genre_convention_or_proposal"
+    },
+    {
+      "id": "imperial_guard",
+      "name": "황궁 금의위(가상화)",
+      "category": "관부",
+      "typical_style": "군진·검술·체포",
+      "structure_theme": "성곽·군영",
+      "canon_status": "genre_convention_or_proposal"
+    },
+    {
+      "id": "escort_agency",
+      "name": "표국",
+      "category": "중립",
+      "typical_style": "호송·호위·창술",
+      "structure_theme": "교역로·마차 숙영지",
+      "canon_status": "genre_convention_or_proposal"
+    },
+    {
+      "id": "merchant_guild",
+      "name": "상단",
+      "category": "중립",
+      "typical_style": "거래·이동·정보",
+      "structure_theme": "객잔·항구·시장",
+      "canon_status": "genre_convention_or_proposal"
+    },
+    {
+      "id": "healers",
+      "name": "의가",
+      "category": "중립",
+      "typical_style": "의술·해독·정신안정",
+      "structure_theme": "의원·약방",
+      "canon_status": "genre_convention_or_proposal"
+    }
+  ],
+  "realms": [
+    {
+      "id": "ordinary",
+      "name": "일반인/입문",
+      "tier": 0,
+      "description": "기초 훈련",
+      "breakthrough_example": "항시",
+      "unlock_example": [],
+      "canon_status": "proposed_game_order"
+    },
+    {
+      "id": "third_rate",
+      "name": "삼류",
+      "tier": 1,
+      "description": "기본 무공 습득",
+      "breakthrough_example": "기초 훈련과 간단한 입문 과제",
+      "unlock_example": [
+        "평타 연계"
+      ],
+      "canon_status": "proposed_game_order"
+    },
+    {
+      "id": "second_rate",
+      "name": "이류",
+      "tier": 2,
+      "description": "호흡·보법 응용",
+      "breakthrough_example": "심법 수련 및 기본 비무",
+      "unlock_example": [
+        "기초 경공"
+      ],
+      "canon_status": "proposed_game_order"
+    },
+    {
+      "id": "first_rate",
+      "name": "일류",
+      "tier": 3,
+      "description": "기술의 정교한 운용",
+      "breakthrough_example": "실전 숙련·사부 평가",
+      "unlock_example": [
+        "방어 반격"
+      ],
+      "canon_status": "proposed_game_order"
+    },
+    {
+      "id": "peak",
+      "name": "절정",
+      "tier": 4,
+      "description": "완성도 높은 무공",
+      "breakthrough_example": "장기 수련·전문 초식 완성",
+      "unlock_example": [
+        "고급 초식"
+      ],
+      "canon_status": "proposed_game_order"
+    },
+    {
+      "id": "transcendent_peak",
+      "name": "초절정",
+      "tier": 5,
+      "description": "정상급 기예",
+      "breakthrough_example": "특수 강호 시련",
+      "unlock_example": [
+        "극의 응용"
+      ],
+      "canon_status": "proposed_game_order"
+    },
+    {
+      "id": "transformation",
+      "name": "화경",
+      "tier": 6,
+      "description": "무공과 신체·정신의 조화",
+      "breakthrough_example": "개인의 깨달음",
+      "unlock_example": [
+        "내력 효율 증가"
+      ],
+      "canon_status": "proposed_game_order"
+    },
+    {
+      "id": "profound",
+      "name": "현경",
+      "tier": 7,
+      "description": "전설적 수련자",
+      "breakthrough_example": "희귀 서사 이벤트",
+      "unlock_example": [
+        "기세·의념 연계"
+      ],
+      "canon_status": "proposed_game_order"
+    },
+    {
+      "id": "life_death",
+      "name": "생사경",
+      "tier": 8,
+      "description": "전설적 최고 경지",
+      "breakthrough_example": "월드 결말 선택",
+      "unlock_example": [
+        "종국의 오의"
+      ],
+      "canon_status": "proposed_game_order"
+    }
+  ],
+  "weapon_types": [
+    {
+      "id": "jian",
+      "name": "검",
+      "combat_role": "균형·정밀"
+    },
+    {
+      "id": "dao",
+      "name": "도",
+      "combat_role": "강타·파쇄"
+    },
+    {
+      "id": "spear",
+      "name": "창",
+      "combat_role": "사거리·찌르기"
+    },
+    {
+      "id": "staff",
+      "name": "봉",
+      "combat_role": "제압·방어"
+    },
+    {
+      "id": "polearm",
+      "name": "극",
+      "combat_role": "광역·압박"
+    },
+    {
+      "id": "guandao",
+      "name": "관도",
+      "combat_role": "중량·휩쓸기"
+    },
+    {
+      "id": "dagger",
+      "name": "단검",
+      "combat_role": "기습·속도"
+    },
+    {
+      "id": "throwing",
+      "name": "암기",
+      "combat_role": "투척·상태이상"
+    },
+    {
+      "id": "whip",
+      "name": "편",
+      "combat_role": "원거리 근접·견제"
+    },
+    {
+      "id": "meteor_hammer",
+      "name": "유성추",
+      "combat_role": "회전·궤도"
+    },
+    {
+      "id": "axe",
+      "name": "부",
+      "combat_role": "공격력·방어구 파괴"
+    },
+    {
+      "id": "hooks",
+      "name": "갈고리",
+      "combat_role": "무기 방해"
+    },
+    {
+      "id": "nunchaku",
+      "name": "연자곤",
+      "combat_role": "연속 타격"
+    },
+    {
+      "id": "bow",
+      "name": "활",
+      "combat_role": "원거리·매복"
+    },
+    {
+      "id": "crossbow",
+      "name": "쇠뇌",
+      "combat_role": "원거리·관통"
+    },
+    {
+      "id": "fist",
+      "name": "권",
+      "combat_role": "맨손·연격"
+    },
+    {
+      "id": "palm",
+      "name": "장",
+      "combat_role": "밀어내기·기공"
+    },
+    {
+      "id": "finger",
+      "name": "지",
+      "combat_role": "정밀·점혈"
+    },
+    {
+      "id": "legs",
+      "name": "각",
+      "combat_role": "기동·넉백"
+    }
+  ],
+  "sample_original_skills": [
+    {
+      "id": "basic_breathing",
+      "name": "토납조식",
+      "school": "내공",
+      "min_realm_tier": 0,
+      "mechanic": "정지 상태에서 기력을 회복한다.",
+      "canon_status": "original_design_example"
+    },
+    {
+      "id": "quick_step",
+      "name": "운보",
+      "school": "경공",
+      "min_realm_tier": 1,
+      "mechanic": "짧은 방향 이동을 한다.",
+      "canon_status": "original_design_example"
+    },
+    {
+      "id": "backstep",
+      "name": "역보",
+      "school": "경공",
+      "min_realm_tier": 1,
+      "mechanic": "뒤로 회피한다.",
+      "canon_status": "original_design_example"
+    },
+    {
+      "id": "three_sword_forms",
+      "name": "연검",
+      "school": "검",
+      "min_realm_tier": 1,
+      "mechanic": "연속 검격을 사용한다.",
+      "canon_status": "original_design_example"
+    },
+    {
+      "id": "short_punch",
+      "name": "충권",
+      "school": "권",
+      "min_realm_tier": 1,
+      "mechanic": "근거리의 빠른 타격.",
+      "canon_status": "original_design_example"
+    },
+    {
+      "id": "sweeping_staff",
+      "name": "횡봉",
+      "school": "봉",
+      "min_realm_tier": 1,
+      "mechanic": "전방을 제압한다.",
+      "canon_status": "original_design_example"
+    },
+    {
+      "id": "flying_stone",
+      "name": "비도투척",
+      "school": "암기",
+      "min_realm_tier": 1,
+      "mechanic": "가벼운 무기를 투척한다.",
+      "canon_status": "original_design_example"
+    },
+    {
+      "id": "counter_sword",
+      "name": "회풍검",
+      "school": "검",
+      "min_realm_tier": 3,
+      "mechanic": "공격을 흘린 후 베어낸다.",
+      "canon_status": "original_design_example"
+    },
+    {
+      "id": "heavy_broadsword",
+      "name": "파암참",
+      "school": "도",
+      "min_realm_tier": 3,
+      "mechanic": "강한 하향 베기로 자세를 무너뜨린다.",
+      "canon_status": "original_design_example"
+    },
+    {
+      "id": "water_step",
+      "name": "침수보",
+      "school": "경공",
+      "min_realm_tier": 4,
+      "mechanic": "물 위를 일시적으로 달린다.",
+      "canon_status": "original_design_example"
+    },
+    {
+      "id": "guard_aura",
+      "name": "호신기막",
+      "school": "내공",
+      "min_realm_tier": 4,
+      "mechanic": "일시적으로 피해를 경감한다.",
+      "canon_status": "original_design_example"
+    },
+    {
+      "id": "sword_wave",
+      "name": "검풍",
+      "school": "검기",
+      "min_realm_tier": 5,
+      "mechanic": "검으로 원거리 충격파를 낸다.",
+      "canon_status": "original_design_example"
+    },
+    {
+      "id": "formation_shield",
+      "name": "진형결속",
+      "school": "진법",
+      "min_realm_tier": 4,
+      "mechanic": "가까운 아군의 협력을 강화한다.",
+      "canon_status": "original_design_example"
+    },
+    {
+      "id": "focused_strike",
+      "name": "일검정심",
+      "school": "검",
+      "min_realm_tier": 5,
+      "mechanic": "관찰 시간이 길수록 강한 정밀 일격을 낸다.",
+      "canon_status": "original_design_example"
+    }
+  ],
+  "regions": [
+    {
+      "id": "central_plains",
+      "name": "중원 평야",
+      "worldgen_theme": "평야·농촌·시장·관부"
+    },
+    {
+      "id": "jade_mountains",
+      "name": "가상 절벽산맥",
+      "worldgen_theme": "검파·산문·비급동굴"
+    },
+    {
+      "id": "bamboo_valley",
+      "name": "대나무 계곡",
+      "worldgen_theme": "은거지·보법"
+    },
+    {
+      "id": "western_frontier",
+      "name": "서역 변방",
+      "worldgen_theme": "사막·오아시스·이동상단"
+    },
+    {
+      "id": "great_river",
+      "name": "큰 강 권역",
+      "worldgen_theme": "수로채·나루·표국"
+    },
+    {
+      "id": "snowy_peaks",
+      "name": "설산",
+      "worldgen_theme": "영초·빙굴·설산 수행"
+    },
+    {
+      "id": "southern_wetlands",
+      "name": "남방 습지",
+      "worldgen_theme": "약초·습지·독 안개"
+    },
+    {
+      "id": "eastern_isles",
+      "name": "동해 군도",
+      "worldgen_theme": "어촌·항구·섬 문파"
+    },
+    {
+      "id": "murim_city",
+      "name": "강호 대도시",
+      "worldgen_theme": "객잔·비무장·정보망"
+    },
+    {
+      "id": "imperial_border",
+      "name": "황궁 접경",
+      "worldgen_theme": "성곽·군영·관부"
+    }
+  ],
+  "quest_seeds": [
+    {
+      "id": "quest_01",
+      "title": "제자 입문시험"
+    },
+    {
+      "id": "quest_02",
+      "title": "객잔 시비 중재"
+    },
+    {
+      "id": "quest_03",
+      "title": "사부에게 배운 초식 검증"
+    },
+    {
+      "id": "quest_04",
+      "title": "분실한 비급 추적"
+    },
+    {
+      "id": "quest_05",
+      "title": "표국 호송"
+    },
+    {
+      "id": "quest_06",
+      "title": "산적 통행세 분쟁"
+    },
+    {
+      "id": "quest_07",
+      "title": "정보상 오정보 판별"
+    },
+    {
+      "id": "quest_08",
+      "title": "장인에게 명검 의뢰"
+    },
+    {
+      "id": "quest_09",
+      "title": "의원의 해독 재료 조달"
+    },
+    {
+      "id": "quest_10",
+      "title": "설산 실종자 수색"
+    },
+    {
+      "id": "quest_11",
+      "title": "낡은 문파 재건"
+    },
+    {
+      "id": "quest_12",
+      "title": "기문 진법 퍼즐"
+    },
+    {
+      "id": "quest_13",
+      "title": "무림맹 의결"
+    },
+    {
+      "id": "quest_14",
+      "title": "정사간 외교"
+    },
+    {
+      "id": "quest_15",
+      "title": "세가 후계자 보호"
+    },
+    {
+      "id": "quest_16",
+      "title": "황궁 밀명"
+    },
+    {
+      "id": "quest_17",
+      "title": "대련 초대"
+    },
+    {
+      "id": "quest_18",
+      "title": "문파 비무대회"
+    },
+    {
+      "id": "quest_19",
+      "title": "강호 은원 해소"
+    },
+    {
+      "id": "quest_20",
+      "title": "은거 고수의 가르침"
+    },
+    {
+      "id": "quest_21",
+      "title": "내상 회복"
+    },
+    {
+      "id": "quest_22",
+      "title": "수로채 교섭"
+    },
+    {
+      "id": "quest_23",
+      "title": "마도 교단의 내부 정치"
+    },
+    {
+      "id": "quest_24",
+      "title": "암살 의뢰 거절과 보호"
+    },
+    {
+      "id": "quest_25",
+      "title": "민가 보상"
+    },
+    {
+      "id": "quest_26",
+      "title": "장강 수로 호위"
+    },
+    {
+      "id": "quest_27",
+      "title": "사문 배신 조사"
+    },
+    {
+      "id": "quest_28",
+      "title": "전대 고수의 유물"
+    },
+    {
+      "id": "quest_29",
+      "title": "고대 묘역 탐사"
+    },
+    {
+      "id": "quest_30",
+      "title": "최종 천하제일 결투"
+    }
+  ],
+  "glossary": {
+    "강호": "무림인·상인·유랑민·정보망 등이 활동하는 사회적 공간",
+    "무림": "강호 내 무인과 무공 조직을 중심으로 한 공동체",
+    "협": "약자를 돕고 신의를 지키는 협객의 정신",
+    "정파": "자신들이 정통을 계승한다고 주장하는 무림 조직군",
+    "사파": "정파와 다른 이해관계나 무공 전통을 지닌 조직군",
+    "마교": "무협소설에서 쓰이는 독립적 교단형 세력의 이미지",
+    "문파": "사제 관계·무학을 전수하는 무인 조직",
+    "세가": "혈통과 가업을 중심으로 존속하는 무인 가문",
+    "장문인": "문파 수장",
+    "가주": "가문 수장",
+    "방주": "방/길드 수장",
+    "교주": "교단 수장",
+    "표국": "호위와 운송을 업으로 하는 조직",
+    "비급": "무공의 원리를 기록한 희귀 문헌",
+    "심법": "마음과 기운 운용을 가르치는 수련법",
+    "내공": "무협에서 신체 내부의 기운을 축적·운용하는 수행",
+    "경공": "빠른 이동과 고도약을 하는 무술의 문학적 범주",
+    "보법": "발의 움직임·거리 조절을 다루는 기술",
+    "진법": "협동 진형·지형 배치를 이용하는 기술",
+    "기연": "우연한 인연으로 얻는 희귀한 기회",
+    "주화입마": "무리한 수련과 심신 혼란의 장르적 결과",
+    "은원": "은혜와 원한에 얽힌 관계",
+    "별호": "강호에서 주어지는 인물의 이름 또는 명칭",
+    "검기": "검에 실리거나 검에서 발산되는 장르적 기운",
+    "검강": "검기보다 한층 압축·응집된 기술의 소설적 이미지",
+    "단전": "기를 모으는 자리라는 전통 사상과 무협의 개념"
+  },
+  "reading_notes": {
+    "morality": "정/사/마라는 조직 분류가 NPC의 선악을 결정하지 않는다",
+    "history_vs_fiction": "실제 지리·종교·무술과 소설적 단전/마공/무림맹을 구분한다",
+    "rights": "개별 소설의 캐릭터·고유한 기술 설명·텍스처는 별도 라이선스 검토"
+  },
+  "sources": [
+    "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003161253",
+    "https://actualwuxiatranslations.wordpress.com/2025/04/23/schools-and-sects-gangs-and-guilds-part-1-general-overview/",
+    "https://wuxiasociety.com/wuxia/",
+    "https://www.berkshirepublishing.com/ecph-china/2024/02/05/a-short-history-of-chinese-martial-arts-%E6%AD%A6%E6%9C%AF%E5%8F%B2%E8%AF%9D/",
+    "https://docs.neoforged.net/docs/1.21.1/datastorage/saveddata/"
+  ]
+}

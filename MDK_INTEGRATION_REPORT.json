@@ -1,0 +1,25 @@
+{
+  "input_mdk": "MDK-1.21.1-ModDevGradle-main.zip",
+  "source_base": "MurimLife_v1_9_Integrated_Source",
+  "moddevgradle_version": "2.0.148",
+  "gradle_wrapper_version": "9.2.1",
+  "java_target": "21",
+  "minecraft": "1.21.1",
+  "neoforge": "21.1.235",
+  "structures_upgraded_from": "v1.8",
+  "structure_files": [
+    "blood_cult_sanctum.nbt",
+    "city_inn.nbt",
+    "heavenly_demon_palace.nbt",
+    "jianghu_inn.nbt",
+    "martial_tournament_arena.nbt",
+    "meditation_hall.nbt",
+    "mountain_sect_pavilion.nbt",
+    "murim_alliance_headquarters.nbt",
+    "test_marker.nbt",
+    "village_inn.nbt"
+  ],
+  "java_mod_files": 17,
+  "java_rule_files": 14,
+  "status": "Prepared, not built or in-game verified"
+}

@@ -1,0 +1,3464 @@
+{
+  "metadata": {
+    "project": "Minecraft 1.21.1 NeoForge 무협 모드",
+    "version": "v1.4 문파별 무공 및 《이 무림의 미친년은 나야》 조사",
+    "created": "2026-11-22",
+    "status": "문헌·팬자료를 바탕으로 모드 설계용 분류. 무공 구현·권리 확보·게임플레이 수치 확정 아님",
+    "methodology": [
+      "A: 《이 무림의 미친년은 나야》 명칭·문파·계통·화수는 해당 작품의 팬 정리에서 확인한 내용. 원문 회차 전체 직접 대조는 아님.",
+      "B: 일반 무협 문파 무공은 장르 사전, 팬 정리, 개별 작품에서 흔히 거론되는 명칭. 작품별 계보 차이 있음.",
+      "C: 모드 전투 특징·무공 등급·보상 및 수련 방식은 별도의 게임용 제안이며 원작 정설 아님.",
+      "D: 명칭이 확인되지 않은 문파 무공은 빈칸으로 두고 만들어내지 않음.",
+      "E: 창작물의 고유명사·설정 및 연출을 공개 배포하는 모드에 직접 반영하기 전 권리 확인 필요."
+    ],
+    "original_novel": "이 무림의 미친년은 나야",
+    "novel_author": "정통무협조와요",
+    "novel_rank_colors_low_to_high": [
+      "흰색",
+      "파란색",
+      "빨간색",
+      "금색",
+      "보라색"
+    ],
+    "game_tiers_proposed_existing": [
+      "기초무공",
+      "정통무공",
+      "상승무공",
+      "절기",
+      "절학",
+      "신공",
+      "전설급"
+    ],
+    "notes": "작품 내 무공 색 등급과 모드용 등급은 1:1 매핑 금지"
+  },
+  "general_wuxia_sect_registry": [
+    {
+      "name": "소림사",
+      "category": "정파·불가",
+      "combat_identity_game_proposal": "묵직한 권장·곤법, 수비 외공, 내공 운용",
+      "source_url": "https://gall.dcinside.com/mgallery/board/view/?id=genrenovel&no=1973892",
+      "source_note": "한국 무협 장르의 통용·가변 설정. 특정 작품의 공식 단일 계보 아님.",
+      "proposed_learning_route": "입문/전수·비급·기연 등 조건에 따라 획득",
+      "martial_arts": [
+        {
+          "name": "역근경",
+          "type": "내공심법",
+          "original_work_grade": null,
+          "episode_if_documented": null,
+          "source_url": "https://gall.dcinside.com/mgallery/board/view/?id=genrenovel&no=1973892",
+          "provenance": "무협 장르 문파 무공 집합·2차 자료",
+          "mod_tier_proposal": "신공 (모드용 제안·미확정)"
+        },
+        {
+          "name": "세수경",
+          "type": "내공심법",
+          "original_work_grade": null,
+          "episode_if_documented": null,
+          "source_url": "https://gall.dcinside.com/mgallery/board/view/?id=genrenovel&no=1973892",
+          "provenance": "무협 장르 문파 무공 집합·2차 자료",
+          "mod_tier_proposal": "절학 (모드용 제안·미확정)"
+        },
+        {
+          "name": "백보신권",
+          "type": "권법",
+          "original_work_grade": null,
+          "episode_if_documented": null,
+          "source_url": "https://gall.dcinside.com/mgallery/board/view/?id=genrenovel&no=1973892",
+          "provenance": "무협 장르 문파 무공 집합·2차 자료",
+          "mod_tier_proposal": "절학 (모드용 제안·미확정)"
+        },
+        {
+          "name": "나한권",
+          "type": "권법",
+          "original_work_grade": null,
+          "episode_if_documented": null,
+          "source_url": "https://gall.dcinside.com/mgallery/board/view/?id=genrenovel&no=1973892",
+          "provenance": "무협 장르 문파 무공 집합·2차 자료",
+          "mod_tier_proposal": "정통무공 (모드용 제안·미확정)"
+        },
+        {
+          "name": "대력금강장",
+          "type": "장법",
+          "original_work_grade": null,
+          "episode_if_documented": null,
+          "source_url": "https://gall.dcinside.com/mgallery/board/view/?id=genrenovel&no=1973892",
+          "provenance": "무협 장르 문파 무공 집합·2차 자료",
+          "mod_tier_proposal": "미정(원작 위상과 전승·상성 검토 후 결정)"
+        },
+        {
+          "name": "금강불괴신공",
+          "type": "외공",
+          "original_work_grade": null,
+          "episode_if_documented": null,
+          "source_url": "https://gall.dcinside.com/mgallery/board/view/?id=genrenovel&no=1973892",
+          "provenance": "무협 장르 문파 무공 집합·2차 자료",
+          "mod_tier_proposal": "미정(원작 위상과 전승·상성 검토 후 결정)"
+        },
+        {
+          "name": "용조수",
+          "type": "조법",
+          "original_work_grade": null,
+          "episode_if_documented": null,
+          "source_url": "https://gall.dcinside.com/mgallery/board/view/?id=genrenovel&no=1973892",
+          "provenance": "무협 장르 문파 무공 집합·2차 자료",
+          "mod_tier_proposal": "미정(원작 위상과 전승·상성 검토 후 결정)"
+        },
+        {
+          "name": "사자후",
+          "type": "음공",
+          "original_work_grade": null,
+          "episode_if_documented": null,
+          "source_url": "https://gall.dcinside.com/mgallery/board/view/?id=genrenovel&no=1973892",
+          "provenance": "무협 장르 문파 무공 집합·2차 자료",
+          "mod_tier_proposal": "미정(원작 위상과 전승·상성 검토 후 결정)"
+        },
+        {
+          "name": "연대구품",
+          "type": "신법",
+          "original_work_grade": null,
+          "episode_if_documented": null,
+          "source_url": "https://gall.dcinside.com/mgallery/board/view/?id=genrenovel&no=1973892",
+          "provenance": "무협 장르 문파 무공 집합·2차 자료",
+          "mod_tier_proposal": "미정(원작 위상과 전승·상성 검토 후 결정)"
+        },
+        {
+          "name": "달마검법",
+          "type": "검법",
+          "original_work_grade": null,
+          "episode_if_documented": null,
+          "source_url": "https://gall.dcinside.com/mgallery/board/view/?id=genrenovel&no=1973892",
+          "provenance": "무협 장르 문파 무공 집합·2차 자료",
+          "mod_tier_proposal": "미정(원작 위상과 전승·상성 검토 후 결정)"
+        },
+        {
+          "name": "나한진",
+          "type": "진법",
+          "original_work_grade": null,
+          "episode_if_documented": null,
+          "source_url": "https://gall.dcinside.com/mgallery/board/view/?id=genrenovel&no=1973892",
+          "provenance": "무협 장르 문파 무공 집합·2차 자료",
+          "mod_tier_proposal": "미정(원작 위상과 전승·상성 검토 후 결정)"
+        }
+      ]
+    },
+    {
+      "name": "무당파",
+      "category": "정파·도가",
+      "combat_identity_game_proposal": "유능제강, 반격·방향 전환·패링",
+      "source_url": "https://gall.dcinside.com/mgallery/board/view/?id=genrenovel&no=1973892",
+      "source_note": "한국 무협 장르의 통용·가변 설정. 특정 작품의 공식 단일 계보 아님.",
+      "proposed_learning_route": "입문/전수·비급·기연 등 조건에 따라 획득",
+      "martial_arts": [
+        {
+          "name": "태극권",
+          "type": "권법",
+          "original_work_grade": null,
+          "episode_if_documented": null,
+          "source_url": "https://gall.dcinside.com/mgallery/board/view/?id=genrenovel&no=1973892",
+          "provenance": "무협 장르 문파 무공 집합·2차 자료",
+          "mod_tier_proposal": "상승무공 (모드용 제안·미확정)"
+        },
+        {
+          "name": "태극검",
+          "type": "검법",
+          "original_work_grade": null,
+          "episode_if_documented": null,
+          "source_url": "https://gall.dcinside.com/mgallery/board/view/?id=genrenovel&no=1973892",
+          "provenance": "무협 장르 문파 무공 집합·2차 자료",
+          "mod_tier_proposal": "절학 (모드용 제안·미확정)"
+        },
+        {
+          "name": "태극혜검",
+          "type": "검법",
+          "original_work_grade": null,
+          "episode_if_documented": null,
+          "source_url": "https://gall.dcinside.com/mgallery/board/view/?id=genrenovel&no=1973892",
+          "provenance": "무협 장르 문파 무공 집합·2차 자료",
+          "mod_tier_proposal": "신공 (모드용 제안·미확정)"
+        },
+        {
+          "name": "소청검법",
+          "type": "검법",
+          "original_work_grade": null,
+          "episode_if_documented": null,
+          "source_url": "https://gall.dcinside.com/mgallery/board/view/?id=genrenovel&no=1973892",
+          "provenance": "무협 장르 문파 무공 집합·2차 자료",
+          "mod_tier_proposal": "미정(원작 위상과 전승·상성 검토 후 결정)"
+        },
+        {
+          "name": "태청검법",
+          "type": "검법",
+          "original_work_grade": null,
+          "episode_if_documented": null,
+          "source_url": "https://gall.dcinside.com/mgallery/board/view/?id=genrenovel&no=1973892",
+          "provenance": "무협 장르 문파 무공 집합·2차 자료",
+          "mod_tier_proposal": "미정(원작 위상과 전승·상성 검토 후 결정)"
+        },
+        {
+          "name": "면장",
+          "type": "장법",
+          "original_work_grade": null,
+          "episode_if_documented": null,
+          "source_url": "https://gall.dcinside.com/mgallery/board/view/?id=genrenovel&no=1973892",
+          "provenance": "무협 장르 문파 무공 집합·2차 자료",
+          "mod_tier_proposal": "미정(원작 위상과 전승·상성 검토 후 결정)"
+        },
+        {
+          "name": "양의공",
+          "type": "심법",
+          "original_work_grade": null,
+          "episode_if_documented": null,
+          "source_url": "https://gall.dcinside.com/mgallery/board/view/?id=genrenovel&no=1973892",
+          "provenance": "무협 장르 문파 무공 집합·2차 자료",
+          "mod_tier_proposal": "미정(원작 위상과 전승·상성 검토 후 결정)"
+        },
+        {
+          "name": "제운종",
+          "type": "경공",
+          "original_work_grade": null,
+          "episode_if_documented": null,
+          "source_url": "https://gall.dcinside.com/mgallery/board/view/?id=genrenovel&no=1973892",
+          "provenance": "무협 장르 문파 무공 집합·2차 자료",
+          "mod_tier_proposal": "미정(원작 위상과 전승·상성 검토 후 결정)"
+        },
+        {
+          "name": "십단금",
+          "type": "수련공",
+          "original_work_grade": null,
+          "episode_if_documented": null,
+          "source_url": "https://gall.dcinside.com/mgallery/board/view/?id=genrenovel&no=1973892",
+          "provenance": "무협 장르 문파 무공 집합·2차 자료",
+          "mod_tier_proposal": "미정(원작 위상과 전승·상성 검토 후 결정)"
+        }
+      ]
+    },
+    {
+      "name": "화산파",
+      "category": "정파·도가",
+      "combat_identity_game_proposal": "매화 검로·연속 초식·변검, 쾌검",
+      "source_url": "https://gall.dcinside.com/mgallery/board/view/?id=genrenovel&no=1973892",
+      "source_note": "한국 무협 장르의 통용·가변 설정. 특정 작품의 공식 단일 계보 아님.",
+      "proposed_learning_route": "입문/전수·비급·기연 등 조건에 따라 획득",
+      "martial_arts": [
+        {
+          "name": "이십사수매화검법",
+          "type": "검법",
+          "original_work_grade": null,
+          "episode_if_documented": null,
+          "source_url": "https://gall.dcinside.com/mgallery/board/view/?id=genrenovel&no=1973892",
+          "provenance": "무협 장르 문파 무공 집합·2차 자료",
+          "mod_tier_proposal": "절학 (모드용 제안·미확정)"
+        },
+        {
+          "name": "자하신공",
+          "type": "심법",
+          "original_work_grade": null,
+          "episode_if_documented": null,
+          "source_url": "https://gall.dcinside.com/mgallery/board/view/?id=genrenovel&no=1973892",
+          "provenance": "무협 장르 문파 무공 집합·2차 자료",
+          "mod_tier_proposal": "절학 (모드용 제안·미확정)"
+        },
+        {
+          "name": "매화검법",
+          "type": "검법",
+          "original_work_grade": null,
+          "episode_if_documented": null,
+          "source_url": "https://gall.dcinside.com/mgallery/board/view/?id=genrenovel&no=1973892",
+          "provenance": "무협 장르 문파 무공 집합·2차 자료",
+          "mod_tier_proposal": "미정(원작 위상과 전승·상성 검토 후 결정)"
+        },
+        {
+          "name": "화산검법",
+          "type": "검법",
+          "original_work_grade": null,
+          "episode_if_documented": null,
+          "source_url": "https://gall.dcinside.com/mgallery/board/view/?id=genrenovel&no=1973892",
+          "provenance": "무협 장르 문파 무공 집합·2차 자료",
+          "mod_tier_proposal": "정통무공 (모드용 제안·미확정)"
+        }
+      ]
+    },
+    {
+      "name": "아미파",
+      "category": "정파",
+      "combat_identity_game_proposal": "정교한 권장·검법과 수비전술",
+      "source_url": "https://gall.dcinside.com/mgallery/board/view/?id=genrenovel&no=1973892",
+      "source_note": "자료 출처는 팬이 정리한 한국 무협 통용 명칭으로 소설마다 내용이 다름",
+      "proposed_learning_route": "입문/전수·비급·기연 등 조건에 따라 획득",
+      "martial_arts": [
+        {
+          "name": "표설천운장",
+          "type": "장법",
+          "original_work_grade": null,
+          "episode_if_documented": null,
+          "source_url": "https://gall.dcinside.com/mgallery/board/view/?id=genrenovel&no=1973892",
+          "provenance": "무협 장르 문파 무공 집합·2차 자료",
+          "mod_tier_proposal": "미정(원작 위상과 전승·상성 검토 후 결정)"
+        },
+        {
+          "name": "절수구식",
+          "type": "수법",
+          "original_work_grade": null,
+          "episode_if_documented": null,
+          "source_url": "https://gall.dcinside.com/mgallery/board/view/?id=genrenovel&no=1973892",
+          "provenance": "무협 장르 문파 무공 집합·2차 자료",
+          "mod_tier_proposal": "미정(원작 위상과 전승·상성 검토 후 결정)"
+        }
+      ]
+    },
+    {
+      "name": "청성파",
+      "category": "정파·도가",
+      "combat_identity_game_proposal": "쾌검·연속 검선·거리 조절",
+      "source_url": "https://www.namu.moe/w/청성파",
+      "source_note": "한국 무협 장르의 통용·가변 설정. 특정 작품의 공식 단일 계보 아님.",
+      "proposed_learning_route": "입문/전수·비급·기연 등 조건에 따라 획득",
+      "martial_arts": [
+        {
+          "name": "청풍검법",
+          "type": "검법",
+          "original_work_grade": null,
+          "episode_if_documented": null,
+          "source_url": "https://www.namu.moe/w/청성파",
+          "provenance": "무협 장르 문파 무공 집합·2차 자료",
+          "mod_tier_proposal": "정통무공 (모드용 제안·미확정)"
+        },
+        {
+          "name": "송풍검법",
+          "type": "검법",
+          "original_work_grade": null,
+          "episode_if_documented": null,
+          "source_url": "https://www.namu.moe/w/청성파",
+          "provenance": "무협 장르 문파 무공 집합·2차 자료",
+          "mod_tier_proposal": "정통무공 (모드용 제안·미확정)"
+        },
+        {
+          "name": "능풍검법",
+          "type": "검법",
+          "original_work_grade": null,
+          "episode_if_documented": null,
+          "source_url": "https://www.namu.moe/w/청성파",
+          "provenance": "무협 장르 문파 무공 집합·2차 자료",
+          "mod_tier_proposal": "미정(원작 위상과 전승·상성 검토 후 결정)"
+        },
+        {
+          "name": "대라검법",
+          "type": "검법",
+          "original_work_grade": null,
+          "episode_if_documented": null,
+          "source_url": "https://www.namu.moe/w/청성파",
+          "provenance": "무협 장르 문파 무공 집합·2차 자료",
+          "mod_tier_proposal": "미정(원작 위상과 전승·상성 검토 후 결정)"
+        },
+        {
+          "name": "상청검법",
+          "type": "검법",
+          "original_work_grade": null,
+          "episode_if_documented": null,
+          "source_url": "https://www.namu.moe/w/청성파",
+          "provenance": "무협 장르 문파 무공 집합·2차 자료",
+          "mod_tier_proposal": "미정(원작 위상과 전승·상성 검토 후 결정)"
+        },
+        {
+          "name": "칠십이파검",
+          "type": "검법",
+          "original_work_grade": null,
+          "episode_if_documented": null,
+          "source_url": "https://www.namu.moe/w/청성파",
+          "provenance": "무협 장르 문파 무공 집합·2차 자료",
+          "mod_tier_proposal": "절학 (모드용 제안·미확정)"
+        },
+        {
+          "name": "청운적하검법",
+          "type": "검법",
+          "original_work_grade": null,
+          "episode_if_documented": null,
+          "source_url": "https://www.namu.moe/w/청성파",
+          "provenance": "무협 장르 문파 무공 집합·2차 자료",
+          "mod_tier_proposal": "절학 (모드용 제안·미확정)"
+        },
+        {
+          "name": "대라산수",
+          "type": "수법",
+          "original_work_grade": null,
+          "episode_if_documented": null,
+          "source_url": "https://www.namu.moe/w/청성파",
+          "provenance": "무협 장르 문파 무공 집합·2차 자료",
+          "mod_tier_proposal": "미정(원작 위상과 전승·상성 검토 후 결정)"
+        },
+        {
+          "name": "사전절광검",
+          "type": "검법",
+          "original_work_grade": null,
+          "episode_if_documented": null,
+          "source_url": "https://www.namu.moe/w/청성파",
+          "provenance": "무협 장르 문파 무공 집합·2차 자료",
+          "mod_tier_proposal": "미정(원작 위상과 전승·상성 검토 후 결정)"
+        },
+        {
+          "name": "운저비성",
+          "type": "암기",
+          "original_work_grade": null,
+          "episode_if_documented": null,
+          "source_url": "https://www.namu.moe/w/청성파",
+          "provenance": "무협 장르 문파 무공 집합·2차 자료",
+          "mod_tier_proposal": "미정(원작 위상과 전승·상성 검토 후 결정)"
+        }
+      ]
+    },
+    {
+      "name": "곤륜파",
+      "category": "정파·도가",
+      "combat_identity_game_proposal": "공중 기동·연환 보법·먼 거리 공격",
+      "source_url": "https://zournal.co.kr/520",
+      "source_note": "한국 무협 장르의 통용·가변 설정. 특정 작품의 공식 단일 계보 아님.",
+      "proposed_learning_route": "입문/전수·비급·기연 등 조건에 따라 획득",
+      "martial_arts": [
+        {
+          "name": "운룡대팔식",
+          "type": "신법",
+          "original_work_grade": null,
+          "episode_if_documented": null,
+          "source_url": "https://zournal.co.kr/520",
+          "provenance": "무협 장르 문파 무공 집합·2차 자료",
+          "mod_tier_proposal": "절학 (모드용 제안·미확정)"
+        },
+        {
+          "name": "용봉대구식",
+          "type": "신법",
+          "original_work_grade": null,
+          "episode_if_documented": null,
+          "source_url": "https://zournal.co.kr/520",
+          "provenance": "무협 장르 문파 무공 집합·2차 자료",
+          "mod_tier_proposal": "미정(원작 위상과 전승·상성 검토 후 결정)"
+        },
+        {
+          "name": "태허도룡검",
+          "type": "검법",
+          "original_work_grade": null,
+          "episode_if_documented": null,
+          "source_url": "https://zournal.co.kr/520",
+          "provenance": "무협 장르 문파 무공 집합·2차 자료",
+          "mod_tier_proposal": "미정(원작 위상과 전승·상성 검토 후 결정)"
+        },
+        {
+          "name": "태청검법",
+          "type": "검법",
+          "original_work_grade": null,
+          "episode_if_documented": null,
+          "source_url": "https://zournal.co.kr/520",
+          "provenance": "무협 장르 문파 무공 집합·2차 자료",
+          "mod_tier_proposal": "미정(원작 위상과 전승·상성 검토 후 결정)"
+        },
+        {
+          "name": "소청검법",
+          "type": "검법",
+          "original_work_grade": null,
+          "episode_if_documented": null,
+          "source_url": "https://zournal.co.kr/520",
+          "provenance": "무협 장르 문파 무공 집합·2차 자료",
+          "mod_tier_proposal": "미정(원작 위상과 전승·상성 검토 후 결정)"
+        },
+        {
+          "name": "분광뇌풍검법",
+          "type": "검법",
+          "original_work_grade": null,
+          "episode_if_documented": null,
+          "source_url": "https://zournal.co.kr/520",
+          "provenance": "무협 장르 문파 무공 집합·2차 자료",
+          "mod_tier_proposal": "미정(원작 위상과 전승·상성 검토 후 결정)"
+        },
+        {
+          "name": "칠보유홍분심검법",
+          "type": "검법",
+          "original_work_grade": null,
+          "episode_if_documented": null,
+          "source_url": "https://zournal.co.kr/520",
+          "provenance": "무협 장르 문파 무공 집합·2차 자료",
+          "mod_tier_proposal": "미정(원작 위상과 전승·상성 검토 후 결정)"
+        },
+        {
+          "name": "육양수",
+          "type": "수법",
+          "original_work_grade": null,
+          "episode_if_documented": null,
+          "source_url": "https://zournal.co.kr/520",
+          "provenance": "무협 장르 문파 무공 집합·2차 자료",
+          "mod_tier_proposal": "미정(원작 위상과 전승·상성 검토 후 결정)"
+        },
+        {
+          "name": "용호풍운조",
+          "type": "조법",
+          "original_work_grade": null,
+          "episode_if_documented": null,
+          "source_url": "https://zournal.co.kr/520",
+          "provenance": "무협 장르 문파 무공 집합·2차 자료",
+          "mod_tier_proposal": "미정(원작 위상과 전승·상성 검토 후 결정)"
+        },
+        {
+          "name": "종학금룡수",
+          "type": "수법",
+          "original_work_grade": null,
+          "episode_if_documented": null,
+          "source_url": "https://zournal.co.kr/520",
+          "provenance": "무협 장르 문파 무공 집합·2차 자료",
+          "mod_tier_proposal": "미정(원작 위상과 전승·상성 검토 후 결정)"
+        },
+        {
+          "name": "태청진기",
+          "type": "심법",
+          "original_work_grade": null,
+          "episode_if_documented": null,
+          "source_url": "https://zournal.co.kr/520",
+          "provenance": "무협 장르 문파 무공 집합·2차 자료",
+          "mod_tier_proposal": "미정(원작 위상과 전승·상성 검토 후 결정)"
+        },
+        {
+          "name": "미타금강강기",
+          "type": "강기공",
+          "original_work_grade": null,
+          "episode_if_documented": null,
+          "source_url": "https://zournal.co.kr/520",
+          "provenance": "무협 장르 문파 무공 집합·2차 자료",
+          "mod_tier_proposal": "미정(원작 위상과 전승·상성 검토 후 결정)"
+        },
+        {
+          "name": "천기신보",
+          "type": "신법",
+          "original_work_grade": null,
+          "episode_if_documented": null,
+          "source_url": "https://zournal.co.kr/520",
+          "provenance": "무협 장르 문파 무공 집합·2차 자료",
+          "mod_tier_proposal": "미정(원작 위상과 전승·상성 검토 후 결정)"
+        }
+      ]
+    },
+    {
+      "name": "공동파",
+      "category": "정파 또는 중립",
+      "combat_identity_game_proposal": "복마 검술·장법, 조법",
+      "source_url": "https://zournal.co.kr/520",
+      "source_note": "한국 무협 장르의 통용·가변 설정. 특정 작품의 공식 단일 계보 아님.",
+      "proposed_learning_route": "입문/전수·비급·기연 등 조건에 따라 획득",
+      "martial_arts": [
+        {
+          "name": "복마검법",
+          "type": "검법",
+          "original_work_grade": null,
+          "episode_if_documented": null,
+          "source_url": "https://zournal.co.kr/520",
+          "provenance": "무협 장르 문파 무공 집합·2차 자료",
+          "mod_tier_proposal": "절학 (모드용 제안·미확정)"
+        },
+        {
+          "name": "육합구소신공",
+          "type": "심법",
+          "original_work_grade": null,
+          "episode_if_documented": null,
+          "source_url": "https://zournal.co.kr/520",
+          "provenance": "무협 장르 문파 무공 집합·2차 자료",
+          "mod_tier_proposal": "미정(원작 위상과 전승·상성 검토 후 결정)"
+        },
+        {
+          "name": "복마장법",
+          "type": "장법",
+          "original_work_grade": null,
+          "episode_if_documented": null,
+          "source_url": "https://zournal.co.kr/520",
+          "provenance": "무협 장르 문파 무공 집합·2차 자료",
+          "mod_tier_proposal": "미정(원작 위상과 전승·상성 검토 후 결정)"
+        },
+        {
+          "name": "개천풍운조",
+          "type": "조법",
+          "original_work_grade": null,
+          "episode_if_documented": null,
+          "source_url": "https://zournal.co.kr/520",
+          "provenance": "무협 장르 문파 무공 집합·2차 자료",
+          "mod_tier_proposal": "미정(원작 위상과 전승·상성 검토 후 결정)"
+        },
+        {
+          "name": "음풍조",
+          "type": "조법",
+          "original_work_grade": null,
+          "episode_if_documented": null,
+          "source_url": "https://zournal.co.kr/520",
+          "provenance": "무협 장르 문파 무공 집합·2차 자료",
+          "mod_tier_proposal": "미정(원작 위상과 전승·상성 검토 후 결정)"
+        }
+      ]
+    },
+    {
+      "name": "점창파",
+      "category": "정파",
+      "combat_identity_game_proposal": "일점 찌르기와 고속 검술",
+      "source_url": "https://gall.dcinside.com/mgallery/board/view/?id=genrenovel&no=1973892",
+      "source_note": "한국 무협 장르의 통용·가변 설정. 특정 작품의 공식 단일 계보 아님.",
+      "proposed_learning_route": "입문/전수·비급·기연 등 조건에 따라 획득",
+      "martial_arts": [
+        {
+          "name": "사일검법",
+          "type": "검법",
+          "original_work_grade": null,
+          "episode_if_documented": null,
+          "source_url": "https://gall.dcinside.com/mgallery/board/view/?id=genrenovel&no=1973892",
+          "provenance": "무협 장르 문파 무공 집합·2차 자료",
+          "mod_tier_proposal": "절학 (모드용 제안·미확정)"
+        },
+        {
+          "name": "사일검",
+          "type": "검법",
+          "original_work_grade": null,
+          "episode_if_documented": null,
+          "source_url": "https://gall.dcinside.com/mgallery/board/view/?id=genrenovel&no=1973892",
+          "provenance": "무협 장르 문파 무공 집합·2차 자료",
+          "mod_tier_proposal": "미정(원작 위상과 전승·상성 검토 후 결정)"
+        }
+      ]
+    },
+    {
+      "name": "종남파",
+      "category": "정파·도가",
+      "combat_identity_game_proposal": "진중한 중검과 검로 장악",
+      "source_url": "https://fanmooz.com/종남파/",
+      "source_note": "한국 무협 장르의 통용·가변 설정. 특정 작품의 공식 단일 계보 아님.",
+      "proposed_learning_route": "입문/전수·비급·기연 등 조건에 따라 획득",
+      "martial_arts": [
+        {
+          "name": "천하삼십육검",
+          "type": "검법",
+          "original_work_grade": null,
+          "episode_if_documented": null,
+          "source_url": "https://fanmooz.com/종남파/",
+          "provenance": "무협 장르 문파 무공 집합·2차 자료",
+          "mod_tier_proposal": "절학 (모드용 제안·미확정)"
+        },
+        {
+          "name": "천성검",
+          "type": "검법",
+          "original_work_grade": null,
+          "episode_if_documented": null,
+          "source_url": "https://fanmooz.com/종남파/",
+          "provenance": "무협 장르 문파 무공 집합·2차 자료",
+          "mod_tier_proposal": "미정(원작 위상과 전승·상성 검토 후 결정)"
+        },
+        {
+          "name": "구상검법",
+          "type": "검법",
+          "original_work_grade": null,
+          "episode_if_documented": null,
+          "source_url": "https://fanmooz.com/종남파/",
+          "provenance": "무협 장르 문파 무공 집합·2차 자료",
+          "mod_tier_proposal": "미정(원작 위상과 전승·상성 검토 후 결정)"
+        },
+        {
+          "name": "무극검",
+          "type": "검법",
+          "original_work_grade": null,
+          "episode_if_documented": null,
+          "source_url": "https://fanmooz.com/종남파/",
+          "provenance": "무협 장르 문파 무공 집합·2차 자료",
+          "mod_tier_proposal": "미정(원작 위상과 전승·상성 검토 후 결정)"
+        },
+        {
+          "name": "천하검",
+          "type": "검법",
+          "original_work_grade": null,
+          "episode_if_documented": null,
+          "source_url": "https://fanmooz.com/종남파/",
+          "provenance": "무협 장르 문파 무공 집합·2차 자료",
+          "mod_tier_proposal": "미정(원작 위상과 전승·상성 검토 후 결정)"
+        },
+        {
+          "name": "유운검법",
+          "type": "검법",
+          "original_work_grade": null,
+          "episode_if_documented": null,
+          "source_url": "https://fanmooz.com/종남파/",
+          "provenance": "무협 장르 문파 무공 집합·2차 자료",
+          "mod_tier_proposal": "미정(원작 위상과 전승·상성 검토 후 결정)"
+        },
+        {
+          "name": "태을무형검",
+          "type": "검법",
+          "original_work_grade": null,
+          "episode_if_documented": null,
+          "source_url": "https://fanmooz.com/종남파/",
+          "provenance": "무협 장르 문파 무공 집합·2차 자료",
+          "mod_tier_proposal": "미정(원작 위상과 전승·상성 검토 후 결정)"
+        },
+        {
+          "name": "태을검",
+          "type": "검법",
+          "original_work_grade": null,
+          "episode_if_documented": null,
+          "source_url": "https://fanmooz.com/종남파/",
+          "provenance": "무협 장르 문파 무공 집합·2차 자료",
+          "mod_tier_proposal": "미정(원작 위상과 전승·상성 검토 후 결정)"
+        },
+        {
+          "name": "은하비성",
+          "type": "암기법",
+          "original_work_grade": null,
+          "episode_if_documented": null,
+          "source_url": "https://fanmooz.com/종남파/",
+          "provenance": "무협 장르 문파 무공 집합·2차 자료",
+          "mod_tier_proposal": "미정(원작 위상과 전승·상성 검토 후 결정)"
+        }
+      ]
+    },
+    {
+      "name": "개방",
+      "category": "정파·방회",
+      "combat_identity_game_proposal": "봉술 중심 제압·원거리 타격·정보망",
+      "source_url": "https://gall.dcinside.com/mgallery/board/view/?id=genrenovel&no=1973892",
+      "source_note": "구체적 타구봉 초식·항룡십팔장 소속과 설정은 작품마다 달라짐",
+      "proposed_learning_route": "입문/전수·비급·기연 등 조건에 따라 획득",
+      "martial_arts": [
+        {
+          "name": "타구봉법",
+          "type": "봉법",
+          "original_work_grade": null,
+          "episode_if_documented": null,
+          "source_url": "https://gall.dcinside.com/mgallery/board/view/?id=genrenovel&no=1973892",
+          "provenance": "무협 장르 문파 무공 집합·2차 자료",
+          "mod_tier_proposal": "신공 (모드용 제안·미확정)"
+        },
+        {
+          "name": "항룡십팔장",
+          "type": "장법",
+          "original_work_grade": null,
+          "episode_if_documented": null,
+          "source_url": "https://gall.dcinside.com/mgallery/board/view/?id=genrenovel&no=1973892",
+          "provenance": "무협 장르 문파 무공 집합·2차 자료",
+          "mod_tier_proposal": "신공 (모드용 제안·미확정)"
+        },
+        {
+          "name": "취팔선과천",
+          "type": "경공",
+          "original_work_grade": null,
+          "episode_if_documented": null,
+          "source_url": "https://gall.dcinside.com/mgallery/board/view/?id=genrenovel&no=1973892",
+          "provenance": "무협 장르 문파 무공 집합·2차 자료",
+          "mod_tier_proposal": "미정(원작 위상과 전승·상성 검토 후 결정)"
+        },
+        {
+          "name": "취리건곤보",
+          "type": "보법",
+          "original_work_grade": null,
+          "episode_if_documented": null,
+          "source_url": "https://gall.dcinside.com/mgallery/board/view/?id=genrenovel&no=1973892",
+          "provenance": "무협 장르 문파 무공 집합·2차 자료",
+          "mod_tier_proposal": "미정(원작 위상과 전승·상성 검토 후 결정)"
+        }
+      ]
+    },
+    {
+      "name": "남궁세가",
+      "category": "정파·세가",
+      "combat_identity_game_proposal": "공방일체 검법·직선 검격·정밀 반격",
+      "source_url": "https://www.namu.moe/w/문파",
+      "source_note": "한국 무협 장르의 통용·가변 설정. 특정 작품의 공식 단일 계보 아님.",
+      "proposed_learning_route": "입문/전수·비급·기연 등 조건에 따라 획득",
+      "martial_arts": [
+        {
+          "name": "창궁무애검",
+          "type": "검법",
+          "original_work_grade": null,
+          "episode_if_documented": null,
+          "source_url": "https://www.namu.moe/w/문파",
+          "provenance": "무협 장르 문파 무공 집합·2차 자료",
+          "mod_tier_proposal": "절학 (모드용 제안·미확정)"
+        },
+        {
+          "name": "섬전십삼뢰",
+          "type": "검법",
+          "original_work_grade": null,
+          "episode_if_documented": null,
+          "source_url": "https://www.namu.moe/w/문파",
+          "provenance": "무협 장르 문파 무공 집합·2차 자료",
+          "mod_tier_proposal": "미정(원작 위상과 전승·상성 검토 후 결정)"
+        },
+        {
+          "name": "제왕검형",
+          "type": "검법",
+          "original_work_grade": null,
+          "episode_if_documented": null,
+          "source_url": "https://www.namu.moe/w/문파",
+          "provenance": "무협 장르 문파 무공 집합·2차 자료",
+          "mod_tier_proposal": "신공 (모드용 제안·미확정)"
+        }
+      ]
+    },
+    {
+      "name": "사천당문",
+      "category": "정파·세가 / 작품에 따라 중립",
+      "combat_identity_game_proposal": "암기·독·거리 조절·기관술",
+      "source_url": "https://tanma.kr/china/dangmoon.html",
+      "source_note": "암기/독 관련 세부 명칭 및 분류는 무협사전·전승 도감의 장르 설정 자료",
+      "proposed_learning_route": "입문/전수·비급·기연 등 조건에 따라 획득",
+      "martial_arts": [
+        {
+          "name": "만천화우",
+          "type": "암기법",
+          "original_work_grade": null,
+          "episode_if_documented": null,
+          "source_url": "https://tanma.kr/china/dangmoon.html",
+          "provenance": "무협 장르 문파 무공 집합·2차 자료",
+          "mod_tier_proposal": "신공 (모드용 제안·미확정)"
+        },
+        {
+          "name": "폭우이화침",
+          "type": "암기·기관",
+          "original_work_grade": null,
+          "episode_if_documented": null,
+          "source_url": "https://tanma.kr/china/dangmoon.html",
+          "provenance": "무협 장르 문파 무공 집합·2차 자료",
+          "mod_tier_proposal": "절학 (모드용 제안·미확정)"
+        },
+        {
+          "name": "추뢰신법",
+          "type": "신법",
+          "original_work_grade": null,
+          "episode_if_documented": null,
+          "source_url": "https://tanma.kr/china/dangmoon.html",
+          "provenance": "무협 장르 문파 무공 집합·2차 자료",
+          "mod_tier_proposal": "미정(원작 위상과 전승·상성 검토 후 결정)"
+        },
+        {
+          "name": "무형지독",
+          "type": "독공",
+          "original_work_grade": null,
+          "episode_if_documented": null,
+          "source_url": "https://tanma.kr/china/dangmoon.html",
+          "provenance": "무협 장르 문파 무공 집합·2차 자료",
+          "mod_tier_proposal": "신공 (모드용 제안·미확정)"
+        },
+        {
+          "name": "자모표",
+          "type": "암기",
+          "original_work_grade": null,
+          "episode_if_documented": null,
+          "source_url": "https://tanma.kr/china/dangmoon.html",
+          "provenance": "무협 장르 문파 무공 집합·2차 자료",
+          "mod_tier_proposal": "미정(원작 위상과 전승·상성 검토 후 결정)"
+        },
+        {
+          "name": "천뢰구",
+          "type": "기관암기",
+          "original_work_grade": null,
+          "episode_if_documented": null,
+          "source_url": "https://tanma.kr/china/dangmoon.html",
+          "provenance": "무협 장르 문파 무공 집합·2차 자료",
+          "mod_tier_proposal": "미정(원작 위상과 전승·상성 검토 후 결정)"
+        }
+      ]
+    },
+    {
+      "name": "하북팽가",
+      "category": "정파·세가",
+      "combat_identity_game_proposal": "중도·강한 내려베기·힘겨루기",
+      "source_url": "https://www.namu.moe/w/문파",
+      "source_note": "혼원벽력도는 《이 무림의 미친년은 나야》 확인, 다른 작품에 무조건 속한다는 뜻 아님",
+      "proposed_learning_route": "입문/전수·비급·기연 등 조건에 따라 획득",
+      "martial_arts": [
+        {
+          "name": "오호단문도",
+          "type": "도법",
+          "original_work_grade": null,
+          "episode_if_documented": null,
+          "source_url": "https://www.namu.moe/w/문파",
+          "provenance": "무협 장르 문파 무공 집합·2차 자료",
+          "mod_tier_proposal": "상승무공 (모드용 제안·미확정)"
+        },
+        {
+          "name": "혼원벽력도",
+          "type": "도법",
+          "original_work_grade": null,
+          "episode_if_documented": null,
+          "source_url": "https://www.namu.moe/w/문파",
+          "provenance": "무협 장르 문파 무공 집합·2차 자료",
+          "mod_tier_proposal": "절학 (모드용 제안·미확정)"
+        }
+      ]
+    },
+    {
+      "name": "제갈세가",
+      "category": "정파·세가",
+      "combat_identity_game_proposal": "기문진식·기관술·전략 중심",
+      "source_url": "https://www.namu.moe/w/문파",
+      "source_note": "확인되지 않은 고유 초식명을 만들지 않음. 고유 진법 명칭은 추가 출처 확인 필요",
+      "proposed_learning_route": "입문/전수·비급·기연 등 조건에 따라 획득",
+      "martial_arts": []
+    },
+    {
+      "name": "모용세가",
+      "category": "정파·세가",
+      "combat_identity_game_proposal": "다양한 무공 모방·반사, 쌍검",
+      "source_url": "https://www.namu.moe/w/문파",
+      "source_note": "두전성이는 《천룡팔부》의 고소모용 계열에 근거; 작품에 따라 다름",
+      "proposed_learning_route": "입문/전수·비급·기연 등 조건에 따라 획득",
+      "martial_arts": [
+        {
+          "name": "두전성이",
+          "type": "반격·역전",
+          "original_work_grade": null,
+          "episode_if_documented": null,
+          "source_url": "https://www.namu.moe/w/문파",
+          "provenance": "무협 장르 문파 무공 집합·2차 자료",
+          "mod_tier_proposal": "미정(원작 위상과 전승·상성 검토 후 결정)"
+        }
+      ]
+    }
+  ],
+  "novel_sect_registry": [
+    {
+      "name": "신녀문",
+      "category": "《이 무림의 미친년은 나야》 작품 내 문파/세력",
+      "combat_identity_game_proposal": "유려한 검결·보법과 선녀공 계통 심법",
+      "source_url": "https://www.namu.moe/w/이 무림의 미친년은 나야/설정/무공",
+      "source_note": "무공명·문파 소속은 해당 작품의 팬 정리에서 확인; 화수·색 등급이 기록되지 않았으면 추정하지 않음.",
+      "proposed_learning_route": "원작 재현 및 공개 배포는 권리 검토 필요. 기연·입문·비급 등 모드용 획득은 설계 제안",
+      "martial_arts": [
+        {
+          "name": "서후천애심결",
+          "type": "심법",
+          "original_work_grade": "파란색",
+          "episode_if_documented": "25화",
+          "source_url": "https://www.namu.moe/w/이 무림의 미친년은 나야/설정/무공",
+          "provenance": "작품 내 무공의 독자 정리 기록",
+          "mod_tier_proposal": "정통무공 (모드용 제안·미확정)"
+        },
+        {
+          "name": "신녀검결",
+          "type": "검법",
+          "original_work_grade": "파란색",
+          "episode_if_documented": "26화",
+          "source_url": "https://www.namu.moe/w/이 무림의 미친년은 나야/설정/무공",
+          "provenance": "작품 내 무공의 독자 정리 기록",
+          "mod_tier_proposal": "정통무공 (모드용 제안·미확정)"
+        },
+        {
+          "name": "신녀호수보",
+          "type": "보법",
+          "original_work_grade": "등급 불명",
+          "episode_if_documented": "26화",
+          "source_url": "https://www.namu.moe/w/이 무림의 미친년은 나야/설정/무공",
+          "provenance": "작품 내 무공의 독자 정리 기록",
+          "mod_tier_proposal": "정통무공 (모드용 제안·미확정)"
+        },
+        {
+          "name": "주양세심경",
+          "type": "심법",
+          "original_work_grade": "보라색",
+          "episode_if_documented": "26화",
+          "source_url": "https://www.namu.moe/w/이 무림의 미친년은 나야/설정/무공",
+          "provenance": "작품 내 무공의 독자 정리 기록",
+          "mod_tier_proposal": "신공 (모드용 제안·미확정)"
+        },
+        {
+          "name": "염희호신검",
+          "type": "검법",
+          "original_work_grade": "금색",
+          "episode_if_documented": "144화",
+          "source_url": "https://www.namu.moe/w/이 무림의 미친년은 나야/설정/무공",
+          "provenance": "작품 내 무공의 독자 정리 기록",
+          "mod_tier_proposal": "절학 (모드용 제안·미확정)"
+        }
+      ]
+    },
+    {
+      "name": "화산파",
+      "category": "《이 무림의 미친년은 나야》 작품 내 문파/세력",
+      "combat_identity_game_proposal": "매화·자하·중심 이동, 다양한 검법과 신법",
+      "source_url": "https://www.namu.moe/w/이 무림의 미친년은 나야/설정/무공",
+      "source_note": "무공명·문파 소속은 해당 작품의 팬 정리에서 확인; 화수·색 등급이 기록되지 않았으면 추정하지 않음.",
+      "proposed_learning_route": "원작 재현 및 공개 배포는 권리 검토 필요. 기연·입문·비급 등 모드용 획득은 설계 제안",
+      "martial_arts": [
+        {
+          "name": "자하검",
+          "type": "검법",
+          "original_work_grade": "보라색",
+          "episode_if_documented": "56화",
+          "source_url": "https://www.namu.moe/w/이 무림의 미친년은 나야/설정/무공",
+          "provenance": "작품 내 무공의 독자 정리 기록",
+          "mod_tier_proposal": "신공 (모드용 제안·미확정)"
+        },
+        {
+          "name": "자하신공",
+          "type": "심법",
+          "original_work_grade": "보라색",
+          "episode_if_documented": "127화",
+          "source_url": "https://www.namu.moe/w/이 무림의 미친년은 나야/설정/무공",
+          "provenance": "작품 내 무공의 독자 정리 기록",
+          "mod_tier_proposal": "절학 (모드용 제안·미확정)"
+        },
+        {
+          "name": "세류표",
+          "type": "신법",
+          "original_work_grade": "등급 불명",
+          "episode_if_documented": "229화",
+          "source_url": "https://www.namu.moe/w/이 무림의 미친년은 나야/설정/무공",
+          "provenance": "작품 내 무공의 독자 정리 기록",
+          "mod_tier_proposal": "미정(원작 위상과 전승·상성 검토 후 결정)"
+        },
+        {
+          "name": "칠성보",
+          "type": "보법",
+          "original_work_grade": "등급 불명",
+          "episode_if_documented": "229화",
+          "source_url": "https://www.namu.moe/w/이 무림의 미친년은 나야/설정/무공",
+          "provenance": "작품 내 무공의 독자 정리 기록",
+          "mod_tier_proposal": "미정(원작 위상과 전승·상성 검토 후 결정)"
+        },
+        {
+          "name": "매화칠절검",
+          "type": "검법",
+          "original_work_grade": "등급 불명",
+          "episode_if_documented": "229화",
+          "source_url": "https://www.namu.moe/w/이 무림의 미친년은 나야/설정/무공",
+          "provenance": "작품 내 무공의 독자 정리 기록",
+          "mod_tier_proposal": "절기 (모드용 제안·미확정)"
+        },
+        {
+          "name": "십사수매화검법",
+          "type": "검법",
+          "original_work_grade": "등급 불명",
+          "episode_if_documented": "229화",
+          "source_url": "https://www.namu.moe/w/이 무림의 미친년은 나야/설정/무공",
+          "provenance": "작품 내 무공의 독자 정리 기록",
+          "mod_tier_proposal": "절기 (모드용 제안·미확정)"
+        }
+      ]
+    },
+    {
+      "name": "무당파",
+      "category": "《이 무림의 미친년은 나야》 작품 내 문파/세력",
+      "combat_identity_game_proposal": "태극혜검의 변화·회피·반격",
+      "source_url": "https://www.namu.moe/w/이 무림의 미친년은 나야/설정/무공",
+      "source_note": "무공명·문파 소속은 해당 작품의 팬 정리에서 확인; 화수·색 등급이 기록되지 않았으면 추정하지 않음.",
+      "proposed_learning_route": "원작 재현 및 공개 배포는 권리 검토 필요. 기연·입문·비급 등 모드용 획득은 설계 제안",
+      "martial_arts": [
+        {
+          "name": "태극혜검",
+          "type": "검법",
+          "original_work_grade": "보라색",
+          "episode_if_documented": "56화",
+          "source_url": "https://www.namu.moe/w/이 무림의 미친년은 나야/설정/무공",
+          "provenance": "작품 내 무공의 독자 정리 기록",
+          "mod_tier_proposal": "신공 (모드용 제안·미확정)"
+        },
+        {
+          "name": "태극권",
+          "type": "권법",
+          "original_work_grade": "빨간색",
+          "episode_if_documented": "188화",
+          "source_url": "https://www.namu.moe/w/이 무림의 미친년은 나야/설정/무공",
+          "provenance": "작품 내 무공의 독자 정리 기록",
+          "mod_tier_proposal": "상승무공 (모드용 제안·미확정)"
+        },
+        {
+          "name": "제운종",
+          "type": "경공",
+          "original_work_grade": "등급 불명",
+          "episode_if_documented": "17화",
+          "source_url": "https://www.namu.moe/w/이 무림의 미친년은 나야/설정/무공",
+          "provenance": "작품 내 무공의 독자 정리 기록",
+          "mod_tier_proposal": "미정(원작 위상과 전승·상성 검토 후 결정)"
+        }
+      ]
+    },
+    {
+      "name": "소림사",
+      "category": "《이 무림의 미친년은 나야》 작품 내 문파/세력",
+      "combat_identity_game_proposal": "72절예·호신수련·원거리 권장",
+      "source_url": "https://www.namu.moe/w/이 무림의 미친년은 나야/설정/무공",
+      "source_note": "무공명·문파 소속은 해당 작품의 팬 정리에서 확인; 화수·색 등급이 기록되지 않았으면 추정하지 않음.",
+      "proposed_learning_route": "원작 재현 및 공개 배포는 권리 검토 필요. 기연·입문·비급 등 모드용 획득은 설계 제안",
+      "martial_arts": [
+        {
+          "name": "역근세수경",
+          "type": "심법",
+          "original_work_grade": "보라색",
+          "episode_if_documented": "78화",
+          "source_url": "https://www.namu.moe/w/이 무림의 미친년은 나야/설정/무공",
+          "provenance": "작품 내 무공의 독자 정리 기록",
+          "mod_tier_proposal": "신공 (모드용 제안·미확정)"
+        },
+        {
+          "name": "백보신권",
+          "type": "권법",
+          "original_work_grade": "보라색",
+          "episode_if_documented": "60화",
+          "source_url": "https://www.namu.moe/w/이 무림의 미친년은 나야/설정/무공",
+          "provenance": "작품 내 무공의 독자 정리 기록",
+          "mod_tier_proposal": "절학 (모드용 제안·미확정)"
+        },
+        {
+          "name": "대반야금강불괴신공",
+          "type": "외공",
+          "original_work_grade": "보라색",
+          "episode_if_documented": "209화",
+          "source_url": "https://www.namu.moe/w/이 무림의 미친년은 나야/설정/무공",
+          "provenance": "작품 내 무공의 독자 정리 기록",
+          "mod_tier_proposal": "신공 (모드용 제안·미확정)"
+        },
+        {
+          "name": "나한신권",
+          "type": "권법",
+          "original_work_grade": "보라색",
+          "episode_if_documented": "223화",
+          "source_url": "https://www.namu.moe/w/이 무림의 미친년은 나야/설정/무공",
+          "provenance": "작품 내 무공의 독자 정리 기록",
+          "mod_tier_proposal": "미정(원작 위상과 전승·상성 검토 후 결정)"
+        },
+        {
+          "name": "백련신권",
+          "type": "권법",
+          "original_work_grade": "보라색",
+          "episode_if_documented": "247화",
+          "source_url": "https://www.namu.moe/w/이 무림의 미친년은 나야/설정/무공",
+          "provenance": "작품 내 무공의 독자 정리 기록",
+          "mod_tier_proposal": "미정(원작 위상과 전승·상성 검토 후 결정)"
+        },
+        {
+          "name": "여래신장",
+          "type": "장법",
+          "original_work_grade": "보라색",
+          "episode_if_documented": "250화",
+          "source_url": "https://www.namu.moe/w/이 무림의 미친년은 나야/설정/무공",
+          "provenance": "작품 내 무공의 독자 정리 기록",
+          "mod_tier_proposal": "신공 (모드용 제안·미확정)"
+        },
+        {
+          "name": "대력금강장",
+          "type": "장법",
+          "original_work_grade": "보라색",
+          "episode_if_documented": "223화",
+          "source_url": "https://www.namu.moe/w/이 무림의 미친년은 나야/설정/무공",
+          "provenance": "작품 내 무공의 독자 정리 기록",
+          "mod_tier_proposal": "미정(원작 위상과 전승·상성 검토 후 결정)"
+        },
+        {
+          "name": "탄지신통",
+          "type": "지법",
+          "original_work_grade": "보라색",
+          "episode_if_documented": "223화",
+          "source_url": "https://www.namu.moe/w/이 무림의 미친년은 나야/설정/무공",
+          "provenance": "작품 내 무공의 독자 정리 기록",
+          "mod_tier_proposal": "미정(원작 위상과 전승·상성 검토 후 결정)"
+        },
+        {
+          "name": "금강지",
+          "type": "지법",
+          "original_work_grade": "보라색",
+          "episode_if_documented": "223화",
+          "source_url": "https://www.namu.moe/w/이 무림의 미친년은 나야/설정/무공",
+          "provenance": "작품 내 무공의 독자 정리 기록",
+          "mod_tier_proposal": "미정(원작 위상과 전승·상성 검토 후 결정)"
+        },
+        {
+          "name": "연대구품",
+          "type": "신법",
+          "original_work_grade": "보라색",
+          "episode_if_documented": "223화",
+          "source_url": "https://www.namu.moe/w/이 무림의 미친년은 나야/설정/무공",
+          "provenance": "작품 내 무공의 독자 정리 기록",
+          "mod_tier_proposal": "미정(원작 위상과 전승·상성 검토 후 결정)"
+        },
+        {
+          "name": "가사복마권",
+          "type": "권법",
+          "original_work_grade": "보라색",
+          "episode_if_documented": "223화",
+          "source_url": "https://www.namu.moe/w/이 무림의 미친년은 나야/설정/무공",
+          "provenance": "작품 내 무공의 독자 정리 기록",
+          "mod_tier_proposal": "미정(원작 위상과 전승·상성 검토 후 결정)"
+        },
+        {
+          "name": "나한십팔장",
+          "type": "장법",
+          "original_work_grade": "보라색",
+          "episode_if_documented": "223화",
+          "source_url": "https://www.namu.moe/w/이 무림의 미친년은 나야/설정/무공",
+          "provenance": "작품 내 무공의 독자 정리 기록",
+          "mod_tier_proposal": "미정(원작 위상과 전승·상성 검토 후 결정)"
+        },
+        {
+          "name": "용상반야호심공",
+          "type": "심법",
+          "original_work_grade": "보라색",
+          "episode_if_documented": "252화",
+          "source_url": "https://www.namu.moe/w/이 무림의 미친년은 나야/설정/무공",
+          "provenance": "작품 내 무공의 독자 정리 기록",
+          "mod_tier_proposal": "절학 (모드용 제안·미확정)"
+        },
+        {
+          "name": "무상각",
+          "type": "각법",
+          "original_work_grade": "금색",
+          "episode_if_documented": "127화",
+          "source_url": "https://www.namu.moe/w/이 무림의 미친년은 나야/설정/무공",
+          "provenance": "작품 내 무공의 독자 정리 기록",
+          "mod_tier_proposal": "미정(원작 위상과 전승·상성 검토 후 결정)"
+        },
+        {
+          "name": "항마연환선퇴",
+          "type": "각법",
+          "original_work_grade": "빨간색",
+          "episode_if_documented": "127화",
+          "source_url": "https://www.namu.moe/w/이 무림의 미친년은 나야/설정/무공",
+          "provenance": "작품 내 무공의 독자 정리 기록",
+          "mod_tier_proposal": "미정(원작 위상과 전승·상성 검토 후 결정)"
+        },
+        {
+          "name": "사자후",
+          "type": "음공",
+          "original_work_grade": "등급 불명",
+          "episode_if_documented": "142화",
+          "source_url": "https://www.namu.moe/w/이 무림의 미친년은 나야/설정/무공",
+          "provenance": "작품 내 무공의 독자 정리 기록",
+          "mod_tier_proposal": "미정(원작 위상과 전승·상성 검토 후 결정)"
+        },
+        {
+          "name": "철포삼",
+          "type": "외공",
+          "original_work_grade": "등급 불명",
+          "episode_if_documented": "247화",
+          "source_url": "https://www.namu.moe/w/이 무림의 미친년은 나야/설정/무공",
+          "provenance": "작품 내 무공의 독자 정리 기록",
+          "mod_tier_proposal": "미정(원작 위상과 전승·상성 검토 후 결정)"
+        },
+        {
+          "name": "긴나라왕 곤법",
+          "type": "곤법",
+          "original_work_grade": "등급 불명",
+          "episode_if_documented": "1147화",
+          "source_url": "https://www.namu.moe/w/이 무림의 미친년은 나야/설정/무공",
+          "provenance": "작품 내 무공의 독자 정리 기록",
+          "mod_tier_proposal": "미정(원작 위상과 전승·상성 검토 후 결정)"
+        },
+        {
+          "name": "아라한신권",
+          "type": "권법",
+          "original_work_grade": "등급 불명",
+          "episode_if_documented": "1147화",
+          "source_url": "https://www.namu.moe/w/이 무림의 미친년은 나야/설정/무공",
+          "provenance": "작품 내 무공의 독자 정리 기록",
+          "mod_tier_proposal": "미정(원작 위상과 전승·상성 검토 후 결정)"
+        },
+        {
+          "name": "소림용조수",
+          "type": "조법",
+          "original_work_grade": "등급 불명",
+          "episode_if_documented": "1147화",
+          "source_url": "https://www.namu.moe/w/이 무림의 미친년은 나야/설정/무공",
+          "provenance": "작품 내 무공의 독자 정리 기록",
+          "mod_tier_proposal": "절학 (모드용 제안·미확정)"
+        },
+        {
+          "name": "금강항마저",
+          "type": "곤법",
+          "original_work_grade": "등급 불명",
+          "episode_if_documented": "1147화",
+          "source_url": "https://www.namu.moe/w/이 무림의 미친년은 나야/설정/무공",
+          "provenance": "작품 내 무공의 독자 정리 기록",
+          "mod_tier_proposal": "미정(원작 위상과 전승·상성 검토 후 결정)"
+        }
+      ]
+    },
+    {
+      "name": "남궁세가",
+      "category": "《이 무림의 미친년은 나야》 작품 내 문파/세력",
+      "combat_identity_game_proposal": "제왕검형·창궁무애검을 중심으로 한 검술",
+      "source_url": "https://www.namu.moe/w/이 무림의 미친년은 나야/설정/무공",
+      "source_note": "무공명·문파 소속은 해당 작품의 팬 정리에서 확인; 화수·색 등급이 기록되지 않았으면 추정하지 않음.",
+      "proposed_learning_route": "원작 재현 및 공개 배포는 권리 검토 필요. 기연·입문·비급 등 모드용 획득은 설계 제안",
+      "martial_arts": [
+        {
+          "name": "제왕검형",
+          "type": "검법",
+          "original_work_grade": "보라색",
+          "episode_if_documented": "144화",
+          "source_url": "https://www.namu.moe/w/이 무림의 미친년은 나야/설정/무공",
+          "provenance": "작품 내 무공의 독자 정리 기록",
+          "mod_tier_proposal": "신공 (모드용 제안·미확정)"
+        },
+        {
+          "name": "창궁무애검",
+          "type": "검법",
+          "original_work_grade": "등급 불명",
+          "episode_if_documented": "449화",
+          "source_url": "https://www.namu.moe/w/이 무림의 미친년은 나야/설정/무공",
+          "provenance": "작품 내 무공의 독자 정리 기록",
+          "mod_tier_proposal": "절학 (모드용 제안·미확정)"
+        }
+      ]
+    },
+    {
+      "name": "북해빙궁",
+      "category": "《이 무림의 미친년은 나야》 작품 내 문파/세력",
+      "combat_identity_game_proposal": "냉기·빙정과 연결한 장법·검법",
+      "source_url": "https://www.namu.moe/w/이 무림의 미친년은 나야/설정/무공",
+      "source_note": "무공명·문파 소속은 해당 작품의 팬 정리에서 확인; 화수·색 등급이 기록되지 않았으면 추정하지 않음.",
+      "proposed_learning_route": "원작 재현 및 공개 배포는 권리 검토 필요. 기연·입문·비급 등 모드용 획득은 설계 제안",
+      "martial_arts": [
+        {
+          "name": "빙백신장",
+          "type": "장법",
+          "original_work_grade": "보라색",
+          "episode_if_documented": "75화",
+          "source_url": "https://www.namu.moe/w/이 무림의 미친년은 나야/설정/무공",
+          "provenance": "작품 내 무공의 독자 정리 기록",
+          "mod_tier_proposal": "신공 (모드용 제안·미확정)"
+        },
+        {
+          "name": "빙천수라마공",
+          "type": "심법",
+          "original_work_grade": "빨간색",
+          "episode_if_documented": "75화",
+          "source_url": "https://www.namu.moe/w/이 무림의 미친년은 나야/설정/무공",
+          "provenance": "작품 내 무공의 독자 정리 기록",
+          "mod_tier_proposal": "절기 (모드용 제안·미확정)"
+        },
+        {
+          "name": "한심공",
+          "type": "심법",
+          "original_work_grade": "파란색",
+          "episode_if_documented": "301화",
+          "source_url": "https://www.namu.moe/w/이 무림의 미친년은 나야/설정/무공",
+          "provenance": "작품 내 무공의 독자 정리 기록",
+          "mod_tier_proposal": "정통무공 (모드용 제안·미확정)"
+        },
+        {
+          "name": "빙령신검",
+          "type": "검법",
+          "original_work_grade": "등급 불명",
+          "episode_if_documented": "286화",
+          "source_url": "https://www.namu.moe/w/이 무림의 미친년은 나야/설정/무공",
+          "provenance": "작품 내 무공의 독자 정리 기록",
+          "mod_tier_proposal": "미정(원작 위상과 전승·상성 검토 후 결정)"
+        },
+        {
+          "name": "쇄빙수",
+          "type": "수법",
+          "original_work_grade": "등급 불명",
+          "episode_if_documented": "286화",
+          "source_url": "https://www.namu.moe/w/이 무림의 미친년은 나야/설정/무공",
+          "provenance": "작품 내 무공의 독자 정리 기록",
+          "mod_tier_proposal": "미정(원작 위상과 전승·상성 검토 후 결정)"
+        },
+        {
+          "name": "옥녀한빙장",
+          "type": "장법",
+          "original_work_grade": "등급 불명",
+          "episode_if_documented": "969화",
+          "source_url": "https://www.namu.moe/w/이 무림의 미친년은 나야/설정/무공",
+          "provenance": "작품 내 무공의 독자 정리 기록",
+          "mod_tier_proposal": "미정(원작 위상과 전승·상성 검토 후 결정)"
+        },
+        {
+          "name": "옥녀현빙",
+          "type": "미분류",
+          "original_work_grade": "등급 불명",
+          "episode_if_documented": "969화",
+          "source_url": "https://www.namu.moe/w/이 무림의 미친년은 나야/설정/무공",
+          "provenance": "작품 내 무공의 독자 정리 기록",
+          "mod_tier_proposal": "미정(원작 위상과 전승·상성 검토 후 결정)"
+        },
+        {
+          "name": "옥녀등설",
+          "type": "미분류",
+          "original_work_grade": "등급 불명",
+          "episode_if_documented": "969화",
+          "source_url": "https://www.namu.moe/w/이 무림의 미친년은 나야/설정/무공",
+          "provenance": "작품 내 무공의 독자 정리 기록",
+          "mod_tier_proposal": "미정(원작 위상과 전승·상성 검토 후 결정)"
+        }
+      ]
+    },
+    {
+      "name": "천마신교",
+      "category": "《이 무림의 미친년은 나야》 작품 내 문파/세력",
+      "combat_identity_game_proposal": "마도 심법·압박적 보법·검도권장·잠형",
+      "source_url": "https://www.namu.moe/w/이 무림의 미친년은 나야/설정/무공",
+      "source_note": "무공명·문파 소속은 해당 작품의 팬 정리에서 확인; 화수·색 등급이 기록되지 않았으면 추정하지 않음.",
+      "proposed_learning_route": "원작 재현 및 공개 배포는 권리 검토 필요. 기연·입문·비급 등 모드용 획득은 설계 제안",
+      "martial_arts": [
+        {
+          "name": "천마심공",
+          "type": "심법",
+          "original_work_grade": "보라색",
+          "episode_if_documented": "76화",
+          "source_url": "https://www.namu.moe/w/이 무림의 미친년은 나야/설정/무공",
+          "provenance": "작품 내 무공의 독자 정리 기록",
+          "mod_tier_proposal": "전설급 (모드용 제안·미확정)"
+        },
+        {
+          "name": "천마지",
+          "type": "지법",
+          "original_work_grade": "보라색",
+          "episode_if_documented": "76화",
+          "source_url": "https://www.namu.moe/w/이 무림의 미친년은 나야/설정/무공",
+          "provenance": "작품 내 무공의 독자 정리 기록",
+          "mod_tier_proposal": "신공 (모드용 제안·미확정)"
+        },
+        {
+          "name": "천마군림보",
+          "type": "보법",
+          "original_work_grade": "보라색",
+          "episode_if_documented": "76화",
+          "source_url": "https://www.namu.moe/w/이 무림의 미친년은 나야/설정/무공",
+          "provenance": "작품 내 무공의 독자 정리 기록",
+          "mod_tier_proposal": "신공 (모드용 제안·미확정)"
+        },
+        {
+          "name": "천마운기식",
+          "type": "심법",
+          "original_work_grade": "보라색",
+          "episode_if_documented": "76화",
+          "source_url": "https://www.namu.moe/w/이 무림의 미친년은 나야/설정/무공",
+          "provenance": "작품 내 무공의 독자 정리 기록",
+          "mod_tier_proposal": "미정(원작 위상과 전승·상성 검토 후 결정)"
+        },
+        {
+          "name": "천마기결",
+          "type": "심법",
+          "original_work_grade": "보라색",
+          "episode_if_documented": "76화",
+          "source_url": "https://www.namu.moe/w/이 무림의 미친년은 나야/설정/무공",
+          "provenance": "작품 내 무공의 독자 정리 기록",
+          "mod_tier_proposal": "미정(원작 위상과 전승·상성 검토 후 결정)"
+        },
+        {
+          "name": "천마혼천기",
+          "type": "심법",
+          "original_work_grade": "보라색",
+          "episode_if_documented": "76화",
+          "source_url": "https://www.namu.moe/w/이 무림의 미친년은 나야/설정/무공",
+          "provenance": "작품 내 무공의 독자 정리 기록",
+          "mod_tier_proposal": "미정(원작 위상과 전승·상성 검토 후 결정)"
+        },
+        {
+          "name": "천마십삼검",
+          "type": "검법",
+          "original_work_grade": "보라색",
+          "episode_if_documented": "76화",
+          "source_url": "https://www.namu.moe/w/이 무림의 미친년은 나야/설정/무공",
+          "provenance": "작품 내 무공의 독자 정리 기록",
+          "mod_tier_proposal": "미정(원작 위상과 전승·상성 검토 후 결정)"
+        },
+        {
+          "name": "천마평정신검",
+          "type": "검법",
+          "original_work_grade": "보라색",
+          "episode_if_documented": "76화",
+          "source_url": "https://www.namu.moe/w/이 무림의 미친년은 나야/설정/무공",
+          "provenance": "작품 내 무공의 독자 정리 기록",
+          "mod_tier_proposal": "미정(원작 위상과 전승·상성 검토 후 결정)"
+        },
+        {
+          "name": "천마아수라신검",
+          "type": "검법",
+          "original_work_grade": "보라색",
+          "episode_if_documented": "76화",
+          "source_url": "https://www.namu.moe/w/이 무림의 미친년은 나야/설정/무공",
+          "provenance": "작품 내 무공의 독자 정리 기록",
+          "mod_tier_proposal": "미정(원작 위상과 전승·상성 검토 후 결정)"
+        },
+        {
+          "name": "천마철질마도",
+          "type": "도법",
+          "original_work_grade": "보라색",
+          "episode_if_documented": "76화",
+          "source_url": "https://www.namu.moe/w/이 무림의 미친년은 나야/설정/무공",
+          "provenance": "작품 내 무공의 독자 정리 기록",
+          "mod_tier_proposal": "미정(원작 위상과 전승·상성 검토 후 결정)"
+        },
+        {
+          "name": "천마절운도",
+          "type": "도법",
+          "original_work_grade": "보라색",
+          "episode_if_documented": "76화",
+          "source_url": "https://www.namu.moe/w/이 무림의 미친년은 나야/설정/무공",
+          "provenance": "작품 내 무공의 독자 정리 기록",
+          "mod_tier_proposal": "미정(원작 위상과 전승·상성 검토 후 결정)"
+        },
+        {
+          "name": "천마아수라마도",
+          "type": "도법",
+          "original_work_grade": "보라색",
+          "episode_if_documented": "76화",
+          "source_url": "https://www.namu.moe/w/이 무림의 미친년은 나야/설정/무공",
+          "provenance": "작품 내 무공의 독자 정리 기록",
+          "mod_tier_proposal": "미정(원작 위상과 전승·상성 검토 후 결정)"
+        },
+        {
+          "name": "천마사린명창",
+          "type": "창법",
+          "original_work_grade": "보라색",
+          "episode_if_documented": "76화",
+          "source_url": "https://www.namu.moe/w/이 무림의 미친년은 나야/설정/무공",
+          "provenance": "작품 내 무공의 독자 정리 기록",
+          "mod_tier_proposal": "미정(원작 위상과 전승·상성 검토 후 결정)"
+        },
+        {
+          "name": "천마육권",
+          "type": "권법",
+          "original_work_grade": "보라색",
+          "episode_if_documented": "76화",
+          "source_url": "https://www.namu.moe/w/이 무림의 미친년은 나야/설정/무공",
+          "provenance": "작품 내 무공의 독자 정리 기록",
+          "mod_tier_proposal": "미정(원작 위상과 전승·상성 검토 후 결정)"
+        },
+        {
+          "name": "천마신권",
+          "type": "권법",
+          "original_work_grade": "보라색",
+          "episode_if_documented": "76화",
+          "source_url": "https://www.namu.moe/w/이 무림의 미친년은 나야/설정/무공",
+          "provenance": "작품 내 무공의 독자 정리 기록",
+          "mod_tier_proposal": "미정(원작 위상과 전승·상성 검토 후 결정)"
+        },
+        {
+          "name": "천마천세장",
+          "type": "장법",
+          "original_work_grade": "보라색",
+          "episode_if_documented": "76화",
+          "source_url": "https://www.namu.moe/w/이 무림의 미친년은 나야/설정/무공",
+          "provenance": "작품 내 무공의 독자 정리 기록",
+          "mod_tier_proposal": "미정(원작 위상과 전승·상성 검토 후 결정)"
+        },
+        {
+          "name": "천마절명수",
+          "type": "수법",
+          "original_work_grade": "보라색",
+          "episode_if_documented": "76화",
+          "source_url": "https://www.namu.moe/w/이 무림의 미친년은 나야/설정/무공",
+          "provenance": "작품 내 무공의 독자 정리 기록",
+          "mod_tier_proposal": "미정(원작 위상과 전승·상성 검토 후 결정)"
+        },
+        {
+          "name": "천마비행술",
+          "type": "경공",
+          "original_work_grade": "보라색",
+          "episode_if_documented": "76화",
+          "source_url": "https://www.namu.moe/w/이 무림의 미친년은 나야/설정/무공",
+          "provenance": "작품 내 무공의 독자 정리 기록",
+          "mod_tier_proposal": "미정(원작 위상과 전승·상성 검토 후 결정)"
+        },
+        {
+          "name": "자전마공",
+          "type": "심법",
+          "original_work_grade": "금색",
+          "episode_if_documented": "50화",
+          "source_url": "https://www.namu.moe/w/이 무림의 미친년은 나야/설정/무공",
+          "provenance": "작품 내 무공의 독자 정리 기록",
+          "mod_tier_proposal": "절학 (모드용 제안·미확정)"
+        },
+        {
+          "name": "풍진보",
+          "type": "보법",
+          "original_work_grade": "빨간색",
+          "episode_if_documented": "81화",
+          "source_url": "https://www.namu.moe/w/이 무림의 미친년은 나야/설정/무공",
+          "provenance": "작품 내 무공의 독자 정리 기록",
+          "mod_tier_proposal": "미정(원작 위상과 전승·상성 검토 후 결정)"
+        },
+        {
+          "name": "흑영투잠",
+          "type": "잠형술",
+          "original_work_grade": "빨간색",
+          "episode_if_documented": "81화",
+          "source_url": "https://www.namu.moe/w/이 무림의 미친년은 나야/설정/무공",
+          "provenance": "작품 내 무공의 독자 정리 기록",
+          "mod_tier_proposal": "미정(원작 위상과 전승·상성 검토 후 결정)"
+        },
+        {
+          "name": "천리비행",
+          "type": "경공",
+          "original_work_grade": "금색",
+          "episode_if_documented": "81화",
+          "source_url": "https://www.namu.moe/w/이 무림의 미친년은 나야/설정/무공",
+          "provenance": "작품 내 무공의 독자 정리 기록",
+          "mod_tier_proposal": "미정(원작 위상과 전승·상성 검토 후 결정)"
+        },
+        {
+          "name": "건곤대나이",
+          "type": "심법",
+          "original_work_grade": "등급 불명",
+          "episode_if_documented": "420화",
+          "source_url": "https://www.namu.moe/w/이 무림의 미친년은 나야/설정/무공",
+          "provenance": "작품 내 무공의 독자 정리 기록",
+          "mod_tier_proposal": "신공 (모드용 제안·미확정)"
+        }
+      ]
+    },
+    {
+      "name": "종남파",
+      "category": "《이 무림의 미친년은 나야》 작품 내 문파/세력",
+      "combat_identity_game_proposal": "중검·검진·심법과 암기",
+      "source_url": "https://www.namu.moe/w/이 무림의 미친년은 나야/설정/무공",
+      "source_note": "무공명·문파 소속은 해당 작품의 팬 정리에서 확인; 화수·색 등급이 기록되지 않았으면 추정하지 않음.",
+      "proposed_learning_route": "원작 재현 및 공개 배포는 권리 검토 필요. 기연·입문·비급 등 모드용 획득은 설계 제안",
+      "martial_arts": [
+        {
+          "name": "천하삼십육검",
+          "type": "검법",
+          "original_work_grade": "등급 불명",
+          "episode_if_documented": "319화",
+          "source_url": "https://www.namu.moe/w/이 무림의 미친년은 나야/설정/무공",
+          "provenance": "작품 내 무공의 독자 정리 기록",
+          "mod_tier_proposal": "절학 (모드용 제안·미확정)"
+        },
+        {
+          "name": "천성검",
+          "type": "검법",
+          "original_work_grade": "등급 불명",
+          "episode_if_documented": "319화",
+          "source_url": "https://www.namu.moe/w/이 무림의 미친년은 나야/설정/무공",
+          "provenance": "작품 내 무공의 독자 정리 기록",
+          "mod_tier_proposal": "미정(원작 위상과 전승·상성 검토 후 결정)"
+        },
+        {
+          "name": "무극검",
+          "type": "검법",
+          "original_work_grade": "등급 불명",
+          "episode_if_documented": "319화",
+          "source_url": "https://www.namu.moe/w/이 무림의 미친년은 나야/설정/무공",
+          "provenance": "작품 내 무공의 독자 정리 기록",
+          "mod_tier_proposal": "미정(원작 위상과 전승·상성 검토 후 결정)"
+        },
+        {
+          "name": "은하비성",
+          "type": "암기법",
+          "original_work_grade": "등급 불명",
+          "episode_if_documented": "319화",
+          "source_url": "https://www.namu.moe/w/이 무림의 미친년은 나야/설정/무공",
+          "provenance": "작품 내 무공의 독자 정리 기록",
+          "mod_tier_proposal": "미정(원작 위상과 전승·상성 검토 후 결정)"
+        },
+        {
+          "name": "태을신공",
+          "type": "심법",
+          "original_work_grade": "등급 불명",
+          "episode_if_documented": "319화",
+          "source_url": "https://www.namu.moe/w/이 무림의 미친년은 나야/설정/무공",
+          "provenance": "작품 내 무공의 독자 정리 기록",
+          "mod_tier_proposal": "미정(원작 위상과 전승·상성 검토 후 결정)"
+        },
+        {
+          "name": "은하천강신공",
+          "type": "심법",
+          "original_work_grade": "등급 불명",
+          "episode_if_documented": "319화",
+          "source_url": "https://www.namu.moe/w/이 무림의 미친년은 나야/설정/무공",
+          "provenance": "작품 내 무공의 독자 정리 기록",
+          "mod_tier_proposal": "미정(원작 위상과 전승·상성 검토 후 결정)"
+        },
+        {
+          "name": "선천공",
+          "type": "심법",
+          "original_work_grade": "등급 불명",
+          "episode_if_documented": "319화",
+          "source_url": "https://www.namu.moe/w/이 무림의 미친년은 나야/설정/무공",
+          "provenance": "작품 내 무공의 독자 정리 기록",
+          "mod_tier_proposal": "미정(원작 위상과 전승·상성 검토 후 결정)"
+        }
+      ]
+    },
+    {
+      "name": "곤륜파",
+      "category": "《이 무림의 미친년은 나야》 작품 내 문파/세력",
+      "combat_identity_game_proposal": "장거리 기동·공중 전술·다양한 무기",
+      "source_url": "https://www.namu.moe/w/이 무림의 미친년은 나야/설정/무공",
+      "source_note": "무공명·문파 소속은 해당 작품의 팬 정리에서 확인; 화수·색 등급이 기록되지 않았으면 추정하지 않음.",
+      "proposed_learning_route": "원작 재현 및 공개 배포는 권리 검토 필요. 기연·입문·비급 등 모드용 획득은 설계 제안",
+      "martial_arts": [
+        {
+          "name": "운룡대팔식",
+          "type": "신법",
+          "original_work_grade": "보라색",
+          "episode_if_documented": "593화",
+          "source_url": "https://www.namu.moe/w/이 무림의 미친년은 나야/설정/무공",
+          "provenance": "작품 내 무공의 독자 정리 기록",
+          "mod_tier_proposal": "절학 (모드용 제안·미확정)"
+        },
+        {
+          "name": "용봉대구식",
+          "type": "신법",
+          "original_work_grade": "등급 불명",
+          "episode_if_documented": "593화",
+          "source_url": "https://www.namu.moe/w/이 무림의 미친년은 나야/설정/무공",
+          "provenance": "작품 내 무공의 독자 정리 기록",
+          "mod_tier_proposal": "미정(원작 위상과 전승·상성 검토 후 결정)"
+        },
+        {
+          "name": "용형보",
+          "type": "보법",
+          "original_work_grade": "등급 불명",
+          "episode_if_documented": "593화",
+          "source_url": "https://www.namu.moe/w/이 무림의 미친년은 나야/설정/무공",
+          "provenance": "작품 내 무공의 독자 정리 기록",
+          "mod_tier_proposal": "미정(원작 위상과 전승·상성 검토 후 결정)"
+        },
+        {
+          "name": "태청무상검",
+          "type": "검법",
+          "original_work_grade": "등급 불명",
+          "episode_if_documented": "593화",
+          "source_url": "https://www.namu.moe/w/이 무림의 미친년은 나야/설정/무공",
+          "provenance": "작품 내 무공의 독자 정리 기록",
+          "mod_tier_proposal": "미정(원작 위상과 전승·상성 검토 후 결정)"
+        },
+        {
+          "name": "태청강기",
+          "type": "강기공",
+          "original_work_grade": "등급 불명",
+          "episode_if_documented": "593화",
+          "source_url": "https://www.namu.moe/w/이 무림의 미친년은 나야/설정/무공",
+          "provenance": "작품 내 무공의 독자 정리 기록",
+          "mod_tier_proposal": "미정(원작 위상과 전승·상성 검토 후 결정)"
+        },
+        {
+          "name": "추명도",
+          "type": "도법",
+          "original_work_grade": "등급 불명",
+          "episode_if_documented": "593화",
+          "source_url": "https://www.namu.moe/w/이 무림의 미친년은 나야/설정/무공",
+          "provenance": "작품 내 무공의 독자 정리 기록",
+          "mod_tier_proposal": "미정(원작 위상과 전승·상성 검토 후 결정)"
+        },
+        {
+          "name": "종학금종수",
+          "type": "수법",
+          "original_work_grade": "등급 불명",
+          "episode_if_documented": "593화",
+          "source_url": "https://www.namu.moe/w/이 무림의 미친년은 나야/설정/무공",
+          "provenance": "작품 내 무공의 독자 정리 기록",
+          "mod_tier_proposal": "미정(원작 위상과 전승·상성 검토 후 결정)"
+        },
+        {
+          "name": "운학장",
+          "type": "장법",
+          "original_work_grade": "등급 불명",
+          "episode_if_documented": "593화",
+          "source_url": "https://www.namu.moe/w/이 무림의 미친년은 나야/설정/무공",
+          "provenance": "작품 내 무공의 독자 정리 기록",
+          "mod_tier_proposal": "미정(원작 위상과 전승·상성 검토 후 결정)"
+        },
+        {
+          "name": "낙안권",
+          "type": "권법",
+          "original_work_grade": "등급 불명",
+          "episode_if_documented": "593화",
+          "source_url": "https://www.namu.moe/w/이 무림의 미친년은 나야/설정/무공",
+          "provenance": "작품 내 무공의 독자 정리 기록",
+          "mod_tier_proposal": "미정(원작 위상과 전승·상성 검토 후 결정)"
+        },
+        {
+          "name": "운룡조",
+          "type": "조법",
+          "original_work_grade": "등급 불명",
+          "episode_if_documented": "593화",
+          "source_url": "https://www.namu.moe/w/이 무림의 미친년은 나야/설정/무공",
+          "provenance": "작품 내 무공의 독자 정리 기록",
+          "mod_tier_proposal": "미정(원작 위상과 전승·상성 검토 후 결정)"
+        },
+        {
+          "name": "용무선회각",
+          "type": "각법",
+          "original_work_grade": "등급 불명",
+          "episode_if_documented": "593화",
+          "source_url": "https://www.namu.moe/w/이 무림의 미친년은 나야/설정/무공",
+          "provenance": "작품 내 무공의 독자 정리 기록",
+          "mod_tier_proposal": "미정(원작 위상과 전승·상성 검토 후 결정)"
+        },
+        {
+          "name": "갈미구",
+          "type": "구법",
+          "original_work_grade": "등급 불명",
+          "episode_if_documented": "593화",
+          "source_url": "https://www.namu.moe/w/이 무림의 미친년은 나야/설정/무공",
+          "provenance": "작품 내 무공의 독자 정리 기록",
+          "mod_tier_proposal": "미정(원작 위상과 전승·상성 검토 후 결정)"
+        },
+        {
+          "name": "상천무상대심결",
+          "type": "심법",
+          "original_work_grade": "등급 불명",
+          "episode_if_documented": "623화",
+          "source_url": "https://www.namu.moe/w/이 무림의 미친년은 나야/설정/무공",
+          "provenance": "작품 내 무공의 독자 정리 기록",
+          "mod_tier_proposal": "미정(원작 위상과 전승·상성 검토 후 결정)"
+        }
+      ]
+    },
+    {
+      "name": "점창파",
+      "category": "《이 무림의 미친년은 나야》 작품 내 문파/세력",
+      "combat_identity_game_proposal": "극한 쾌검·찌르기·기민한 신법",
+      "source_url": "https://www.namu.moe/w/이 무림의 미친년은 나야/설정/무공",
+      "source_note": "무공명·문파 소속은 해당 작품의 팬 정리에서 확인; 화수·색 등급이 기록되지 않았으면 추정하지 않음.",
+      "proposed_learning_route": "원작 재현 및 공개 배포는 권리 검토 필요. 기연·입문·비급 등 모드용 획득은 설계 제안",
+      "martial_arts": [
+        {
+          "name": "사일검법",
+          "type": "검법",
+          "original_work_grade": "등급 불명",
+          "episode_if_documented": "144화",
+          "source_url": "https://www.namu.moe/w/이 무림의 미친년은 나야/설정/무공",
+          "provenance": "작품 내 무공의 독자 정리 기록",
+          "mod_tier_proposal": "절학 (모드용 제안·미확정)"
+        },
+        {
+          "name": "분광삼십육검",
+          "type": "검법",
+          "original_work_grade": "금색",
+          "episode_if_documented": "871화",
+          "source_url": "https://www.namu.moe/w/이 무림의 미친년은 나야/설정/무공",
+          "provenance": "작품 내 무공의 독자 정리 기록",
+          "mod_tier_proposal": "미정(원작 위상과 전승·상성 검토 후 결정)"
+        },
+        {
+          "name": "유운신법",
+          "type": "신법",
+          "original_work_grade": "등급 불명",
+          "episode_if_documented": "1157화",
+          "source_url": "https://www.namu.moe/w/이 무림의 미친년은 나야/설정/무공",
+          "provenance": "작품 내 무공의 독자 정리 기록",
+          "mod_tier_proposal": "미정(원작 위상과 전승·상성 검토 후 결정)"
+        }
+      ]
+    },
+    {
+      "name": "하북팽가",
+      "category": "《이 무림의 미친년은 나야》 작품 내 문파/세력",
+      "combat_identity_game_proposal": "힘·무게중심·중도 강타",
+      "source_url": "https://www.namu.moe/w/이 무림의 미친년은 나야/설정/무공",
+      "source_note": "무공명·문파 소속은 해당 작품의 팬 정리에서 확인; 화수·색 등급이 기록되지 않았으면 추정하지 않음.",
+      "proposed_learning_route": "원작 재현 및 공개 배포는 권리 검토 필요. 기연·입문·비급 등 모드용 획득은 설계 제안",
+      "martial_arts": [
+        {
+          "name": "혼원벽력도",
+          "type": "도법",
+          "original_work_grade": "등급 불명",
+          "episode_if_documented": "144화",
+          "source_url": "https://www.namu.moe/w/이 무림의 미친년은 나야/설정/무공",
+          "provenance": "작품 내 무공의 독자 정리 기록",
+          "mod_tier_proposal": "절학 (모드용 제안·미확정)"
+        }
+      ]
+    },
+    {
+      "name": "모용세가",
+      "category": "《이 무림의 미친년은 나야》 작품 내 문파/세력",
+      "combat_identity_game_proposal": "쾌검·쌍검과 가전 심법",
+      "source_url": "https://www.namu.moe/w/이 무림의 미친년은 나야/설정/무공",
+      "source_note": "무공명·문파 소속은 해당 작품의 팬 정리에서 확인; 화수·색 등급이 기록되지 않았으면 추정하지 않음.",
+      "proposed_learning_route": "원작 재현 및 공개 배포는 권리 검토 필요. 기연·입문·비급 등 모드용 획득은 설계 제안",
+      "martial_arts": [
+        {
+          "name": "건공무양신공",
+          "type": "심법",
+          "original_work_grade": "등급 불명",
+          "episode_if_documented": "201화",
+          "source_url": "https://www.namu.moe/w/이 무림의 미친년은 나야/설정/무공",
+          "provenance": "작품 내 무공의 독자 정리 기록",
+          "mod_tier_proposal": "미정(원작 위상과 전승·상성 검토 후 결정)"
+        }
+      ]
+    },
+    {
+      "name": "개방",
+      "category": "《이 무림의 미친년은 나야》 작품 내 문파/세력",
+      "combat_identity_game_proposal": "봉법·강호 정보망",
+      "source_url": "https://www.namu.moe/w/이 무림의 미친년은 나야/설정/무공",
+      "source_note": "무공명·문파 소속은 해당 작품의 팬 정리에서 확인; 화수·색 등급이 기록되지 않았으면 추정하지 않음.",
+      "proposed_learning_route": "원작 재현 및 공개 배포는 권리 검토 필요. 기연·입문·비급 등 모드용 획득은 설계 제안",
+      "martial_arts": [
+        {
+          "name": "타구봉법",
+          "type": "봉법",
+          "original_work_grade": "등급 불명",
+          "episode_if_documented": "205화",
+          "source_url": "https://www.namu.moe/w/이 무림의 미친년은 나야/설정/무공",
+          "provenance": "작품 내 무공의 독자 정리 기록",
+          "mod_tier_proposal": "신공 (모드용 제안·미확정)"
+        }
+      ]
+    },
+    {
+      "name": "공동파",
+      "category": "《이 무림의 미친년은 나야》 작품 내 문파/세력",
+      "combat_identity_game_proposal": "복마 검술·조법",
+      "source_url": "https://www.namu.moe/w/이 무림의 미친년은 나야/설정/무공",
+      "source_note": "무공명·문파 소속은 해당 작품의 팬 정리에서 확인; 화수·색 등급이 기록되지 않았으면 추정하지 않음.",
+      "proposed_learning_route": "원작 재현 및 공개 배포는 권리 검토 필요. 기연·입문·비급 등 모드용 획득은 설계 제안",
+      "martial_arts": [
+        {
+          "name": "복마검법",
+          "type": "검법",
+          "original_work_grade": "등급 불명",
+          "episode_if_documented": "130화",
+          "source_url": "https://www.namu.moe/w/이 무림의 미친년은 나야/설정/무공",
+          "provenance": "작품 내 무공의 독자 정리 기록",
+          "mod_tier_proposal": "절학 (모드용 제안·미확정)"
+        },
+        {
+          "name": "신풍귀조",
+          "type": "조법",
+          "original_work_grade": "등급 불명",
+          "episode_if_documented": "131화",
+          "source_url": "https://www.namu.moe/w/이 무림의 미친년은 나야/설정/무공",
+          "provenance": "작품 내 무공의 독자 정리 기록",
+          "mod_tier_proposal": "미정(원작 위상과 전승·상성 검토 후 결정)"
+        }
+      ]
+    },
+    {
+      "name": "녹림",
+      "category": "《이 무림의 미친년은 나야》 작품 내 문파/세력",
+      "combat_identity_game_proposal": "큰 봉·월도 활용, 높은 충격",
+      "source_url": "https://www.namu.moe/w/이 무림의 미친년은 나야/설정/무공",
+      "source_note": "무공명·문파 소속은 해당 작품의 팬 정리에서 확인; 화수·색 등급이 기록되지 않았으면 추정하지 않음.",
+      "proposed_learning_route": "원작 재현 및 공개 배포는 권리 검토 필요. 기연·입문·비급 등 모드용 획득은 설계 제안",
+      "martial_arts": [
+        {
+          "name": "경천대성마곤",
+          "type": "곤법",
+          "original_work_grade": "빨간색",
+          "episode_if_documented": "347화",
+          "source_url": "https://www.namu.moe/w/이 무림의 미친년은 나야/설정/무공",
+          "provenance": "작품 내 무공의 독자 정리 기록",
+          "mod_tier_proposal": "절기 (모드용 제안·미확정)"
+        }
+      ]
+    },
+    {
+      "name": "진주언가",
+      "category": "《이 무림의 미친년은 나야》 작품 내 문파/세력",
+      "combat_identity_game_proposal": "근력 집중 권법·가전 심법",
+      "source_url": "https://www.namu.moe/w/이 무림의 미친년은 나야/설정/무공",
+      "source_note": "무공명·문파 소속은 해당 작품의 팬 정리에서 확인; 화수·색 등급이 기록되지 않았으면 추정하지 않음.",
+      "proposed_learning_route": "원작 재현 및 공개 배포는 권리 검토 필요. 기연·입문·비급 등 모드용 획득은 설계 제안",
+      "martial_arts": [
+        {
+          "name": "언가권",
+          "type": "권법",
+          "original_work_grade": "빨간색",
+          "episode_if_documented": "544화",
+          "source_url": "https://www.namu.moe/w/이 무림의 미친년은 나야/설정/무공",
+          "provenance": "작품 내 무공의 독자 정리 기록",
+          "mod_tier_proposal": "미정(원작 위상과 전승·상성 검토 후 결정)"
+        },
+        {
+          "name": "생심결",
+          "type": "심법",
+          "original_work_grade": "빨간색",
+          "episode_if_documented": "544화",
+          "source_url": "https://www.namu.moe/w/이 무림의 미친년은 나야/설정/무공",
+          "provenance": "작품 내 무공의 독자 정리 기록",
+          "mod_tier_proposal": "미정(원작 위상과 전승·상성 검토 후 결정)"
+        }
+      ]
+    },
+    {
+      "name": "무영신투 계승",
+      "category": "《이 무림의 미친년은 나야》 작품 내 문파/세력",
+      "combat_identity_game_proposal": "잠입·촉각·절도 전문",
+      "source_url": "https://www.namu.moe/w/이 무림의 미친년은 나야/설정/무공",
+      "source_note": "무공명·문파 소속은 해당 작품의 팬 정리에서 확인; 화수·색 등급이 기록되지 않았으면 추정하지 않음.",
+      "proposed_learning_route": "원작 재현 및 공개 배포는 권리 검토 필요. 기연·입문·비급 등 모드용 획득은 설계 제안",
+      "martial_arts": [
+        {
+          "name": "무영신수",
+          "type": "수법",
+          "original_work_grade": "금색",
+          "episode_if_documented": "162화",
+          "source_url": "https://www.namu.moe/w/이 무림의 미친년은 나야/설정/무공",
+          "provenance": "작품 내 무공의 독자 정리 기록",
+          "mod_tier_proposal": "미정(원작 위상과 전승·상성 검토 후 결정)"
+        },
+        {
+          "name": "유류연련",
+          "type": "외공",
+          "original_work_grade": "금색",
+          "episode_if_documented": "209화",
+          "source_url": "https://www.namu.moe/w/이 무림의 미친년은 나야/설정/무공",
+          "provenance": "작품 내 무공의 독자 정리 기록",
+          "mod_tier_proposal": "미정(원작 위상과 전승·상성 검토 후 결정)"
+        },
+        {
+          "name": "격공순신",
+          "type": "경공",
+          "original_work_grade": "금색",
+          "episode_if_documented": "213화",
+          "source_url": "https://www.namu.moe/w/이 무림의 미친년은 나야/설정/무공",
+          "provenance": "작품 내 무공의 독자 정리 기록",
+          "mod_tier_proposal": "절학 (모드용 제안·미확정)"
+        },
+        {
+          "name": "각성신공",
+          "type": "심법",
+          "original_work_grade": "금색",
+          "episode_if_documented": "213화",
+          "source_url": "https://www.namu.moe/w/이 무림의 미친년은 나야/설정/무공",
+          "provenance": "작품 내 무공의 독자 정리 기록",
+          "mod_tier_proposal": "절학 (모드용 제안·미확정)"
+        }
+      ]
+    },
+    {
+      "name": "마왕도문",
+      "category": "《이 무림의 미친년은 나야》 작품 내 문파/세력",
+      "combat_identity_game_proposal": "혈기 기반 도법·심법",
+      "source_url": "https://www.namu.moe/w/이 무림의 미친년은 나야/설정/무공",
+      "source_note": "무공명·문파 소속은 해당 작품의 팬 정리에서 확인; 화수·색 등급이 기록되지 않았으면 추정하지 않음.",
+      "proposed_learning_route": "원작 재현 및 공개 배포는 권리 검토 필요. 기연·입문·비급 등 모드용 획득은 설계 제안",
+      "martial_arts": [
+        {
+          "name": "혈마왕신공",
+          "type": "심법",
+          "original_work_grade": "금색",
+          "episode_if_documented": "81화",
+          "source_url": "https://www.namu.moe/w/이 무림의 미친년은 나야/설정/무공",
+          "provenance": "작품 내 무공의 독자 정리 기록",
+          "mod_tier_proposal": "미정(원작 위상과 전승·상성 검토 후 결정)"
+        },
+        {
+          "name": "혈영뇌전도법",
+          "type": "도법",
+          "original_work_grade": "금색",
+          "episode_if_documented": "81화",
+          "source_url": "https://www.namu.moe/w/이 무림의 미친년은 나야/설정/무공",
+          "provenance": "작품 내 무공의 독자 정리 기록",
+          "mod_tier_proposal": "미정(원작 위상과 전승·상성 검토 후 결정)"
+        }
+      ]
+    },
+    {
+      "name": "수라문",
+      "category": "《이 무림의 미친년은 나야》 작품 내 문파/세력",
+      "combat_identity_game_proposal": "위험한 공격 지속형 검술",
+      "source_url": "https://www.namu.moe/w/이 무림의 미친년은 나야/설정/무공",
+      "source_note": "무공명·문파 소속은 해당 작품의 팬 정리에서 확인; 화수·색 등급이 기록되지 않았으면 추정하지 않음.",
+      "proposed_learning_route": "원작 재현 및 공개 배포는 권리 검토 필요. 기연·입문·비급 등 모드용 획득은 설계 제안",
+      "martial_arts": [
+        {
+          "name": "백팔수라검",
+          "type": "검법",
+          "original_work_grade": "금색",
+          "episode_if_documented": "50화",
+          "source_url": "https://www.namu.moe/w/이 무림의 미친년은 나야/설정/무공",
+          "provenance": "작품 내 무공의 독자 정리 기록",
+          "mod_tier_proposal": "절학 (모드용 제안·미확정)"
+        }
+      ]
+    },
+    {
+      "name": "황산파",
+      "category": "《이 무림의 미친년은 나야》 작품 내 문파/세력",
+      "combat_identity_game_proposal": "자연진기와 산세를 활용한 도가 심법",
+      "source_url": "https://www.namu.moe/w/이 무림의 미친년은 나야/설정/무공",
+      "source_note": "무공명·문파 소속은 해당 작품의 팬 정리에서 확인; 화수·색 등급이 기록되지 않았으면 추정하지 않음.",
+      "proposed_learning_route": "원작 재현 및 공개 배포는 권리 검토 필요. 기연·입문·비급 등 모드용 획득은 설계 제안",
+      "martial_arts": [
+        {
+          "name": "천해심공",
+          "type": "심법",
+          "original_work_grade": "빨간색",
+          "episode_if_documented": "621화",
+          "source_url": "https://www.namu.moe/w/이 무림의 미친년은 나야/설정/무공",
+          "provenance": "작품 내 무공의 독자 정리 기록",
+          "mod_tier_proposal": "미정(원작 위상과 전승·상성 검토 후 결정)"
+        }
+      ]
+    },
+    {
+      "name": "무이파",
+      "category": "《이 무림의 미친년은 나야》 작품 내 문파/세력",
+      "combat_identity_game_proposal": "도법 기반의 거친 운용",
+      "source_url": "https://www.namu.moe/w/이 무림의 미친년은 나야/설정/무공",
+      "source_note": "무공명·문파 소속은 해당 작품의 팬 정리에서 확인; 화수·색 등급이 기록되지 않았으면 추정하지 않음.",
+      "proposed_learning_route": "원작 재현 및 공개 배포는 권리 검토 필요. 기연·입문·비급 등 모드용 획득은 설계 제안",
+      "martial_arts": [
+        {
+          "name": "탈명도",
+          "type": "도법",
+          "original_work_grade": "빨간색",
+          "episode_if_documented": "448화",
+          "source_url": "https://www.namu.moe/w/이 무림의 미친년은 나야/설정/무공",
+          "provenance": "작품 내 무공의 독자 정리 기록",
+          "mod_tier_proposal": "미정(원작 위상과 전승·상성 검토 후 결정)"
+        }
+      ]
+    },
+    {
+      "name": "옥녀궁",
+      "category": "《이 무림의 미친년은 나야》 작품 내 문파/세력",
+      "combat_identity_game_proposal": "한기 심법",
+      "source_url": "https://www.namu.moe/w/이 무림의 미친년은 나야/설정/무공",
+      "source_note": "무공명·문파 소속은 해당 작품의 팬 정리에서 확인; 화수·색 등급이 기록되지 않았으면 추정하지 않음.",
+      "proposed_learning_route": "원작 재현 및 공개 배포는 권리 검토 필요. 기연·입문·비급 등 모드용 획득은 설계 제안",
+      "martial_arts": [
+        {
+          "name": "태음옥녀신공",
+          "type": "심법",
+          "original_work_grade": "금색",
+          "episode_if_documented": "85화",
+          "source_url": "https://www.namu.moe/w/이 무림의 미친년은 나야/설정/무공",
+          "provenance": "작품 내 무공의 독자 정리 기록",
+          "mod_tier_proposal": "미정(원작 위상과 전승·상성 검토 후 결정)"
+        }
+      ]
+    },
+    {
+      "name": "광동진가",
+      "category": "《이 무림의 미친년은 나야》 작품 내 문파/세력",
+      "combat_identity_game_proposal": "태극 계열의 정교한 근접 권법",
+      "source_url": "https://www.namu.moe/w/이 무림의 미친년은 나야/설정/무공",
+      "source_note": "무공명·문파 소속은 해당 작품의 팬 정리에서 확인; 화수·색 등급이 기록되지 않았으면 추정하지 않음.",
+      "proposed_learning_route": "원작 재현 및 공개 배포는 권리 검토 필요. 기연·입문·비급 등 모드용 획득은 설계 제안",
+      "martial_arts": [
+        {
+          "name": "태극무극권",
+          "type": "권법",
+          "original_work_grade": "보라색",
+          "episode_if_documented": "188화",
+          "source_url": "https://www.namu.moe/w/이 무림의 미친년은 나야/설정/무공",
+          "provenance": "작품 내 무공의 독자 정리 기록",
+          "mod_tier_proposal": "절학 (모드용 제안·미확정)"
+        }
+      ]
+    }
+  ],
+  "novel_standalone_and_merchant_martials": [
+    {
+      "name": "월녀검법(진체)",
+      "type": "검법",
+      "original_work_grade": "보라색",
+      "episode_if_documented": "4화",
+      "source_url": "https://www.namu.moe/w/이 무림의 미친년은 나야/설정/무공",
+      "provenance": "작품 내 기연·시중 무공 관련 2차 정리",
+      "mod_tier_proposal": "미정(원작 위상과 서사 검토)"
+    },
+    {
+      "name": "월녀심결(진체)",
+      "type": "심법",
+      "original_work_grade": "보라색",
+      "episode_if_documented": "4화",
+      "source_url": "https://www.namu.moe/w/이 무림의 미친년은 나야/설정/무공",
+      "provenance": "작품 내 기연·시중 무공 관련 2차 정리",
+      "mod_tier_proposal": "미정(원작 위상과 서사 검토)"
+    },
+    {
+      "name": "월녀산보(진체)",
+      "type": "보법",
+      "original_work_grade": "보라색",
+      "episode_if_documented": "4화",
+      "source_url": "https://www.namu.moe/w/이 무림의 미친년은 나야/설정/무공",
+      "provenance": "작품 내 기연·시중 무공 관련 2차 정리",
+      "mod_tier_proposal": "미정(원작 위상과 서사 검토)"
+    },
+    {
+      "name": "독고구검",
+      "type": "검법",
+      "original_work_grade": "보라색",
+      "episode_if_documented": "57화",
+      "source_url": "https://www.namu.moe/w/이 무림의 미친년은 나야/설정/무공",
+      "provenance": "작품 내 기연·시중 무공 관련 2차 정리",
+      "mod_tier_proposal": "전설급"
+    },
+    {
+      "name": "북명신공",
+      "type": "심법",
+      "original_work_grade": "보라색",
+      "episode_if_documented": "92화",
+      "source_url": "https://www.namu.moe/w/이 무림의 미친년은 나야/설정/무공",
+      "provenance": "작품 내 기연·시중 무공 관련 2차 정리",
+      "mod_tier_proposal": "전설급"
+    },
+    {
+      "name": "능파미보",
+      "type": "보법",
+      "original_work_grade": "보라색",
+      "episode_if_documented": "139화",
+      "source_url": "https://www.namu.moe/w/이 무림의 미친년은 나야/설정/무공",
+      "provenance": "작품 내 기연·시중 무공 관련 2차 정리",
+      "mod_tier_proposal": "미정(원작 위상과 서사 검토)"
+    },
+    {
+      "name": "원공권",
+      "type": "권법",
+      "original_work_grade": "흰색",
+      "episode_if_documented": "10화",
+      "source_url": "https://www.namu.moe/w/이 무림의 미친년은 나야/설정/무공",
+      "provenance": "작품 내 기연·시중 무공 관련 2차 정리",
+      "mod_tier_proposal": "미정(원작 위상과 서사 검토)"
+    },
+    {
+      "name": "당랑권",
+      "type": "권법",
+      "original_work_grade": "흰색",
+      "episode_if_documented": "10화",
+      "source_url": "https://www.namu.moe/w/이 무림의 미친년은 나야/설정/무공",
+      "provenance": "작품 내 기연·시중 무공 관련 2차 정리",
+      "mod_tier_proposal": "미정(원작 위상과 서사 검토)"
+    },
+    {
+      "name": "원앙각",
+      "type": "각법",
+      "original_work_grade": "흰색",
+      "episode_if_documented": "10화",
+      "source_url": "https://www.namu.moe/w/이 무림의 미친년은 나야/설정/무공",
+      "provenance": "작품 내 기연·시중 무공 관련 2차 정리",
+      "mod_tier_proposal": "미정(원작 위상과 서사 검토)"
+    },
+    {
+      "name": "단권",
+      "type": "권법",
+      "original_work_grade": "흰색",
+      "episode_if_documented": "10화",
+      "source_url": "https://www.namu.moe/w/이 무림의 미친년은 나야/설정/무공",
+      "provenance": "작품 내 기연·시중 무공 관련 2차 정리",
+      "mod_tier_proposal": "미정(원작 위상과 서사 검토)"
+    },
+    {
+      "name": "유가권술",
+      "type": "권법",
+      "original_work_grade": "흰색",
+      "episode_if_documented": "10화",
+      "source_url": "https://www.namu.moe/w/이 무림의 미친년은 나야/설정/무공",
+      "provenance": "작품 내 기연·시중 무공 관련 2차 정리",
+      "mod_tier_proposal": "미정(원작 위상과 서사 검토)"
+    },
+    {
+      "name": "낭아권",
+      "type": "권법",
+      "original_work_grade": "흰색",
+      "episode_if_documented": "10화",
+      "source_url": "https://www.namu.moe/w/이 무림의 미친년은 나야/설정/무공",
+      "provenance": "작품 내 기연·시중 무공 관련 2차 정리",
+      "mod_tier_proposal": "미정(원작 위상과 서사 검토)"
+    },
+    {
+      "name": "일저삼작",
+      "type": "암기법",
+      "original_work_grade": "흰색",
+      "episode_if_documented": "16화",
+      "source_url": "https://www.namu.moe/w/이 무림의 미친년은 나야/설정/무공",
+      "provenance": "작품 내 기연·시중 무공 관련 2차 정리",
+      "mod_tier_proposal": "미정(원작 위상과 서사 검토)"
+    },
+    {
+      "name": "육합권",
+      "type": "권법",
+      "original_work_grade": "흰색",
+      "episode_if_documented": "223화",
+      "source_url": "https://www.namu.moe/w/이 무림의 미친년은 나야/설정/무공",
+      "provenance": "작품 내 기연·시중 무공 관련 2차 정리",
+      "mod_tier_proposal": "미정(원작 위상과 서사 검토)"
+    },
+    {
+      "name": "이화검",
+      "type": "검법",
+      "original_work_grade": "흰색",
+      "episode_if_documented": "531화",
+      "source_url": "https://www.namu.moe/w/이 무림의 미친년은 나야/설정/무공",
+      "provenance": "작품 내 기연·시중 무공 관련 2차 정리",
+      "mod_tier_proposal": "미정(원작 위상과 서사 검토)"
+    },
+    {
+      "name": "단철검",
+      "type": "검법",
+      "original_work_grade": "흰색",
+      "episode_if_documented": "531화",
+      "source_url": "https://www.namu.moe/w/이 무림의 미친년은 나야/설정/무공",
+      "provenance": "작품 내 기연·시중 무공 관련 2차 정리",
+      "mod_tier_proposal": "미정(원작 위상과 서사 검토)"
+    },
+    {
+      "name": "일화검",
+      "type": "검법",
+      "original_work_grade": "흰색",
+      "episode_if_documented": "531화",
+      "source_url": "https://www.namu.moe/w/이 무림의 미친년은 나야/설정/무공",
+      "provenance": "작품 내 기연·시중 무공 관련 2차 정리",
+      "mod_tier_proposal": "미정(원작 위상과 서사 검토)"
+    },
+    {
+      "name": "은살검",
+      "type": "검법",
+      "original_work_grade": "흰색",
+      "episode_if_documented": "531화",
+      "source_url": "https://www.namu.moe/w/이 무림의 미친년은 나야/설정/무공",
+      "provenance": "작품 내 기연·시중 무공 관련 2차 정리",
+      "mod_tier_proposal": "미정(원작 위상과 서사 검토)"
+    },
+    {
+      "name": "참우검",
+      "type": "검법",
+      "original_work_grade": "흰색",
+      "episode_if_documented": "531화",
+      "source_url": "https://www.namu.moe/w/이 무림의 미친년은 나야/설정/무공",
+      "provenance": "작품 내 기연·시중 무공 관련 2차 정리",
+      "mod_tier_proposal": "미정(원작 위상과 서사 검토)"
+    },
+    {
+      "name": "옥소검형",
+      "type": "검법",
+      "original_work_grade": "흰색",
+      "episode_if_documented": "531화",
+      "source_url": "https://www.namu.moe/w/이 무림의 미친년은 나야/설정/무공",
+      "provenance": "작품 내 기연·시중 무공 관련 2차 정리",
+      "mod_tier_proposal": "미정(원작 위상과 서사 검토)"
+    },
+    {
+      "name": "장안검식",
+      "type": "검법",
+      "original_work_grade": "흰색",
+      "episode_if_documented": "531화",
+      "source_url": "https://www.namu.moe/w/이 무림의 미친년은 나야/설정/무공",
+      "provenance": "작품 내 기연·시중 무공 관련 2차 정리",
+      "mod_tier_proposal": "미정(원작 위상과 서사 검토)"
+    }
+  ],
+  "novel_character_creation_references": {
+    "destiny": [
+      "자미대성",
+      "천개대관",
+      "형옥환수",
+      "중량천주",
+      "풍운신비",
+      "랑아고성",
+      "천살고성"
+    ],
+    "body_traits": [
+      "시혈독인",
+      "천무지체",
+      "자연지체",
+      "구음지혈"
+    ],
+    "disclaimer": "웹 2차 자료에서 확인된 부분집합; 작품에는 14개 운명성이 있다고 정리되어 있으나 현재 전부 확인·검증한 것은 아님. 기존 선천 특성 시스템에 그대로 복제하지 않고 출처 검토 후 후보 추가."
+  },
+  "design_integration": {
+    "tiers": "작품의 공식 색상과 모드용 7단계 위상 병기",
+    "sect_curricula": "각 문파의 입문/기초 → 정식 전수 → 내문 제자 → 장로 비전/기연을 데이터로 분리",
+    "martial_system": "무공 계통별 모션, 초식, 합, 패링, 빈틈, 내공 상성, 피로를 각기 구현",
+    "acquisition": "소속 제한이 아닌 전승·호감·기연·비급·문파 징계·공개 범위를 활용",
+    "status": "지금은 데이터와 기획이며 실제 NeoForge jar 구현 아님"
+  },
+  "previous_v1_3_reference_count": 77,
+  "previous_v1_3_art_registry": [
+    {
+      "id": "martial_001",
+      "name": "구음진경",
+      "verified_origin": "김용 《사조영웅전》 외",
+      "category": "심법·종합",
+      "proposed_game_tier": "전설급",
+      "gameplay_direction": "음의 심법과 다수 고급 무학을 아우르는 종합 비급",
+      "proposed_acquisition": "최고 희귀 기연",
+      "source_urls": [
+        "https://wuxiasociety.com/jin-yong-martial-arts/"
+      ],
+      "status": "실제 작품/무술 자료에서 명칭 확인; 효과·등급·획득은 모드 기획안"
+    },
+    {
+      "id": "martial_002",
+      "name": "구양신공",
+      "verified_origin": "김용 《의천도룡기》",
+      "category": "내공",
+      "proposed_game_tier": "전설급",
+      "gameplay_direction": "양의 내공 운용과 강한 지속 전투",
+      "proposed_acquisition": "최고 희귀 기연",
+      "source_urls": [
+        "https://wuxiasociety.com/jin-yong-martial-arts/"
+      ],
+      "status": "실제 작품/무술 자료에서 명칭 확인; 효과·등급·획득은 모드 기획안"
+    },
+    {
+      "id": "martial_003",
+      "name": "역근경",
+      "verified_origin": "김용 무협 세계 및 소림 전통 모티프",
+      "category": "내공",
+      "proposed_game_tier": "신공",
+      "gameplay_direction": "경맥과 내공의 정교한 단련",
+      "proposed_acquisition": "특수 전수·극희귀 기연",
+      "source_urls": [
+        "https://wuxiasociety.com/jin-yong-martial-arts/"
+      ],
+      "status": "실제 작품/무술 자료에서 명칭 확인; 효과·등급·획득은 모드 기획안"
+    },
+    {
+      "id": "martial_004",
+      "name": "세수경",
+      "verified_origin": "김용 무협 세계",
+      "category": "내공",
+      "proposed_game_tier": "신공",
+      "gameplay_direction": "내면 기운 정화와 정련",
+      "proposed_acquisition": "특수 전수·극희귀 기연",
+      "source_urls": [
+        "https://wuxiasociety.com/jin-yong-martial-arts/"
+      ],
+      "status": "실제 작품/무술 자료에서 명칭 확인; 효과·등급·획득은 모드 기획안"
+    },
+    {
+      "id": "martial_005",
+      "name": "북명신공",
+      "verified_origin": "김용 《천룡팔부》",
+      "category": "내공",
+      "proposed_game_tier": "전설급",
+      "gameplay_direction": "다른 이의 내력을 흡수하는 위험한 수련",
+      "proposed_acquisition": "극희귀 기연",
+      "source_urls": [
+        "https://wuxiasociety.com/jin-yong-martial-arts/"
+      ],
+      "status": "실제 작품/무술 자료에서 명칭 확인; 효과·등급·획득은 모드 기획안"
+    },
+    {
+      "id": "martial_006",
+      "name": "규화보전",
+      "verified_origin": "김용 《소오강호》",
+      "category": "금제·내공",
+      "proposed_game_tier": "전설급",
+      "gameplay_direction": "극속 전투를 가능케 하는 위험한 비급",
+      "proposed_acquisition": "금서 기연",
+      "source_urls": [
+        "https://wuxiasociety.com/jin-yong-martial-arts/"
+      ],
+      "status": "실제 작품/무술 자료에서 명칭 확인; 효과·등급·획득은 모드 기획안"
+    },
+    {
+      "id": "martial_007",
+      "name": "흡성대법",
+      "verified_origin": "김용 《소오강호》",
+      "category": "금제·내공",
+      "proposed_game_tier": "신공",
+      "gameplay_direction": "타인의 내력을 흡수하나 불안정성 동반",
+      "proposed_acquisition": "금서 기연",
+      "source_urls": [
+        "https://wuxiasociety.com/jin-yong-martial-arts/"
+      ],
+      "status": "실제 작품/무술 자료에서 명칭 확인; 효과·등급·획득은 모드 기획안"
+    },
+    {
+      "id": "martial_008",
+      "name": "선천공",
+      "verified_origin": "김용 《사조영웅전》",
+      "category": "내공",
+      "proposed_game_tier": "절학",
+      "gameplay_direction": "정순한 선천 내력 수련",
+      "proposed_acquisition": "은거고수·희귀 비급",
+      "source_urls": [
+        "https://wuxiasociety.com/jin-yong-martial-arts/"
+      ],
+      "status": "실제 작품/무술 자료에서 명칭 확인; 효과·등급·획득은 모드 기획안"
+    },
+    {
+      "id": "martial_009",
+      "name": "순양무극공",
+      "verified_origin": "김용 무협 세계",
+      "category": "내공",
+      "proposed_game_tier": "절학",
+      "gameplay_direction": "강한 양의 기운을 운용하는 심법",
+      "proposed_acquisition": "고급 비급·특수 전수",
+      "source_urls": [
+        "https://wuxiasociety.com/jin-yong-martial-arts/"
+      ],
+      "status": "실제 작품/무술 자료에서 명칭 확인; 효과·등급·획득은 모드 기획안"
+    },
+    {
+      "id": "martial_010",
+      "name": "자하신공",
+      "verified_origin": "김용 《소오강호》; 《화산귀환》에도 동명 무학",
+      "category": "내공",
+      "proposed_game_tier": "절학",
+      "gameplay_direction": "자색 기운과 순수 내공 운용; 작품별 설정 구분",
+      "proposed_acquisition": "문파 비전·기연",
+      "source_urls": [
+        "https://wuxiasociety.com/jin-yong-martial-arts/",
+        "https://namu.moe/w/화산귀환/설정"
+      ],
+      "status": "실제 작품/무술 자료에서 명칭 확인; 효과·등급·획득은 모드 기획안"
+    },
+    {
+      "id": "martial_011",
+      "name": "소무상공",
+      "verified_origin": "김용 《천룡팔부》",
+      "category": "내공",
+      "proposed_game_tier": "절학",
+      "gameplay_direction": "무상에 가까운 내공 운용과 다양한 기술 적용",
+      "proposed_acquisition": "특수 전수·기연",
+      "source_urls": [
+        "https://wuxiasociety.com/jin-yong-martial-arts/"
+      ],
+      "status": "실제 작품/무술 자료에서 명칭 확인; 효과·등급·획득은 모드 기획안"
+    },
+    {
+      "id": "martial_012",
+      "name": "팔황육합유아독존공",
+      "verified_origin": "김용 《천룡팔부》",
+      "category": "내공",
+      "proposed_game_tier": "신공",
+      "gameplay_direction": "특별한 주기를 지닌 고난도 내공법",
+      "proposed_acquisition": "극희귀 기연",
+      "source_urls": [
+        "https://wuxiasociety.com/jin-yong-martial-arts/"
+      ],
+      "status": "실제 작품/무술 자료에서 명칭 확인; 효과·등급·획득은 모드 기획안"
+    },
+    {
+      "id": "martial_013",
+      "name": "용상반야공",
+      "verified_origin": "김용 《신조협려》",
+      "category": "내공·외공",
+      "proposed_game_tier": "신공",
+      "gameplay_direction": "강력한 신체 힘과 내공을 결합",
+      "proposed_acquisition": "비전·기연",
+      "source_urls": [
+        "https://wuxiasociety.com/jin-yong-martial-arts/"
+      ],
+      "status": "실제 작품/무술 자료에서 명칭 확인; 효과·등급·획득은 모드 기획안"
+    },
+    {
+      "id": "martial_014",
+      "name": "항룡십팔장",
+      "verified_origin": "김용 《사조영웅전》《천룡팔부》",
+      "category": "장법",
+      "proposed_game_tier": "신공",
+      "gameplay_direction": "강맹한 내공 장법과 폭발적 장력",
+      "proposed_acquisition": "개방 비전·극희귀 기연",
+      "source_urls": [
+        "https://wuxiasociety.com/jin-yong-martial-arts/"
+      ],
+      "status": "실제 작품/무술 자료에서 명칭 확인; 효과·등급·획득은 모드 기획안"
+    },
+    {
+      "id": "martial_015",
+      "name": "천산육양장",
+      "verified_origin": "김용 《천룡팔부》",
+      "category": "장법",
+      "proposed_game_tier": "절학",
+      "gameplay_direction": "정교한 음양 장력 운용",
+      "proposed_acquisition": "고수 전수·기연",
+      "source_urls": [
+        "https://wuxiasociety.com/jin-yong-martial-arts/"
+      ],
+      "status": "실제 작품/무술 자료에서 명칭 확인; 효과·등급·획득은 모드 기획안"
+    },
+    {
+      "id": "martial_016",
+      "name": "건곤대나이",
+      "verified_origin": "김용 《의천도룡기》",
+      "category": "내공·기술",
+      "proposed_game_tier": "신공",
+      "gameplay_direction": "상대 힘과 자신의 기운을 전환하는 원리",
+      "proposed_acquisition": "광명교 비전·기연",
+      "source_urls": [
+        "https://wuxiasociety.com/jin-yong-martial-arts/"
+      ],
+      "status": "실제 작품/무술 자료에서 명칭 확인; 효과·등급·획득은 모드 기획안"
+    },
+    {
+      "id": "martial_017",
+      "name": "암연소혼장",
+      "verified_origin": "김용 《신조협려》",
+      "category": "장법",
+      "proposed_game_tier": "신공",
+      "gameplay_direction": "독특한 심경과 결부된 강력한 장법",
+      "proposed_acquisition": "전설 계보·기연",
+      "source_urls": [
+        "https://wuxiasociety.com/jin-yong-martial-arts/"
+      ],
+      "status": "실제 작품/무술 자료에서 명칭 확인; 효과·등급·획득은 모드 기획안"
+    },
+    {
+      "id": "martial_018",
+      "name": "천산절매수",
+      "verified_origin": "김용 《천룡팔부》",
+      "category": "수법",
+      "proposed_game_tier": "절학",
+      "gameplay_direction": "다양한 초식을 대응해 변형하는 수법",
+      "proposed_acquisition": "특수 전수·기연",
+      "source_urls": [
+        "https://wuxiasociety.com/jin-yong-martial-arts/"
+      ],
+      "status": "실제 작품/무술 자료에서 명칭 확인; 효과·등급·획득은 모드 기획안"
+    },
+    {
+      "id": "martial_019",
+      "name": "벽공장",
+      "verified_origin": "김용 《사조영웅전》",
+      "category": "장법",
+      "proposed_game_tier": "상승무공",
+      "gameplay_direction": "거리를 두고 장력을 투사",
+      "proposed_acquisition": "고급 비급",
+      "source_urls": [
+        "https://wuxiasociety.com/jin-yong-martial-arts/"
+      ],
+      "status": "실제 작품/무술 자료에서 명칭 확인; 효과·등급·획득은 모드 기획안"
+    },
+    {
+      "id": "martial_020",
+      "name": "낙영신검장",
+      "verified_origin": "김용 《사조영웅전》 변형 명칭",
+      "category": "장법",
+      "proposed_game_tier": "상승무공",
+      "gameplay_direction": "흩날리는 꽃잎 같은 변화무쌍한 장법",
+      "proposed_acquisition": "사문 전수·희귀 비급",
+      "source_urls": [
+        "https://wuxiasociety.com/jin-yong-martial-arts/"
+      ],
+      "status": "실제 작품/무술 자료에서 명칭 확인; 효과·등급·획득은 모드 기획안"
+    },
+    {
+      "id": "martial_021",
+      "name": "철장공",
+      "verified_origin": "김용 《사조영웅전》",
+      "category": "장법",
+      "proposed_game_tier": "상승무공",
+      "gameplay_direction": "단단한 손과 강한 장력을 활용",
+      "proposed_acquisition": "고수 전수·비급",
+      "source_urls": [
+        "https://wuxiasociety.com/jin-yong-martial-arts/"
+      ],
+      "status": "실제 작품/무술 자료에서 명칭 확인; 효과·등급·획득은 모드 기획안"
+    },
+    {
+      "id": "martial_022",
+      "name": "최심장",
+      "verified_origin": "김용 《사조영웅전》",
+      "category": "장법",
+      "proposed_game_tier": "절기",
+      "gameplay_direction": "내상을 중시하는 위험한 장력",
+      "proposed_acquisition": "비전·기연",
+      "source_urls": [
+        "https://wuxiasociety.com/jin-yong-martial-arts/"
+      ],
+      "status": "실제 작품/무술 자료에서 명칭 확인; 효과·등급·획득은 모드 기획안"
+    },
+    {
+      "id": "martial_023",
+      "name": "연화장",
+      "verified_origin": "김용 《사조영웅전》",
+      "category": "장법",
+      "proposed_game_tier": "정통무공",
+      "gameplay_direction": "기본 장법을 바탕으로 한 연속 타격",
+      "proposed_acquisition": "상인·무관·문파",
+      "source_urls": [
+        "https://wuxiasociety.com/jin-yong-martial-arts/"
+      ],
+      "status": "실제 작품/무술 자료에서 명칭 확인; 효과·등급·획득은 모드 기획안"
+    },
+    {
+      "id": "martial_024",
+      "name": "벽파장법",
+      "verified_origin": "김용 《사조영웅전》",
+      "category": "장법",
+      "proposed_game_tier": "정통무공",
+      "gameplay_direction": "잔물결같이 이어지는 기초 장법",
+      "proposed_acquisition": "상인·무관·문파",
+      "source_urls": [
+        "https://wuxiasociety.com/jin-yong-martial-arts/"
+      ],
+      "status": "실제 작품/무술 자료에서 명칭 확인; 효과·등급·획득은 모드 기획안"
+    },
+    {
+      "id": "martial_025",
+      "name": "독고구검",
+      "verified_origin": "김용 《소오강호》",
+      "category": "검법",
+      "proposed_game_tier": "전설급",
+      "gameplay_direction": "상대 기술의 허점을 찾아 파훼하는 극의",
+      "proposed_acquisition": "전설적 계보·극희귀 기연",
+      "source_urls": [
+        "https://wuxiasociety.com/jin-yong-martial-arts/"
+      ],
+      "status": "실제 작품/무술 자료에서 명칭 확인; 효과·등급·획득은 모드 기획안"
+    },
+    {
+      "id": "martial_026",
+      "name": "벽사검법",
+      "verified_origin": "김용 《소오강호》",
+      "category": "금제·검법",
+      "proposed_game_tier": "신공",
+      "gameplay_direction": "독특한 조건을 요구하는 극속 검술",
+      "proposed_acquisition": "금서 기연",
+      "source_urls": [
+        "https://wuxiasociety.com/jin-yong-martial-arts/"
+      ],
+      "status": "실제 작품/무술 자료에서 명칭 확인; 효과·등급·획득은 모드 기획안"
+    },
+    {
+      "id": "martial_027",
+      "name": "금사검법",
+      "verified_origin": "김용 《벽혈검》",
+      "category": "검법",
+      "proposed_game_tier": "절학",
+      "gameplay_direction": "독특한 검선을 사용하는 비전 검술",
+      "proposed_acquisition": "비전·기연",
+      "source_urls": [
+        "https://wuxiasociety.com/jin-yong-martial-arts/"
+      ],
+      "status": "실제 작품/무술 자료에서 명칭 확인; 효과·등급·획득은 모드 기획안"
+    },
+    {
+      "id": "martial_028",
+      "name": "옥녀검법",
+      "verified_origin": "김용 《신조협려》",
+      "category": "검법",
+      "proposed_game_tier": "상승무공",
+      "gameplay_direction": "고묘파의 정교한 검술",
+      "proposed_acquisition": "문파 전수·비급",
+      "source_urls": [
+        "https://wuxiasociety.com/jin-yong-martial-arts/"
+      ],
+      "status": "실제 작품/무술 자료에서 명칭 확인; 효과·등급·획득은 모드 기획안"
+    },
+    {
+      "id": "martial_029",
+      "name": "옥녀소심검",
+      "verified_origin": "김용 《신조협려》",
+      "category": "합격·검법",
+      "proposed_game_tier": "절학",
+      "gameplay_direction": "두 사람의 협동 운용이 핵심인 검술",
+      "proposed_acquisition": "인연·비전 전수",
+      "source_urls": [
+        "https://wuxiasociety.com/jin-yong-martial-arts/"
+      ],
+      "status": "실제 작품/무술 자료에서 명칭 확인; 효과·등급·획득은 모드 기획안"
+    },
+    {
+      "id": "martial_030",
+      "name": "태극검",
+      "verified_origin": "김용 《의천도룡기》 외; 실제 무술과 동명",
+      "category": "검법",
+      "proposed_game_tier": "절학",
+      "gameplay_direction": "부드럽게 받아내고 공격의 기세를 돌림",
+      "proposed_acquisition": "무당계 전수·기연",
+      "source_urls": [
+        "https://wuxiasociety.com/jin-yong-martial-arts/"
+      ],
+      "status": "실제 작품/무술 자료에서 명칭 확인; 효과·등급·획득은 모드 기획안"
+    },
+    {
+      "id": "martial_031",
+      "name": "전진검법",
+      "verified_origin": "김용 《사조영웅전》 외",
+      "category": "검법",
+      "proposed_game_tier": "정통무공",
+      "gameplay_direction": "전진교의 체계적 정통 검술",
+      "proposed_acquisition": "문파 전수·비급",
+      "source_urls": [
+        "https://wuxiasociety.com/jin-yong-martial-arts/"
+      ],
+      "status": "실제 작품/무술 자료에서 명칭 확인; 효과·등급·획득은 모드 기획안"
+    },
+    {
+      "id": "martial_032",
+      "name": "옥소검법",
+      "verified_origin": "김용 《사조영웅전》 외",
+      "category": "검법",
+      "proposed_game_tier": "상승무공",
+      "gameplay_direction": "피리 운용 원리의 변화무쌍한 검술",
+      "proposed_acquisition": "전수·비급",
+      "source_urls": [
+        "https://wuxiasociety.com/jin-yong-martial-arts/"
+      ],
+      "status": "실제 작품/무술 자료에서 명칭 확인; 효과·등급·획득은 모드 기획안"
+    },
+    {
+      "id": "martial_033",
+      "name": "월녀검법",
+      "verified_origin": "김용 《월녀검》",
+      "category": "검법",
+      "proposed_game_tier": "절학",
+      "gameplay_direction": "고전적이면서 뛰어난 검의 원리",
+      "proposed_acquisition": "희귀 전수·기연",
+      "source_urls": [
+        "https://wuxiasociety.com/jin-yong-martial-arts/"
+      ],
+      "status": "실제 작품/무술 자료에서 명칭 확인; 효과·등급·획득은 모드 기획안"
+    },
+    {
+      "id": "martial_034",
+      "name": "화산검법",
+      "verified_origin": "김용 《소오강호》",
+      "category": "검법",
+      "proposed_game_tier": "정통무공",
+      "gameplay_direction": "빠르고 화려한 화산파 검술",
+      "proposed_acquisition": "문파 전수·비급",
+      "source_urls": [
+        "https://wuxiasociety.com/jin-yong-martial-arts/"
+      ],
+      "status": "실제 작품/무술 자료에서 명칭 확인; 효과·등급·획득은 모드 기획안"
+    },
+    {
+      "id": "martial_035",
+      "name": "유운검술",
+      "verified_origin": "김용 무협 세계",
+      "category": "검법",
+      "proposed_game_tier": "정통무공",
+      "gameplay_direction": "구름처럼 부드럽게 잇는 검술",
+      "proposed_acquisition": "문파 전수·비급",
+      "source_urls": [
+        "https://wuxiasociety.com/jin-yong-martial-arts/"
+      ],
+      "status": "실제 작품/무술 자료에서 명칭 확인; 효과·등급·획득은 모드 기획안"
+    },
+    {
+      "id": "martial_036",
+      "name": "타구봉법",
+      "verified_origin": "김용 《사조영웅전》 외",
+      "category": "봉법",
+      "proposed_game_tier": "신공",
+      "gameplay_direction": "개방 방주 계승의 핵심 봉술",
+      "proposed_acquisition": "개방 비전·전설 계보",
+      "source_urls": [
+        "https://wuxiasociety.com/jin-yong-martial-arts/"
+      ],
+      "status": "실제 작품/무술 자료에서 명칭 확인; 효과·등급·획득은 모드 기획안"
+    },
+    {
+      "id": "martial_037",
+      "name": "복마장법",
+      "verified_origin": "김용 무협 세계",
+      "category": "봉법",
+      "proposed_game_tier": "상승무공",
+      "gameplay_direction": "무게와 방어를 활용하는 봉술",
+      "proposed_acquisition": "문파 전수·비급",
+      "source_urls": [
+        "https://wuxiasociety.com/jin-yong-martial-arts/"
+      ],
+      "status": "실제 작품/무술 자료에서 명칭 확인; 효과·등급·획득은 모드 기획안"
+    },
+    {
+      "id": "martial_038",
+      "name": "영사장법",
+      "verified_origin": "김용 《사조영웅전》",
+      "category": "봉법",
+      "proposed_game_tier": "상승무공",
+      "gameplay_direction": "뱀처럼 변칙적인 봉술",
+      "proposed_acquisition": "독문 전수·기연",
+      "source_urls": [
+        "https://wuxiasociety.com/jin-yong-martial-arts/"
+      ],
+      "status": "실제 작품/무술 자료에서 명칭 확인; 효과·등급·획득은 모드 기획안"
+    },
+    {
+      "id": "martial_039",
+      "name": "공명권",
+      "verified_origin": "김용 《사조영웅전》",
+      "category": "권법",
+      "proposed_game_tier": "절학",
+      "gameplay_direction": "부드러운 힘과 무의 움직임을 중시",
+      "proposed_acquisition": "고수 전수·기연",
+      "source_urls": [
+        "https://wuxiasociety.com/jin-yong-martial-arts/"
+      ],
+      "status": "실제 작품/무술 자료에서 명칭 확인; 효과·등급·획득은 모드 기획안"
+    },
+    {
+      "id": "martial_040",
+      "name": "태극권",
+      "verified_origin": "김용 《의천도룡기》 외; 실제 무술과 동명",
+      "category": "권법",
+      "proposed_game_tier": "상승무공",
+      "gameplay_direction": "흘리기·반격·음양의 이치",
+      "proposed_acquisition": "무관·문파 전수",
+      "source_urls": [
+        "https://wuxiasociety.com/jin-yong-martial-arts/"
+      ],
+      "status": "실제 작품/무술 자료에서 명칭 확인; 효과·등급·획득은 모드 기획안"
+    },
+    {
+      "id": "martial_041",
+      "name": "칠상권",
+      "verified_origin": "김용 《의천도룡기》",
+      "category": "권법",
+      "proposed_game_tier": "절학",
+      "gameplay_direction": "강력하나 내공 부족 시 신체 손상 위험",
+      "proposed_acquisition": "공동파 비전·기연",
+      "source_urls": [
+        "https://wuxiasociety.com/jin-yong-martial-arts/"
+      ],
+      "status": "실제 작품/무술 자료에서 명칭 확인; 효과·등급·획득은 모드 기획안"
+    },
+    {
+      "id": "martial_042",
+      "name": "나한권",
+      "verified_origin": "소림 전통 무술·김용 무협 작품",
+      "category": "권법",
+      "proposed_game_tier": "기초무공",
+      "gameplay_direction": "소림의 기초 권법",
+      "proposed_acquisition": "무관·문파",
+      "source_urls": [
+        "https://wuxiasociety.com/jin-yong-martial-arts/"
+      ],
+      "status": "실제 작품/무술 자료에서 명칭 확인; 효과·등급·획득은 모드 기획안"
+    },
+    {
+      "id": "martial_043",
+      "name": "취권",
+      "verified_origin": "실제 무술 범주·김용 무협 작품",
+      "category": "권법",
+      "proposed_game_tier": "정통무공",
+      "gameplay_direction": "취한 듯한 속임수와 변화",
+      "proposed_acquisition": "무관·행상인",
+      "source_urls": [
+        "https://wuxiasociety.com/jin-yong-martial-arts/"
+      ],
+      "status": "실제 작품/무술 자료에서 명칭 확인; 효과·등급·획득은 모드 기획안"
+    },
+    {
+      "id": "martial_044",
+      "name": "육맥신검",
+      "verified_origin": "김용 《천룡팔부》",
+      "category": "지법·검기",
+      "proposed_game_tier": "전설급",
+      "gameplay_direction": "손가락을 통해 펼치는 무형 검기",
+      "proposed_acquisition": "극희귀 계승·기연",
+      "source_urls": [
+        "https://wuxiasociety.com/jin-yong-martial-arts/"
+      ],
+      "status": "실제 작품/무술 자료에서 명칭 확인; 효과·등급·획득은 모드 기획안"
+    },
+    {
+      "id": "martial_045",
+      "name": "일양지",
+      "verified_origin": "김용 《사조영웅전》《천룡팔부》",
+      "category": "지법",
+      "proposed_game_tier": "절학",
+      "gameplay_direction": "정밀한 기혈 자극과 점혈",
+      "proposed_acquisition": "대리 단씨 계보·기연",
+      "source_urls": [
+        "https://wuxiasociety.com/jin-yong-martial-arts/"
+      ],
+      "status": "실제 작품/무술 자료에서 명칭 확인; 효과·등급·획득은 모드 기획안"
+    },
+    {
+      "id": "martial_046",
+      "name": "탄지신통",
+      "verified_origin": "김용 《사조영웅전》 외",
+      "category": "지법",
+      "proposed_game_tier": "절학",
+      "gameplay_direction": "손끝 힘으로 떨어진 표적을 공격",
+      "proposed_acquisition": "고수 전수·기연",
+      "source_urls": [
+        "https://wuxiasociety.com/jin-yong-martial-arts/"
+      ],
+      "status": "실제 작품/무술 자료에서 명칭 확인; 효과·등급·획득은 모드 기획안"
+    },
+    {
+      "id": "martial_047",
+      "name": "용조수",
+      "verified_origin": "김용 《의천도룡기》",
+      "category": "조법",
+      "proposed_game_tier": "상승무공",
+      "gameplay_direction": "붙잡기·제압·관절기를 구사",
+      "proposed_acquisition": "소림 비전·희귀 비급",
+      "source_urls": [
+        "https://wuxiasociety.com/jin-yong-martial-arts/"
+      ],
+      "status": "실제 작품/무술 자료에서 명칭 확인; 효과·등급·획득은 모드 기획안"
+    },
+    {
+      "id": "martial_048",
+      "name": "구음백골조",
+      "verified_origin": "김용 《사조영웅전》",
+      "category": "금제·조법",
+      "proposed_game_tier": "절학",
+      "gameplay_direction": "내상을 유발할 위험이 큰 조법",
+      "proposed_acquisition": "금서·기연",
+      "source_urls": [
+        "https://wuxiasociety.com/jin-yong-martial-arts/"
+      ],
+      "status": "실제 작품/무술 자료에서 명칭 확인; 효과·등급·획득은 모드 기획안"
+    },
+    {
+      "id": "martial_049",
+      "name": "염화지",
+      "verified_origin": "김용 《천룡팔부》 외",
+      "category": "지법",
+      "proposed_game_tier": "상승무공",
+      "gameplay_direction": "손가락을 이용하는 정밀 기술",
+      "proposed_acquisition": "소림 비급",
+      "source_urls": [
+        "https://wuxiasociety.com/jin-yong-martial-arts/"
+      ],
+      "status": "실제 작품/무술 자료에서 명칭 확인; 효과·등급·획득은 모드 기획안"
+    },
+    {
+      "id": "martial_050",
+      "name": "능파미보",
+      "verified_origin": "김용 《천룡팔부》",
+      "category": "경공",
+      "proposed_game_tier": "신공",
+      "gameplay_direction": "절묘한 방향 변화·회피·기동",
+      "proposed_acquisition": "극희귀 기연",
+      "source_urls": [
+        "https://wuxiasociety.com/jin-yong-martial-arts/"
+      ],
+      "status": "실제 작품/무술 자료에서 명칭 확인; 효과·등급·획득은 모드 기획안"
+    },
+    {
+      "id": "martial_051",
+      "name": "금안공",
+      "verified_origin": "김용 《사조영웅전》",
+      "category": "경공",
+      "proposed_game_tier": "상승무공",
+      "gameplay_direction": "험지 등반과 경신술",
+      "proposed_acquisition": "전진계 전수·비급",
+      "source_urls": [
+        "https://wuxiasociety.com/jin-yong-martial-arts/"
+      ],
+      "status": "실제 작품/무술 자료에서 명칭 확인; 효과·등급·획득은 모드 기획안"
+    },
+    {
+      "id": "martial_052",
+      "name": "수상표",
+      "verified_origin": "김용 무협 세계",
+      "category": "경공",
+      "proposed_game_tier": "상승무공",
+      "gameplay_direction": "물 위의 신속한 이동",
+      "proposed_acquisition": "희귀 전수·비급",
+      "source_urls": [
+        "https://wuxiasociety.com/jin-yong-martial-arts/"
+      ],
+      "status": "실제 작품/무술 자료에서 명칭 확인; 효과·등급·획득은 모드 기획안"
+    },
+    {
+      "id": "martial_053",
+      "name": "벽호유장공",
+      "verified_origin": "김용 무협 세계",
+      "category": "경공",
+      "proposed_game_tier": "정통무공",
+      "gameplay_direction": "수직 표면에 붙어 이동하는 기술",
+      "proposed_acquisition": "문파 비급·수련",
+      "source_urls": [
+        "https://wuxiasociety.com/jin-yong-martial-arts/"
+      ],
+      "status": "실제 작품/무술 자료에서 명칭 확인; 효과·등급·획득은 모드 기획안"
+    },
+    {
+      "id": "martial_054",
+      "name": "천강북두진",
+      "verified_origin": "김용 《사조영웅전》",
+      "category": "진법",
+      "proposed_game_tier": "절학",
+      "gameplay_direction": "협동 배치를 통한 공방 증폭",
+      "proposed_acquisition": "전진파 진법 전수",
+      "source_urls": [
+        "https://wuxiasociety.com/jin-yong-martial-arts/"
+      ],
+      "status": "실제 작품/무술 자료에서 명칭 확인; 효과·등급·획득은 모드 기획안"
+    },
+    {
+      "id": "martial_055",
+      "name": "나한대진",
+      "verified_origin": "김용 무협 세계",
+      "category": "진법",
+      "proposed_game_tier": "상승무공",
+      "gameplay_direction": "다수의 승려가 합을 맞춰 싸우는 진법",
+      "proposed_acquisition": "소림 전수",
+      "source_urls": [
+        "https://wuxiasociety.com/jin-yong-martial-arts/"
+      ],
+      "status": "실제 작품/무술 자료에서 명칭 확인; 효과·등급·획득은 모드 기획안"
+    },
+    {
+      "id": "martial_056",
+      "name": "생사부",
+      "verified_origin": "김용 《천룡팔부》",
+      "category": "금제·암기",
+      "proposed_game_tier": "신공",
+      "gameplay_direction": "특수 음양·냉기를 이용한 제압 수법",
+      "proposed_acquisition": "극희귀 기연",
+      "source_urls": [
+        "https://wuxiasociety.com/jin-yong-martial-arts/"
+      ],
+      "status": "실제 작품/무술 자료에서 명칭 확인; 효과·등급·획득은 모드 기획안"
+    },
+    {
+      "id": "martial_057",
+      "name": "화공대법",
+      "verified_origin": "김용 《천룡팔부》",
+      "category": "독공",
+      "proposed_game_tier": "절학",
+      "gameplay_direction": "상대의 내공을 약화시키는 위험한 수법",
+      "proposed_acquisition": "금서·기연",
+      "source_urls": [
+        "https://wuxiasociety.com/jin-yong-martial-arts/"
+      ],
+      "status": "실제 작품/무술 자료에서 명칭 확인; 효과·등급·획득은 모드 기획안"
+    },
+    {
+      "id": "martial_058",
+      "name": "오독신장",
+      "verified_origin": "김용 《신조협려》",
+      "category": "독공·장법",
+      "proposed_game_tier": "절학",
+      "gameplay_direction": "독을 활용한 장력 공격",
+      "proposed_acquisition": "독문 전수·기연",
+      "source_urls": [
+        "https://wuxiasociety.com/jin-yong-martial-arts/"
+      ],
+      "status": "실제 작품/무술 자료에서 명칭 확인; 효과·등급·획득은 모드 기획안"
+    },
+    {
+      "id": "martial_059",
+      "name": "두전성이",
+      "verified_origin": "김용 《천룡팔부》",
+      "category": "반격·기술",
+      "proposed_game_tier": "신공",
+      "gameplay_direction": "상대 공격을 방향 전환해 되돌리는 기술",
+      "proposed_acquisition": "모용세가 비전·희귀 기연",
+      "source_urls": [
+        "https://wuxiasociety.com/jin-yong-martial-arts/"
+      ],
+      "status": "실제 작품/무술 자료에서 명칭 확인; 효과·등급·획득은 모드 기획안"
+    },
+    {
+      "id": "martial_060",
+      "name": "벽해조생곡",
+      "verified_origin": "김용 《사조영웅전》",
+      "category": "음공",
+      "proposed_game_tier": "절학",
+      "gameplay_direction": "음률을 통해 상대 집중과 마음을 교란",
+      "proposed_acquisition": "도화도 비전·기연",
+      "source_urls": [
+        "https://wuxiasociety.com/jin-yong-martial-arts/"
+      ],
+      "status": "실제 작품/무술 자료에서 명칭 확인; 효과·등급·획득은 모드 기획안"
+    },
+    {
+      "id": "martial_061",
+      "name": "합마공",
+      "verified_origin": "김용 《사조영웅전》",
+      "category": "내공·장법",
+      "proposed_game_tier": "절학",
+      "gameplay_direction": "낮은 자세에서 충격을 모아 발출",
+      "proposed_acquisition": "백타산 비전·기연",
+      "source_urls": [
+        "https://wuxiasociety.com/jin-yong-martial-arts/"
+      ],
+      "status": "실제 작품/무술 자료에서 명칭 확인; 효과·등급·획득은 모드 기획안"
+    },
+    {
+      "id": "martial_062",
+      "name": "명옥공",
+      "verified_origin": "고룡 《절대쌍교》",
+      "category": "내공",
+      "proposed_game_tier": "신공",
+      "gameplay_direction": "옥처럼 맑고 깊은 내력 운용",
+      "proposed_acquisition": "극희귀 계승·기연",
+      "source_urls": [
+        "https://zh.wikipedia.org/wiki/古龍筆下武功列表"
+      ],
+      "status": "실제 작품/무술 자료에서 명칭 확인; 효과·등급·획득은 모드 기획안"
+    },
+    {
+      "id": "martial_063",
+      "name": "가의신공",
+      "verified_origin": "고룡 《절대쌍교》",
+      "category": "내공",
+      "proposed_game_tier": "신공",
+      "gameplay_direction": "강렬한 내력을 강하게 연단하는 비전",
+      "proposed_acquisition": "극희귀 계승·기연",
+      "source_urls": [
+        "https://zh.wikipedia.org/wiki/古龍筆下武功列表"
+      ],
+      "status": "실제 작품/무술 자료에서 명칭 확인; 효과·등급·획득은 모드 기획안"
+    },
+    {
+      "id": "martial_064",
+      "name": "이화접옥",
+      "verified_origin": "고룡 《절대쌍교》",
+      "category": "장법·반격",
+      "proposed_game_tier": "절학",
+      "gameplay_direction": "상대의 힘을 흘려 되돌리는 절기",
+      "proposed_acquisition": "이화궁 비전·기연",
+      "source_urls": [
+        "https://zh.wikipedia.org/wiki/古龍筆下武功列表",
+        "https://m.gulongbbs.com/book/jdsj/20047.html"
+      ],
+      "status": "실제 작품/무술 자료에서 명칭 확인; 효과·등급·획득은 모드 기획안"
+    },
+    {
+      "id": "martial_065",
+      "name": "소이비도",
+      "verified_origin": "고룡 《다정검객무정검》",
+      "category": "비도·암기",
+      "proposed_game_tier": "전설급",
+      "gameplay_direction": "정확한 타이밍에 던지는 결정적 비도",
+      "proposed_acquisition": "전설 계보·기연",
+      "source_urls": [
+        "https://zh.wikipedia.org/wiki/古龍筆下武功列表"
+      ],
+      "status": "실제 작품/무술 자료에서 명칭 확인; 효과·등급·획득은 모드 기획안"
+    },
+    {
+      "id": "martial_066",
+      "name": "탈명십삼검",
+      "verified_origin": "고룡 《삼소야적검》",
+      "category": "검법",
+      "proposed_game_tier": "신공",
+      "gameplay_direction": "진화하는 살상 검술",
+      "proposed_acquisition": "극희귀 계승·기연",
+      "source_urls": [
+        "https://zh.wikipedia.org/wiki/古龍筆下武功列表"
+      ],
+      "status": "실제 작품/무술 자료에서 명칭 확인; 효과·등급·획득은 모드 기획안"
+    },
+    {
+      "id": "martial_067",
+      "name": "이십사수매화검법",
+      "verified_origin": "《화산귀환》",
+      "category": "검법",
+      "proposed_game_tier": "절학",
+      "gameplay_direction": "매화의 움직임을 본뜬 화산 검법",
+      "proposed_acquisition": "화산 비전·희귀 기연",
+      "source_urls": [
+        "https://namu.moe/w/화산귀환/설정"
+      ],
+      "status": "실제 작품/무술 자료에서 명칭 확인; 효과·등급·획득은 모드 기획안"
+    },
+    {
+      "id": "martial_068",
+      "name": "자하강기",
+      "verified_origin": "《화산귀환》",
+      "category": "강기·내공",
+      "proposed_game_tier": "신공",
+      "gameplay_direction": "자색의 강기로 공격과 방어를 운용",
+      "proposed_acquisition": "화산 비전·기연",
+      "source_urls": [
+        "https://namu.moe/w/화산귀환/설정"
+      ],
+      "status": "실제 작품/무술 자료에서 명칭 확인; 효과·등급·획득은 모드 기획안"
+    },
+    {
+      "id": "martial_069",
+      "name": "오호단문도",
+      "verified_origin": "《화산귀환》; 동명 무공은 다수 무협물에도 등장",
+      "category": "도법",
+      "proposed_game_tier": "절기",
+      "gameplay_direction": "강맹한 대도 기술과 압박",
+      "proposed_acquisition": "팽가 전수·비급",
+      "source_urls": [
+        "https://d.namu.moe/w/화산귀환/무공"
+      ],
+      "status": "실제 작품/무술 자료에서 명칭 확인; 효과·등급·획득은 모드 기획안"
+    },
+    {
+      "id": "martial_070",
+      "name": "사일검법",
+      "verified_origin": "《화산귀환》",
+      "category": "검법",
+      "proposed_game_tier": "절기",
+      "gameplay_direction": "해를 꿰뚫는 듯한 쾌검",
+      "proposed_acquisition": "점창 비전·기연",
+      "source_urls": [
+        "https://d.namu.moe/w/화산귀환/무공"
+      ],
+      "status": "실제 작품/무술 자료에서 명칭 확인; 효과·등급·획득은 모드 기획안"
+    },
+    {
+      "id": "martial_071",
+      "name": "관일창법",
+      "verified_origin": "《화산귀환》",
+      "category": "창법",
+      "proposed_game_tier": "상승무공",
+      "gameplay_direction": "급소를 관통하는 창술",
+      "proposed_acquisition": "점창 전수·비급",
+      "source_urls": [
+        "https://d.namu.moe/w/화산귀환/무공"
+      ],
+      "status": "실제 작품/무술 자료에서 명칭 확인; 효과·등급·획득은 모드 기획안"
+    },
+    {
+      "id": "martial_072",
+      "name": "복마검법",
+      "verified_origin": "《화산귀환》",
+      "category": "검법",
+      "proposed_game_tier": "절기",
+      "gameplay_direction": "정교하고 기민한 공동파 검술",
+      "proposed_acquisition": "공동파 전수·기연",
+      "source_urls": [
+        "https://d.namu.moe/w/화산귀환/무공"
+      ],
+      "status": "실제 작품/무술 자료에서 명칭 확인; 효과·등급·획득은 모드 기획안"
+    },
+    {
+      "id": "martial_073",
+      "name": "환영팔괘보",
+      "verified_origin": "《화산귀환》",
+      "category": "보법",
+      "proposed_game_tier": "절학",
+      "gameplay_direction": "환영처럼 교묘한 방향 전환 보법",
+      "proposed_acquisition": "제갈세가 비전·기연",
+      "source_urls": [
+        "https://d.namu.moe/w/화산귀환/무공"
+      ],
+      "status": "실제 작품/무술 자료에서 명칭 확인; 효과·등급·획득은 모드 기획안"
+    },
+    {
+      "id": "martial_074",
+      "name": "수라살권",
+      "verified_origin": "《화산귀환》",
+      "category": "권법",
+      "proposed_game_tier": "신공",
+      "gameplay_direction": "연속 타격과 강한 기세를 사용하는 사파 권법",
+      "proposed_acquisition": "사파 비전·기연",
+      "source_urls": [
+        "https://d.namu.moe/w/화산귀환/무공"
+      ],
+      "status": "실제 작품/무술 자료에서 명칭 확인; 효과·등급·획득은 모드 기획안"
+    },
+    {
+      "id": "martial_075",
+      "name": "천면수",
+      "verified_origin": "《화산귀환》",
+      "category": "수법",
+      "proposed_game_tier": "절기",
+      "gameplay_direction": "다수의 장영을 펼치는 변칙 수법",
+      "proposed_acquisition": "하오문 비전·기연",
+      "source_urls": [
+        "https://d.namu.moe/w/화산귀환/무공"
+      ],
+      "status": "실제 작품/무술 자료에서 명칭 확인; 효과·등급·획득은 모드 기획안"
+    },
+    {
+      "id": "martial_076",
+      "name": "고루마공",
+      "verified_origin": "《화산귀환》",
+      "category": "금제·내공",
+      "proposed_game_tier": "절학",
+      "gameplay_direction": "특수 회복력을 부여하지만 마공 위험 수반",
+      "proposed_acquisition": "마교 비전·기연",
+      "source_urls": [
+        "https://d.namu.moe/w/화산귀환/무공"
+      ],
+      "status": "실제 작품/무술 자료에서 명칭 확인; 효과·등급·획득은 모드 기획안"
+    },
+    {
+      "id": "martial_077",
+      "name": "흡정마공",
+      "verified_origin": "《화산귀환》",
+      "category": "금제·내공",
+      "proposed_game_tier": "신공",
+      "gameplay_direction": "타인의 내력을 흡수하나 정신적 위험이 큼",
+      "proposed_acquisition": "마교 금서·기연",
+      "source_urls": [
+        "https://d.namu.moe/w/화산귀환/무공"
+      ],
+      "status": "실제 작품/무술 자료에서 명칭 확인; 효과·등급·획득은 모드 기획안"
+    }
+  ],
+  "bibliography": [
+    {
+      "title": "이 무림의 미친년은 나야/설정/무공 - 팬 정리",
+      "url": "https://www.namu.moe/w/이 무림의 미친년은 나야/설정/무공",
+      "kind": "작품 설정에 관한 2차 기록"
+    },
+    {
+      "title": "이 무림의 미친년은 나야/설정 - 팬 정리",
+      "url": "https://www.namu.moe/w/이 무림의 미친년은 나야/설정",
+      "kind": "작품 설정에 관한 2차 기록"
+    },
+    {
+      "title": "대문파 대표무공 정리",
+      "url": "https://gall.dcinside.com/mgallery/board/view/?id=genrenovel&no=1973892",
+      "kind": "장르 관습·팬 자료"
+    },
+    {
+      "title": "문파 - 세가 대표무공",
+      "url": "https://www.namu.moe/w/문파",
+      "kind": "장르 개관·팬 위키"
+    },
+    {
+      "title": "무협 용어 사전",
+      "url": "https://zournal.co.kr/520",
+      "kind": "장르 용어 수집"
+    },
+    {
+      "title": "사천당문",
+      "url": "https://tanma.kr/china/dangmoon.html",
+      "kind": "장르 무공 사전"
+    },
+    {
+      "title": "청성파",
+      "url": "https://www.namu.moe/w/청성파",
+      "kind": "장르 무공 개관"
+    },
+    {
+      "title": "종남파",
+      "url": "https://fanmooz.com/종남파/",
+      "kind": "장르 무공 개관"
+    }
+  ],
+  "novel_special_systems": [
+    {
+      "name": "구파 절검벽과 무천대제의 검흔",
+      "work_fact": "작품의 구대문파에 남은 절검벽의 검흔을 연구하며 독고구검의 초식에 접근하는 기연",
+      "documented_fragments": [
+        {
+          "sect": "소림",
+          "move": "유아독존"
+        },
+        {
+          "sect": "공동",
+          "move": "무독부장부"
+        },
+        {
+          "sect": "곤륜",
+          "move": "수처작주"
+        },
+        {
+          "sect": "점창",
+          "move": "단연절애"
+        },
+        {
+          "sect": "아미",
+          "move": "초식 미상"
+        },
+        {
+          "sect": "청성",
+          "move": "초식 미상"
+        },
+        {
+          "sect": "종남",
+          "move": "견월망지"
+        },
+        {
+          "sect": "화산",
+          "move": "천변만화"
+        },
+        {
+          "sect": "무당",
+          "move": "초식 미상"
+        }
+      ],
+      "mod_idea_not_work_fact": "문파별 고유 비석/깨달음 시련, 실제 얻는 기연은 희귀하게 유지; 공공 배포용으로는 고유명칭 사용권 확인 또는 독자 명칭 창작",
+      "source_url": "https://namu.moe/w/이 무림의 미친년은 나야/설정"
+    },
+    {
+      "name": "의정무학관",
+      "work_fact": "무림맹 소속 비정기 무인 육성기관으로, 무명 무인·중소 무관의 무인에게 수련 기회와 지원을 제공",
+      "mod_idea_not_work_fact": "무소속도 입학 가능한 강호 공동 교육관, 대련/무공선택/교관과 교류/동료영입 시스템에 연결",
+      "source_url": "https://d.namu.moe/w/이 무림의 미친년은 나야/등장 세력 및 인물"
+    },
+    {
+      "name": "신녀문 무산 거점",
+      "work_fact": "주인공 소속인 무산의 여성 도교 문파. 규모는 중소이나 고위 인물의 위명이 높음",
+      "mod_idea_not_work_fact": "문파 크기·위명 분리 산정의 사례로 참조. 실제 인물/고유건축 직접 복제는 별도 권리 검토",
+      "source_url": "https://d.namu.moe/w/이 무림의 미친년은 나야/등장 세력 및 인물"
+    },
+    {
+      "name": "무공 심법 상성과 공존",
+      "work_fact": "작품의 심법은 공존·상생하거나 충돌해 내공 소실·주화입마로 이어질 수 있음",
+      "mod_idea_not_work_fact": "29개 정밀형 스탯 중 내공 순도/경맥 상태/내상/심마를 사용해 심법 충돌을 판정하는 독자 시스템",
+      "source_url": "https://www.namu.moe/w/이 무림의 미친년은 나야/설정/무공"
+    }
+  ]
+}

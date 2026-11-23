@@ -1,0 +1,19 @@
+{
+  "structures": [
+    {
+      "structure": "murimlife_arch:natural_hermitage",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 16011622,
+    "spacing": 96,
+    "separation": 64,
+    "spread_type": "linear",
+    "exclusion_zone": {
+      "other_set": "murimlife_arch:natural_settlements",
+      "chunk_count": 12
+    }
+  }
+}

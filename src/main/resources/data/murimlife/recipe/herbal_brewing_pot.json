@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "S S",
+    "CBC",
+    "SSS"
+  ],
+  "key": {
+    "S": "minecraft:stone_bricks",
+    "C": "minecraft:copper_ingot",
+    "B": "minecraft:cauldron"
+  },
+  "result": {
+    "id": "murimlife:herbal_brewing_pot",
+    "count": 1
+  }
+}

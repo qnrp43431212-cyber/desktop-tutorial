@@ -1,0 +1,732 @@
+{
+  "schema": 1,
+  "enabled": false,
+  "templates": [
+    {
+      "template": "murimlife_arch:natural/hamlet_hub",
+      "kind": "hamlet",
+      "size": [
+        47,
+        8,
+        47
+      ],
+      "local_unrotated_candidates": [
+        [
+          30,
+          1,
+          23
+        ],
+        [
+          23,
+          1,
+          30
+        ],
+        [
+          23,
+          1,
+          16
+        ],
+        [
+          16,
+          1,
+          23
+        ],
+        [
+          30,
+          1,
+          28
+        ]
+      ],
+      "allowed_roles": [
+        "peddler",
+        "traveler"
+      ],
+      "must_transform_by_jigsaw_rotation": true,
+      "requires_current_world_block_recheck": true,
+      "do_not_auto_spawn": true
+    },
+    {
+      "template": "murimlife_arch:natural/hamlet_village_cottage_oak",
+      "kind": "hamlet",
+      "size": [
+        25,
+        20,
+        27
+      ],
+      "local_unrotated_candidates": [
+        [
+          12,
+          1,
+          5
+        ],
+        [
+          21,
+          1,
+          13
+        ],
+        [
+          12,
+          1,
+          22
+        ],
+        [
+          3,
+          1,
+          13
+        ],
+        [
+          16,
+          1,
+          6
+        ]
+      ],
+      "allowed_roles": [
+        "householder",
+        "farmer"
+      ],
+      "must_transform_by_jigsaw_rotation": true,
+      "requires_current_world_block_recheck": true,
+      "do_not_auto_spawn": true
+    },
+    {
+      "template": "murimlife_arch:natural/hamlet_village_cottage_stone",
+      "kind": "hamlet",
+      "size": [
+        27,
+        20,
+        27
+      ],
+      "local_unrotated_candidates": [
+        [
+          13,
+          1,
+          5
+        ],
+        [
+          13,
+          1,
+          22
+        ],
+        [
+          23,
+          1,
+          13
+        ],
+        [
+          17,
+          1,
+          6
+        ],
+        [
+          3,
+          1,
+          13
+        ]
+      ],
+      "allowed_roles": [
+        "householder",
+        "farmer"
+      ],
+      "must_transform_by_jigsaw_rotation": true,
+      "requires_current_world_block_recheck": true,
+      "do_not_auto_spawn": true
+    },
+    {
+      "template": "murimlife_arch:natural/hamlet_village_granary",
+      "kind": "hamlet",
+      "size": [
+        27,
+        20,
+        27
+      ],
+      "local_unrotated_candidates": [
+        [
+          13,
+          1,
+          5
+        ],
+        [
+          13,
+          1,
+          22
+        ],
+        [
+          23,
+          1,
+          13
+        ],
+        [
+          17,
+          1,
+          6
+        ],
+        [
+          3,
+          1,
+          13
+        ]
+      ],
+      "allowed_roles": [
+        "warehouse_clerk"
+      ],
+      "must_transform_by_jigsaw_rotation": true,
+      "requires_current_world_block_recheck": true,
+      "do_not_auto_spawn": true
+    },
+    {
+      "template": "murimlife_arch:natural/hamlet_village_guesthouse",
+      "kind": "hamlet",
+      "size": [
+        33,
+        29,
+        35
+      ],
+      "local_unrotated_candidates": [
+        [
+          16,
+          1,
+          5
+        ],
+        [
+          29,
+          1,
+          17
+        ],
+        [
+          16,
+          1,
+          30
+        ],
+        [
+          3,
+          1,
+          17
+        ],
+        [
+          20,
+          1,
+          6
+        ]
+      ],
+      "allowed_roles": [
+        "innkeeper",
+        "inn_waiter"
+      ],
+      "must_transform_by_jigsaw_rotation": true,
+      "requires_current_world_block_recheck": true,
+      "do_not_auto_spawn": true
+    },
+    {
+      "template": "murimlife_arch:natural/hamlet_village_herbalist",
+      "kind": "hamlet",
+      "size": [
+        27,
+        21,
+        29
+      ],
+      "local_unrotated_candidates": [
+        [
+          13,
+          1,
+          5
+        ],
+        [
+          23,
+          1,
+          14
+        ],
+        [
+          13,
+          1,
+          24
+        ],
+        [
+          3,
+          1,
+          14
+        ],
+        [
+          17,
+          1,
+          6
+        ]
+      ],
+      "allowed_roles": [
+        "herbal_gatherer"
+      ],
+      "must_transform_by_jigsaw_rotation": true,
+      "requires_current_world_block_recheck": true,
+      "do_not_auto_spawn": true
+    },
+    {
+      "template": "murimlife_arch:natural/hamlet_village_smithy",
+      "kind": "hamlet",
+      "size": [
+        29,
+        21,
+        29
+      ],
+      "local_unrotated_candidates": [
+        [
+          14,
+          1,
+          5
+        ],
+        [
+          14,
+          1,
+          24
+        ],
+        [
+          25,
+          1,
+          14
+        ],
+        [
+          18,
+          1,
+          6
+        ],
+        [
+          3,
+          1,
+          14
+        ]
+      ],
+      "allowed_roles": [
+        "blacksmith"
+      ],
+      "must_transform_by_jigsaw_rotation": true,
+      "requires_current_world_block_recheck": true,
+      "do_not_auto_spawn": true
+    },
+    {
+      "template": "murimlife_arch:natural/hamlet_village_teahouse",
+      "kind": "hamlet",
+      "size": [
+        31,
+        21,
+        31
+      ],
+      "local_unrotated_candidates": [
+        [
+          15,
+          1,
+          5
+        ],
+        [
+          15,
+          1,
+          26
+        ],
+        [
+          27,
+          1,
+          15
+        ],
+        [
+          19,
+          1,
+          6
+        ],
+        [
+          3,
+          1,
+          15
+        ]
+      ],
+      "allowed_roles": [
+        "tea_master",
+        "rumor_monger"
+      ],
+      "must_transform_by_jigsaw_rotation": true,
+      "requires_current_world_block_recheck": true,
+      "do_not_auto_spawn": true
+    },
+    {
+      "template": "murimlife_arch:natural/market_city_apothecary",
+      "kind": "market",
+      "size": [
+        33,
+        22,
+        33
+      ],
+      "local_unrotated_candidates": [
+        [
+          16,
+          1,
+          5
+        ],
+        [
+          16,
+          1,
+          28
+        ],
+        [
+          29,
+          1,
+          16
+        ],
+        [
+          20,
+          1,
+          6
+        ],
+        [
+          3,
+          1,
+          16
+        ]
+      ],
+      "allowed_roles": [
+        "apothecary",
+        "physician"
+      ],
+      "must_transform_by_jigsaw_rotation": true,
+      "requires_current_world_block_recheck": true,
+      "do_not_auto_spawn": true
+    },
+    {
+      "template": "murimlife_arch:natural/market_city_grand_inn",
+      "kind": "market",
+      "size": [
+        43,
+        38,
+        43
+      ],
+      "local_unrotated_candidates": [
+        [
+          21,
+          1,
+          5
+        ],
+        [
+          21,
+          1,
+          38
+        ],
+        [
+          39,
+          1,
+          21
+        ],
+        [
+          25,
+          1,
+          6
+        ],
+        [
+          3,
+          1,
+          21
+        ]
+      ],
+      "allowed_roles": [
+        "innkeeper",
+        "inn_waiter",
+        "inn_cook"
+      ],
+      "must_transform_by_jigsaw_rotation": true,
+      "requires_current_world_block_recheck": true,
+      "do_not_auto_spawn": true
+    },
+    {
+      "template": "murimlife_arch:natural/market_city_guardhouse",
+      "kind": "market",
+      "size": [
+        37,
+        30,
+        37
+      ],
+      "local_unrotated_candidates": [
+        [
+          18,
+          1,
+          5
+        ],
+        [
+          18,
+          1,
+          32
+        ],
+        [
+          33,
+          1,
+          18
+        ],
+        [
+          22,
+          1,
+          6
+        ],
+        [
+          3,
+          1,
+          18
+        ]
+      ],
+      "allowed_roles": [
+        "city_guard"
+      ],
+      "must_transform_by_jigsaw_rotation": true,
+      "requires_current_world_block_recheck": true,
+      "do_not_auto_spawn": true
+    },
+    {
+      "template": "murimlife_arch:natural/market_city_merchant_guild",
+      "kind": "market",
+      "size": [
+        43,
+        31,
+        43
+      ],
+      "local_unrotated_candidates": [
+        [
+          21,
+          1,
+          5
+        ],
+        [
+          21,
+          1,
+          38
+        ],
+        [
+          39,
+          1,
+          21
+        ],
+        [
+          25,
+          1,
+          6
+        ],
+        [
+          3,
+          1,
+          21
+        ]
+      ],
+      "allowed_roles": [
+        "caravan_boss"
+      ],
+      "must_transform_by_jigsaw_rotation": true,
+      "requires_current_world_block_recheck": true,
+      "do_not_auto_spawn": true
+    },
+    {
+      "template": "murimlife_arch:natural/market_city_residence_indigo",
+      "kind": "market",
+      "size": [
+        33,
+        30,
+        37
+      ],
+      "local_unrotated_candidates": [
+        [
+          29,
+          1,
+          18
+        ],
+        [
+          16,
+          1,
+          5
+        ],
+        [
+          3,
+          1,
+          18
+        ],
+        [
+          16,
+          1,
+          32
+        ],
+        [
+          20,
+          1,
+          6
+        ]
+      ],
+      "allowed_roles": [
+        "householder",
+        "farmer"
+      ],
+      "must_transform_by_jigsaw_rotation": true,
+      "requires_current_world_block_recheck": true,
+      "do_not_auto_spawn": true
+    },
+    {
+      "template": "murimlife_arch:natural/market_city_residence_jade",
+      "kind": "market",
+      "size": [
+        35,
+        29,
+        35
+      ],
+      "local_unrotated_candidates": [
+        [
+          17,
+          1,
+          5
+        ],
+        [
+          17,
+          1,
+          30
+        ],
+        [
+          31,
+          1,
+          17
+        ],
+        [
+          21,
+          1,
+          6
+        ],
+        [
+          3,
+          1,
+          17
+        ]
+      ],
+      "allowed_roles": [
+        "householder",
+        "farmer"
+      ],
+      "must_transform_by_jigsaw_rotation": true,
+      "requires_current_world_block_recheck": true,
+      "do_not_auto_spawn": true
+    },
+    {
+      "template": "murimlife_arch:natural/market_city_silk_shop",
+      "kind": "market",
+      "size": [
+        31,
+        22,
+        33
+      ],
+      "local_unrotated_candidates": [
+        [
+          15,
+          1,
+          5
+        ],
+        [
+          27,
+          1,
+          16
+        ],
+        [
+          15,
+          1,
+          28
+        ],
+        [
+          3,
+          1,
+          16
+        ],
+        [
+          19,
+          1,
+          6
+        ]
+      ],
+      "allowed_roles": [
+        "merchant"
+      ],
+      "must_transform_by_jigsaw_rotation": true,
+      "requires_current_world_block_recheck": true,
+      "do_not_auto_spawn": true
+    },
+    {
+      "template": "murimlife_arch:natural/market_city_tea_pavilion",
+      "kind": "market",
+      "size": [
+        37,
+        30,
+        39
+      ],
+      "local_unrotated_candidates": [
+        [
+          18,
+          1,
+          5
+        ],
+        [
+          33,
+          1,
+          19
+        ],
+        [
+          18,
+          1,
+          34
+        ],
+        [
+          3,
+          1,
+          19
+        ],
+        [
+          22,
+          1,
+          6
+        ]
+      ],
+      "allowed_roles": [
+        "tea_master"
+      ],
+      "must_transform_by_jigsaw_rotation": true,
+      "requires_current_world_block_recheck": true,
+      "do_not_auto_spawn": true
+    },
+    {
+      "template": "murimlife_arch:natural/market_hub",
+      "kind": "market",
+      "size": [
+        47,
+        8,
+        47
+      ],
+      "local_unrotated_candidates": [
+        [
+          23,
+          1,
+          39
+        ],
+        [
+          39,
+          1,
+          23
+        ],
+        [
+          7,
+          1,
+          23
+        ],
+        [
+          23,
+          1,
+          7
+        ],
+        [
+          24,
+          1,
+          43
+        ]
+      ],
+      "allowed_roles": [
+        "peddler",
+        "traveler"
+      ],
+      "must_transform_by_jigsaw_rotation": true,
+      "requires_current_world_block_recheck": true,
+      "do_not_auto_spawn": true
+    }
+  ],
+  "rotation_requirements": "Jigsaw placement rotation must transform local coordinates; no unrotated position may spawn without runtime world transform and saved entity check"
+}

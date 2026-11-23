@@ -1,0 +1,938 @@
+{
+  "tiers": [
+    [
+      "common",
+      "범철",
+      "#90979B"
+    ],
+    [
+      "refined",
+      "정철",
+      "#C6BDA9"
+    ],
+    [
+      "steel",
+      "강철",
+      "#98C5D2"
+    ],
+    [
+      "folded",
+      "백련강",
+      "#D6DCE7"
+    ],
+    [
+      "black_iron",
+      "현철",
+      "#6F6D9C"
+    ],
+    [
+      "master",
+      "명장",
+      "#E5BC60"
+    ],
+    [
+      "divine",
+      "신병",
+      "#D078DD"
+    ]
+  ],
+  "count": 112,
+  "weapons": [
+    {
+      "id": "weapon_jian_common",
+      "name": "범철 양날검",
+      "family": "jian",
+      "tier": "common",
+      "damage_multiplier": 1,
+      "durability": 200
+    },
+    {
+      "id": "weapon_dao_common",
+      "name": "범철 도",
+      "family": "dao",
+      "tier": "common",
+      "damage_multiplier": 1,
+      "durability": 200
+    },
+    {
+      "id": "weapon_great_jian_common",
+      "name": "범철 중검",
+      "family": "great_jian",
+      "tier": "common",
+      "damage_multiplier": 1,
+      "durability": 200
+    },
+    {
+      "id": "weapon_great_dao_common",
+      "name": "범철 대도",
+      "family": "great_dao",
+      "tier": "common",
+      "damage_multiplier": 1,
+      "durability": 200
+    },
+    {
+      "id": "weapon_dagger_common",
+      "name": "범철 단검",
+      "family": "dagger",
+      "tier": "common",
+      "damage_multiplier": 1,
+      "durability": 200
+    },
+    {
+      "id": "weapon_spear_common",
+      "name": "범철 창",
+      "family": "spear",
+      "tier": "common",
+      "damage_multiplier": 1,
+      "durability": 200
+    },
+    {
+      "id": "weapon_staff_common",
+      "name": "범철 봉",
+      "family": "staff",
+      "tier": "common",
+      "damage_multiplier": 1,
+      "durability": 200
+    },
+    {
+      "id": "weapon_glaive_common",
+      "name": "범철 언월도",
+      "family": "glaive",
+      "tier": "common",
+      "damage_multiplier": 1,
+      "durability": 200
+    },
+    {
+      "id": "weapon_fan_common",
+      "name": "범철 철선",
+      "family": "fan",
+      "tier": "common",
+      "damage_multiplier": 1,
+      "durability": 200
+    },
+    {
+      "id": "weapon_whip_common",
+      "name": "범철 장편",
+      "family": "whip",
+      "tier": "common",
+      "damage_multiplier": 1,
+      "durability": 200
+    },
+    {
+      "id": "weapon_chain_common",
+      "name": "범철 연환삭",
+      "family": "chain",
+      "tier": "common",
+      "damage_multiplier": 1,
+      "durability": 200
+    },
+    {
+      "id": "weapon_claw_common",
+      "name": "범철 철조",
+      "family": "claw",
+      "tier": "common",
+      "damage_multiplier": 1,
+      "durability": 200
+    },
+    {
+      "id": "weapon_gauntlet_common",
+      "name": "범철 권갑",
+      "family": "gauntlet",
+      "tier": "common",
+      "damage_multiplier": 1,
+      "durability": 200
+    },
+    {
+      "id": "weapon_needles_common",
+      "name": "범철 비침",
+      "family": "needles",
+      "tier": "common",
+      "damage_multiplier": 1,
+      "durability": 200
+    },
+    {
+      "id": "weapon_throwing_knife_common",
+      "name": "범철 비도",
+      "family": "throwing_knife",
+      "tier": "common",
+      "damage_multiplier": 1,
+      "durability": 200
+    },
+    {
+      "id": "weapon_hammer_common",
+      "name": "범철 철추",
+      "family": "hammer",
+      "tier": "common",
+      "damage_multiplier": 1,
+      "durability": 200
+    },
+    {
+      "id": "weapon_jian_refined",
+      "name": "정철 양날검",
+      "family": "jian",
+      "tier": "refined",
+      "damage_multiplier": 1.15,
+      "durability": 350
+    },
+    {
+      "id": "weapon_dao_refined",
+      "name": "정철 도",
+      "family": "dao",
+      "tier": "refined",
+      "damage_multiplier": 1.15,
+      "durability": 350
+    },
+    {
+      "id": "weapon_great_jian_refined",
+      "name": "정철 중검",
+      "family": "great_jian",
+      "tier": "refined",
+      "damage_multiplier": 1.15,
+      "durability": 350
+    },
+    {
+      "id": "weapon_great_dao_refined",
+      "name": "정철 대도",
+      "family": "great_dao",
+      "tier": "refined",
+      "damage_multiplier": 1.15,
+      "durability": 350
+    },
+    {
+      "id": "weapon_dagger_refined",
+      "name": "정철 단검",
+      "family": "dagger",
+      "tier": "refined",
+      "damage_multiplier": 1.15,
+      "durability": 350
+    },
+    {
+      "id": "weapon_spear_refined",
+      "name": "정철 창",
+      "family": "spear",
+      "tier": "refined",
+      "damage_multiplier": 1.15,
+      "durability": 350
+    },
+    {
+      "id": "weapon_staff_refined",
+      "name": "정철 봉",
+      "family": "staff",
+      "tier": "refined",
+      "damage_multiplier": 1.15,
+      "durability": 350
+    },
+    {
+      "id": "weapon_glaive_refined",
+      "name": "정철 언월도",
+      "family": "glaive",
+      "tier": "refined",
+      "damage_multiplier": 1.15,
+      "durability": 350
+    },
+    {
+      "id": "weapon_fan_refined",
+      "name": "정철 철선",
+      "family": "fan",
+      "tier": "refined",
+      "damage_multiplier": 1.15,
+      "durability": 350
+    },
+    {
+      "id": "weapon_whip_refined",
+      "name": "정철 장편",
+      "family": "whip",
+      "tier": "refined",
+      "damage_multiplier": 1.15,
+      "durability": 350
+    },
+    {
+      "id": "weapon_chain_refined",
+      "name": "정철 연환삭",
+      "family": "chain",
+      "tier": "refined",
+      "damage_multiplier": 1.15,
+      "durability": 350
+    },
+    {
+      "id": "weapon_claw_refined",
+      "name": "정철 철조",
+      "family": "claw",
+      "tier": "refined",
+      "damage_multiplier": 1.15,
+      "durability": 350
+    },
+    {
+      "id": "weapon_gauntlet_refined",
+      "name": "정철 권갑",
+      "family": "gauntlet",
+      "tier": "refined",
+      "damage_multiplier": 1.15,
+      "durability": 350
+    },
+    {
+      "id": "weapon_needles_refined",
+      "name": "정철 비침",
+      "family": "needles",
+      "tier": "refined",
+      "damage_multiplier": 1.15,
+      "durability": 350
+    },
+    {
+      "id": "weapon_throwing_knife_refined",
+      "name": "정철 비도",
+      "family": "throwing_knife",
+      "tier": "refined",
+      "damage_multiplier": 1.15,
+      "durability": 350
+    },
+    {
+      "id": "weapon_hammer_refined",
+      "name": "정철 철추",
+      "family": "hammer",
+      "tier": "refined",
+      "damage_multiplier": 1.15,
+      "durability": 350
+    },
+    {
+      "id": "weapon_jian_steel",
+      "name": "강철 양날검",
+      "family": "jian",
+      "tier": "steel",
+      "damage_multiplier": 1.35,
+      "durability": 500
+    },
+    {
+      "id": "weapon_dao_steel",
+      "name": "강철 도",
+      "family": "dao",
+      "tier": "steel",
+      "damage_multiplier": 1.35,
+      "durability": 500
+    },
+    {
+      "id": "weapon_great_jian_steel",
+      "name": "강철 중검",
+      "family": "great_jian",
+      "tier": "steel",
+      "damage_multiplier": 1.35,
+      "durability": 500
+    },
+    {
+      "id": "weapon_great_dao_steel",
+      "name": "강철 대도",
+      "family": "great_dao",
+      "tier": "steel",
+      "damage_multiplier": 1.35,
+      "durability": 500
+    },
+    {
+      "id": "weapon_dagger_steel",
+      "name": "강철 단검",
+      "family": "dagger",
+      "tier": "steel",
+      "damage_multiplier": 1.35,
+      "durability": 500
+    },
+    {
+      "id": "weapon_spear_steel",
+      "name": "강철 창",
+      "family": "spear",
+      "tier": "steel",
+      "damage_multiplier": 1.35,
+      "durability": 500
+    },
+    {
+      "id": "weapon_staff_steel",
+      "name": "강철 봉",
+      "family": "staff",
+      "tier": "steel",
+      "damage_multiplier": 1.35,
+      "durability": 500
+    },
+    {
+      "id": "weapon_glaive_steel",
+      "name": "강철 언월도",
+      "family": "glaive",
+      "tier": "steel",
+      "damage_multiplier": 1.35,
+      "durability": 500
+    },
+    {
+      "id": "weapon_fan_steel",
+      "name": "강철 철선",
+      "family": "fan",
+      "tier": "steel",
+      "damage_multiplier": 1.35,
+      "durability": 500
+    },
+    {
+      "id": "weapon_whip_steel",
+      "name": "강철 장편",
+      "family": "whip",
+      "tier": "steel",
+      "damage_multiplier": 1.35,
+      "durability": 500
+    },
+    {
+      "id": "weapon_chain_steel",
+      "name": "강철 연환삭",
+      "family": "chain",
+      "tier": "steel",
+      "damage_multiplier": 1.35,
+      "durability": 500
+    },
+    {
+      "id": "weapon_claw_steel",
+      "name": "강철 철조",
+      "family": "claw",
+      "tier": "steel",
+      "damage_multiplier": 1.35,
+      "durability": 500
+    },
+    {
+      "id": "weapon_gauntlet_steel",
+      "name": "강철 권갑",
+      "family": "gauntlet",
+      "tier": "steel",
+      "damage_multiplier": 1.35,
+      "durability": 500
+    },
+    {
+      "id": "weapon_needles_steel",
+      "name": "강철 비침",
+      "family": "needles",
+      "tier": "steel",
+      "damage_multiplier": 1.35,
+      "durability": 500
+    },
+    {
+      "id": "weapon_throwing_knife_steel",
+      "name": "강철 비도",
+      "family": "throwing_knife",
+      "tier": "steel",
+      "damage_multiplier": 1.35,
+      "durability": 500
+    },
+    {
+      "id": "weapon_hammer_steel",
+      "name": "강철 철추",
+      "family": "hammer",
+      "tier": "steel",
+      "damage_multiplier": 1.35,
+      "durability": 500
+    },
+    {
+      "id": "weapon_jian_folded",
+      "name": "백련강 양날검",
+      "family": "jian",
+      "tier": "folded",
+      "damage_multiplier": 1.6,
+      "durability": 750
+    },
+    {
+      "id": "weapon_dao_folded",
+      "name": "백련강 도",
+      "family": "dao",
+      "tier": "folded",
+      "damage_multiplier": 1.6,
+      "durability": 750
+    },
+    {
+      "id": "weapon_great_jian_folded",
+      "name": "백련강 중검",
+      "family": "great_jian",
+      "tier": "folded",
+      "damage_multiplier": 1.6,
+      "durability": 750
+    },
+    {
+      "id": "weapon_great_dao_folded",
+      "name": "백련강 대도",
+      "family": "great_dao",
+      "tier": "folded",
+      "damage_multiplier": 1.6,
+      "durability": 750
+    },
+    {
+      "id": "weapon_dagger_folded",
+      "name": "백련강 단검",
+      "family": "dagger",
+      "tier": "folded",
+      "damage_multiplier": 1.6,
+      "durability": 750
+    },
+    {
+      "id": "weapon_spear_folded",
+      "name": "백련강 창",
+      "family": "spear",
+      "tier": "folded",
+      "damage_multiplier": 1.6,
+      "durability": 750
+    },
+    {
+      "id": "weapon_staff_folded",
+      "name": "백련강 봉",
+      "family": "staff",
+      "tier": "folded",
+      "damage_multiplier": 1.6,
+      "durability": 750
+    },
+    {
+      "id": "weapon_glaive_folded",
+      "name": "백련강 언월도",
+      "family": "glaive",
+      "tier": "folded",
+      "damage_multiplier": 1.6,
+      "durability": 750
+    },
+    {
+      "id": "weapon_fan_folded",
+      "name": "백련강 철선",
+      "family": "fan",
+      "tier": "folded",
+      "damage_multiplier": 1.6,
+      "durability": 750
+    },
+    {
+      "id": "weapon_whip_folded",
+      "name": "백련강 장편",
+      "family": "whip",
+      "tier": "folded",
+      "damage_multiplier": 1.6,
+      "durability": 750
+    },
+    {
+      "id": "weapon_chain_folded",
+      "name": "백련강 연환삭",
+      "family": "chain",
+      "tier": "folded",
+      "damage_multiplier": 1.6,
+      "durability": 750
+    },
+    {
+      "id": "weapon_claw_folded",
+      "name": "백련강 철조",
+      "family": "claw",
+      "tier": "folded",
+      "damage_multiplier": 1.6,
+      "durability": 750
+    },
+    {
+      "id": "weapon_gauntlet_folded",
+      "name": "백련강 권갑",
+      "family": "gauntlet",
+      "tier": "folded",
+      "damage_multiplier": 1.6,
+      "durability": 750
+    },
+    {
+      "id": "weapon_needles_folded",
+      "name": "백련강 비침",
+      "family": "needles",
+      "tier": "folded",
+      "damage_multiplier": 1.6,
+      "durability": 750
+    },
+    {
+      "id": "weapon_throwing_knife_folded",
+      "name": "백련강 비도",
+      "family": "throwing_knife",
+      "tier": "folded",
+      "damage_multiplier": 1.6,
+      "durability": 750
+    },
+    {
+      "id": "weapon_hammer_folded",
+      "name": "백련강 철추",
+      "family": "hammer",
+      "tier": "folded",
+      "damage_multiplier": 1.6,
+      "durability": 750
+    },
+    {
+      "id": "weapon_jian_black_iron",
+      "name": "현철 양날검",
+      "family": "jian",
+      "tier": "black_iron",
+      "damage_multiplier": 1.95,
+      "durability": 1100
+    },
+    {
+      "id": "weapon_dao_black_iron",
+      "name": "현철 도",
+      "family": "dao",
+      "tier": "black_iron",
+      "damage_multiplier": 1.95,
+      "durability": 1100
+    },
+    {
+      "id": "weapon_great_jian_black_iron",
+      "name": "현철 중검",
+      "family": "great_jian",
+      "tier": "black_iron",
+      "damage_multiplier": 1.95,
+      "durability": 1100
+    },
+    {
+      "id": "weapon_great_dao_black_iron",
+      "name": "현철 대도",
+      "family": "great_dao",
+      "tier": "black_iron",
+      "damage_multiplier": 1.95,
+      "durability": 1100
+    },
+    {
+      "id": "weapon_dagger_black_iron",
+      "name": "현철 단검",
+      "family": "dagger",
+      "tier": "black_iron",
+      "damage_multiplier": 1.95,
+      "durability": 1100
+    },
+    {
+      "id": "weapon_spear_black_iron",
+      "name": "현철 창",
+      "family": "spear",
+      "tier": "black_iron",
+      "damage_multiplier": 1.95,
+      "durability": 1100
+    },
+    {
+      "id": "weapon_staff_black_iron",
+      "name": "현철 봉",
+      "family": "staff",
+      "tier": "black_iron",
+      "damage_multiplier": 1.95,
+      "durability": 1100
+    },
+    {
+      "id": "weapon_glaive_black_iron",
+      "name": "현철 언월도",
+      "family": "glaive",
+      "tier": "black_iron",
+      "damage_multiplier": 1.95,
+      "durability": 1100
+    },
+    {
+      "id": "weapon_fan_black_iron",
+      "name": "현철 철선",
+      "family": "fan",
+      "tier": "black_iron",
+      "damage_multiplier": 1.95,
+      "durability": 1100
+    },
+    {
+      "id": "weapon_whip_black_iron",
+      "name": "현철 장편",
+      "family": "whip",
+      "tier": "black_iron",
+      "damage_multiplier": 1.95,
+      "durability": 1100
+    },
+    {
+      "id": "weapon_chain_black_iron",
+      "name": "현철 연환삭",
+      "family": "chain",
+      "tier": "black_iron",
+      "damage_multiplier": 1.95,
+      "durability": 1100
+    },
+    {
+      "id": "weapon_claw_black_iron",
+      "name": "현철 철조",
+      "family": "claw",
+      "tier": "black_iron",
+      "damage_multiplier": 1.95,
+      "durability": 1100
+    },
+    {
+      "id": "weapon_gauntlet_black_iron",
+      "name": "현철 권갑",
+      "family": "gauntlet",
+      "tier": "black_iron",
+      "damage_multiplier": 1.95,
+      "durability": 1100
+    },
+    {
+      "id": "weapon_needles_black_iron",
+      "name": "현철 비침",
+      "family": "needles",
+      "tier": "black_iron",
+      "damage_multiplier": 1.95,
+      "durability": 1100
+    },
+    {
+      "id": "weapon_throwing_knife_black_iron",
+      "name": "현철 비도",
+      "family": "throwing_knife",
+      "tier": "black_iron",
+      "damage_multiplier": 1.95,
+      "durability": 1100
+    },
+    {
+      "id": "weapon_hammer_black_iron",
+      "name": "현철 철추",
+      "family": "hammer",
+      "tier": "black_iron",
+      "damage_multiplier": 1.95,
+      "durability": 1100
+    },
+    {
+      "id": "weapon_jian_master",
+      "name": "명장 양날검",
+      "family": "jian",
+      "tier": "master",
+      "damage_multiplier": 2.3,
+      "durability": 1400
+    },
+    {
+      "id": "weapon_dao_master",
+      "name": "명장 도",
+      "family": "dao",
+      "tier": "master",
+      "damage_multiplier": 2.3,
+      "durability": 1400
+    },
+    {
+      "id": "weapon_great_jian_master",
+      "name": "명장 중검",
+      "family": "great_jian",
+      "tier": "master",
+      "damage_multiplier": 2.3,
+      "durability": 1400
+    },
+    {
+      "id": "weapon_great_dao_master",
+      "name": "명장 대도",
+      "family": "great_dao",
+      "tier": "master",
+      "damage_multiplier": 2.3,
+      "durability": 1400
+    },
+    {
+      "id": "weapon_dagger_master",
+      "name": "명장 단검",
+      "family": "dagger",
+      "tier": "master",
+      "damage_multiplier": 2.3,
+      "durability": 1400
+    },
+    {
+      "id": "weapon_spear_master",
+      "name": "명장 창",
+      "family": "spear",
+      "tier": "master",
+      "damage_multiplier": 2.3,
+      "durability": 1400
+    },
+    {
+      "id": "weapon_staff_master",
+      "name": "명장 봉",
+      "family": "staff",
+      "tier": "master",
+      "damage_multiplier": 2.3,
+      "durability": 1400
+    },
+    {
+      "id": "weapon_glaive_master",
+      "name": "명장 언월도",
+      "family": "glaive",
+      "tier": "master",
+      "damage_multiplier": 2.3,
+      "durability": 1400
+    },
+    {
+      "id": "weapon_fan_master",
+      "name": "명장 철선",
+      "family": "fan",
+      "tier": "master",
+      "damage_multiplier": 2.3,
+      "durability": 1400
+    },
+    {
+      "id": "weapon_whip_master",
+      "name": "명장 장편",
+      "family": "whip",
+      "tier": "master",
+      "damage_multiplier": 2.3,
+      "durability": 1400
+    },
+    {
+      "id": "weapon_chain_master",
+      "name": "명장 연환삭",
+      "family": "chain",
+      "tier": "master",
+      "damage_multiplier": 2.3,
+      "durability": 1400
+    },
+    {
+      "id": "weapon_claw_master",
+      "name": "명장 철조",
+      "family": "claw",
+      "tier": "master",
+      "damage_multiplier": 2.3,
+      "durability": 1400
+    },
+    {
+      "id": "weapon_gauntlet_master",
+      "name": "명장 권갑",
+      "family": "gauntlet",
+      "tier": "master",
+      "damage_multiplier": 2.3,
+      "durability": 1400
+    },
+    {
+      "id": "weapon_needles_master",
+      "name": "명장 비침",
+      "family": "needles",
+      "tier": "master",
+      "damage_multiplier": 2.3,
+      "durability": 1400
+    },
+    {
+      "id": "weapon_throwing_knife_master",
+      "name": "명장 비도",
+      "family": "throwing_knife",
+      "tier": "master",
+      "damage_multiplier": 2.3,
+      "durability": 1400
+    },
+    {
+      "id": "weapon_hammer_master",
+      "name": "명장 철추",
+      "family": "hammer",
+      "tier": "master",
+      "damage_multiplier": 2.3,
+      "durability": 1400
+    },
+    {
+      "id": "weapon_jian_divine",
+      "name": "신병 양날검",
+      "family": "jian",
+      "tier": "divine",
+      "damage_multiplier": 2.8,
+      "durability": 1900
+    },
+    {
+      "id": "weapon_dao_divine",
+      "name": "신병 도",
+      "family": "dao",
+      "tier": "divine",
+      "damage_multiplier": 2.8,
+      "durability": 1900
+    },
+    {
+      "id": "weapon_great_jian_divine",
+      "name": "신병 중검",
+      "family": "great_jian",
+      "tier": "divine",
+      "damage_multiplier": 2.8,
+      "durability": 1900
+    },
+    {
+      "id": "weapon_great_dao_divine",
+      "name": "신병 대도",
+      "family": "great_dao",
+      "tier": "divine",
+      "damage_multiplier": 2.8,
+      "durability": 1900
+    },
+    {
+      "id": "weapon_dagger_divine",
+      "name": "신병 단검",
+      "family": "dagger",
+      "tier": "divine",
+      "damage_multiplier": 2.8,
+      "durability": 1900
+    },
+    {
+      "id": "weapon_spear_divine",
+      "name": "신병 창",
+      "family": "spear",
+      "tier": "divine",
+      "damage_multiplier": 2.8,
+      "durability": 1900
+    },
+    {
+      "id": "weapon_staff_divine",
+      "name": "신병 봉",
+      "family": "staff",
+      "tier": "divine",
+      "damage_multiplier": 2.8,
+      "durability": 1900
+    },
+    {
+      "id": "weapon_glaive_divine",
+      "name": "신병 언월도",
+      "family": "glaive",
+      "tier": "divine",
+      "damage_multiplier": 2.8,
+      "durability": 1900
+    },
+    {
+      "id": "weapon_fan_divine",
+      "name": "신병 철선",
+      "family": "fan",
+      "tier": "divine",
+      "damage_multiplier": 2.8,
+      "durability": 1900
+    },
+    {
+      "id": "weapon_whip_divine",
+      "name": "신병 장편",
+      "family": "whip",
+      "tier": "divine",
+      "damage_multiplier": 2.8,
+      "durability": 1900
+    },
+    {
+      "id": "weapon_chain_divine",
+      "name": "신병 연환삭",
+      "family": "chain",
+      "tier": "divine",
+      "damage_multiplier": 2.8,
+      "durability": 1900
+    },
+    {
+      "id": "weapon_claw_divine",
+      "name": "신병 철조",
+      "family": "claw",
+      "tier": "divine",
+      "damage_multiplier": 2.8,
+      "durability": 1900
+    },
+    {
+      "id": "weapon_gauntlet_divine",
+      "name": "신병 권갑",
+      "family": "gauntlet",
+      "tier": "divine",
+      "damage_multiplier": 2.8,
+      "durability": 1900
+    },
+    {
+      "id": "weapon_needles_divine",
+      "name": "신병 비침",
+      "family": "needles",
+      "tier": "divine",
+      "damage_multiplier": 2.8,
+      "durability": 1900
+    },
+    {
+      "id": "weapon_throwing_knife_divine",
+      "name": "신병 비도",
+      "family": "throwing_knife",
+      "tier": "divine",
+      "damage_multiplier": 2.8,
+      "durability": 1900
+    },
+    {
+      "id": "weapon_hammer_divine",
+      "name": "신병 철추",
+      "family": "hammer",
+      "tier": "divine",
+      "damage_multiplier": 2.8,
+      "durability": 1900
+    }
+  ]
+}

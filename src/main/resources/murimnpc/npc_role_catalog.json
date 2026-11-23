@@ -1,0 +1,2256 @@
+{
+  "schema": 1,
+  "kind": "npc_roles_persistent_residents_and_event_spectators_v120_alpha",
+  "spawn_enabled": false,
+  "role_count": 87,
+  "roles": [
+    {
+      "id": "farmer",
+      "label_ko": "농부",
+      "category": "민간·생업",
+      "zone": "house",
+      "daily_activity": "경작·수확",
+      "interaction": "대화·농산물거래",
+      "stance": "avoid",
+      "visual_class": "civilian",
+      "schedule": [
+        {
+          "at": "dawn",
+          "activity": "home"
+        },
+        {
+          "at": "day",
+          "activity": "work"
+        },
+        {
+          "at": "night",
+          "activity": "sleep"
+        }
+      ],
+      "unique_world": false,
+      "persistent": true,
+      "requires_site_complete": true,
+      "spawn_weight": 10
+    },
+    {
+      "id": "fisher",
+      "label_ko": "어부",
+      "category": "민간·생업",
+      "zone": "river",
+      "daily_activity": "어로·그물정비",
+      "interaction": "대화·생선거래",
+      "stance": "avoid",
+      "visual_class": "civilian",
+      "schedule": [
+        {
+          "at": "day",
+          "activity": "어로"
+        },
+        {
+          "at": "night",
+          "activity": "rest"
+        }
+      ],
+      "unique_world": false,
+      "persistent": true,
+      "requires_site_complete": true,
+      "spawn_weight": 10
+    },
+    {
+      "id": "woodcutter",
+      "label_ko": "나무꾼",
+      "category": "민간·생업",
+      "zone": "forest",
+      "daily_activity": "장작수집·운반",
+      "interaction": "대화·소문",
+      "stance": "avoid",
+      "visual_class": "civilian",
+      "schedule": [
+        {
+          "at": "day",
+          "activity": "장작수집"
+        },
+        {
+          "at": "night",
+          "activity": "rest"
+        }
+      ],
+      "unique_world": false,
+      "persistent": true,
+      "requires_site_complete": true,
+      "spawn_weight": 10
+    },
+    {
+      "id": "herbal_gatherer",
+      "label_ko": "약초꾼",
+      "category": "민간·생업",
+      "zone": "herbalist",
+      "daily_activity": "산지탐색·채집",
+      "interaction": "약초거래·기연단서",
+      "stance": "avoid",
+      "visual_class": "civilian",
+      "schedule": [
+        {
+          "at": "day",
+          "activity": "산지탐색"
+        },
+        {
+          "at": "night",
+          "activity": "rest"
+        }
+      ],
+      "unique_world": false,
+      "persistent": true,
+      "requires_site_complete": true,
+      "spawn_weight": 10
+    },
+    {
+      "id": "miner",
+      "label_ko": "광부",
+      "category": "민간·생업",
+      "zone": "outskirts",
+      "daily_activity": "채굴·운반",
+      "interaction": "광석거래",
+      "stance": "avoid",
+      "visual_class": "civilian",
+      "schedule": [
+        {
+          "at": "day",
+          "activity": "채굴"
+        },
+        {
+          "at": "night",
+          "activity": "rest"
+        }
+      ],
+      "unique_world": false,
+      "persistent": true,
+      "requires_site_complete": true,
+      "spawn_weight": 10
+    },
+    {
+      "id": "hunter",
+      "label_ko": "사냥꾼",
+      "category": "민간·생업",
+      "zone": "outskirts",
+      "daily_activity": "사냥·가죽정리",
+      "interaction": "사냥정보·거래",
+      "stance": "defend",
+      "visual_class": "armed",
+      "schedule": [
+        {
+          "at": "day",
+          "activity": "사냥"
+        },
+        {
+          "at": "night",
+          "activity": "rest"
+        }
+      ],
+      "unique_world": false,
+      "persistent": true,
+      "requires_site_complete": true,
+      "spawn_weight": 10
+    },
+    {
+      "id": "carpenter",
+      "label_ko": "목수",
+      "category": "민간·생업",
+      "zone": "workshop",
+      "daily_activity": "목공·건축수리",
+      "interaction": "자재거래·의뢰",
+      "stance": "avoid",
+      "visual_class": "civilian",
+      "schedule": [
+        {
+          "at": "day",
+          "activity": "목공"
+        },
+        {
+          "at": "night",
+          "activity": "rest"
+        }
+      ],
+      "unique_world": false,
+      "persistent": true,
+      "requires_site_complete": true,
+      "spawn_weight": 10
+    },
+    {
+      "id": "potter",
+      "label_ko": "도공",
+      "category": "민간·생업",
+      "zone": "market",
+      "daily_activity": "도자기제작·판매",
+      "interaction": "거래",
+      "stance": "avoid",
+      "visual_class": "civilian",
+      "schedule": [
+        {
+          "at": "day",
+          "activity": "도자기제작"
+        },
+        {
+          "at": "night",
+          "activity": "rest"
+        }
+      ],
+      "unique_world": false,
+      "persistent": true,
+      "requires_site_complete": true,
+      "spawn_weight": 10
+    },
+    {
+      "id": "water_carrier",
+      "label_ko": "물지게꾼",
+      "category": "민간·생업",
+      "zone": "well",
+      "daily_activity": "우물·주택왕복",
+      "interaction": "대화",
+      "stance": "avoid",
+      "visual_class": "civilian",
+      "schedule": [
+        {
+          "at": "day",
+          "activity": "우물"
+        },
+        {
+          "at": "night",
+          "activity": "rest"
+        }
+      ],
+      "unique_world": false,
+      "persistent": true,
+      "requires_site_complete": true,
+      "spawn_weight": 10
+    },
+    {
+      "id": "village_elder",
+      "label_ko": "촌장",
+      "category": "민간·생업",
+      "zone": "hall",
+      "daily_activity": "행정·휴식",
+      "interaction": "지역사정·의뢰",
+      "stance": "defend",
+      "visual_class": "armed",
+      "schedule": [
+        {
+          "at": "day",
+          "activity": "행정"
+        },
+        {
+          "at": "night",
+          "activity": "rest"
+        }
+      ],
+      "unique_world": false,
+      "persistent": true,
+      "requires_site_complete": true,
+      "spawn_weight": 10
+    },
+    {
+      "id": "householder",
+      "label_ko": "주민",
+      "category": "민간·생업",
+      "zone": "house",
+      "daily_activity": "집안일·시장방문",
+      "interaction": "대화·소문",
+      "stance": "avoid",
+      "visual_class": "civilian",
+      "schedule": [
+        {
+          "at": "dawn",
+          "activity": "home"
+        },
+        {
+          "at": "day",
+          "activity": "work"
+        },
+        {
+          "at": "night",
+          "activity": "sleep"
+        }
+      ],
+      "unique_world": false,
+      "persistent": true,
+      "requires_site_complete": true,
+      "spawn_weight": 10
+    },
+    {
+      "id": "traveler",
+      "label_ko": "길손",
+      "category": "민간·생업",
+      "zone": "street",
+      "daily_activity": "이동·휴식",
+      "interaction": "소문·길안내",
+      "stance": "avoid",
+      "visual_class": "civilian",
+      "schedule": [
+        {
+          "at": "day",
+          "activity": "이동"
+        },
+        {
+          "at": "night",
+          "activity": "rest"
+        }
+      ],
+      "unique_world": false,
+      "persistent": true,
+      "requires_site_complete": true,
+      "spawn_weight": 10
+    },
+    {
+      "id": "innkeeper",
+      "label_ko": "객잔주인",
+      "category": "상업·객잔",
+      "zone": "inn",
+      "daily_activity": "객잔운영·정산",
+      "interaction": "숙박·정보",
+      "stance": "avoid",
+      "visual_class": "civilian",
+      "schedule": [
+        {
+          "at": "dawn",
+          "activity": "clean"
+        },
+        {
+          "at": "day",
+          "activity": "work"
+        },
+        {
+          "at": "evening",
+          "activity": "social"
+        },
+        {
+          "at": "night",
+          "activity": "rest"
+        }
+      ],
+      "unique_world": false,
+      "persistent": true,
+      "requires_site_complete": true,
+      "spawn_weight": 10
+    },
+    {
+      "id": "inn_waiter",
+      "label_ko": "점소이",
+      "category": "상업·객잔",
+      "zone": "inn",
+      "daily_activity": "주문응대·배달",
+      "interaction": "음식·소문",
+      "stance": "avoid",
+      "visual_class": "civilian",
+      "schedule": [
+        {
+          "at": "dawn",
+          "activity": "clean"
+        },
+        {
+          "at": "day",
+          "activity": "work"
+        },
+        {
+          "at": "evening",
+          "activity": "social"
+        },
+        {
+          "at": "night",
+          "activity": "rest"
+        }
+      ],
+      "unique_world": false,
+      "persistent": true,
+      "requires_site_complete": true,
+      "spawn_weight": 10
+    },
+    {
+      "id": "inn_cook",
+      "label_ko": "객잔요리사",
+      "category": "상업·객잔",
+      "zone": "inn",
+      "daily_activity": "조리·식재료관리",
+      "interaction": "음식구매",
+      "stance": "avoid",
+      "visual_class": "civilian",
+      "schedule": [
+        {
+          "at": "dawn",
+          "activity": "clean"
+        },
+        {
+          "at": "day",
+          "activity": "work"
+        },
+        {
+          "at": "evening",
+          "activity": "social"
+        },
+        {
+          "at": "night",
+          "activity": "rest"
+        }
+      ],
+      "unique_world": false,
+      "persistent": true,
+      "requires_site_complete": true,
+      "spawn_weight": 10
+    },
+    {
+      "id": "tea_master",
+      "label_ko": "찻집주인",
+      "category": "상업·객잔",
+      "zone": "teahouse",
+      "daily_activity": "차준비·접객",
+      "interaction": "차·소문",
+      "stance": "avoid",
+      "visual_class": "civilian",
+      "schedule": [
+        {
+          "at": "day",
+          "activity": "차준비"
+        },
+        {
+          "at": "night",
+          "activity": "rest"
+        }
+      ],
+      "unique_world": false,
+      "persistent": true,
+      "requires_site_complete": true,
+      "spawn_weight": 10
+    },
+    {
+      "id": "merchant",
+      "label_ko": "상인",
+      "category": "상업·객잔",
+      "zone": "shop",
+      "daily_activity": "판매·재고관리",
+      "interaction": "물품거래",
+      "stance": "avoid",
+      "visual_class": "civilian",
+      "schedule": [
+        {
+          "at": "day",
+          "activity": "판매"
+        },
+        {
+          "at": "night",
+          "activity": "rest"
+        }
+      ],
+      "unique_world": false,
+      "persistent": true,
+      "requires_site_complete": true,
+      "spawn_weight": 10
+    },
+    {
+      "id": "peddler",
+      "label_ko": "행상",
+      "category": "상업·객잔",
+      "zone": "street",
+      "daily_activity": "노점·이동",
+      "interaction": "거래·길정보",
+      "stance": "avoid",
+      "visual_class": "civilian",
+      "schedule": [
+        {
+          "at": "day",
+          "activity": "노점"
+        },
+        {
+          "at": "night",
+          "activity": "rest"
+        }
+      ],
+      "unique_world": false,
+      "persistent": true,
+      "requires_site_complete": true,
+      "spawn_weight": 10
+    },
+    {
+      "id": "apothecary",
+      "label_ko": "약방주인",
+      "category": "상업·객잔",
+      "zone": "apothecary",
+      "daily_activity": "조제·약재관리",
+      "interaction": "약재거래·해독",
+      "stance": "avoid",
+      "visual_class": "civilian",
+      "schedule": [
+        {
+          "at": "day",
+          "activity": "조제"
+        },
+        {
+          "at": "night",
+          "activity": "rest"
+        }
+      ],
+      "unique_world": false,
+      "persistent": true,
+      "requires_site_complete": true,
+      "spawn_weight": 10
+    },
+    {
+      "id": "physician",
+      "label_ko": "의원",
+      "category": "상업·객잔",
+      "zone": "clinic",
+      "daily_activity": "진료·약조제",
+      "interaction": "치료·진료의뢰",
+      "stance": "avoid",
+      "visual_class": "civilian",
+      "schedule": [
+        {
+          "at": "day",
+          "activity": "진료"
+        },
+        {
+          "at": "night",
+          "activity": "rest"
+        }
+      ],
+      "unique_world": false,
+      "persistent": true,
+      "requires_site_complete": true,
+      "spawn_weight": 10
+    },
+    {
+      "id": "blacksmith",
+      "label_ko": "대장장이",
+      "category": "상업·객잔",
+      "zone": "smithy",
+      "daily_activity": "제련·수리",
+      "interaction": "무기제작·수리",
+      "stance": "defend",
+      "visual_class": "armed",
+      "schedule": [
+        {
+          "at": "day",
+          "activity": "제련"
+        },
+        {
+          "at": "night",
+          "activity": "rest"
+        }
+      ],
+      "unique_world": false,
+      "persistent": true,
+      "requires_site_complete": true,
+      "spawn_weight": 10
+    },
+    {
+      "id": "armorer",
+      "label_ko": "갑옷장인",
+      "category": "상업·객잔",
+      "zone": "smithy",
+      "daily_activity": "방어구제작",
+      "interaction": "방어구거래",
+      "stance": "avoid",
+      "visual_class": "civilian",
+      "schedule": [
+        {
+          "at": "day",
+          "activity": "방어구제작"
+        },
+        {
+          "at": "night",
+          "activity": "rest"
+        }
+      ],
+      "unique_world": false,
+      "persistent": true,
+      "requires_site_complete": true,
+      "spawn_weight": 10
+    },
+    {
+      "id": "stablehand",
+      "label_ko": "마구간지기",
+      "category": "상업·객잔",
+      "zone": "stable",
+      "daily_activity": "말돌봄·마구관리",
+      "interaction": "대여·정보",
+      "stance": "avoid",
+      "visual_class": "civilian",
+      "schedule": [
+        {
+          "at": "day",
+          "activity": "말돌봄"
+        },
+        {
+          "at": "night",
+          "activity": "rest"
+        }
+      ],
+      "unique_world": false,
+      "persistent": true,
+      "requires_site_complete": true,
+      "spawn_weight": 10
+    },
+    {
+      "id": "caravan_boss",
+      "label_ko": "상단주",
+      "category": "상업·객잔",
+      "zone": "guild",
+      "daily_activity": "상행관리",
+      "interaction": "거래·호송의뢰",
+      "stance": "defend",
+      "visual_class": "armed",
+      "schedule": [
+        {
+          "at": "day",
+          "activity": "상행관리"
+        },
+        {
+          "at": "night",
+          "activity": "rest"
+        }
+      ],
+      "unique_world": false,
+      "persistent": true,
+      "requires_site_complete": true,
+      "spawn_weight": 10
+    },
+    {
+      "id": "banker",
+      "label_ko": "전장관리인",
+      "category": "상업·객잔",
+      "zone": "guild",
+      "daily_activity": "보관·환전",
+      "interaction": "예금·환전",
+      "stance": "avoid",
+      "visual_class": "civilian",
+      "schedule": [
+        {
+          "at": "day",
+          "activity": "보관"
+        },
+        {
+          "at": "night",
+          "activity": "rest"
+        }
+      ],
+      "unique_world": false,
+      "persistent": true,
+      "requires_site_complete": true,
+      "spawn_weight": 10
+    },
+    {
+      "id": "warehouse_clerk",
+      "label_ko": "창고지기",
+      "category": "상업·객잔",
+      "zone": "warehouse",
+      "daily_activity": "창고정리·경비협조",
+      "interaction": "보관·거래",
+      "stance": "defend",
+      "visual_class": "armed",
+      "schedule": [
+        {
+          "at": "day",
+          "activity": "창고정리"
+        },
+        {
+          "at": "night",
+          "activity": "rest"
+        }
+      ],
+      "unique_world": false,
+      "persistent": true,
+      "requires_site_complete": true,
+      "spawn_weight": 10
+    },
+    {
+      "id": "city_guard",
+      "label_ko": "성내경비",
+      "category": "도시·관아",
+      "zone": "guardhouse",
+      "daily_activity": "순찰·치안",
+      "interaction": "범죄신고·경고",
+      "stance": "patrol",
+      "visual_class": "armed",
+      "schedule": [
+        {
+          "at": "day",
+          "activity": "순찰"
+        },
+        {
+          "at": "night",
+          "activity": "rest"
+        }
+      ],
+      "unique_world": false,
+      "persistent": true,
+      "requires_site_complete": true,
+      "spawn_weight": 10
+    },
+    {
+      "id": "gate_guard",
+      "label_ko": "성문수비병",
+      "category": "도시·관아",
+      "zone": "gate",
+      "daily_activity": "출입검문",
+      "interaction": "출입·신분확인",
+      "stance": "patrol",
+      "visual_class": "armed",
+      "schedule": [
+        {
+          "at": "day",
+          "activity": "guard"
+        },
+        {
+          "at": "night",
+          "activity": "guard_shift"
+        }
+      ],
+      "unique_world": false,
+      "persistent": true,
+      "requires_site_complete": true,
+      "spawn_weight": 10
+    },
+    {
+      "id": "constable",
+      "label_ko": "포졸",
+      "category": "도시·관아",
+      "zone": "prefecture",
+      "daily_activity": "순찰·체포",
+      "interaction": "범죄수사·신고",
+      "stance": "patrol",
+      "visual_class": "armed",
+      "schedule": [
+        {
+          "at": "day",
+          "activity": "순찰"
+        },
+        {
+          "at": "night",
+          "activity": "rest"
+        }
+      ],
+      "unique_world": false,
+      "persistent": true,
+      "requires_site_complete": true,
+      "spawn_weight": 10
+    },
+    {
+      "id": "magistrate",
+      "label_ko": "지방관",
+      "category": "도시·관아",
+      "zone": "prefecture",
+      "daily_activity": "재판·문서결재",
+      "interaction": "민원·포상",
+      "stance": "defend",
+      "visual_class": "armed",
+      "schedule": [
+        {
+          "at": "day",
+          "activity": "재판"
+        },
+        {
+          "at": "night",
+          "activity": "rest"
+        }
+      ],
+      "unique_world": false,
+      "persistent": true,
+      "requires_site_complete": true,
+      "spawn_weight": 10
+    },
+    {
+      "id": "city_clerk",
+      "label_ko": "서리",
+      "category": "도시·관아",
+      "zone": "prefecture",
+      "daily_activity": "장부·공문정리",
+      "interaction": "정보·허가",
+      "stance": "avoid",
+      "visual_class": "civilian",
+      "schedule": [
+        {
+          "at": "day",
+          "activity": "장부"
+        },
+        {
+          "at": "night",
+          "activity": "rest"
+        }
+      ],
+      "unique_world": false,
+      "persistent": true,
+      "requires_site_complete": true,
+      "spawn_weight": 10
+    },
+    {
+      "id": "watch_captain",
+      "label_ko": "수비대장",
+      "category": "도시·관아",
+      "zone": "guardhouse",
+      "daily_activity": "훈련·순찰명령",
+      "interaction": "방어임무",
+      "stance": "patrol",
+      "visual_class": "armed",
+      "schedule": [
+        {
+          "at": "day",
+          "activity": "훈련"
+        },
+        {
+          "at": "night",
+          "activity": "rest"
+        }
+      ],
+      "unique_world": false,
+      "persistent": true,
+      "requires_site_complete": true,
+      "spawn_weight": 10
+    },
+    {
+      "id": "messenger",
+      "label_ko": "전령",
+      "category": "도시·관아",
+      "zone": "street",
+      "daily_activity": "문서전달·이동",
+      "interaction": "우편·소식",
+      "stance": "avoid",
+      "visual_class": "civilian",
+      "schedule": [
+        {
+          "at": "day",
+          "activity": "문서전달"
+        },
+        {
+          "at": "night",
+          "activity": "rest"
+        }
+      ],
+      "unique_world": false,
+      "persistent": true,
+      "requires_site_complete": true,
+      "spawn_weight": 10
+    },
+    {
+      "id": "outer_disciple",
+      "label_ko": "외문제자",
+      "category": "문파·무림맹",
+      "zone": "dorm",
+      "daily_activity": "수련·잡무",
+      "interaction": "입문대화·수련",
+      "stance": "defend",
+      "visual_class": "armed",
+      "schedule": [
+        {
+          "at": "dawn",
+          "activity": "depart"
+        },
+        {
+          "at": "day",
+          "activity": "rotate"
+        },
+        {
+          "at": "night",
+          "activity": "sleep"
+        }
+      ],
+      "unique_world": false,
+      "persistent": true,
+      "requires_site_complete": true,
+      "spawn_weight": 10
+    },
+    {
+      "id": "inner_disciple",
+      "label_ko": "내문제자",
+      "category": "문파·무림맹",
+      "zone": "yard",
+      "daily_activity": "무공수련·순찰",
+      "interaction": "비무·무공대화",
+      "stance": "defend",
+      "visual_class": "armed",
+      "schedule": [
+        {
+          "at": "dawn",
+          "activity": "train"
+        },
+        {
+          "at": "day",
+          "activity": "practice"
+        },
+        {
+          "at": "night",
+          "activity": "rest"
+        }
+      ],
+      "unique_world": false,
+      "persistent": true,
+      "requires_site_complete": true,
+      "spawn_weight": 10
+    },
+    {
+      "id": "direct_disciple",
+      "label_ko": "진전제자",
+      "category": "문파·무림맹",
+      "zone": "main",
+      "daily_activity": "심화수련·임무",
+      "interaction": "비무·의뢰",
+      "stance": "defend",
+      "visual_class": "armed",
+      "schedule": [
+        {
+          "at": "day",
+          "activity": "meet"
+        },
+        {
+          "at": "evening",
+          "activity": "review"
+        },
+        {
+          "at": "night",
+          "activity": "private"
+        }
+      ],
+      "unique_world": false,
+      "persistent": false,
+      "requires_site_complete": true,
+      "spawn_weight": 10
+    },
+    {
+      "id": "sect_gatekeeper",
+      "label_ko": "산문수문제자",
+      "category": "문파·무림맹",
+      "zone": "gate",
+      "daily_activity": "산문경비",
+      "interaction": "입문검문·방문",
+      "stance": "patrol",
+      "visual_class": "armed",
+      "schedule": [
+        {
+          "at": "day",
+          "activity": "guard"
+        },
+        {
+          "at": "night",
+          "activity": "guard_shift"
+        }
+      ],
+      "unique_world": false,
+      "persistent": true,
+      "requires_site_complete": true,
+      "spawn_weight": 10
+    },
+    {
+      "id": "sect_patrol",
+      "label_ko": "문파순찰대",
+      "category": "문파·무림맹",
+      "zone": "tower",
+      "daily_activity": "성벽순찰·순찰교대",
+      "interaction": "경고·수비",
+      "stance": "patrol",
+      "visual_class": "armed",
+      "schedule": [
+        {
+          "at": "day",
+          "activity": "성벽순찰"
+        },
+        {
+          "at": "night",
+          "activity": "rest"
+        }
+      ],
+      "unique_world": false,
+      "persistent": true,
+      "requires_site_complete": true,
+      "spawn_weight": 10
+    },
+    {
+      "id": "sect_instructor",
+      "label_ko": "사부",
+      "category": "문파·무림맹",
+      "zone": "yard",
+      "daily_activity": "훈련지도·비무감독",
+      "interaction": "기술수련·승급",
+      "stance": "defend",
+      "visual_class": "armed",
+      "schedule": [
+        {
+          "at": "dawn",
+          "activity": "train"
+        },
+        {
+          "at": "day",
+          "activity": "practice"
+        },
+        {
+          "at": "night",
+          "activity": "rest"
+        }
+      ],
+      "unique_world": false,
+      "persistent": false,
+      "requires_site_complete": true,
+      "spawn_weight": 10
+    },
+    {
+      "id": "library_keeper",
+      "label_ko": "장서각사서",
+      "category": "문파·무림맹",
+      "zone": "archive",
+      "daily_activity": "비급정리·열람관리",
+      "interaction": "무공서적·허가",
+      "stance": "avoid",
+      "visual_class": "civilian",
+      "schedule": [
+        {
+          "at": "day",
+          "activity": "study"
+        },
+        {
+          "at": "night",
+          "activity": "closed"
+        }
+      ],
+      "unique_world": false,
+      "persistent": false,
+      "requires_site_complete": true,
+      "spawn_weight": 10
+    },
+    {
+      "id": "sect_alchemist",
+      "label_ko": "단약사",
+      "category": "문파·무림맹",
+      "zone": "meditation",
+      "daily_activity": "약재정리·단약연구",
+      "interaction": "단약·재료의뢰",
+      "stance": "avoid",
+      "visual_class": "civilian",
+      "schedule": [
+        {
+          "at": "day",
+          "activity": "약재정리"
+        },
+        {
+          "at": "night",
+          "activity": "rest"
+        }
+      ],
+      "unique_world": false,
+      "persistent": false,
+      "requires_site_complete": true,
+      "spawn_weight": 10
+    },
+    {
+      "id": "sect_healer",
+      "label_ko": "의술제자",
+      "category": "문파·무림맹",
+      "zone": "meditation",
+      "daily_activity": "치료·약초정리",
+      "interaction": "치료·상처간호",
+      "stance": "avoid",
+      "visual_class": "civilian",
+      "schedule": [
+        {
+          "at": "day",
+          "activity": "치료"
+        },
+        {
+          "at": "night",
+          "activity": "rest"
+        }
+      ],
+      "unique_world": false,
+      "persistent": false,
+      "requires_site_complete": true,
+      "spawn_weight": 10
+    },
+    {
+      "id": "discipline_officer",
+      "label_ko": "집법당감찰",
+      "category": "문파·무림맹",
+      "zone": "main",
+      "daily_activity": "규율감시·조사",
+      "interaction": "징계·고발",
+      "stance": "patrol",
+      "visual_class": "armed",
+      "schedule": [
+        {
+          "at": "day",
+          "activity": "meet"
+        },
+        {
+          "at": "evening",
+          "activity": "review"
+        },
+        {
+          "at": "night",
+          "activity": "private"
+        }
+      ],
+      "unique_world": false,
+      "persistent": false,
+      "requires_site_complete": true,
+      "spawn_weight": 10
+    },
+    {
+      "id": "sect_elder",
+      "label_ko": "문파장로",
+      "category": "문파·무림맹",
+      "zone": "main",
+      "daily_activity": "지도·회의",
+      "interaction": "무공전수·심사",
+      "stance": "defend",
+      "visual_class": "armed",
+      "schedule": [
+        {
+          "at": "day",
+          "activity": "meet"
+        },
+        {
+          "at": "evening",
+          "activity": "review"
+        },
+        {
+          "at": "night",
+          "activity": "private"
+        }
+      ],
+      "unique_world": false,
+      "persistent": true,
+      "requires_site_complete": true,
+      "spawn_weight": 10
+    },
+    {
+      "id": "sect_leader",
+      "label_ko": "장문인",
+      "category": "문파·무림맹",
+      "zone": "main",
+      "daily_activity": "문파운영·비공개수련",
+      "interaction": "입문승인·전쟁선언",
+      "stance": "defend",
+      "visual_class": "armed",
+      "schedule": [
+        {
+          "at": "day",
+          "activity": "meet"
+        },
+        {
+          "at": "evening",
+          "activity": "review"
+        },
+        {
+          "at": "night",
+          "activity": "private"
+        }
+      ],
+      "unique_world": false,
+      "persistent": true,
+      "requires_site_complete": true,
+      "spawn_weight": 0
+    },
+    {
+      "id": "sect_servant",
+      "label_ko": "문파잡역",
+      "category": "문파·무림맹",
+      "zone": "dorm",
+      "daily_activity": "청소·배식·수리",
+      "interaction": "대화·소문",
+      "stance": "avoid",
+      "visual_class": "civilian",
+      "schedule": [
+        {
+          "at": "dawn",
+          "activity": "depart"
+        },
+        {
+          "at": "day",
+          "activity": "rotate"
+        },
+        {
+          "at": "night",
+          "activity": "sleep"
+        }
+      ],
+      "unique_world": false,
+      "persistent": true,
+      "requires_site_complete": true,
+      "spawn_weight": 10
+    },
+    {
+      "id": "recruitment_examiner",
+      "label_ko": "입문시험관",
+      "category": "문파·무림맹",
+      "zone": "yard",
+      "daily_activity": "입문시험진행",
+      "interaction": "시험·평가",
+      "stance": "defend",
+      "visual_class": "armed",
+      "schedule": [
+        {
+          "at": "dawn",
+          "activity": "train"
+        },
+        {
+          "at": "day",
+          "activity": "practice"
+        },
+        {
+          "at": "night",
+          "activity": "rest"
+        }
+      ],
+      "unique_world": false,
+      "persistent": false,
+      "requires_site_complete": true,
+      "spawn_weight": 10
+    },
+    {
+      "id": "alliance_officer",
+      "label_ko": "무림맹관리",
+      "category": "문파·무림맹",
+      "zone": "prefecture",
+      "daily_activity": "문파보고·임무배정",
+      "interaction": "공식의뢰·평판",
+      "stance": "defend",
+      "visual_class": "armed",
+      "schedule": [
+        {
+          "at": "day",
+          "activity": "문파보고"
+        },
+        {
+          "at": "night",
+          "activity": "rest"
+        }
+      ],
+      "unique_world": false,
+      "persistent": false,
+      "requires_site_complete": true,
+      "spawn_weight": 10
+    },
+    {
+      "id": "alliance_chief",
+      "label_ko": "무림맹주",
+      "category": "문파·무림맹",
+      "zone": "main",
+      "daily_activity": "맹운영·고위회의",
+      "interaction": "정세·특별의뢰",
+      "stance": "defend",
+      "visual_class": "armed",
+      "schedule": [
+        {
+          "at": "day",
+          "activity": "meet"
+        },
+        {
+          "at": "evening",
+          "activity": "review"
+        },
+        {
+          "at": "night",
+          "activity": "private"
+        }
+      ],
+      "unique_world": false,
+      "persistent": true,
+      "requires_site_complete": true,
+      "spawn_weight": 0
+    },
+    {
+      "id": "clan_head",
+      "label_ko": "가주",
+      "category": "오대세가",
+      "zone": "main",
+      "daily_activity": "가문운영·접견",
+      "interaction": "가문계약·전수",
+      "stance": "defend",
+      "visual_class": "armed",
+      "schedule": [
+        {
+          "at": "day",
+          "activity": "meet"
+        },
+        {
+          "at": "evening",
+          "activity": "review"
+        },
+        {
+          "at": "night",
+          "activity": "private"
+        }
+      ],
+      "unique_world": false,
+      "persistent": true,
+      "requires_site_complete": true,
+      "spawn_weight": 0
+    },
+    {
+      "id": "clan_heir",
+      "label_ko": "가문후계자",
+      "category": "오대세가",
+      "zone": "main",
+      "daily_activity": "수련·회의",
+      "interaction": "비무·평판",
+      "stance": "defend",
+      "visual_class": "armed",
+      "schedule": [
+        {
+          "at": "day",
+          "activity": "meet"
+        },
+        {
+          "at": "evening",
+          "activity": "review"
+        },
+        {
+          "at": "night",
+          "activity": "private"
+        }
+      ],
+      "unique_world": false,
+      "persistent": false,
+      "requires_site_complete": true,
+      "spawn_weight": 10
+    },
+    {
+      "id": "clan_warrior",
+      "label_ko": "세가무사",
+      "category": "오대세가",
+      "zone": "yard",
+      "daily_activity": "연무·경비",
+      "interaction": "비무·호위",
+      "stance": "patrol",
+      "visual_class": "armed",
+      "schedule": [
+        {
+          "at": "dawn",
+          "activity": "train"
+        },
+        {
+          "at": "day",
+          "activity": "practice"
+        },
+        {
+          "at": "night",
+          "activity": "rest"
+        }
+      ],
+      "unique_world": false,
+      "persistent": false,
+      "requires_site_complete": true,
+      "spawn_weight": 10
+    },
+    {
+      "id": "clan_bodyguard",
+      "label_ko": "내원호위",
+      "category": "오대세가",
+      "zone": "gate",
+      "daily_activity": "내원경비·교대",
+      "interaction": "출입통제",
+      "stance": "patrol",
+      "visual_class": "armed",
+      "schedule": [
+        {
+          "at": "day",
+          "activity": "guard"
+        },
+        {
+          "at": "night",
+          "activity": "guard_shift"
+        }
+      ],
+      "unique_world": false,
+      "persistent": false,
+      "requires_site_complete": true,
+      "spawn_weight": 10
+    },
+    {
+      "id": "clan_steward",
+      "label_ko": "집사",
+      "category": "오대세가",
+      "zone": "dorm",
+      "daily_activity": "가사·관리",
+      "interaction": "고용·의뢰",
+      "stance": "avoid",
+      "visual_class": "civilian",
+      "schedule": [
+        {
+          "at": "dawn",
+          "activity": "depart"
+        },
+        {
+          "at": "day",
+          "activity": "rotate"
+        },
+        {
+          "at": "night",
+          "activity": "sleep"
+        }
+      ],
+      "unique_world": false,
+      "persistent": false,
+      "requires_site_complete": true,
+      "spawn_weight": 10
+    },
+    {
+      "id": "clan_attendant",
+      "label_ko": "시종",
+      "category": "오대세가",
+      "zone": "dorm",
+      "daily_activity": "청소·배달",
+      "interaction": "잡담·부탁",
+      "stance": "avoid",
+      "visual_class": "civilian",
+      "schedule": [
+        {
+          "at": "dawn",
+          "activity": "depart"
+        },
+        {
+          "at": "day",
+          "activity": "rotate"
+        },
+        {
+          "at": "night",
+          "activity": "sleep"
+        }
+      ],
+      "unique_world": false,
+      "persistent": false,
+      "requires_site_complete": true,
+      "spawn_weight": 10
+    },
+    {
+      "id": "clan_scholar",
+      "label_ko": "세가서기",
+      "category": "오대세가",
+      "zone": "archive",
+      "daily_activity": "족보·장부관리",
+      "interaction": "가문정보",
+      "stance": "avoid",
+      "visual_class": "civilian",
+      "schedule": [
+        {
+          "at": "day",
+          "activity": "study"
+        },
+        {
+          "at": "night",
+          "activity": "closed"
+        }
+      ],
+      "unique_world": false,
+      "persistent": false,
+      "requires_site_complete": true,
+      "spawn_weight": 10
+    },
+    {
+      "id": "clan_artisan",
+      "label_ko": "세가장인",
+      "category": "오대세가",
+      "zone": "meditation",
+      "daily_activity": "가문장비제작",
+      "interaction": "장비·계약",
+      "stance": "avoid",
+      "visual_class": "civilian",
+      "schedule": [
+        {
+          "at": "day",
+          "activity": "가문장비제작"
+        },
+        {
+          "at": "night",
+          "activity": "rest"
+        }
+      ],
+      "unique_world": false,
+      "persistent": false,
+      "requires_site_complete": true,
+      "spawn_weight": 10
+    },
+    {
+      "id": "wanderer",
+      "label_ko": "낭인",
+      "category": "강호·이동",
+      "zone": "road",
+      "daily_activity": "방랑·객잔숙박",
+      "interaction": "비무·소문",
+      "stance": "defend",
+      "visual_class": "armed",
+      "schedule": [
+        {
+          "at": "dawn",
+          "activity": "travel"
+        },
+        {
+          "at": "day",
+          "activity": "travel"
+        },
+        {
+          "at": "night",
+          "activity": "camp"
+        }
+      ],
+      "unique_world": false,
+      "persistent": false,
+      "requires_site_complete": true,
+      "spawn_weight": 10
+    },
+    {
+      "id": "swordsman",
+      "label_ko": "검객",
+      "category": "강호·이동",
+      "zone": "road",
+      "daily_activity": "수련·도전",
+      "interaction": "비무·무공대화",
+      "stance": "defend",
+      "visual_class": "armed",
+      "schedule": [
+        {
+          "at": "dawn",
+          "activity": "travel"
+        },
+        {
+          "at": "day",
+          "activity": "travel"
+        },
+        {
+          "at": "night",
+          "activity": "camp"
+        }
+      ],
+      "unique_world": false,
+      "persistent": false,
+      "requires_site_complete": true,
+      "spawn_weight": 10
+    },
+    {
+      "id": "fist_fighter",
+      "label_ko": "권사",
+      "category": "강호·이동",
+      "zone": "yard",
+      "daily_activity": "권법수련·도전",
+      "interaction": "비무",
+      "stance": "defend",
+      "visual_class": "armed",
+      "schedule": [
+        {
+          "at": "dawn",
+          "activity": "train"
+        },
+        {
+          "at": "day",
+          "activity": "practice"
+        },
+        {
+          "at": "night",
+          "activity": "rest"
+        }
+      ],
+      "unique_world": false,
+      "persistent": false,
+      "requires_site_complete": true,
+      "spawn_weight": 10
+    },
+    {
+      "id": "escort",
+      "label_ko": "표사",
+      "category": "강호·이동",
+      "zone": "road",
+      "daily_activity": "상단호위·야영",
+      "interaction": "호위의뢰·전투",
+      "stance": "patrol",
+      "visual_class": "armed",
+      "schedule": [
+        {
+          "at": "dawn",
+          "activity": "travel"
+        },
+        {
+          "at": "day",
+          "activity": "travel"
+        },
+        {
+          "at": "night",
+          "activity": "camp"
+        }
+      ],
+      "unique_world": false,
+      "persistent": false,
+      "requires_site_complete": true,
+      "spawn_weight": 10
+    },
+    {
+      "id": "escort_captain",
+      "label_ko": "표두",
+      "category": "강호·이동",
+      "zone": "guild",
+      "daily_activity": "호위작전·계약",
+      "interaction": "호위의뢰",
+      "stance": "patrol",
+      "visual_class": "armed",
+      "schedule": [
+        {
+          "at": "day",
+          "activity": "호위작전"
+        },
+        {
+          "at": "night",
+          "activity": "rest"
+        }
+      ],
+      "unique_world": false,
+      "persistent": false,
+      "requires_site_complete": true,
+      "spawn_weight": 10
+    },
+    {
+      "id": "escort_chief",
+      "label_ko": "운표두",
+      "category": "강호·이동",
+      "zone": "guild",
+      "daily_activity": "표국운영·영업",
+      "interaction": "표국입단·의뢰",
+      "stance": "defend",
+      "visual_class": "armed",
+      "schedule": [
+        {
+          "at": "day",
+          "activity": "표국운영"
+        },
+        {
+          "at": "night",
+          "activity": "rest"
+        }
+      ],
+      "unique_world": false,
+      "persistent": false,
+      "requires_site_complete": true,
+      "spawn_weight": 10
+    },
+    {
+      "id": "bounty_hunter",
+      "label_ko": "현상금사냥꾼",
+      "category": "강호·이동",
+      "zone": "road",
+      "daily_activity": "범죄자추적",
+      "interaction": "추적의뢰",
+      "stance": "defend",
+      "visual_class": "armed",
+      "schedule": [
+        {
+          "at": "dawn",
+          "activity": "travel"
+        },
+        {
+          "at": "day",
+          "activity": "travel"
+        },
+        {
+          "at": "night",
+          "activity": "camp"
+        }
+      ],
+      "unique_world": false,
+      "persistent": false,
+      "requires_site_complete": true,
+      "spawn_weight": 10
+    },
+    {
+      "id": "beggar_informant",
+      "label_ko": "거지정보원",
+      "category": "강호·이동",
+      "zone": "street",
+      "daily_activity": "소식수집·기거",
+      "interaction": "소문·정보거래",
+      "stance": "avoid",
+      "visual_class": "civilian",
+      "schedule": [
+        {
+          "at": "day",
+          "activity": "소식수집"
+        },
+        {
+          "at": "night",
+          "activity": "rest"
+        }
+      ],
+      "unique_world": false,
+      "persistent": false,
+      "requires_site_complete": true,
+      "spawn_weight": 10
+    },
+    {
+      "id": "rumor_monger",
+      "label_ko": "소문꾼",
+      "category": "강호·이동",
+      "zone": "inn",
+      "daily_activity": "소문교환·손님관찰",
+      "interaction": "소문·기연단서",
+      "stance": "avoid",
+      "visual_class": "civilian",
+      "schedule": [
+        {
+          "at": "dawn",
+          "activity": "clean"
+        },
+        {
+          "at": "day",
+          "activity": "work"
+        },
+        {
+          "at": "evening",
+          "activity": "social"
+        },
+        {
+          "at": "night",
+          "activity": "rest"
+        }
+      ],
+      "unique_world": false,
+      "persistent": false,
+      "requires_site_complete": true,
+      "spawn_weight": 10
+    },
+    {
+      "id": "hermit_master",
+      "label_ko": "은거고수",
+      "category": "강호·이동",
+      "zone": "hermitage",
+      "daily_activity": "은둔·명상",
+      "interaction": "기연·시험",
+      "stance": "defend",
+      "visual_class": "armed",
+      "schedule": [
+        {
+          "at": "day",
+          "activity": "은둔"
+        },
+        {
+          "at": "night",
+          "activity": "rest"
+        }
+      ],
+      "unique_world": false,
+      "persistent": true,
+      "requires_site_complete": true,
+      "spawn_weight": 0
+    },
+    {
+      "id": "outlaw_disciple",
+      "label_ko": "사파제자",
+      "category": "사파·마교·혈교",
+      "zone": "dorm",
+      "daily_activity": "수련·세력활동",
+      "interaction": "도전·위협",
+      "stance": "hostile",
+      "visual_class": "armed",
+      "schedule": [
+        {
+          "at": "dawn",
+          "activity": "depart"
+        },
+        {
+          "at": "day",
+          "activity": "rotate"
+        },
+        {
+          "at": "night",
+          "activity": "sleep"
+        }
+      ],
+      "unique_world": false,
+      "persistent": false,
+      "requires_site_complete": true,
+      "spawn_weight": 10
+    },
+    {
+      "id": "bandit",
+      "label_ko": "산적",
+      "category": "사파·마교·혈교",
+      "zone": "outskirts",
+      "daily_activity": "매복·약탈",
+      "interaction": "통행세·전투",
+      "stance": "hostile",
+      "visual_class": "armed",
+      "schedule": [
+        {
+          "at": "day",
+          "activity": "매복"
+        },
+        {
+          "at": "night",
+          "activity": "rest"
+        }
+      ],
+      "unique_world": false,
+      "persistent": false,
+      "requires_site_complete": true,
+      "spawn_weight": 10
+    },
+    {
+      "id": "bandit_boss",
+      "label_ko": "산채두목",
+      "category": "사파·마교·혈교",
+      "zone": "main",
+      "daily_activity": "산채통솔·전리품관리",
+      "interaction": "협상·전투",
+      "stance": "hostile",
+      "visual_class": "armed",
+      "schedule": [
+        {
+          "at": "day",
+          "activity": "meet"
+        },
+        {
+          "at": "evening",
+          "activity": "review"
+        },
+        {
+          "at": "night",
+          "activity": "private"
+        }
+      ],
+      "unique_world": false,
+      "persistent": true,
+      "requires_site_complete": true,
+      "spawn_weight": 0
+    },
+    {
+      "id": "underworld_broker",
+      "label_ko": "암시장상",
+      "category": "사파·마교·혈교",
+      "zone": "market",
+      "daily_activity": "은밀한거래",
+      "interaction": "장물·정보",
+      "stance": "defend",
+      "visual_class": "armed",
+      "schedule": [
+        {
+          "at": "day",
+          "activity": "은밀한거래"
+        },
+        {
+          "at": "night",
+          "activity": "rest"
+        }
+      ],
+      "unique_world": false,
+      "persistent": false,
+      "requires_site_complete": true,
+      "spawn_weight": 10
+    },
+    {
+      "id": "spy",
+      "label_ko": "밀정",
+      "category": "사파·마교·혈교",
+      "zone": "street",
+      "daily_activity": "잠입·정보수집",
+      "interaction": "은밀한의뢰",
+      "stance": "defend",
+      "visual_class": "armed",
+      "schedule": [
+        {
+          "at": "day",
+          "activity": "잠입"
+        },
+        {
+          "at": "night",
+          "activity": "rest"
+        }
+      ],
+      "unique_world": false,
+      "persistent": false,
+      "requires_site_complete": true,
+      "spawn_weight": 10
+    },
+    {
+      "id": "assassin",
+      "label_ko": "살수",
+      "category": "사파·마교·혈교",
+      "zone": "road",
+      "daily_activity": "잠행·암살의뢰",
+      "interaction": "암살·도주",
+      "stance": "hostile",
+      "visual_class": "armed",
+      "schedule": [
+        {
+          "at": "dawn",
+          "activity": "travel"
+        },
+        {
+          "at": "day",
+          "activity": "travel"
+        },
+        {
+          "at": "night",
+          "activity": "camp"
+        }
+      ],
+      "unique_world": false,
+      "persistent": false,
+      "requires_site_complete": true,
+      "spawn_weight": 10
+    },
+    {
+      "id": "poison_crafter",
+      "label_ko": "독술사",
+      "category": "사파·마교·혈교",
+      "zone": "meditation",
+      "daily_activity": "독제조·실험",
+      "interaction": "독재료거래",
+      "stance": "hostile",
+      "visual_class": "armed",
+      "schedule": [
+        {
+          "at": "day",
+          "activity": "독제조"
+        },
+        {
+          "at": "night",
+          "activity": "rest"
+        }
+      ],
+      "unique_world": false,
+      "persistent": false,
+      "requires_site_complete": true,
+      "spawn_weight": 10
+    },
+    {
+      "id": "sado_envoy",
+      "label_ko": "사도련사절",
+      "category": "사파·마교·혈교",
+      "zone": "main",
+      "daily_activity": "사절교섭·회의",
+      "interaction": "동맹·전쟁",
+      "stance": "defend",
+      "visual_class": "armed",
+      "schedule": [
+        {
+          "at": "day",
+          "activity": "meet"
+        },
+        {
+          "at": "evening",
+          "activity": "review"
+        },
+        {
+          "at": "night",
+          "activity": "private"
+        }
+      ],
+      "unique_world": false,
+      "persistent": false,
+      "requires_site_complete": true,
+      "spawn_weight": 10
+    },
+    {
+      "id": "demonic_guardian",
+      "label_ko": "마교호법",
+      "category": "사파·마교·혈교",
+      "zone": "gate",
+      "daily_activity": "교주호위·수비",
+      "interaction": "경고·전투",
+      "stance": "hostile",
+      "visual_class": "armed",
+      "schedule": [
+        {
+          "at": "day",
+          "activity": "guard"
+        },
+        {
+          "at": "night",
+          "activity": "guard_shift"
+        }
+      ],
+      "unique_world": false,
+      "persistent": false,
+      "requires_site_complete": true,
+      "spawn_weight": 10
+    },
+    {
+      "id": "blood_cultist",
+      "label_ko": "혈교교도",
+      "category": "사파·마교·혈교",
+      "zone": "yard",
+      "daily_activity": "의식·수련",
+      "interaction": "위협·전투",
+      "stance": "hostile",
+      "visual_class": "armed",
+      "schedule": [
+        {
+          "at": "dawn",
+          "activity": "train"
+        },
+        {
+          "at": "day",
+          "activity": "practice"
+        },
+        {
+          "at": "night",
+          "activity": "rest"
+        }
+      ],
+      "unique_world": false,
+      "persistent": false,
+      "requires_site_complete": true,
+      "spawn_weight": 10
+    },
+    {
+      "id": "cult_leader",
+      "label_ko": "교주",
+      "category": "사파·마교·혈교",
+      "zone": "main",
+      "daily_activity": "교단운영·의식",
+      "interaction": "특별사건·결투",
+      "stance": "hostile",
+      "visual_class": "armed",
+      "schedule": [
+        {
+          "at": "day",
+          "activity": "meet"
+        },
+        {
+          "at": "evening",
+          "activity": "review"
+        },
+        {
+          "at": "night",
+          "activity": "private"
+        }
+      ],
+      "unique_world": false,
+      "persistent": true,
+      "requires_site_complete": true,
+      "spawn_weight": 0
+    },
+    {
+      "id": "tourney_fighter",
+      "label_ko": "비무참가자",
+      "category": "행사·사회",
+      "zone": "arena",
+      "daily_activity": "대기·시합",
+      "interaction": "비무·도전",
+      "stance": "defend",
+      "visual_class": "armed",
+      "schedule": [
+        {
+          "at": "day",
+          "activity": "대기"
+        },
+        {
+          "at": "night",
+          "activity": "rest"
+        }
+      ],
+      "unique_world": false,
+      "persistent": false,
+      "requires_site_complete": true,
+      "spawn_weight": 10
+    },
+    {
+      "id": "tourney_referee",
+      "label_ko": "비무심판",
+      "category": "행사·사회",
+      "zone": "arena",
+      "daily_activity": "경기진행·판정",
+      "interaction": "대회접수·판정",
+      "stance": "defend",
+      "visual_class": "armed",
+      "schedule": [
+        {
+          "at": "day",
+          "activity": "경기진행"
+        },
+        {
+          "at": "night",
+          "activity": "rest"
+        }
+      ],
+      "unique_world": false,
+      "persistent": false,
+      "requires_site_complete": true,
+      "spawn_weight": 10
+    },
+    {
+      "id": "spectator",
+      "label_ko": "구경꾼",
+      "category": "행사·사회",
+      "zone": "arena",
+      "daily_activity": "관람·응원",
+      "interaction": "대회소문",
+      "stance": "avoid",
+      "visual_class": "civilian",
+      "schedule": [
+        {
+          "at": "day",
+          "activity": "관람"
+        },
+        {
+          "at": "night",
+          "activity": "rest"
+        }
+      ],
+      "unique_world": false,
+      "persistent": false,
+      "requires_site_complete": true,
+      "spawn_weight": 10
+    },
+    {
+      "id": "festival_performer",
+      "label_ko": "연희인",
+      "category": "행사·사회",
+      "zone": "square",
+      "daily_activity": "공연·이동",
+      "interaction": "공연·사례금",
+      "stance": "avoid",
+      "visual_class": "civilian",
+      "schedule": [
+        {
+          "at": "day",
+          "activity": "공연"
+        },
+        {
+          "at": "night",
+          "activity": "rest"
+        }
+      ],
+      "unique_world": false,
+      "persistent": false,
+      "requires_site_complete": true,
+      "spawn_weight": 10
+    },
+    {
+      "id": "wandering_storyteller",
+      "label_ko": "이야기꾼",
+      "category": "행사·사회",
+      "zone": "teahouse",
+      "daily_activity": "이야기공연·여행",
+      "interaction": "소문·전승",
+      "stance": "avoid",
+      "visual_class": "civilian",
+      "schedule": [
+        {
+          "at": "day",
+          "activity": "이야기공연"
+        },
+        {
+          "at": "night",
+          "activity": "rest"
+        }
+      ],
+      "unique_world": false,
+      "persistent": false,
+      "requires_site_complete": true,
+      "spawn_weight": 10
+    },
+    {
+      "id": "tailor",
+      "label_ko": "재봉사",
+      "category": "민간·생업",
+      "zone": "market",
+      "daily_activity": "옷 제작·수선",
+      "interaction": "옷감 거래",
+      "stance": "avoid",
+      "visual_class": "civilian",
+      "schedule": [
+        {
+          "at": "dawn",
+          "activity": "home"
+        },
+        {
+          "at": "day",
+          "activity": "work"
+        },
+        {
+          "at": "night",
+          "activity": "rest"
+        }
+      ],
+      "unique_world": false,
+      "persistent": true,
+      "requires_site_complete": true,
+      "spawn_weight": 8
+    },
+    {
+      "id": "papermaker",
+      "label_ko": "제지공",
+      "category": "민간·생업",
+      "zone": "workshop",
+      "daily_activity": "종이 제작",
+      "interaction": "문서용 종이 거래",
+      "stance": "avoid",
+      "visual_class": "civilian",
+      "schedule": [
+        {
+          "at": "dawn",
+          "activity": "home"
+        },
+        {
+          "at": "day",
+          "activity": "work"
+        },
+        {
+          "at": "night",
+          "activity": "rest"
+        }
+      ],
+      "unique_world": false,
+      "persistent": true,
+      "requires_site_complete": true,
+      "spawn_weight": 8
+    },
+    {
+      "id": "calligrapher",
+      "label_ko": "필사공",
+      "category": "민간·생업",
+      "zone": "hall",
+      "daily_activity": "서책 필사",
+      "interaction": "필사·서책 의뢰",
+      "stance": "avoid",
+      "visual_class": "civilian",
+      "schedule": [
+        {
+          "at": "dawn",
+          "activity": "home"
+        },
+        {
+          "at": "day",
+          "activity": "work"
+        },
+        {
+          "at": "night",
+          "activity": "rest"
+        }
+      ],
+      "unique_world": false,
+      "persistent": true,
+      "requires_site_complete": true,
+      "spawn_weight": 8
+    },
+    {
+      "id": "boatman",
+      "label_ko": "뱃사공",
+      "category": "민간·생업",
+      "zone": "river",
+      "daily_activity": "나룻배 운영",
+      "interaction": "도하·나룻길 안내",
+      "stance": "avoid",
+      "visual_class": "civilian",
+      "schedule": [
+        {
+          "at": "dawn",
+          "activity": "home"
+        },
+        {
+          "at": "day",
+          "activity": "work"
+        },
+        {
+          "at": "night",
+          "activity": "rest"
+        }
+      ],
+      "unique_world": false,
+      "persistent": true,
+      "requires_site_complete": true,
+      "spawn_weight": 8
+    }
+  ]
+}

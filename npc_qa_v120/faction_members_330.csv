@@ -1,0 +1,331 @@
+﻿faction_id,faction_ko,npc_key,name_style,role,name_ko,name_zh,pinyin
+shaolin,소림사,shaolin:member:01,CHINESE,sect_elder,심준걸,沈俊傑,Shěn Jùnjié
+shaolin,소림사,shaolin:member:02,KOREAN,sect_instructor,박다현,,
+shaolin,소림사,shaolin:member:03,CHINESE,direct_disciple,서청풍,徐青楓,Xú Qīngfēng
+shaolin,소림사,shaolin:member:04,KOREAN,inner_disciple,장한결,,
+shaolin,소림사,shaolin:member:05,CHINESE,inner_disciple,풍소매,馮素梅,Féng Sùméi
+shaolin,소림사,shaolin:member:06,KOREAN,outer_disciple,이하린,,
+shaolin,소림사,shaolin:member:07,CHINESE,outer_disciple,엽정월,葉靜月,Yè Jìngyuè
+shaolin,소림사,shaolin:member:08,KOREAN,outer_disciple,윤하윤,,
+shaolin,소림사,shaolin:member:09,CHINESE,outer_disciple,손설란,孫雪蘭,Sūn Xuělán
+shaolin,소림사,shaolin:member:10,KOREAN,sect_gatekeeper,한하온,,
+shaolin,소림사,shaolin:member:11,CHINESE,sect_patrol,한정월,韓靜月,Hán Jìngyuè
+shaolin,소림사,shaolin:member:12,KOREAN,sect_patrol,황서하,,
+shaolin,소림사,shaolin:member:13,CHINESE,library_keeper,고아금,顧雅琴,Gù Yǎqín
+shaolin,소림사,shaolin:member:14,KOREAN,sect_healer,한태윤,,
+shaolin,소림사,shaolin:member:15,CHINESE,sect_alchemist,황원호,黃元昊,Huáng Yuánhào
+shaolin,소림사,shaolin:member:16,KOREAN,recruitment_examiner,정이안,,
+shaolin,소림사,shaolin:member:17,CHINESE,sect_servant,양경호,梁景昊,Liáng Jǐnghào
+shaolin,소림사,shaolin:member:18,KOREAN,sect_servant,임라온,,
+shaolin,소림사,shaolin:member:19,CHINESE,sect_servant,심아운,沈雅雲,Shěn Yǎyún
+shaolin,소림사,shaolin:member:20,KOREAN,outer_disciple,정태윤,,
+shaolin,소림사,shaolin:member:21,CHINESE,inner_disciple,두덕원,杜德元,Dù Déyuán
+shaolin,소림사,shaolin:member:22,KOREAN,sect_patrol,최유빈,,
+wudang,무당파,wudang:member:01,CHINESE,sect_elder,장운해,張雲海,Zhāng Yúnhǎi
+wudang,무당파,wudang:member:02,KOREAN,sect_instructor,최시온,,
+wudang,무당파,wudang:member:03,CHINESE,direct_disciple,곽청하,郭清荷,Guō Qīnghé
+wudang,무당파,wudang:member:04,KOREAN,inner_disciple,권예린,,
+wudang,무당파,wudang:member:05,CHINESE,inner_disciple,고춘효,顧春曉,Gù Chūnxiǎo
+wudang,무당파,wudang:member:06,KOREAN,outer_disciple,윤다현,,
+wudang,무당파,wudang:member:07,CHINESE,outer_disciple,두경천,杜景川,Dù Jǐngchuān
+wudang,무당파,wudang:member:08,KOREAN,outer_disciple,한윤서,,
+wudang,무당파,wudang:member:09,CHINESE,outer_disciple,고모청,高慕青,Gāo Mùqīng
+wudang,무당파,wudang:member:10,KOREAN,sect_gatekeeper,황소이,,
+wudang,무당파,wudang:member:11,CHINESE,sect_patrol,양아운,梁雅雲,Liáng Yǎyún
+wudang,무당파,wudang:member:12,KOREAN,sect_patrol,권이안,,
+wudang,무당파,wudang:member:13,CHINESE,library_keeper,이유가,李柔嘉,Lǐ Róujiā
+wudang,무당파,wudang:member:14,KOREAN,sect_healer,조연우,,
+wudang,무당파,wudang:member:15,CHINESE,sect_alchemist,왕준희,王俊熙,Wáng Jùnxī
+wudang,무당파,wudang:member:16,KOREAN,recruitment_examiner,최예나,,
+wudang,무당파,wudang:member:17,CHINESE,sect_servant,양옥청,梁玉清,Liáng Yùqīng
+wudang,무당파,wudang:member:18,KOREAN,sect_servant,황서린,,
+wudang,무당파,wudang:member:19,CHINESE,sect_servant,고정의,顧正義,Gù Zhèngyì
+wudang,무당파,wudang:member:20,KOREAN,outer_disciple,오재민,,
+wudang,무당파,wudang:member:21,CHINESE,inner_disciple,심성하,沈星河,Shěn Xīnghé
+wudang,무당파,wudang:member:22,KOREAN,sect_patrol,권유빈,,
+huashan,화산파,huashan:member:01,CHINESE,sect_elder,주굉의,周宏毅,Zhōu Hóngyì
+huashan,화산파,huashan:member:02,KOREAN,sect_instructor,신한결,,
+huashan,화산파,huashan:member:03,CHINESE,direct_disciple,고장풍,顧長風,Gù Chángfēng
+huashan,화산파,huashan:member:04,KOREAN,inner_disciple,오지안,,
+huashan,화산파,huashan:member:05,CHINESE,inner_disciple,고신희,高晨曦,Gāo Chénxī
+huashan,화산파,huashan:member:06,KOREAN,outer_disciple,장다현,,
+huashan,화산파,huashan:member:07,CHINESE,outer_disciple,양수련,梁秀蓮,Liáng Xiùlián
+huashan,화산파,huashan:member:08,KOREAN,outer_disciple,윤도윤,,
+huashan,화산파,huashan:member:09,CHINESE,outer_disciple,엽청풍,葉青楓,Yè Qīngfēng
+huashan,화산파,huashan:member:10,KOREAN,sect_gatekeeper,류아린,,
+huashan,화산파,huashan:member:11,CHINESE,sect_patrol,오여연,吳如煙,Wú Rúyān
+huashan,화산파,huashan:member:12,KOREAN,sect_patrol,강연우,,
+huashan,화산파,huashan:member:13,CHINESE,library_keeper,고명소,高明霄,Gāo Míngxiāo
+huashan,화산파,huashan:member:14,KOREAN,sect_healer,백세아,,
+huashan,화산파,huashan:member:15,CHINESE,sect_alchemist,엽수련,葉秀蓮,Yè Xiùlián
+huashan,화산파,huashan:member:16,KOREAN,recruitment_examiner,강하온,,
+huashan,화산파,huashan:member:17,CHINESE,sect_servant,곽완아,郭婉兒,Guō Wǎn’ér
+huashan,화산파,huashan:member:18,KOREAN,sect_servant,류하린,,
+huashan,화산파,huashan:member:19,CHINESE,sect_servant,허완아,許婉兒,Xǔ Wǎn’ér
+huashan,화산파,huashan:member:20,KOREAN,outer_disciple,권태오,,
+huashan,화산파,huashan:member:21,CHINESE,inner_disciple,진추상,陳秋霜,Chén Qiūshuāng
+huashan,화산파,huashan:member:22,KOREAN,sect_patrol,임시온,,
+qingcheng,청성파,qingcheng:member:01,CHINESE,sect_elder,진지란,陳芷蘭,Chén Zhǐlán
+qingcheng,청성파,qingcheng:member:02,KOREAN,sect_instructor,류다현,,
+qingcheng,청성파,qingcheng:member:03,CHINESE,direct_disciple,곽아운,郭雅雲,Guō Yǎyún
+qingcheng,청성파,qingcheng:member:04,KOREAN,inner_disciple,이아린,,
+qingcheng,청성파,qingcheng:member:05,CHINESE,inner_disciple,황중문,黃仲文,Huáng Zhòngwén
+qingcheng,청성파,qingcheng:member:06,KOREAN,outer_disciple,오민서,,
+qingcheng,청성파,qingcheng:member:07,CHINESE,outer_disciple,진춘효,秦春曉,Qín Chūnxiǎo
+qingcheng,청성파,qingcheng:member:08,KOREAN,outer_disciple,강시온,,
+qingcheng,청성파,qingcheng:member:09,CHINESE,outer_disciple,왕청풍,王青楓,Wáng Qīngfēng
+qingcheng,청성파,qingcheng:member:10,KOREAN,sect_gatekeeper,오서윤,,
+qingcheng,청성파,qingcheng:member:11,CHINESE,sect_patrol,풍완아,馮婉兒,Féng Wǎn’ér
+qingcheng,청성파,qingcheng:member:12,KOREAN,sect_patrol,윤한결,,
+qingcheng,청성파,qingcheng:member:13,CHINESE,library_keeper,장옥주,張玉珠,Zhāng Yùzhū
+qingcheng,청성파,qingcheng:member:14,KOREAN,sect_healer,윤태오,,
+qingcheng,청성파,qingcheng:member:15,CHINESE,sect_alchemist,손기몽,孫綺夢,Sūn Qǐmèng
+qingcheng,청성파,qingcheng:member:16,KOREAN,recruitment_examiner,정가온,,
+qingcheng,청성파,qingcheng:member:17,CHINESE,sect_servant,고월화,高月華,Gāo Yuèhuá
+qingcheng,청성파,qingcheng:member:18,KOREAN,sect_servant,정시온,,
+qingcheng,청성파,qingcheng:member:19,CHINESE,sect_servant,두정의,杜正義,Dù Zhèngyì
+qingcheng,청성파,qingcheng:member:20,KOREAN,outer_disciple,최하린,,
+qingcheng,청성파,qingcheng:member:21,CHINESE,inner_disciple,두명소,杜明霄,Dù Míngxiāo
+qingcheng,청성파,qingcheng:member:22,KOREAN,sect_patrol,한유빈,,
+kunlun,곤륜파,kunlun:member:01,CHINESE,sect_elder,조준걸,趙俊傑,Zhào Jùnjié
+kunlun,곤륜파,kunlun:member:02,KOREAN,sect_instructor,오다온,,
+kunlun,곤륜파,kunlun:member:03,CHINESE,direct_disciple,엽아운,葉雅雲,Yè Yǎyún
+kunlun,곤륜파,kunlun:member:04,KOREAN,inner_disciple,이태윤,,
+kunlun,곤륜파,kunlun:member:05,CHINESE,inner_disciple,고수련,顧秀蓮,Gù Xiùlián
+kunlun,곤륜파,kunlun:member:06,KOREAN,outer_disciple,백재민,,
+kunlun,곤륜파,kunlun:member:07,CHINESE,outer_disciple,장청하,張清荷,Zhāng Qīnghé
+kunlun,곤륜파,kunlun:member:08,KOREAN,outer_disciple,서소민,,
+kunlun,곤륜파,kunlun:member:09,CHINESE,outer_disciple,엽성하,葉星河,Yè Xīnghé
+kunlun,곤륜파,kunlun:member:10,KOREAN,sect_gatekeeper,백이안,,
+kunlun,곤륜파,kunlun:member:11,CHINESE,sect_patrol,두자녕,杜紫寧,Dù Zǐníng
+kunlun,곤륜파,kunlun:member:12,KOREAN,sect_patrol,최주원,,
+kunlun,곤륜파,kunlun:member:13,CHINESE,library_keeper,진명원,陳明遠,Chén Míngyuǎn
+kunlun,곤륜파,kunlun:member:14,KOREAN,sect_healer,오하온,,
+kunlun,곤륜파,kunlun:member:15,CHINESE,sect_alchemist,나치원,羅致遠,Luó Zhìyuǎn
+kunlun,곤륜파,kunlun:member:16,KOREAN,recruitment_examiner,윤아린,,
+kunlun,곤륜파,kunlun:member:17,CHINESE,sect_servant,풍문박,馮文博,Féng Wénbó
+kunlun,곤륜파,kunlun:member:18,KOREAN,sect_servant,최윤서,,
+kunlun,곤륜파,kunlun:member:19,CHINESE,sect_servant,엽굉의,葉宏毅,Yè Hóngyì
+kunlun,곤륜파,kunlun:member:20,KOREAN,outer_disciple,장도현,,
+kunlun,곤륜파,kunlun:member:21,CHINESE,inner_disciple,진수련,陳秀蓮,Chén Xiùlián
+kunlun,곤륜파,kunlun:member:22,KOREAN,sect_patrol,서서우,,
+emei,아미파,emei:member:01,CHINESE,sect_elder,황준걸,黃俊傑,Huáng Jùnjié
+emei,아미파,emei:member:02,KOREAN,sect_instructor,장준서,,
+emei,아미파,emei:member:03,CHINESE,direct_disciple,양우미,梁雨薇,Liáng Yǔwēi
+emei,아미파,emei:member:04,KOREAN,inner_disciple,오하린,,
+emei,아미파,emei:member:05,CHINESE,inner_disciple,오청하,吳清荷,Wú Qīnghé
+emei,아미파,emei:member:06,KOREAN,outer_disciple,한유하,,
+emei,아미파,emei:member:07,CHINESE,outer_disciple,서굉의,徐宏毅,Xú Hóngyì
+emei,아미파,emei:member:08,KOREAN,outer_disciple,이지민,,
+emei,아미파,emei:member:09,CHINESE,outer_disciple,고자묵,高子墨,Gāo Zǐmò
+emei,아미파,emei:member:10,KOREAN,sect_gatekeeper,오예나,,
+emei,아미파,emei:member:11,CHINESE,sect_patrol,황수련,黃秀蓮,Huáng Xiùlián
+emei,아미파,emei:member:12,KOREAN,sect_patrol,장다온,,
+emei,아미파,emei:member:13,CHINESE,library_keeper,고승안,顧承安,Gù Chéngān
+emei,아미파,emei:member:14,KOREAN,sect_healer,백은서,,
+emei,아미파,emei:member:15,CHINESE,sect_alchemist,나옥주,羅玉珠,Luó Yùzhū
+emei,아미파,emei:member:16,KOREAN,recruitment_examiner,정준서,,
+emei,아미파,emei:member:17,CHINESE,sect_servant,오승안,吳承安,Wú Chéngān
+emei,아미파,emei:member:18,KOREAN,sect_servant,한서윤,,
+emei,아미파,emei:member:19,CHINESE,sect_servant,진명소,陳明霄,Chén Míngxiāo
+emei,아미파,emei:member:20,KOREAN,outer_disciple,백다온,,
+emei,아미파,emei:member:21,CHINESE,inner_disciple,엽우미,葉雨薇,Yè Yǔwēi
+emei,아미파,emei:member:22,KOREAN,sect_patrol,조준서,,
+zhongnan,종남파,zhongnan:member:01,CHINESE,sect_elder,장서현,張書賢,Zhāng Shūxián
+zhongnan,종남파,zhongnan:member:02,KOREAN,sect_instructor,신윤서,,
+zhongnan,종남파,zhongnan:member:03,CHINESE,direct_disciple,진준걸,陳俊傑,Chén Jùnjié
+zhongnan,종남파,zhongnan:member:04,KOREAN,inner_disciple,임서린,,
+zhongnan,종남파,zhongnan:member:05,CHINESE,inner_disciple,오덕원,吳德元,Wú Déyuán
+zhongnan,종남파,zhongnan:member:06,KOREAN,outer_disciple,신채원,,
+zhongnan,종남파,zhongnan:member:07,CHINESE,outer_disciple,풍명소,馮明霄,Féng Míngxiāo
+zhongnan,종남파,zhongnan:member:08,KOREAN,outer_disciple,오소이,,
+zhongnan,종남파,zhongnan:member:09,CHINESE,outer_disciple,한명소,韓明霄,Hán Míngxiāo
+zhongnan,종남파,zhongnan:member:10,KOREAN,sect_gatekeeper,류하온,,
+zhongnan,종남파,zhongnan:member:11,CHINESE,sect_patrol,두굉의,杜宏毅,Dù Hóngyì
+zhongnan,종남파,zhongnan:member:12,KOREAN,sect_patrol,오하늘,,
+zhongnan,종남파,zhongnan:member:13,CHINESE,library_keeper,진백주,秦柏舟,Qín Bǎizhōu
+zhongnan,종남파,zhongnan:member:14,KOREAN,sect_healer,백한결,,
+zhongnan,종남파,zhongnan:member:15,CHINESE,sect_alchemist,주지란,周芷蘭,Zhōu Zhǐlán
+zhongnan,종남파,zhongnan:member:16,KOREAN,recruitment_examiner,조한결,,
+zhongnan,종남파,zhongnan:member:17,CHINESE,sect_servant,이우미,李雨薇,Lǐ Yǔwēi
+zhongnan,종남파,zhongnan:member:18,KOREAN,sect_servant,강도윤,,
+zhongnan,종남파,zhongnan:member:19,CHINESE,sect_servant,서자녕,徐紫寧,Xú Zǐníng
+zhongnan,종남파,zhongnan:member:20,KOREAN,outer_disciple,정하윤,,
+zhongnan,종남파,zhongnan:member:21,CHINESE,inner_disciple,오성하,吳星河,Wú Xīnghé
+zhongnan,종남파,zhongnan:member:22,KOREAN,sect_patrol,류지안,,
+kongtong,공동파,kongtong:member:01,CHINESE,sect_elder,손완아,孫婉兒,Sūn Wǎn’ér
+kongtong,공동파,kongtong:member:02,KOREAN,sect_instructor,류주원,,
+kongtong,공동파,kongtong:member:03,CHINESE,direct_disciple,심수련,沈秀蓮,Shěn Xiùlián
+kongtong,공동파,kongtong:member:04,KOREAN,inner_disciple,김혜린,,
+kongtong,공동파,kongtong:member:05,CHINESE,inner_disciple,서모청,徐慕青,Xú Mùqīng
+kongtong,공동파,kongtong:member:06,KOREAN,outer_disciple,윤나린,,
+kongtong,공동파,kongtong:member:07,CHINESE,outer_disciple,서문헌,徐文軒,Xú Wénxuān
+kongtong,공동파,kongtong:member:08,KOREAN,outer_disciple,황주원,,
+kongtong,공동파,kongtong:member:09,CHINESE,outer_disciple,양설란,梁雪蘭,Liáng Xuělán
+kongtong,공동파,kongtong:member:10,KOREAN,sect_gatekeeper,백예나,,
+kongtong,공동파,kongtong:member:11,CHINESE,sect_patrol,장백주,張柏舟,Zhāng Bǎizhōu
+kongtong,공동파,kongtong:member:12,KOREAN,sect_patrol,서태윤,,
+kongtong,공동파,kongtong:member:13,CHINESE,library_keeper,진완아,陳婉兒,Chén Wǎn’ér
+kongtong,공동파,kongtong:member:14,KOREAN,sect_healer,윤이안,,
+kongtong,공동파,kongtong:member:15,CHINESE,sect_alchemist,조명원,趙明遠,Zhào Míngyuǎn
+kongtong,공동파,kongtong:member:16,KOREAN,recruitment_examiner,오한결,,
+kongtong,공동파,kongtong:member:17,CHINESE,sect_servant,고문박,顧文博,Gù Wénbó
+kongtong,공동파,kongtong:member:18,KOREAN,sect_servant,박서우,,
+kongtong,공동파,kongtong:member:19,CHINESE,sect_servant,황추상,黃秋霜,Huáng Qiūshuāng
+kongtong,공동파,kongtong:member:20,KOREAN,outer_disciple,권아린,,
+kongtong,공동파,kongtong:member:21,CHINESE,inner_disciple,양청하,梁清荷,Liáng Qīnghé
+kongtong,공동파,kongtong:member:22,KOREAN,sect_patrol,강채원,,
+diancang,점창파,diancang:member:01,CHINESE,sect_elder,엽덕원,葉德元,Yè Déyuán
+diancang,점창파,diancang:member:02,KOREAN,sect_instructor,임지호,,
+diancang,점창파,diancang:member:03,CHINESE,direct_disciple,진정의,秦正義,Qín Zhèngyì
+diancang,점창파,diancang:member:04,KOREAN,inner_disciple,윤준서,,
+diancang,점창파,diancang:member:05,CHINESE,inner_disciple,이옥청,李玉清,Lǐ Yùqīng
+diancang,점창파,diancang:member:06,KOREAN,outer_disciple,권서하,,
+diancang,점창파,diancang:member:07,CHINESE,outer_disciple,황신희,黃晨曦,Huáng Chénxī
+diancang,점창파,diancang:member:08,KOREAN,outer_disciple,서유정,,
+diancang,점창파,diancang:member:09,CHINESE,outer_disciple,고치원,顧致遠,Gù Zhìyuǎn
+diancang,점창파,diancang:member:10,KOREAN,sect_gatekeeper,류태윤,,
+diancang,점창파,diancang:member:11,CHINESE,sect_patrol,두약계,杜若溪,Dù Ruòxī
+diancang,점창파,diancang:member:12,KOREAN,sect_patrol,강라온,,
+diancang,점창파,diancang:member:13,CHINESE,library_keeper,임아금,林雅琴,Lín Yǎqín
+diancang,점창파,diancang:member:14,KOREAN,sect_healer,최세아,,
+diancang,점창파,diancang:member:15,CHINESE,sect_alchemist,서우미,徐雨薇,Xú Yǔwēi
+diancang,점창파,diancang:member:16,KOREAN,recruitment_examiner,임유빈,,
+diancang,점창파,diancang:member:17,CHINESE,sect_servant,장여연,張如煙,Zhāng Rúyān
+diancang,점창파,diancang:member:18,KOREAN,sect_servant,김다온,,
+diancang,점창파,diancang:member:19,CHINESE,sect_servant,왕우미,王雨薇,Wáng Yǔwēi
+diancang,점창파,diancang:member:20,KOREAN,outer_disciple,박아린,,
+diancang,점창파,diancang:member:21,CHINESE,inner_disciple,왕문박,王文博,Wáng Wénbó
+diancang,점창파,diancang:member:22,KOREAN,sect_patrol,김하린,,
+gaibang,개방,gaibang:member:01,CHINESE,sect_elder,장월화,張月華,Zhāng Yuèhuá
+gaibang,개방,gaibang:member:02,KOREAN,sect_instructor,윤시온,,
+gaibang,개방,gaibang:member:03,CHINESE,direct_disciple,황자녕,黃紫寧,Huáng Zǐníng
+gaibang,개방,gaibang:member:04,KOREAN,inner_disciple,조지호,,
+gaibang,개방,gaibang:member:05,CHINESE,inner_disciple,손자녕,孫紫寧,Sūn Zǐníng
+gaibang,개방,gaibang:member:06,KOREAN,outer_disciple,윤서우,,
+gaibang,개방,gaibang:member:07,CHINESE,outer_disciple,주우미,周雨薇,Zhōu Yǔwēi
+gaibang,개방,gaibang:member:08,KOREAN,outer_disciple,임도윤,,
+gaibang,개방,gaibang:member:09,CHINESE,outer_disciple,조운주,趙雲舟,Zhào Yúnzhōu
+gaibang,개방,gaibang:member:10,KOREAN,sect_gatekeeper,한도윤,,
+gaibang,개방,gaibang:member:11,CHINESE,sect_patrol,고굉의,高宏毅,Gāo Hóngyì
+gaibang,개방,gaibang:member:12,KOREAN,sect_patrol,한소율,,
+gaibang,개방,gaibang:member:13,CHINESE,library_keeper,황경천,黃景川,Huáng Jǐngchuān
+gaibang,개방,gaibang:member:14,KOREAN,sect_healer,강준서,,
+gaibang,개방,gaibang:member:15,CHINESE,sect_alchemist,나준희,羅俊熙,Luó Jùnxī
+gaibang,개방,gaibang:member:16,KOREAN,recruitment_examiner,정윤서,,
+gaibang,개방,gaibang:member:17,CHINESE,sect_servant,양유가,梁柔嘉,Liáng Róujiā
+gaibang,개방,gaibang:member:18,KOREAN,sect_servant,오세아,,
+gaibang,개방,gaibang:member:19,CHINESE,sect_servant,오경호,吳景昊,Wú Jǐnghào
+gaibang,개방,gaibang:member:20,KOREAN,outer_disciple,임가온,,
+gaibang,개방,gaibang:member:21,CHINESE,inner_disciple,손장풍,孫長風,Sūn Chángfēng
+gaibang,개방,gaibang:member:22,KOREAN,sect_patrol,임지민,,
+namgung,남궁세가,namgung:member:01,CHINESE,clan_heir,황서현,黃書賢,Huáng Shūxián
+namgung,남궁세가,namgung:member:02,KOREAN,clan_warrior,박준서,,
+namgung,남궁세가,namgung:member:03,CHINESE,clan_warrior,풍백주,馮柏舟,Féng Bǎizhōu
+namgung,남궁세가,namgung:member:04,KOREAN,clan_warrior,신지안,,
+namgung,남궁세가,namgung:member:05,CHINESE,clan_warrior,주준희,周俊熙,Zhōu Jùnxī
+namgung,남궁세가,namgung:member:06,KOREAN,clan_bodyguard,백아린,,
+namgung,남궁세가,namgung:member:07,CHINESE,clan_bodyguard,주옥주,周玉珠,Zhōu Yùzhū
+namgung,남궁세가,namgung:member:08,KOREAN,clan_steward,오은찬,,
+namgung,남궁세가,namgung:member:09,CHINESE,clan_steward,왕자녕,王紫寧,Wáng Zǐníng
+namgung,남궁세가,namgung:member:10,KOREAN,clan_attendant,장은찬,,
+namgung,남궁세가,namgung:member:11,CHINESE,clan_attendant,허청하,許清荷,Xǔ Qīnghé
+namgung,남궁세가,namgung:member:12,KOREAN,clan_attendant,장유빈,,
+namgung,남궁세가,namgung:member:13,CHINESE,clan_scholar,진옥청,秦玉清,Qín Yùqīng
+namgung,남궁세가,namgung:member:14,KOREAN,clan_artisan,윤하늘,,
+namgung,남궁세가,namgung:member:15,CHINESE,clan_artisan,나승안,羅承安,Luó Chéngān
+namgung,남궁세가,namgung:member:16,KOREAN,clan_warrior,정민서,,
+namgung,남궁세가,namgung:member:17,CHINESE,clan_warrior,임자녕,林紫寧,Lín Zǐníng
+namgung,남궁세가,namgung:member:18,KOREAN,clan_attendant,윤유빈,,
+namgung,남궁세가,namgung:member:19,CHINESE,clan_bodyguard,양춘효,梁春曉,Liáng Chūnxiǎo
+namgung,남궁세가,namgung:member:20,KOREAN,clan_warrior,임하준,,
+namgung,남궁세가,namgung:member:21,CHINESE,clan_heir,진서현,陳書賢,Chén Shūxián
+namgung,남궁세가,namgung:member:22,KOREAN,clan_attendant,백태오,,
+tangmun,사천당문,tangmun:member:01,CHINESE,clan_heir,임경호,林景昊,Lín Jǐnghào
+tangmun,사천당문,tangmun:member:02,KOREAN,clan_warrior,신하온,,
+tangmun,사천당문,tangmun:member:03,CHINESE,clan_warrior,양월화,梁月華,Liáng Yuèhuá
+tangmun,사천당문,tangmun:member:04,KOREAN,clan_warrior,황태윤,,
+tangmun,사천당문,tangmun:member:05,CHINESE,clan_warrior,주아금,朱雅琴,Zhū Yǎqín
+tangmun,사천당문,tangmun:member:06,KOREAN,clan_bodyguard,임지안,,
+tangmun,사천당문,tangmun:member:07,CHINESE,clan_bodyguard,장옥청,張玉清,Zhāng Yùqīng
+tangmun,사천당문,tangmun:member:08,KOREAN,clan_steward,강유정,,
+tangmun,사천당문,tangmun:member:09,CHINESE,clan_steward,허아금,許雅琴,Xǔ Yǎqín
+tangmun,사천당문,tangmun:member:10,KOREAN,clan_attendant,강세아,,
+tangmun,사천당문,tangmun:member:11,CHINESE,clan_attendant,손경천,孫景川,Sūn Jǐngchuān
+tangmun,사천당문,tangmun:member:12,KOREAN,clan_attendant,류유정,,
+tangmun,사천당문,tangmun:member:13,CHINESE,clan_scholar,장유가,張柔嘉,Zhāng Róujiā
+tangmun,사천당문,tangmun:member:14,KOREAN,clan_artisan,이소민,,
+tangmun,사천당문,tangmun:member:15,CHINESE,clan_artisan,조옥주,趙玉珠,Zhào Yùzhū
+tangmun,사천당문,tangmun:member:16,KOREAN,clan_warrior,오연우,,
+tangmun,사천당문,tangmun:member:17,CHINESE,clan_warrior,임문박,林文博,Lín Wénbó
+tangmun,사천당문,tangmun:member:18,KOREAN,clan_attendant,서시우,,
+tangmun,사천당문,tangmun:member:19,CHINESE,clan_bodyguard,진자녕,秦紫寧,Qín Zǐníng
+tangmun,사천당문,tangmun:member:20,KOREAN,clan_warrior,강한결,,
+tangmun,사천당문,tangmun:member:21,CHINESE,clan_heir,양운해,梁雲海,Liáng Yúnhǎi
+tangmun,사천당문,tangmun:member:22,KOREAN,clan_attendant,임아린,,
+paengga,하북팽가,paengga:member:01,CHINESE,clan_heir,심덕원,沈德元,Shěn Déyuán
+paengga,하북팽가,paengga:member:02,KOREAN,clan_warrior,장시온,,
+paengga,하북팽가,paengga:member:03,CHINESE,clan_warrior,곽여연,郭如煙,Guō Rúyān
+paengga,하북팽가,paengga:member:04,KOREAN,clan_warrior,장하린,,
+paengga,하북팽가,paengga:member:05,CHINESE,clan_warrior,심신희,沈晨曦,Shěn Chénxī
+paengga,하북팽가,paengga:member:06,KOREAN,clan_bodyguard,강서린,,
+paengga,하북팽가,paengga:member:07,CHINESE,clan_bodyguard,조백주,趙柏舟,Zhào Bǎizhōu
+paengga,하북팽가,paengga:member:08,KOREAN,clan_steward,조시우,,
+paengga,하북팽가,paengga:member:09,CHINESE,clan_steward,곽자녕,郭紫寧,Guō Zǐníng
+paengga,하북팽가,paengga:member:10,KOREAN,clan_attendant,신지호,,
+paengga,하북팽가,paengga:member:11,CHINESE,clan_attendant,한정의,韓正義,Hán Zhèngyì
+paengga,하북팽가,paengga:member:12,KOREAN,clan_attendant,이나린,,
+paengga,하북팽가,paengga:member:13,CHINESE,clan_scholar,오자묵,吳子墨,Wú Zǐmò
+paengga,하북팽가,paengga:member:14,KOREAN,clan_artisan,백나린,,
+paengga,하북팽가,paengga:member:15,CHINESE,clan_artisan,풍모청,馮慕青,Féng Mùqīng
+paengga,하북팽가,paengga:member:16,KOREAN,clan_warrior,류시온,,
+paengga,하북팽가,paengga:member:17,CHINESE,clan_warrior,한성하,韓星河,Hán Xīnghé
+paengga,하북팽가,paengga:member:18,KOREAN,clan_attendant,서다온,,
+paengga,하북팽가,paengga:member:19,CHINESE,clan_bodyguard,양청풍,梁青楓,Liáng Qīngfēng
+paengga,하북팽가,paengga:member:20,KOREAN,clan_warrior,한지민,,
+paengga,하북팽가,paengga:member:21,CHINESE,clan_heir,이성하,李星河,Lǐ Xīnghé
+paengga,하북팽가,paengga:member:22,KOREAN,clan_attendant,오소율,,
+jegal,제갈세가,jegal:member:01,CHINESE,clan_heir,진굉의,陳宏毅,Chén Hóngyì
+jegal,제갈세가,jegal:member:02,KOREAN,clan_warrior,정라온,,
+jegal,제갈세가,jegal:member:03,CHINESE,clan_warrior,임유가,林柔嘉,Lín Róujiā
+jegal,제갈세가,jegal:member:04,KOREAN,clan_warrior,최은찬,,
+jegal,제갈세가,jegal:member:05,CHINESE,clan_warrior,서설란,徐雪蘭,Xú Xuělán
+jegal,제갈세가,jegal:member:06,KOREAN,clan_bodyguard,백유빈,,
+jegal,제갈세가,jegal:member:07,CHINESE,clan_bodyguard,이장풍,李長風,Lǐ Chángfēng
+jegal,제갈세가,jegal:member:08,KOREAN,clan_steward,이윤서,,
+jegal,제갈세가,jegal:member:09,CHINESE,clan_steward,양안화,梁安和,Liáng Ānhé
+jegal,제갈세가,jegal:member:10,KOREAN,clan_attendant,박은찬,,
+jegal,제갈세가,jegal:member:11,CHINESE,clan_attendant,왕문헌,王文軒,Wáng Wénxuān
+jegal,제갈세가,jegal:member:12,KOREAN,clan_attendant,류연우,,
+jegal,제갈세가,jegal:member:13,CHINESE,clan_scholar,풍자묵,馮子墨,Féng Zǐmò
+jegal,제갈세가,jegal:member:14,KOREAN,clan_artisan,윤주원,,
+jegal,제갈세가,jegal:member:15,CHINESE,clan_artisan,서유가,徐柔嘉,Xú Róujiā
+jegal,제갈세가,jegal:member:16,KOREAN,clan_warrior,박지민,,
+jegal,제갈세가,jegal:member:17,CHINESE,clan_warrior,허옥주,許玉珠,Xǔ Yùzhū
+jegal,제갈세가,jegal:member:18,KOREAN,clan_attendant,신소민,,
+jegal,제갈세가,jegal:member:19,CHINESE,clan_bodyguard,고완아,高婉兒,Gāo Wǎn’ér
+jegal,제갈세가,jegal:member:20,KOREAN,clan_warrior,장하온,,
+jegal,제갈세가,jegal:member:21,CHINESE,clan_heir,진성하,秦星河,Qín Xīnghé
+jegal,제갈세가,jegal:member:22,KOREAN,clan_attendant,박서린,,
+mourong,모용세가,mourong:member:01,CHINESE,clan_heir,이춘효,李春曉,Lǐ Chūnxiǎo
+mourong,모용세가,mourong:member:02,KOREAN,clan_warrior,오채원,,
+mourong,모용세가,mourong:member:03,CHINESE,clan_warrior,서백주,徐柏舟,Xú Bǎizhōu
+mourong,모용세가,mourong:member:04,KOREAN,clan_warrior,장가온,,
+mourong,모용세가,mourong:member:05,CHINESE,clan_warrior,주성하,周星河,Zhōu Xīnghé
+mourong,모용세가,mourong:member:06,KOREAN,clan_bodyguard,권은서,,
+mourong,모용세가,mourong:member:07,CHINESE,clan_bodyguard,서원호,徐元昊,Xú Yuánhào
+mourong,모용세가,mourong:member:08,KOREAN,clan_steward,황도현,,
+mourong,모용세가,mourong:member:09,CHINESE,clan_steward,풍지란,馮芷蘭,Féng Zhǐlán
+mourong,모용세가,mourong:member:10,KOREAN,clan_attendant,박나린,,
+mourong,모용세가,mourong:member:11,CHINESE,clan_attendant,손자묵,孫子墨,Sūn Zǐmò
+mourong,모용세가,mourong:member:12,KOREAN,clan_attendant,한하린,,
+mourong,모용세가,mourong:member:13,CHINESE,clan_scholar,진청풍,陳青楓,Chén Qīngfēng
+mourong,모용세가,mourong:member:14,KOREAN,clan_artisan,오유정,,
+mourong,모용세가,mourong:member:15,CHINESE,clan_artisan,임월화,林月華,Lín Yuèhuá
+mourong,모용세가,mourong:member:16,KOREAN,clan_warrior,신주원,,
+mourong,모용세가,mourong:member:17,CHINESE,clan_warrior,장문헌,張文軒,Zhāng Wénxuān
+mourong,모용세가,mourong:member:18,KOREAN,clan_attendant,이은찬,,
+mourong,모용세가,mourong:member:19,CHINESE,clan_bodyguard,왕청하,王清荷,Wáng Qīnghé
+mourong,모용세가,mourong:member:20,KOREAN,clan_warrior,류윤서,,
+mourong,모용세가,mourong:member:21,CHINESE,clan_heir,진약계,陳若溪,Chén Ruòxī
+mourong,모용세가,mourong:member:22,KOREAN,clan_attendant,한소민,,

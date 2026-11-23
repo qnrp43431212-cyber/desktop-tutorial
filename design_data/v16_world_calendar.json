@@ -1,0 +1,47 @@
+{
+  "recruitment": {
+    "cycle_days": 21,
+    "duration_days": 3,
+    "phase": "sect_specific_from_world_seed",
+    "guaranteed_starting_open": "소림사",
+    "sects": [
+      "소림사",
+      "무당파",
+      "화산파",
+      "아미파",
+      "청성파",
+      "곤륜파",
+      "공동파",
+      "점창파",
+      "종남파",
+      "개방",
+      "남궁세가",
+      "사천당문",
+      "하북팽가",
+      "제갈세가",
+      "황산파"
+    ]
+  },
+  "grand_tournament": {
+    "first_day": 42,
+    "cycle_days": 84,
+    "open_days": 3,
+    "tiers": [
+      "삼류·이류·일류",
+      "절정·초절정",
+      "화경·현경·생사경"
+    ],
+    "prizes_silver": [
+      800,
+      2200,
+      5000
+    ]
+  },
+  "newcomer_tournament": {
+    "player_martial_day_eligibility": 30,
+    "window_days": 14,
+    "realm_limit": "일류 이하",
+    "first_prize_silver": 250,
+    "simulation": "must_build_real_arena_and_bouts"
+  }
+}

@@ -1,0 +1,31 @@
+modLoader="javafml"
+loaderVersion="${loader_version_range}"
+license="${mod_license}"
+[[mods]]
+modId="${mod_id}"
+version="${mod_version}"
+displayName="${mod_name}"
+authors="MURIM LIFE project"
+description='''
+MURIM LIFE Minecraft 1.21.1 NeoForge development prototype.
+ONE JAR integrated prototype: core progression, items and UI, v1.16 architectural templates, small-settlement data-driven natural generation, and opt-in v1.17 large-site generator. The large-site generator is experimental and DISABLED by default. Multiplayer and huge-site terrain compatibility remain unverified.
+'''
+[[dependencies.${mod_id}]]
+modId="neoforge"
+type="required"
+versionRange="[21.1.235,)"
+ordering="NONE"
+side="BOTH"
+[[dependencies.${mod_id}]]
+modId="minecraft"
+type="required"
+versionRange="${minecraft_version_range}"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.${mod_id}]]
+modId="epicfight"
+type="required"
+versionRange="[21.17.3.1,21.18)"
+ordering="AFTER"
+side="BOTH"

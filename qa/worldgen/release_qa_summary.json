@@ -1,0 +1,24 @@
+{
+  "status": "Development source; full NeoForge build and Minecraft runtime NOT tested",
+  "unit_tests": 15,
+  "unit_tests_result": "PASS",
+  "sites": 38,
+  "unique_sites_at_most_one": 16,
+  "piece_refs": 377,
+  "distinct_piece_templates": 276,
+  "paint_segments": 260,
+  "manifest_bounds_errors": 0,
+  "manifest_missing_templates": 0,
+  "worldgen_enabled_by_default": false,
+  "integration": "Requires installed murimlife_arch v1.16 lowcodefml resource JAR",
+  "known_unverified": [
+    "Minecraft/NeoForge Gradle compilation",
+    "in-game template placing",
+    "server event execution",
+    "actual terrain and modded structure conflicts",
+    "SavedData persistence across full restart",
+    "crash recovery after partially placed template",
+    "mountain terrain adaptation",
+    "20-28 chunk upgraded sect compounds"
+  ]
+}

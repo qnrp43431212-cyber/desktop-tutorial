@@ -1,0 +1,22 @@
+{
+  "phase": "Independent NBT/source static audit, not runtime",
+  "nbt_count": 635,
+  "nbt_errors": [],
+  "worldgen_json_count": 12,
+  "sites": 38,
+  "piece_references": 377,
+  "site_errors": [],
+  "mods_toml_count": 1,
+  "mod_annotations": [
+    "src/main/java/kr/murimlife/MurimLife.java"
+  ],
+  "counts": {
+    "total_blocks": 4715685,
+    "doors": 4398
+  },
+  "limits": [
+    "No NeoForge compile due unavailable Gradle distribution/dependencies",
+    "No Minecraft in-game movement/lighting tests",
+    "No guaranteed protection against all other mods or later player edits"
+  ]
+}

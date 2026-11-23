@@ -1,0 +1,11 @@
+{
+  "version": "v1.23-opportunity-economy-alpha",
+  "java_files_syntax_only": 83,
+  "opportunity_types": 12,
+  "cave_types": 6,
+  "ruin_types": 6,
+  "preserved_resource_sha256": 1647,
+  "server_side_business_wiring": "STATIC_CHECK_PASS",
+  "neoforge_compile": "NOT_VERIFIED",
+  "minecraft_execution": "NOT_VERIFIED"
+}
